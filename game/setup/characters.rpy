@@ -1,8 +1,15 @@
 
+### Main characters
+
 define c   = Character("Caius")
 define ci  = Character("Caius", what_italic=True)
-define v  = Character("Voice")
+define v   = Character("Voice")
 define vi  = Character("Voice", what_italic=True)
+
+### Side characters
+
+define cu   = Character("Cultist")
+
 
 # c = Caius
 #
@@ -11,4 +18,4 @@ define vi  = Character("Voice", what_italic=True)
 # g = Griswyr
 # j = Jory
 # p = Persephone
-# cu = Cultist
+# cu =

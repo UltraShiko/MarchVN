@@ -1,5 +1,6 @@
 
 image background cave entrance = Placeholder('bg', text='Cave entrance')
+image background cave entrance = Placeholder('bg', text='Cave')
 
 image background forest = "images/backgrounds/forest.png"
 
