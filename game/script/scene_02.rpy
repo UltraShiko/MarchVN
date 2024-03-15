@@ -37,15 +37,15 @@ label scene_02:
     extend "Tonight?"
 
     g "Tonight."
-    g "If one pops out, this mission becomes much deadlier. Even I'd have my work cut out for me."
-    extend " Not like it'd matter."
+    g "If one pops out, this mission becomes much deadlier. Even I will have to be careful.."
+    extend " Not like it'd change the outcome, of course."
 
     c "Hmm..."
 
     g "I wouldn't have picked someone who was incapable. I have high expectations for you, and I’m determined to see them met."
     extend " I don't think I need to explain the consequences of a devil escaping..."
 
-    c "O-Of course not. And I don't plan to let the situation escalate that far."
+    c "O-Of course not. Not like I'd let them finish summoning it."
 
     g "How do you intend to stop it?"
 
@@ -119,7 +119,7 @@ label scene_02:
     c "Hmm, I was wondering that myself..."
 
     g "Two reasons."
-    extend " One, for your mana. If this monster is summoned, I need an answer. I don't channel Grace, nor do I plan on discovering a source of it for myself."
+    extend " One, for your mana. If this monster is summoned, I'll need an support. I don't channel Grace, nor do I plan on discovering a source of it for myself."
 
     c "So you knew all along?"
 
@@ -198,7 +198,7 @@ label scene_02:
 
     c "I-I don't mean to be rude-"
 
-    g "Save it. It's not the first time I've been asked that.."
+    g "Save it. It's not the first time I've been asked that."
     extend " Let's just say a whimsical creature thought it'd be humorous to mangle with my soul when I was a child. The end."
 
     "He doesn’t appear insulted, though that response seems rehearsed."

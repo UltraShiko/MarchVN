@@ -10,7 +10,7 @@ label scene_01:
     "Damn it, my mind wandered off again. I’m supposed to be preparing for my trial."
     "It's been five years...and those memories still haunt me."
     extend " No matter how much I've repented, I still haven’t been able to shake their hold over me. I can't forgive myself, no matter what I do to atone."
-    "Five years. I wonder how he's doing..."
+    "Five years... I wonder how he's doing..."
     extend " It wasn't his fault. The whole thing was just a big mistake. We were cornered, he didn’t have any other choice..."
     "Once I become an Emmisary though, I'll change everything. I'll make things right."
 
@@ -43,20 +43,20 @@ label scene_01:
     "I don’t blame Jory for worrying. I might not be the same person when – if – I return..."
     extend " Still, I had to go. I only met Jory because the Reverend took pity on me. I had to make things right."
     "I could enlist as a Celestial, but the Emissaries often work alongside the Reverend, or at least closely with him."
-    extend " Even if Jory knows him well, I would still rather impress the Reverend with my own deeds instead of relying on Jory speaking my praises to him."
+    extend " Even if Jory knows him well, I would still rather impress the Reverend with my own deeds instead of relying on Jory buttering him up."
 
     c "You've taught me well, sir."
     extend " From combat, to controlling mana, to keeping my mind pure. I'm ready!"
 
     j "Oh of course you are, it's just..."
     extend " A lot of people join the Emmisaries, and it breaks them."
-    j " I'm not trying to trample on your dream, but are you sure there's not another way?"
+    j " I'm not trying to trample on your dream, but are you sure there's no other way?"
     extend " I mean, look at me! I never joined the Emmisaries, and I'm the Reverend's right hand man!"
     j "It's not just about what you accomplish Caius, it's about who you know and the impressions you make."
     extend " I mean, that's why we met. The Reverend plopped you at my doorstep, remember?"
 
     "How could I not?"
-    extend " When he found me, crying over that Celestial's corpse so many years ago, I thought I had met my maker..."
+    extend " When he found me, crying over that Celestial's corpse so many years ago, I thought my fate was sealed...."
     "From what I hear, the Reverend is a tyrant. But that's what I saw..."
     extend " I mean, I took the blame. I told them that the bloody dagger was mine and I was the murderer. ."
     "He didn't believe me. I could tell..."
