@@ -50,7 +50,7 @@ label scene_04:
     cu "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
     cu "Wait, Oakley is as stubborn as a mule! He wouldn't cower like that, so that means-"
 
-    play sound sfx.heavyslash
+    play sound sfx.heavy_slash
     with bloodflash
 
     cu "GAAAAAAAAHHHHHH!!!!" with vpunch
@@ -143,7 +143,7 @@ label scene_04:
 
     cu "I...I don't know! Our leader kept it under-"
 
-    play sound sfx.heavyslash
+    play sound sfx.heavy_slash
 
     cu "Nnnngggghhhh!!!" with vpunch
 
@@ -182,7 +182,7 @@ label scene_04:
 
     "He darts past me. Before I can react..."
 
-    play sound sfx.heavyslash
+    play sound sfx.heavy_slash
     with bloodflash
 
     extend "He yanks the ax from the cultist's head."

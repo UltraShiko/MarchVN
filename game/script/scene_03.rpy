@@ -119,7 +119,7 @@ label scene_03:
 
     c "Huh?"
 
-    play sound sfx.blood_bplatter
+    play sound sfx.blood_splatter
     with bloodflash
 
     "Did Griswyr just..."
