@@ -183,7 +183,7 @@ label scene_05:
     extend " Don't worry, I'm very mature for my age, hehehehe!"
 
     "Five years? Her soul must've fallen not too long ago..."
-    "How odd... Five years ago is when I was adopted by Jory... I hope there aren’t any connection"
+    #"How odd... Five years ago is when I was adopted by Jory... I hope there aren’t any connection"
 
     p "I don't have any intention of hurting you or whoever is lurking or any of your precious subjects. I just have an, \"errand\", to run."
     extend " You won't even know I was here!"
@@ -320,7 +320,7 @@ label scene_05:
 
     "He leaps towards her, and she shakes her head."
 
-    p "Good grief, did you not learn from your friend?"
+    p "Good grief, did you not learn nothing from your friend?"
 
     "She waves her hand, and a gust of wind shields her."
     extend " Griswyr lands and skirts behind her."
@@ -360,7 +360,7 @@ label scene_05:
     "Griswyr attacks viciously, but Persephone appears more relaxed."
     extend " She might just be trying to lure him into lowering his guard, or trying to antagonize him..."
     "Strike after strike comes from Griswyr, but not one lands on Persephone.."
-    extend " Griswyr snarls and repeats the same maneuvers.... He is the same whirling machine of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions. They dance around the room as I do my best to follow their movements and not get swept up in the battle."
+    extend " Griswyr snarls and repeats the same maneuvers.... He is the same whirling cyclone of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions. They dance around the room as I do my best to follow their movements and not get swept up in the battle."
     "My heart pounds when she suddenly slips away more swiftly than ever."
     extend " Griswyr can’t stop his momentum as he swings at her, stumbling forward into nothingness. He's left wide open!"
 
@@ -870,397 +870,388 @@ label scene_05:
     "I deliver a mighty strike to her chest and..."
     extend "nothing."
 
-    ##############################################
-    #############################################
-    #############################################
-    #
-    # p "...Was that your last stand?"
-    # extend " WEAK!!!" with vpunch
-    #
-    # "Her Roundhouse kick sends me flying. Time stands still as I float away..."
-    # extend "I turn to her, that insipid grin peering into my soul."
-    # "I breathe heavily, coughing up blood as I clasp my hands."
-    #
-    # scene black
-    # "..."
-    # extend "Shine!"
-    # scene altar
-    # p "Huh..."
-    # scene white
-    # #lightexplosion
-    #
-    # "My Grace pours from her body and consumes her."
-    # extend " The mana turns an icy white and explodes."
-    # "I can’t see a thing, but this battle has ended."
-    # extend " That blast tore her apart from the inside out."
-    # "Against a mortal, it would just render them paralyzed, but against a devil? There's no way she survived."
-    # "A hand shielded me from the blast. It must've been Griswyr's."
-    #
-    # c "Ngh..."
-    # g "Impressive.  What was that?"
-    # c "Agh...well each of my blows injects my mana into my opponent, disrupting their own..."
-    # extend " And once it consumes most of their body, I can cause it to tear itself out..."
-    # extend " Agh...it hurts to talk..."
-    # g "That's...violent. Color me impressed."
-    # c "Well, it doesn't kill mortals..."
-    # g "Of course it doesn't."
-    # extend " Gngh!"
-    # c "What's the matter...?"
-    # g "I still smell her!"
-    #
-    # "As the radiance dies down, the first thing I spot are two, red eyes glaring at me..."
-    # extend " My teeth chatter. My body feels cold, exhausted, and afraid. That was my strongest technique, how did she survive it?!"
-    # "Malice's crimson hue shrouds her. Her stance is unsteady, however she appears more than capable to continue..."
-    # extend "I try to stand only to stumble. A stabbing pain pierces my waist..."
-    # "I could conjure Grace to numb it, but I lack the resolve..."
-    # nvl clear
-    #
-    # p "You know, I tried to be nice... I tried to make your death quick and painless BUT now I don't really care!"
-    # p "I'll give you credit, that might've killed me. Good thing Snowflake offered me some of his mana hehehe...!"
-    #
-    # "She hisses as her talons spring from her fingers."
-    # extend " Her Malice spikes. In hindsight, she didn't use up as much mana as I expected..."
-    # "Griswyr seems more upset than afraid as he looks to the ground."
-    # extend " He spits and readies his weapons."
-    #
-    # g "Well shit, looks like this mission is a failure! Out of all the monsters, we had to get matched up against that goddamned banshee!"
-    # c "Griswyr...?"
-    # g "I'll hold her off while you crawl away. Don't worry about me, because I'm not coming back."
-    #
-    # "He crosses his throat and speaks gravely "
-    #
-    # g "This is my final lesson to you, Caius. Even in death, we Emmisaries leave no trace. We'll face annihilation if that's what it takes!"
-    # extend " Do not let any information fall into the hands of the enemy! To the end!"
-    #
-    # "He charges."
-    # extend " He startles Persephone, but she meets his advance."
-    # "He isn’t dodging..."
-    #
-    # c "Griswyr, don't...!"
-    #
-    # #bloodflash
-    # "Her claws tear into his chest, ripping blood and flesh from his body."
-    # extend " Yet he doesn’t so much as wince."
-    # #bloodflash
-    # "He drives his sword into her leg and wraps his arm around her waist."
-    #
-    # p "What the hell are you-?!"
-    #
-    # "He drops his hatchet before getting behind her and hooking his arms around hers, pulling up and restraining her."
-    # extend " He clings to her like a monkey. Try as she might, Persephone can’t shake him."
-    #
-    # p "Grr! Snowflake, I'm not in the mood! Let go!!!"
-    # g "Ngggh...what are you doing, idiot?! Run!"
-    # p "Who are you calling an idiot?! You're the one who-"
-    # extend " Wait a minute..."
-    #
-    # "I wish I had the strength to flee..."
-    # extend " My heart weeps for him. My eyes might also weep if it didn't hurt so much to breathe..."
-    # "Even if I start crawling away, there's no way she’s going to let me go."
-    # extend " I don’t know what Griswyr is planning, but if it involves his blood magic, she'll just chase me and we'll all be collateral damage."
-    # "Best I can do is stay here and see him off..."
-    # "Persephone turns to him. I can’t see what happened, but I have a bad feeling in my stomach..."
-    # nvl clear
-    #
-    #
-    # p "...Hehehe, so that's what you're up to? How naughty~."
-    # extend " Isn't suicide frowned upon by the Celestials?"
-    # c "Suicide?!"
-    # g "Too late..."
-    #
-    # "Griswyr's own Malice erupts, causing a whirring sound to hum from within him."
-    # extend " Blue glyphs appear on the studs in his armor, growing brighter by the second."
-    # "I try to call to him, try to move towards him, but my body still refuses to budge..."
-    # extend " This is horrible! Why is he dying for me?! I'm a novice, I'd be much easier to replace than him."
-    # "After all, I can’t even save myself, let alone anyone else..."
-    #
-    # g "See you in Hell, banshee!"
-    # p "Ngh..."
-    # extend " Yep, but not in the way you're thinking!"
-    #
-    # "She slits her wrist and shoves it into his maw."
-    # "Griswyr's eyes widen and runes on his chest begin flickering."
-    # extend " His grip loosens as his eyes shut. I hear faint sounds of suckling."
-    # "He may as well have fallen victim to his compulsion for her blood."
-    # extend " At first he clings to her. Then slowly his grip relaxes, and she begins to cradle him."
-    # nvl clear
-    #
-    # p "I can't have you exploding on me. I'll be taking these."
-    #
-    # "She tears off his vest and tosses it to the side."
-    # "Griswyr stirs and groans. He tries to pull away."
-    # #grapple
-    # extend " But her palm around his maw clenches."
-    #
-    # p "Now now, I’m still playing with you. Besides, you've had a long day~."
-    # #heavybam
-    # extend " So go to sleep!"
-    #
-    # "She slams her knee into his chest, knocking the wind and consciousness out of him."
-    # "I watch helplessly while she drags him towards the hanging corpse."
-    # extend " She tears the grizened woman from the bushes and pins him there."
-    # "What does she have in store for-"
-    # nvl clear
-    #
-    # p "Hey, shithead! We're not finished!"
-    #
-    # "I have to use the wall just to stand..."
-    # extend "My body twitches with every movement. My lungs are on fire, and these shattered ribs are all too eager to feed me pain..."
-    # "I breathe heavily, knowing that I only have one way out of this."
-    # #graceflash
-    # "Grace releases from my body."
-    # extend " With this much pouring out, I'll run out of mana in no time. hHowever I need Grace just so I can move..."
-    # "On the flip side, expending this much mana will inject more into her body. I need to blow her up again..."
-    # "Who will burn out first? Will I be able to hold up long enough to defeat her? Only one way to find out."
-    # nvl clear
-    #
-    # p "Still have some fight left in you?"
-    # extend " Good! I wasn't satisfied!"
-    # #maliceflash
-    # p "Even if you don't feel it now, your body is in agony."
-    # extend " And that pales in comparison to what I have in store for you!"
-    # p "There's no way Jory raised someone so blind! If the Third lived, you'd kiss his boots like every other slave!"
-    # extend " You self-righteous fools are what's wrong with this world!!!" with vpunch
-    # c "Ngh...maybe. Maybe I am too pious... And I don't know what you went through..."
-    # extend " But I'd sooner believe in myself than an Archfiend...!"
-    # p "That's not the first time I've heard those words, and it won't be the last..."
-    # extend " Doesn't mean this won't hurt any less!!!" with vpunch
-    #
-    # "I breathe deeply and block her swipe."
-    # extend "She retreats before lunging for my legs!"
-    # "I drive my heel into her jaw."
-    # extend " And she counters by scratching my chest. Praise Yeshua that I step back when I do..."
-    # "We dance, blocking and countering each other's blows."
-    # extend " The manas screech. Our motives are personified and continue to clash!"
-    # "With each punch, visions of Jory enter my mind..."
-    # extend " Is my life flashing before my eyes...?"
-    # nvl clear
-    #
-    # j "{i}Relax, Caius, you're always so uptight.{/i}"
-    # extend " {i}Take a load off and breathe once in a while, yeah?{/i}"
-    #
-    # #heavybam
-    # p "Gaaaaahhhh!!!" with vpunch
-    #
-    # "That attack sends her reeling. If I can just land a few more strikes like that one..."
-    # "She blasts herself airborne, screeching before launching a volley of gusts towards me."
-    # extend " I lack the agility to dodge... I walk forward, blocking, deflecting, and even enduring gust after gust..."
-    # "Even with Grace protecting me, my body rattles with every blast..."
-    # "I breathe deeply before jumping up to attack her"
-    # extend " She dodges and grabs me, and I drive my mana into her as we plummet to the floor."
-    # nvl clear
-    #
-    # #heavybam
-    # with vpunch
-    # g "{i}How do you expect to be an Emmisary when you're so weak?!{/i}"
-    #
-    # g {i}"I was ready to die for the mission, yet here you are, ready to surrender everything you stand for!{/i}"
-    # g "{i}Fight goddamn it, even if it kills you!{/i}"
-    #
-    # "My fractured arm latches onto her face, my fingernails and Grace digging into her flesh!"
-    # extend " A shrill yelp meets my ears. More of her blood trickles down my hands as I hold on for dear life."
-    # "She pries my palm from her head, and I kick her off of me."
-    # extend " I rise, my teeth bared and my eyes seeing red."
-    # "Her gaze wavers when I sprint towards her."
-    # extend " Her wings flap, and I grab her foot before clobbering her face."
-    # 'She squirms and slashes."
-    # extend " Her nails graze me. I spit up blood and keep attacking."
-    # "She isn’t nearly as dangerous when you have her pinned!"
-    # nvl clear
-    #
-    # p "Grrrrr!!!" with vpunch
-    # c "..."
-    # p "Ngh...struggle all you want! In the end...you'll stll-"
-    #
-    # "I shove her jaw shut and hurl her into the table."
-    # extend " She leaps to her feet and I approach, walking slowly."
-    # "She lunges but flinches."
-    # extend " She staggers more and more with each step I take towards her."
-    # vi "...You hate me, huh?"
-    # extend " Man...I knew I messed up, but did you have to tell her about me...?"
-    # "...You're right."
-    #
-    # #heavybam
-    # p "AHHHH!!!!!" with vpunch
-    #
-    # vi "I was just trying to protect us..."
-    # "I know..."
-    #
-    # #heavybam
-    # p "Gah...damn you! Ngh...!"
-    #
-    # vi "Why did you abandon me, Caius?! I thought we were friends..."
-    # "...We are."
-    #
-    # "She catches my last strike, deflecting it."
-    # "A hand presses against my chest, with Malice hissing against my Grace..."
-    # "I jab her throat, causing her to spit and for breath to fly from her maw."
-    # extend " Yet I still get blasted..."
-    # "I fly backwards, doing my best to brace my fall as I land."
-    # extend " With an eldritch calm, I peer back at her."
-    # nvl clear
-    #
-    # vi "You're coming back, right?"
-    # "...I am."
-    #
-    # "I lift my hands and clasp them together."
-    # "With an unsteady breath, I speak"
-    # nvl clear
-    #
-    #
-    # c "Rest in peace..!"
-    #
-    # "Suddenly, I fall to my knees."
-    # extend "Intense pain floods through my veins, wracking my entire body!"
-    # "The strain prevents my hands from reaching her...I've run out of mana."
-    #
-    # c "No...not now!"
-    # vi "...I knew I couldn't trust you."
-    #
-    # "Tears well in my eyes. There isn’t anything I can do anymore..."
-    # "It looks like I’ve reached my limit first..."
-    # extend " My adversary laughs triumphantly."
-    #
-    # c "Priam...I'm sorry. I tried my best..."
-    # p "Your best FAILED you!"
-    #
-    # "She pounces, and I close my eyes..."
-    # extend " So be it. Someone, anyone, help him..."
-    #
-    # #heavyslash
-    # "..."
-    #
-    # g "Caught you!"
-    # p "Eh?! with vpunch
-    #
-    #
-    # #scene Altar
-    # "Griswyr jumps down from the ceiling, driving both his hatchet and his Malice into her arm."
-    # "She clutches it, and her body convulses."
-    #
-    # g "Even if he couldn't finish the job, there's still a lot of Grace inside you."
-    # extend " Seeing as how both manas repel each other, I wonder what will happen when my Malice comes into play!"
-    # p "...Oh shit!"
-    #
-    # "Her jaw clamps shut as my mana begins to violently leave her."
-    # "She looks dead at me and narrows her eyes."
-    # #explosion
-    # extend "Before exploding just like before."
-    # "I can’t believe it...I survived! We won!"
-    # extend " I don’t care about the buzzing pain coursing through me. Now everyone is safe from her..."
-    # "Better yet, I never realized before that Malice could also set off such an explosion..."
-    # nvl clear
-    #
-    # c "Griswyr..."
-    # extend " How did you know that would happen...?"
-    # g "I didn't."
-    # extend " It was a theory at best. Either way, her blood gave me the second wind I needed."
-    # g " Even if that didn't kill her, she was more than injured enough to..."
-    # extend " WHAT THE FUCK?!" with vpunch
-    #
-    # "The lingering effects of the explosion dissipate and Griswyr stomps furiously."
-    # extend " Persephone was defeated, so what is setting him off?"
-    #
-    # g "HOW THE HELL DID SHE ESCAPE?!" with vpunch
-    # c "Wh-wha...?"
-    # "I look to the floor and gasp. There are no remains, no body, no sign of her. Persephone is gone!"
-    #
-    # g "GODDAMN IT! SHE WAS A NUISANCE BEFORE, YESHUA FORBID HOW HARD SHE’S GOING TO BE TO TRACK NOW!!!" with vpunch
-    # c "How...how do you know she escaped..."
-    #
-    # "A voice booms into my ear."
-    #
-    # p "...Looks like you win this time."
-    # extend " Don't worry, I'll leave Jory be just as you wished. Anything to get away from you..."
-    # p "If you see me again, do a girl a favor, and just keep walking!"
-    #
-    # "...You're kidding me."
-    #
-    # c "Griswyr..."
-    # g "What is it?!"
-    # c "Don't..."
-    # extend "tell...:
-    # extend "Jo-"
-    #
-    # play sound Thud
-    # scene black
-    # pause(3.0)
-    #
-    # v "By Yeshua, I knew I shouldn't have let him leave!"
-    # v "Enough. He needs rest. Any more of your healing will accomplish nothing.."
-    # v "Damn you, Emissary!"
-    # v " I'll accept your insults. I should be dead myself. I would prefer it to the position we're in now..."
-    # v "Oh! He's waking up! Thank goodness!"
-    #
-    # "My body stirs wearily, wrapped in bandages in more places than I can fathom..."
-    # "I find myself in Jory's arms... It still hurts to move, but it looks like I’ve pulled through."
-    # "Griswyr stands in the corner, at a distant as always."
-    # nvl clear
-    #
-    # j "By Yeshua, are you alright?!"
-    # c "Ngh....well, I’m still breathing so..."
-    # g "Luckily most of his injuries weren't deep. Those broken ribs are going to need some time, not like you can move anyways."
-    # g "You're nearly burnt all of your mana, Caius. A drop more, and you would be a corpse."
-    # j "It shouldn't have ended this way!"
-    # j "What came of this?! All you did was put my friend in bandages! You didn't even kill the devil!"
-    # g "I know, and I'm very upset... She's going to be a problem."
-    # extend " Caius was the only reason we lived. This won't make you feel better, but I believe he'll make a fine Emissary."
-    # g "If he wants to, that is."
-    #
-    # "Jory's fist slams onto a table and causes the ground to quake!"
-    # "I know he didn't mean to, but damn that hurts my ribs..."
-    # extend " Of course Griswyr hardly cares..."
-    #
-    # j "Get out! Our business is done!'
-    # g "As you wish. It's not our decision to make, it's his."
-    # extend " I'll find you once you're ready to decide. I won't blame you if you want to reconsider joining after last night."
-    # g " Until next time."
-    #
-    # #hide Griswyr
-    # j "Grr... Damn it! I gave the reverend my word I wouldn't let this happen..."
-    # c "Hey...it's not your fault, sir."
-    # extend " I couldn't stop thinking about you... I kept pushing myself for your sake..."
-    # j "Oh right, you made that promise..."
-    # extend " But I'm not the one who needs to be protected!"
-    # c "On that, we'll have to agree to disagree..."
-    # j "By Yeshua, you're as stubborn as always..."
-    # c "Hey Jory, when I'm better..."
-    # extend " Can we visit Thrycia?"
-    # j "I...thought you wanted to become an Emissary first."
-    # c "I did, but after last night, I'm ready to back now,"
-    # extend "  I may not be able to change anything yet, but I can still see him..."
-    #
-    # "Jory sighs deeply and closes his eyes."
-    #
-    # j "Caius...there's something you need to know."
-    # extend " While you were gone, word hit Jubilee, and..."
-    # c "And...?"
-    #
-    # "He gulps hard and speaks slowly."
-    #
-    #
-    #
-    # j "Thrycia..."
-    # extend "is no more."
-    # c "Huh...?"
-    # j "No one is sure of what happened, but the rumors say a devil was involved..."
-    # c "A devil...?!"
-    # j "Two... Apparently, a dretchling summoned it. I'm sorry..."
-    # c "Gngh!" with vpunch
-    #
-    # "I swear I hear Persephone's words in my mind again."
-    #
-    # p "Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you..."
-    #
-    # "My mouth falls agape. I stare at Jory in utter denial."
-    # "My heart races, tears fall from my cheeks, but all I can do is remain paralyzed in shock..."
-    # "Yet again, I was too weak...and now."
-    # extend " There's nothing I can do to save him...!"
-    #
-    # c "...Priam?!"
-    # #graceflash
-    # j "Woah!"
-    # c "PRRRRRRRIIIIIIIIIAAAAAAAAMMMMMM!!!" with vpunch
-    #
-    # return
-    # #game ends
+    p "...Was that your last stand?"
+    extend " WEAK!!!" with vpunch
+
+    "Her Roundhouse kick sends me flying. Time stands still as I float away..."
+    extend " I turn to her, that insipid grin peering into my soul."
+    "I breathe heavily, coughing up blood as I clasp my hands."
+
+    scene image "#000" with dissolve
+
+    "..."
+
+    extend "Shine!"
+
+    scene background cult altar with dissolve
+
+    p "Huh..."
+
+    play sound sfx.light_explosion # TODO: Using placeholder. Need to ser the correct sfx.
+
+    scene image "#fff" with iris_in_out
+
+    "My Grace pours from her body and consumes her."
+    extend " The mana turns an icy white and explodes."
+    "I can’t see a thing, but this battle has ended."
+    extend " That blast tore her apart from the inside out."
+    "Against a mortal, it would just render them paralyzed, but against a devil? There's no way she survived."
+    "A hand shielded me from the blast. It must've been Griswyr's."
+
+    c "Ngh..."
+
+    g "Impressive. What was that?"
+
+    c "Agh...well each of my blows injects my mana into my opponent, disrupting their own..."
+    extend " And once it consumes most of their body, I can cause it to tear itself out..."
+    extend " Agh...it hurts to talk..."
+
+    g "That's...violent. Color me impressed."
+
+    c "Well, it doesn't kill mortals..."
+
+    g "Of course it doesn't."
+    extend " Gngh!"
+
+    c "What's the matter...?"
+
+    g "I still smell her!"
+
+    "As the radiance dies down, the first thing I spot are two, red eyes glaring at me..."
+    extend " My teeth chatter. My body feels cold, exhausted, and afraid. That was my strongest technique, how did she survive it?!"
+    "Malice's crimson hue shrouds her. Her stance is unsteady, however she appears more than capable to continue..."
+    extend "I try to stand only to stumble. A stabbing pain pierces my waist..."
+    "I could conjure Grace to numb it, but I lack the resolve..."
+
+    nvl clear
+
+    p "You know, I tried to be nice... I tried to make your death quick and painless BUT now I don't really care!"
+    p "I'll give you credit, that might've killed me. Good thing Snowflake offered me some of his mana hehehe...!"
+
+    "She hisses as her talons spring from her fingers."
+    extend " Her Malice spikes. In hindsight, she didn't use up as much mana as I expected..."
+    "Griswyr seems more upset than afraid as he looks to the ground."
+    extend " He spits and readies his weapons."
+
+    g "Well shit, looks like this mission is a failure! Out of all the monsters, we had to get matched up against that goddamned banshee!"
+
+    c "Griswyr...?"
+
+    g "I'll hold her off while you crawl away. Don't worry about me, because I'm not coming back."
+
+    "He crosses his throat and speaks gravely "
+
+    g "This is my final lesson to you, Caius. Even in death, we Emmisaries leave no trace. We'll face annihilation if that's what it takes!"
+    extend " Do not let any information fall into the hands of the enemy! To the end!"
+
+    "He charges."
+    extend " He startles Persephone, but she meets his advance."
+    "He isn’t dodging..."
+
+    c "Griswyr, don't...!"
+
+    with bloodflash
+
+    "Her claws tear into his chest, ripping blood and flesh from his body."
+    extend " Yet he doesn’t so much as wince."
+
+    with bloodflash
+
+    "He drives his sword into her leg and wraps his arm around her waist."
+
+    p "What the hell are you-?!"
+
+    "He drops his hatchet before getting behind her and hooking his arms around hers, pulling up and restraining her."
+    extend " He clings to her like a monkey. Try as she might, Persephone can’t shake him."
+
+    p "Grr! Snowflake, I'm not in the mood! Let go!!!"
+
+    g "Ngggh...what are you doing, idiot?! Run!"
+
+    p "Who are you calling an idiot?! You're the one who-"
+    extend " Wait a minute..."
+
+    "I wish I had the strength to flee..."
+    extend " My heart weeps for him. My eyes might also weep if it didn't hurt so much to breathe..."
+    "Even if I start crawling away, there's no way she’s going to let me go."
+    extend " I don’t know what Griswyr is planning, but if it involves his blood magic, she'll just chase me and we'll all be collateral damage."
+    "Best I can do is stay here and see him off..."
+    "Persephone turns to him. I can’t see what happened, but I have a bad feeling in my stomach..."
+
+    nvl clear
+
+    p "...Hehehe, so that's what you're up to? How naughty~."
+    extend " Isn't suicide frowned upon by the Celestials?"
+
+    c "Suicide?!"
+
+    g "Too late..."
+
+    "Griswyr's own Malice erupts, causing a whirring sound to hum from within him."
+    extend " Blue glyphs appear on the studs in his armor, growing brighter by the second."
+    "I try to call to him, try to move towards him, but my body still refuses to budge..."
+    extend " This is horrible! Why is he dying for me?! I'm a novice, I'd be much easier to replace than him."
+    "After all, I can’t even save myself, let alone anyone else..."
+
+    g "See you in Hell, banshee!"
+
+    p "Ngh..."
+    extend " Yep, but not in the way you're thinking!"
+
+    "She slits her wrist and shoves it into his maw."
+    "Griswyr's eyes widen and runes on his chest begin flickering."
+    extend " His grip loosens as his eyes shut. I hear faint sounds of suckling."
+    "He may as well have fallen victim to his compulsion for her blood."
+    extend " At first he clings to her. Then slowly his grip relaxes, and she begins to cradle him."
+
+    nvl clear
+
+    p "I can't have you exploding on me. I'll be taking these."
+
+    "She tears off his vest and tosses it to the side."
+    "Griswyr stirs and groans. He tries to pull away."
+
+    play sound sfx.grapple
+
+    extend " But her palm around his maw clenches."
+
+    p "Now now, I’m still playing with you. Besides, you've had a long day~."
+
+    play sound sfx.heavy_bam
+
+    extend " So go to sleep!"
+
+    "She slams her knee into his chest, knocking the wind and consciousness out of him."
+    "I watch helplessly while she drags him towards the hanging corpse."
+    extend " She tears the grizened woman from the bushes and pins him there."
+    "What does she have in store for-"
+
+    nvl clear
+
+    p "Hey, shithead! We're not finished!"
+
+    "I have to use the wall just to stand..."
+    extend "My body twitches with every movement. My lungs are on fire, and these shattered ribs are all too eager to feed me pain..."
+    "I breathe heavily, knowing that I only have one way out of this."
+
+    with graceflash
+
+    "Grace releases from my body."
+    extend " With this much pouring out, I'll run out of mana in no time. hHowever I need Grace just so I can move..."
+    "On the flip side, expending this much mana will inject more into her body. I need to blow her up again..."
+    "Who will burn out first? Will I be able to hold up long enough to defeat her? Only one way to find out."
+
+    nvl clear
+
+    p "Still have some fight left in you?"
+    extend " Good! I wasn't satisfied!"
+
+    with maliceflash
+
+    p "Even if you don't feel it now, your body is in agony."
+    extend " And that pales in comparison to what I have in store for you!"
+    p "There's no way Jory raised someone so blind! If the Third lived, you'd kiss his boots like every other slave!"
+    extend " You self-righteous fools are what's wrong with this world!!!" with vpunch
+
+    c "Ngh...maybe. Maybe I am too pious... And I don't know what you went through..."
+    extend " But I'd sooner believe in myself than an Archfiend...!"
+
+    p "That's not the first time I've heard those words, and it won't be the last..."
+    extend " Doesn't mean this won't hurt any less!!!" with vpunch
+
+    "I breathe deeply and block her swipe."
+    extend " She retreats before lunging for my legs!"
+    "I drive my heel into her jaw."
+    extend " And she counters by scratching my chest. Praise Yeshua that I step back when I do..."
+    "We dance, blocking and countering each other's blows."
+    extend " The manas screech. Our motives are personified and continue to clash!"
+    "With each punch, visions of Jory enter my mind..."
+    extend " Is my life flashing before my eyes...?"
+
+    nvl clear
+
+    j "{i}Relax, Caius, you're always so uptight.{/i}"
+    extend " {i}Take a load off and breathe once in a while, yeah?{/i}"
+
+    play sound sfx.heavy_bam
+
+    p "Gaaaaahhhh!!!" with vpunch
+
+    "That attack sends her reeling. If I can just land a few more strikes like that one..."
+    "She blasts herself airborne, screeching before launching a volley of gusts towards me."
+    extend " I lack the agility to dodge... I walk forward, blocking, deflecting, and even enduring gust after gust..."
+    "Even with Grace protecting me, my body rattles with every blast..."
+    "I breathe deeply before jumping up to attack her"
+    extend " She dodges and grabs me, and I drive my mana into her as we plummet to the floor."
+
+    nvl clear
+
+    play sound sfx.heavy_bam
+    with vpunch
+
+    g "{i}How do you expect to be an Emmisary when you're so weak?!{/i}"
+    g "{i}I was ready to die for the mission, yet here you are, ready to surrender everything you stand for!{/i}"
+    g "{i}Fight goddamn it, even if it kills you!{/i}"
+
+    "My fractured arm latches onto her face, my fingernails and Grace digging into her flesh!"
+    extend " A shrill yelp meets my ears. More of her blood trickles down my hands as I hold on for dear life."
+    "She pries my palm from her head, and I kick her off of me."
+    extend " I rise, my teeth bared and my eyes seeing red."
+    "Her gaze wavers when I sprint towards her."
+    extend " Her wings flap, and I grab her foot before clobbering her face."
+    "She squirms and slashes."
+    extend " Her nails graze me. I spit up blood and keep attacking."
+    "She isn’t nearly as dangerous when you have her pinned!"
+
+    nvl clear
+
+    p "Grrrrr!!!" with vpunch
+
+    c "..."
+
+    p "Ngh...struggle all you want! In the end...you'll stll-"
+
+    "I shove her jaw shut and hurl her into the table."
+    extend " She leaps to her feet and I approach, walking slowly."
+    "She lunges but flinches."
+    extend " She staggers more and more with each step I take towards her."
+
+    vi "...You hate me, huh?"
+    extend " Man...I knew I messed up, but did you have to tell her about me...?"
+
+    "...You're right."
+
+    play sound sfx.heavy_bam
+
+    p "AHHHH!!!!!" with vpunch
+
+    vi "I was just trying to protect us..."
+
+    "I know..."
+
+    play sound sfx.heavy_bam
+
+    p "Gah...damn you! Ngh...!"
+
+    vi "Why did you abandon me, Caius?! I thought we were friends..."
+
+    "...We are."
+
+    "She catches my last strike, deflecting it."
+    "A hand presses against my chest, with Malice hissing against my Grace..."
+    "I jab her throat, causing her to spit and for breath to fly from her maw."
+    extend " Yet I still get blasted..."
+    "I fly backwards, doing my best to brace my fall as I land."
+    extend " With an eldritch calm, I peer back at her."
+
+    nvl clear
+
+    vi "You're coming back, right?"
+
+    "...I am."
+    "I lift my hands and clasp them together."
+    "With an unsteady breath, I speak"
+
+    nvl clear
+
+    c "Rest in peace..!"
+
+    "Suddenly, I fall to my knees."
+    extend " Intense pain floods through my veins, wracking my entire body!"
+    "The strain prevents my hands from reaching her...I've run out of mana."
+
+    c "No...not now!"
+
+    vi "...I knew I couldn't trust you."
+
+    "Tears well in my eyes. There isn’t anything I can do anymore..."
+    "It looks like I’ve reached my limit first..."
+    extend " My adversary laughs triumphantly."
+
+    c "Priam...I'm sorry. I tried my best..."
+
+    p "Your best FAILED you!"
+
+    "She pounces, and I close my eyes..."
+    extend " So be it. Someone, anyone, help him..."
+
+    play sound sfx.heavy_slash
+
+    "..."
+
+    g "Caught you!"
+
+    p "Eh?!" with vpunch
+
+    scene background cult altar with dissolve
+
+    "Griswyr jumps down from the ceiling, driving both his hatchet and his Malice into her arm."
+    "She clutches it, and her body convulses."
+
+    g "Even if he couldn't finish the job, there's still a lot of Grace inside you."
+    extend " Seeing as how both manas repel each other, I wonder what will happen when my Malice comes into play!"
+
+    p "...Oh shit!"
+
+    "Her jaw clamps shut as my mana begins to violently leave her."
+    "She looks dead at me and narrows her eyes."
+
+    play sound sfx.explosion # TODO: Using a placeholder. Replace with correct sfx.
+
+    extend " Before exploding just like before."
+
+    # TODO: Pause the game for a while to generate tension.
+
+    "I can’t believe it...I survived! We won!"
+    extend " I don’t care about the buzzing pain coursing through me. Now everyone is safe from her..."
+    "Better yet, I never realized before that Malice could also set off such an explosion..."
+
+    nvl clear
+
+    c "Griswyr..."
+    extend " How did you know that would happen...?"
+
+    g "I didn't."
+    extend " It was a theory at best. Either way, her blood gave me the second wind I needed."
+
+    g " Even if that didn't kill her, she was more than injured enough to..."
+    extend " WHAT THE FUCK?!" with vpunch
+
+    "The lingering effects of the explosion dissipate and Griswyr stomps furiously."
+    extend " Persephone was defeated, so what is setting him off?"
+
+    g "HOW THE HELL DID SHE ESCAPE?!" with vpunch
+
+    c "Wh-wha...?"
+
+    "I look to the floor and gasp. There are no remains, no body, no sign of her. Persephone is gone!"
+
+    g "GODDAMN IT! SHE WAS A NUISANCE BEFORE, YESHUA FORBID HOW HARD SHE’S GOING TO BE TO TRACK NOW!!!" with vpunch
+
+    c "How...how do you know she escaped..."
+
+    "A voice booms into my ear."
+
+    p "...Looks like you win this time."
+    extend " Don't worry, I'll leave Jory be just as you wished. Anything to get away from you..."
+    p "If you see me again, do a girl a favor, and just keep walking!"
+
+    "...You're kidding me."
+
+    c "Griswyr..."
+
+    g "What is it?!"
+
+    c "Don't..."
+    extend "tell..."
+    extend "Jo-"
+
+    play sound sfx.thud
+
+    scene image "#000" with Dissolve(1.0)
+
+    pause 3.0
+
+    jump scene_06
+
+    return

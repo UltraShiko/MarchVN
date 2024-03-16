@@ -103,7 +103,7 @@ label scene_04:
 
     "The hallway, AND Griswyr are painted crimson!"
     extend " The metallic stench upsets my stomach. The gore, the carnage, the corpses littered across the floor, it all taxes me greatly..."
-    "Worst of all, the man with the hatchet inside his forehead is still alive and screaming..."
+    "Worst of all, the man with the hatchet inside his forehead is still alive and {i}still{/i} screaming..."
 
     cu "Please! I surrender! Just get this thing out of my head!!!"
 
