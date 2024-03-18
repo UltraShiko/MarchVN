@@ -32,13 +32,13 @@ style credits_text_name_style is credits_text_role_style:
 
 
 
-define credit_text = [
-
-[ ("Director / Lead Writer", "TotalLeeAwesome"), ("Script Editor", "Jenna Rose") ]
-[ ("Background Artist", "Lynnesaurus"), ("Sprite Artist", "Kate"), ("Gui Artist & Logo Designer", "senchousan") ]
-[ ("Programming", "YoruUta"), ("Sound Composer", "Monochrome") ]
-
-]
+# define credit_text = [
+#
+# [ ("Director / Lead Writer", "TotalLeeAwesome"), ("Script Editor", "Jenna Rose") ]
+# [ ("Background Artist", "Lynnesaurus"), ("Sprite Artist", "Kate"), ("Gui Artist & Logo Designer", "senchousan") ]
+# [ ("Programming", "YoruUta"), ("Sound Composer", "Monochrome") ]
+#
+# ]
 
 ### Screen definition
 
