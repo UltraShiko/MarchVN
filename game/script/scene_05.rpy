@@ -64,7 +64,7 @@ label scene_05:
     "The blood begins bubbling, and we retreat behind a pillar."
     extend " The circle glows orange, and a red mist rises from the blood."
     "Griswyr and I ready ourselves as a curvaceous silhouette comes into view."
-    extend " There are no signs of danger, yet..."
+    extend " My mind races. Would she attack? Would she try to bewitch us? The suspense is unnerving..."
 
     c "Ngh..."
 
@@ -263,7 +263,7 @@ label scene_05:
 
     p "Eh?"
 
-    g "Your cult was very adamant about bringing you here, so adamant that they were ready to die.."
+    g "Your cult was very adamant about bringing you here, so adamant that they were ready to die."
     extend " And for a lowly sex devil? That made no sense."
 
     p "Oh, so we're going there, are we...?"

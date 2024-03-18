@@ -63,7 +63,7 @@ label scene_06:
 
     j "I...thought you wanted to become an Emissary first."
 
-    c "I did, but after last night, I'm ready to go back now,"
+    c "I did, but after last night, I'm ready to go back now."
     extend " I may not be able to change anything yet, but I can still see him..."
 
     "Jory sighs deeply and closes his eyes."
