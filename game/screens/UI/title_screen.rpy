@@ -1,5 +1,4 @@
 
-
 ## Main Menu screen ############################################################
 ##
 ## Used to display the main menu when Ren'Py starts.
