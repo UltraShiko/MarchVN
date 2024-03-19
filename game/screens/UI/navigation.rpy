@@ -13,7 +13,7 @@ screen navigation():
         xpos gui.navigation_xpos
         yalign 0.5
 
-        spacing gui.navigation_spacing
+        spacing 0
 
         # if main_menu:
         #
