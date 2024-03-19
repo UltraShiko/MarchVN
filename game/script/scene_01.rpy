@@ -1,7 +1,7 @@
 
 label scene_01:
 
-    scene background jubilee day
+    scene background slums
 
     play music bgm.VillageAmbienceLoop fadein 1.5
 

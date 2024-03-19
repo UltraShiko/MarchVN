@@ -7,7 +7,7 @@ label scene_06:
     v "I'll accept your insults. I should be dead myself. I would prefer it to the position we're in now..."
     v "Oh! He's waking up! Thank goodness!"
 
-    scene background jubilee day
+    scene background slums
 
     show Jory sad at center
     show griswyr at left
@@ -121,7 +121,7 @@ label scene_06:
     scene image "#000" with Dissolve(2.0)
 
     pause 2.0
-    
+
     return
 
     #### Game ends
