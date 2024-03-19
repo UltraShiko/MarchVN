@@ -1,6 +1,8 @@
 
 ### Main characters
 
+define narrator = nvl_narrator # Enable NVL mode.
+
 define c   = Character("Caius")
 define ci  = Character("Caius", what_italic=True)
 define j   = Character("Jory")

@@ -13,6 +13,8 @@ label scene_03:
     extend " If he’s on watch, he’s doing a poor job..."
     "Griswyr and I crouch beneath the bushes. The Thorn continues his daydreaming, mumbling to himself."
 
+    nvl clear
+
     cu "Oh man, tonight's the night! We can finally take back what's ours!"
     extend " Those damned Celestials chased us out of the city, and for what?! I baked bread! Worshiping mother wasn't hurtin’ nobody!"
     cu "But damn, why did I get stuck outside? I wanna see her emerge on that altar. Gotta make sure Mother's agent is given a warm welcome!"
@@ -52,6 +54,8 @@ label scene_03:
     "He draws his kukri and scuttles towards me."
     extend " I toss my hands in the air, stammering like a child."
 
+    nvl clear
+
     c "Ah! I-I mean no harm! I-I'm just a m-monk, and I was-was just going for a walk!"
 
     cu "Out here, in the depths of the forest?"
@@ -88,6 +92,8 @@ label scene_03:
 
     "Why is he being so nice to me...? Especially after I said Yeshua?"
 
+    nvl clear
+
     cu "You monks are a dime a dozen! Can't believe you'd come this far without an escort."
 
     c "Well haha, I have faith in my lord..."
@@ -103,6 +109,8 @@ label scene_03:
     "Within a blink of an eye, he swings the knife and I strike his chest."
     "I tremble. So he was just leading me on? How could I be so naive...?"
     extend " Had I been a second slower..."
+
+    nvl clear
 
     show griswyr at center with dissolve
 
@@ -129,6 +137,8 @@ label scene_03:
     "Time stands still. The body wriggles slightly before going stiff..."
     extend " I close my eyes multiple times, just to open them to the same carnage..."
 
+    nvl clear
+    
     g "If any cultists are on patrol, I say we leave the body in the open."
     extend " It'll give them a taste of what awaits them."
 

@@ -10,6 +10,8 @@ label scene_04:
     "Their dedication to that single flower astonishes me. I expected something more elaborate..."
     "Griswyr moves so lightly. There are times when I have to double check if he’s still beside me."
 
+    nvl clear
+
     play sound sfx.light_grapple
 
     c "Ngh..."
@@ -19,12 +21,16 @@ label scene_04:
     "He draws his hatchet and kneels."
     extend " Ah, a tripwire! Of course, I should've expected that..."
 
+    nvl clear
+
     g "Brace yourself."
 
     play sound sfx.kathunk # TODO: Using placeholder. Replace with correct sfx.
 
     "I leap backwards, only for a loud noise to follow!"
     "We turn to and fro but hear nothing heading our way except footsteps."
+
+    nvl clear
 
     g "Damn. I should've known they lacked the funds for elaborate traps..."
 
@@ -46,6 +52,8 @@ label scene_04:
     "Several disciples rush forward, weapons drawn."
     extend "Just like the first guard though, no one notices us at first."
 
+    nvl clear
+
     cu "The hell? Did Oakley set off the tripwire again?! How many times do we have to spell it out for him?!"
     cu "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
     cu "Wait, Oakley is as stubborn as a mule! He wouldn't cower like that, so that means-"
@@ -59,6 +67,8 @@ label scene_04:
 
     "Griswyr doesn’t strike from behind – no, he plants himself at the center of the group!"
     "His victim collapses, his throat cut wide open. I didn't even see the slash."
+
+    nvl clear
 
     cu "Agh...!"
     extend " Intruder-"
@@ -96,6 +106,8 @@ label scene_04:
     "They know they don’t have a chance of winning or surviving."
     extend " Moments later, the cave becomes silent as the final bodies fall. Griswyr merely frowns in disgust as he collects his weapons."
 
+    nvl clear
+
     g "As expected, they were pathetic."
     extend " Were you paying attention Caius?"
 
@@ -104,6 +116,8 @@ label scene_04:
     "The hallway, AND Griswyr are painted crimson!"
     extend " The metallic stench upsets my stomach. The gore, the carnage, the corpses littered across the floor, it all taxes me greatly..."
     "Worst of all, the man with the hatchet inside his forehead is still alive and {i}still{/i} screaming..."
+
+    nvl clear
 
     cu "Please! I surrender! Just get this thing out of my head!!!"
 
@@ -114,6 +128,8 @@ label scene_04:
     "Griswyr waltzes up to the man, not granting him any mercy."
     extend " The poor Thorn scurries away, until he has nowhere left to go."
     "Griswyr shakes his head. He appears bored, of all things..."
+
+    nvl clear
 
     g "Surrender is cheap, I want information."
 
@@ -131,6 +147,8 @@ label scene_04:
     "Each of my steps squelches as I walk..."
     extend " The blood has formed puddles across the ground. Moving through the carnage sends shivers down my spine..."
     "It feels like I’m wading through a sticky, red mud... By Yeshua, I hope this will wash out."
+
+    nvl clear
 
     cu "So there's...five men leading the ritual. They've already begun chanting..."
     extend " I doubt you have much longer. If you're here to stop us, then you best hurry..."
@@ -152,11 +170,15 @@ label scene_04:
     "When Griswyr presses his boot into the hatchet, I spring forward."
     extend " I run on air, or at least that's what it feels like."
 
+    nvl clear
+
     c "Stop it Griswyr!"
 
     "I shield the man, placing my body between him and his tormentor."
     "My breaths accelerate, and a cold sweat breaks out on my brow. I can’t allow this torture to continue!"
     extend " Superior or otherwise, he has gone too far! There's no way the reverend would stand for this cruelty!"
+
+    nvl clear
 
     c "That's enough! He's already down!"
 
@@ -169,6 +191,8 @@ label scene_04:
 
     "I nod fiercely."
 
+    nvl clear
+
     c "You may not follow Yeshua, but I know an Archlord wouldn’t stand for what you are doing!"
 
     g "You forget your place, and I care not for what Ahriman or any Archlord has to say."
@@ -177,6 +201,8 @@ label scene_04:
     c "But I care, and I will not let this treatment continue!"
 
     "He sighs."
+
+    nvl clear
 
     g "...We don't have time for this."
 

@@ -80,6 +80,8 @@ label scene_02:
     "I made a mistake years ago, so I took a vow of poverty."
     extend " Part of keeping that vow has been limiting my nutrition and activity. I will remain in this state until I redeem myself."
 
+    nvl clear
+
     g "How pious..."
     extend " Too pious! You expect such flimsy arms to have an impact?"
 
@@ -134,6 +136,8 @@ label scene_02:
     extend " I should've expected no less from an Emmisary... Why wouldn't they research their applicants?"
     "Though I had hoped that the reverend and Jory had kept what happened a secret amongst themselves..."
 
+    nvl clear
+
     c "...How much do you know?"
 
     g "Enough."
@@ -161,12 +165,16 @@ label scene_02:
 
     "He snarls softly but quickly recovers his stoicism."
 
+    nvl clear
+
     g "Indeed... I picked you because I believe you are driven by regret."
     g "I'm not a fan of the \"righteous crusaders\", or anyone with a savior complex. They may as well be infants."
 
     "The more he belittles others, the uneasier I grow."
     extend " He's very condescending... I understand that his work is treacherous, yet I can’t imagine myself ever becoming so cynical."
     "Is this attitude what Jory meant by life as an Emmisary \"breaking\" people?"
+
+    nvl clear
 
     c "...With all due respect sir, you are very judgemental."
 
@@ -187,12 +195,16 @@ label scene_02:
     extend " Whenever I bring up my friend being a Dretchling, people always scowl, grimace, or become disgusted. I figured an Emmisary would react no differently..."
     "Then again, Griswyr doesn’t strike me as normal either."
 
+    nvl clear
+
     g "It's a pious goal, but at least it has direction."
 
     c "Sir, I must know..."
     extend " Are you human?"
 
     "He blinks at me, as if I’m asking him for the color of the sky."
+
+    nvl clear
 
     g "...What makes you think otherwise?"
 
@@ -204,6 +216,8 @@ label scene_02:
     "He doesn’t appear insulted, though that response seems rehearsed."
     extend " Not like it changes the way I see him. Though he’s definitely growing \"more alive\" with power, the darker it gets."
 
+    nvl clear
+    
     g "Enough questions, we're almost there."
 
     scene image "#000" with dissolve

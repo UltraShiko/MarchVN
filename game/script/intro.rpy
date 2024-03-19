@@ -1,6 +1,14 @@
 
 label intro:
 
+    stop music
+
+    scene image "#000"
+
+    pause 2.0
+
+    nvl clear
+
     #text at center
     "..."
     "...I can't believe you did that! You really are a monster!"
@@ -17,6 +25,8 @@ label intro:
     "I hate you..."
     extend " I hate you!!!"
 
+    nvl clear
+    
     jump scene_01
 
     return

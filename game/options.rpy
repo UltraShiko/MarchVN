@@ -114,6 +114,8 @@ define config.end_game_transition = None
 ## A variable to set the transition used when the game starts does not exist.
 ## Instead, use a with statement after showing the initial scene.
 
+define config.adv_nvl_transition = Dissolve(.2)
+define config.nvl_adv_transition = Dissolve(.2)
 
 ## Window management ###########################################################
 ##

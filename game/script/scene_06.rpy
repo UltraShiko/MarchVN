@@ -38,6 +38,8 @@ label scene_06:
     "I know he didn't mean to, but damn that hurts my ribs..."
     extend " Of course Griswyr hardly cares..."
 
+    nvl clear
+
     j "Get out! Our business is done!"
 
     g "As you wish. It's not our decision to make, it's his."
@@ -68,11 +70,15 @@ label scene_06:
 
     "Jory sighs deeply and closes his eyes."
 
+    nvl clear
+
     j "Caius...there's something you need to know."
     extend " While you were gone, word hit Jubilee, and..."
     c "And...?"
 
     "He gulps hard and speaks slowly."
+
+    nvl clear
 
     j "Thrycia..."
     extend "is no more."
@@ -89,12 +95,16 @@ label scene_06:
 
     "I swear I hear Persephone's words in my mind again."
 
+    nvl clear
+
     p "Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you..."
 
     "My mouth falls agape. I stare at Jory in utter denial."
     "My heart races, tears fall from my cheeks, but all I can do is remain paralyzed in shock..."
     "Yet again, I was too weak...and now."
     extend " There's nothing I can do to save him...!"
+
+    nvl clear
 
     c "...Priam?!"
 
@@ -111,8 +121,7 @@ label scene_06:
     scene image "#000" with Dissolve(2.0)
 
     pause 2.0
-
-
+    
     return
 
     #### Game ends

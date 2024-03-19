@@ -23,6 +23,8 @@ label scene_01:
     "I shudder as the giant approaches me."
     extend " I never understood how a man so big could be so quiet."
 
+    nvl clear
+
     c "I'm managing, thanks for asking, sir."
 
     j "...You're not going to stop calling me that, are you?"
@@ -45,6 +47,8 @@ label scene_01:
     "I could enlist as a Celestial, but the Emissaries often work alongside the Reverend, or at least closely with him."
     extend " Even if Jory knows him well, I would still rather impress the Reverend with my own deeds instead of relying on Jory buttering him up."
 
+    nvl clear
+
     c "You've taught me well, sir."
     extend " From combat, to controlling mana, to keeping my mind pure. I'm ready!"
 
@@ -61,6 +65,8 @@ label scene_01:
     extend " I mean, I took the blame. I told them that the bloody dagger was mine and I was the murderer. ."
     "He didn't believe me. I could tell..."
     extend " Rather than executing me though, he said something that I'll never forget..."
+
+    nvl clear
 
     v "Blessed are the peacekeepers. Blessed are those who relinquish themselves for the sake of others."
     extend " I do not know what really transpired, but I'm thankful I met someone as noble as you. You remind me of why I took up the mantle."
@@ -87,6 +93,8 @@ label scene_01:
     "Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
     extend " They say his antics were so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
 
+    nvl clear
+
     c "He abused you. He abused everyone! His pride and arrogance caused the Reckoning, and now our country is divided!"
 
     j "Caius, hear me out..."
@@ -99,6 +107,8 @@ label scene_01:
     "I cringe along with him."
     extend " It takes a lot to get under Jory's skin, and when something does, it’s always about a woman he once cared for..."
 
+    nvl clear
+
     c "...But you've made amends. I mean, you took me in despite the fact I...you know."
 
     j "I sure did, and I have no regrets!"
@@ -107,6 +117,8 @@ label scene_01:
     "The sight of his fists clenching makes me shudder."
     "I still can’t believe the earlier reverend had the courage to bully Jory or his friends."
     extend " Jory always holds back when we spar, yet his blows still hurt more than anything I’ve ever endured. Yeshua forbid what damage he could cause if he ever got angry enough..."
+
+    nvl clear
 
     j "Uh whoops! Lost myself there!"
     extend " You get what I mean though, right?"
@@ -129,6 +141,8 @@ label scene_01:
 
     "His meaty hand pats my shoulder."
     extend " Well... more like engulfs it."
+
+    nvl clear
 
     j "Just come back in one piece, alright?"
 
@@ -166,6 +180,8 @@ label scene_01:
     "Oh, but it is a BIG problem! I wasn't prepared for a nocturnal expedition..."
     extend " I thought the trial would test my skills in combat, not my endurance...."
 
+    nvl clear
+
     g "If you are ready, then let's go. Our enemy has already begun their machinations."
 
     c "Who are we going after?"
@@ -182,6 +198,8 @@ label scene_01:
     "Griswyr's eyes narrow."
     extend " On top of being unprepared, now I’ve earned his ire..."
 
+    nvl clear
+
     g "...I'm sorry, did you expect this mission to be simple?"
 
     c "No, I'm ready for anything."
@@ -195,7 +213,11 @@ label scene_01:
     "As we depart, Jory waves me off, but the enthusiasm has vanished from his face..."
     "My blood freezes as the sun sets."
 
+    window hide
+
     scene image "#000" with dissolve
+
+    window show
 
     extend " Jory just might be onto something, but it's too late for me to back out now..."
     "I suppose it's only natural that the trials of the Emmisaries are just as dangerous as the work they do, and Griswyr has a point."

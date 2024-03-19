@@ -38,6 +38,8 @@ label scene_05:
     "Griswyr twitches."
     extend " Is it my imagination, or do I spot veins bulging from his head."
 
+    nvl clear
+
     g "Grrr...!"
 
     cu "Go on, cut me down!"
@@ -66,12 +68,16 @@ label scene_05:
     "Griswyr and I ready ourselves as a curvaceous silhouette comes into view."
     extend " My mind races. Would she attack? Would she try to bewitch us? The suspense is unnerving..."
 
+    nvl clear
+
     c "Ngh..."
 
     "My heart pounds. It’s as if I can {i}feel{/i} her presence..."
     extend " It’s soothing, almost bewitching, and at same time suffocating..."
     "I sense both an alluring and a frightening presence from behind that mist..."
     extend " I look to my comrade. His eyes stare ahead, fixated."
+
+    nvl clear
 
     g "That devil.... Why do I recognize her?"
 
@@ -122,6 +128,8 @@ label scene_05:
     v "Hehehe! Relax, they're in a better place now."
     extend " Besides, there's no blood on {i}your{/i}hands. Looks like I'm outnumbered"
 
+    nvl clear
+
     c "Ugh, right..."
 
     v "So, what am I dealing with here?"
@@ -136,6 +144,8 @@ label scene_05:
 
     "She carries on like a waitress in a tavern."
     extend " Had she hidden her horns and wings, I might've forgotten she was a fiend..."
+
+    nvl clear
 
     c "It's been quite an experience...one I would like to put to bed."
 
@@ -183,7 +193,8 @@ label scene_05:
     extend " Don't worry, I'm very mature for my age, hehehehe!"
 
     "Five years? Her soul must've fallen not too long ago..."
-    #"How odd... Five years ago is when I was adopted by Jory... I hope there aren’t any connection"
+
+    nvl clear
 
     p "I don't have any intention of hurting you or whoever is lurking or any of your precious subjects. I just have an, \"errand\", to run."
     extend " You won't even know I was here!"
@@ -197,12 +208,16 @@ label scene_05:
 
     "Calm down, Caius...you're supposed to be pulling her leg."
 
+    nvl clear
+
     c "I-uh, I mean...I think he left several years ago."
     extend " Poor man was wrought with grief. They say he fell in love with a Meropian."
     c "I never believed the rumors, but he wasn't the same after one was executed. I prayed for his soul, but that was the only interaction I ever had with him."
 
     "Her smile curls into a frown, and her eyes widen."
     extend " Every mention of Jory pains her. But why? He never worshiped Hecate, did he?"
+
+    nvl clear
 
     p "Oh, that's...too bad."
     extend " And where did you say he was headed?"
@@ -226,6 +241,8 @@ label scene_05:
 
     "I lunge!"
 
+    nvl clear
+
     play sound sfx.whoosh
 
     c "Wh-Whoooa..!"
@@ -248,6 +265,8 @@ label scene_05:
     "When she snarls, Malice oozes from her eyes."
     extend " She must notice because she shakes her head and resumes her smirk."
 
+    nvl clear
+
     p "So...let's try this again."
     extend " Where's Jor-"
 
@@ -256,6 +275,8 @@ label scene_05:
     "Gryswyr jumps down from the ceiling, grazing her cheek with his blade."
     "He lands then swings to land a deeper blow against her."
     extend "But she floats out of the way."
+
+    nvl clear
 
     p "Hehehe, finally showed yourself, huh? I take it you're his superior?"
 
@@ -285,10 +306,14 @@ label scene_05:
     "I shudder. Could she have been that SAME monster?!"
     extend " No wait... If Gryswyr's right, that means..."
 
+    nvl clear
+
     c "You're..."
     extend " Aurielle, aren't you...?"
 
     "She sighs grumpily and claps her hands slowly."
+
+    nvl clear
 
     p "Look at that... you blew my case wide open... So much for the surprise..."
     extend " You must be fun at parties, Snowflake. A reeeeal crowd pleaser..."
@@ -296,6 +321,8 @@ label scene_05:
     g "It was hardly a secret. Even the boy would've figured it out eventually."
 
     "He draws his hatchet and throws an arm in front of me."
+
+    nvl clear
 
     g "Stay back. You are no match for her."
 
@@ -311,6 +338,8 @@ label scene_05:
     "What does he mean?"
     extend " Oh wait, she might not know I can wield Grace. By Yeshua, this is not my night..."
 
+    nvl clear
+
     c "Alright then, I'll watch for any more Thorns."
 
     g "That's the smartest thing you've done all night."
@@ -320,11 +349,15 @@ label scene_05:
 
     "He leaps towards her, and she shakes her head."
 
+    nvl clear
+
     p "Good grief, did you not learn nothing from your friend?"
 
     "She waves her hand, and a gust of wind shields her."
     extend " Griswyr lands and skirts behind her."
     extend " She gasps as his sword hisses through the air."
+
+    nvl clear
 
     g "Die!"
 
@@ -341,6 +374,8 @@ label scene_05:
     "Five, razor-sharp claws spring from her fingertips."
     "She hunches forward, mimicking Girswyr's stance."
     extend " He does not appreciate that."
+
+    nvl clear
 
     g "...Are you mocking me?"
 
@@ -364,6 +399,8 @@ label scene_05:
     "My heart pounds when she suddenly slips away more swiftly than ever."
     extend " Griswyr can’t stop his momentum as he swings at her, stumbling forward into nothingness. He's left wide open!"
 
+    nvl clear
+
     c "Griswyr, look out!"
 
     p "Good night~!"
@@ -372,6 +409,8 @@ label scene_05:
     g "{i}Blood Lance{/i}."
 
     "A spear of blood appears and extends from his blade, thrusting forward at Persephone."
+
+    nvl clear
 
     p "W-wait..."
 
@@ -404,6 +443,8 @@ label scene_05:
     "Griswyr darts behind her and impales her waist!"
     "But Persephone smiles."
 
+    nvl clear
+
     p "And you should've brought silver!"
 
     "A gale blast sends Griswyr crashing into the wall."
@@ -429,6 +470,8 @@ label scene_05:
     extend " He isn’t cool and collected anymore, and he eyes me as if I were his foe."
     "Now that I think about it though, he did lose his temper earlier, when he beheaded that cultist..."
 
+    nvl clear
+
     g "...Very well. She is yours, as long as you can handle her."
 
     p "Hehehe, you ought to watch your mouth, Snowflake. Someone might get the wrong idea~."
@@ -452,6 +495,8 @@ label scene_05:
 
     "My blood freezes with anger."
 
+    nvl clear
+
     c "...You mean my mentor?"
 
     p "Well..."
@@ -465,6 +510,8 @@ label scene_05:
     extend " She recoils heavily from that blow, even more than when she got stabbed!"
     "The mana flows in me alongside my fury."
     extend " Her death caused Jory a lot of heartache, and I won't allow this ghost to haunt him further!"
+
+    nvl clear
 
     c "Keep my friend's name..."
     extend " Out of your mouth!!!" with vpunch
@@ -505,6 +552,8 @@ label scene_05:
     "She summons the wind and blasted the table, sending debris my way."
     extend " I jump out of the way and thankfully block and evade it all. I land, trying to regain my bearings, but my pause gives her the opening she needs."
 
+    nvl clear
+
     c "Gahhh!" with vpunch
 
     "She fires a second gale that hits me hard... It feels like getting kicked by a mule!"
@@ -514,10 +563,14 @@ label scene_05:
     extend " And feints, her flapping wings frightening me and nearly causing me to stumble. This battle is wearing us both out. I have to do something soon, but I can’t figure out how to strike the finishing blow."
     "What is she going do now?! I don't have the time to-"
 
+    nvl clear
+
     g "What are you doing?!"
     extend " Attack!!!" with vpunch
 
     "I obey."
+
+    nvl clear
 
     with graceflash
 
@@ -551,6 +604,8 @@ label scene_05:
     with graceflash
 
     "I close my eyes and summon Grace. I will put her to rest with this next strike."
+
+    nvl clear
 
     c "Farewell, Aurielle..."
 
@@ -586,6 +641,8 @@ label scene_05:
     "If Griswyr knowing about my past unnerved me, Persephone knowing about it took the cake!"
     extend " How could I not realize?! I'm no scholar, but I’ve looked far and wide for knowledge about devils, and yet I’ve never heard of this power!"
     extend " More importantly, she knows about HIM!!!!"
+
+    nvl clear
 
     p "Ah yes, you threw your friend to the wolves."
     extend " How else would've you have made it this far? You were a nobody until you exploited their kindness!"
@@ -628,6 +685,8 @@ label scene_05:
     "My eyes shoot daggers at that grinning monster!"
     extend " My Grace spikes. It must sting her severely, yet she only grins more."
 
+    nvl clear
+
     c "You and that godforsaken archfiend aren't any different! Why else would she reside in Hell?!"
 
     p "Right, because your god's any different?"
@@ -644,6 +703,8 @@ label scene_05:
     "A hand grabs my throat, and she hoists me above her."
     "My mana vanishes alongside my breathing! I can’t channel it if I can’t breathe. How could I leave my throat defenseless...?!"
 
+    nvl clear
+
     p "Though while we're talking about fibbing, I wasn't entirely honest with you."
     extend " Ehehehehe, we devils can't read peoples' pasts. So I appreciate the information~."
 
@@ -651,12 +712,16 @@ label scene_05:
 
     "My heart stops, and she giggles darkly."
 
+    nvl clear
+
     p "You mortals will believe anything. Just like false seers, we only need to suggest words and situations that could apply to anyone, and suddenly you’re all suckers spilling your guts for us."
     p "And now you've failed him twice..."
     extend " Nah! You did him a favor!"
 
     "Wind blasts me from her grip, and she channels Malice and winds in her other hand."
     extend " But I don’t care..."
+
+    nvl clear
 
     p "I'll take good care of him, you can die now."
 
@@ -672,6 +737,8 @@ label scene_05:
     "I don’t have the strength nor the courage to stand..."
     extend " She played me like a harp... So easily too!"
     "Griswyr turns to me, his eyes as stoic as ever."
+
+    nvl clear
 
     g "Hmph, how disappointing."
 
@@ -689,6 +756,8 @@ label scene_05:
     extend " Oh right, he licked his sword after it got coated in gore. He's not trying to scare her, he MEANS what he's saying..."
     "Persephone looks as dumbfounded as I do."
 
+    nvl clear
+
     p "Oh. Oh wow..."
     extend " You've completely lost it... I knew you were into some weird stuff, but-"
 
@@ -702,11 +771,15 @@ label scene_05:
     "She rears back."
     extend " And Griswyr ducks behind her, readying his ax."
 
+    nvl clear
+
     g "And now you-."
     extend "Ngh! What the-?!" with vpunch
 
     "Wounds tear open in his arms. They seem to surprise him more than hurt him."
     extend " I can’t blame him for his shock. I didn’t even see her claws land. So how did those razors inflict such damage?!"
+
+    nvl clear
 
     g "Tch...just a flesh wound!"
 
@@ -715,11 +788,15 @@ label scene_05:
     "She catches his sword in two fingers, the blade causing blood to trickle down her hand."
     extend " Griswyr winces."
 
+    nvl clear
+
     p "Ooh, looks like you grazed me..."
     extend " Go on, have a taste."
 
     "She releases his blade and holds out her fingers."
     extend " Griswyr cringes but follows through with his swing."
+
+    nvl clear
 
     play sound sfx.whoosh
 
@@ -737,6 +814,8 @@ label scene_05:
     "Griswyr's body hunches over, his breaths weighty."
     extend " Every time he uses one of those attacks, he injurs himself..."
 
+    nvl clear
+
     play sound sfx.lunge # TODO: Using a placeholder. Replace with correct track.
 
     p "Wake up, Snowflake!"
@@ -744,6 +823,8 @@ label scene_05:
     "He evades her pounce and hisses as more wounds rip open on his body."
     extend " It’s gone in a second, but I finally spot the source of her attack. She wraps wind around her hands. So even if he dodges her blows, the gusts will still cut him."
     "She launches herself again!"
+
+    nvl clear
 
     c "Don't dodge, Griswyr, or you'll be cut by her wind!"
 
@@ -772,6 +853,8 @@ label scene_05:
     p "Gngh...!"
 
     "His sword sinks into her back like a knife through butter!"
+
+    nvl clear
 
     g "What will it take for you to stay down?! You're like a cockroach! You sever its head, yet it still crawls!"
 
@@ -808,11 +891,15 @@ label scene_05:
 
     "His jaw expands as he dives!"
 
+    nvl clear
+
     p "Should've listened to your friend."
 
     "Her arms lash out and hold his head still."
     extend " Her head springs forward, and my heart stops."
     extend " She plants her lips onto his!"
+
+    nvl clear
 
     c "Griswyr!"
 
@@ -821,6 +908,8 @@ label scene_05:
     "His body wrinkles, and her wounds begin to close."
     "She pulls away, and I lunge."
 
+    nvl clear
+
     p "...Oh, you're still with us..."
 
     "Griswyr collapses to the floor as we engage."
@@ -828,6 +917,8 @@ label scene_05:
     extend " Yet, she suffers more than I do. Looking more closely, I see her body tremble."
     "My blows from earlier weren't in vain, my mana still wracks her body!"
     extend " Which means I can still strike a killing blow."
+
+    nvl clear
 
     p "Ugh, you're so annoying! Go away!"
 
@@ -840,11 +931,15 @@ label scene_05:
     extend " My arms are growing heavy...I’m starting to run low on mana. I can’t continue like this..."
     "I need to land one good strike."
 
+    nvl clear
+
     c "Fall, monster!"
 
     "I kick and hit nothing but air..."
     "She flies backwards, digging her claws into the wall. She glowers, ready to attack again."
     extend " Malice and wind engulf her! I can’t stop this...and even if I dodge..."
+
+    nvl clear
 
     g "You goddamned fool! What are you doing?!"
     extend " This battle is yours! DO - NOT - FALTER!!!" with vpunch
@@ -855,6 +950,8 @@ label scene_05:
     "She zips towards me..."
     extend " Best I can do is avoid...."
 
+    nvl clear
+
     c "Gnnnnngggggghhhh!!!" with vpunch
 
     "The intense gusts bludgeon my body! I felt like I’ve slammed straight into a wall of pure force!"
@@ -863,12 +960,16 @@ label scene_05:
     "It takes all of my concentration not to be swept away..."
     extend " And now..."
 
+    nvl clear
+
     play sound sfx.heavy_bam
 
     c "HAAAA!!!!" with vpunch
 
     "I deliver a mighty strike to her chest and..."
     extend "nothing."
+
+    nvl clear
 
     p "...Was that your last stand?"
     extend " WEAK!!!" with vpunch
@@ -882,6 +983,8 @@ label scene_05:
     "..."
 
     extend "Shine!"
+
+    nvl clear
 
     scene background cult altar with dissolve
 
@@ -897,6 +1000,8 @@ label scene_05:
     extend " That blast tore her apart from the inside out."
     "Against a mortal, it would just render them paralyzed, but against a devil? There's no way she survived."
     "A hand shielded me from the blast. It must've been Griswyr's."
+
+    nvl clear
 
     c "Ngh..."
 
@@ -933,6 +1038,8 @@ label scene_05:
     "Griswyr seems more upset than afraid as he looks to the ground."
     extend " He spits and readies his weapons."
 
+    nvl clear
+
     g "Well shit, looks like this mission is a failure! Out of all the monsters, we had to get matched up against that goddamned banshee!"
 
     c "Griswyr...?"
@@ -941,12 +1048,16 @@ label scene_05:
 
     "He crosses his throat and speaks gravely "
 
+    nvl clear
+
     g "This is my final lesson to you, Caius. Even in death, we Emmisaries leave no trace. We'll face annihilation if that's what it takes!"
     extend " Do not let any information fall into the hands of the enemy! To the end!"
 
     "He charges."
     extend " He startles Persephone, but she meets his advance."
     "He isn’t dodging..."
+
+    nvl clear
 
     c "Griswyr, don't...!"
 
@@ -959,10 +1070,14 @@ label scene_05:
 
     "He drives his sword into her leg and wraps his arm around her waist."
 
+    nvl clear
+
     p "What the hell are you-?!"
 
     "He drops his hatchet before getting behind her and hooking his arms around hers, pulling up and restraining her."
     extend " He clings to her like a monkey. Try as she might, Persephone can’t shake him."
+
+    nvl clear
 
     p "Grr! Snowflake, I'm not in the mood! Let go!!!"
 
@@ -993,6 +1108,8 @@ label scene_05:
     extend " This is horrible! Why is he dying for me?! I'm a novice, I'd be much easier to replace than him."
     "After all, I can’t even save myself, let alone anyone else..."
 
+    nvl clear
+
     g "See you in Hell, banshee!"
 
     p "Ngh..."
@@ -1014,6 +1131,8 @@ label scene_05:
     play sound sfx.grapple
 
     extend " But her palm around his maw clenches."
+
+    nvl clear
 
     p "Now now, I’m still playing with you. Besides, you've had a long day~."
 
@@ -1116,10 +1235,14 @@ label scene_05:
     "She lunges but flinches."
     extend " She staggers more and more with each step I take towards her."
 
+    nvl clear
+
     vi "...You hate me, huh?"
     extend " Man...I knew I messed up, but did you have to tell her about me...?"
 
     "...You're right."
+
+    nvl clear
 
     play sound sfx.heavy_bam
 
@@ -1128,6 +1251,8 @@ label scene_05:
     vi "I was just trying to protect us..."
 
     "I know..."
+
+    nvl clear
 
     play sound sfx.heavy_bam
 
@@ -1160,6 +1285,8 @@ label scene_05:
     extend " Intense pain floods through my veins, wracking my entire body!"
     "The strain prevents my hands from reaching her...I've run out of mana."
 
+    nvl clear
+
     c "No...not now!"
 
     vi "...I knew I couldn't trust you."
@@ -1167,6 +1294,8 @@ label scene_05:
     "Tears well in my eyes. There isn’t anything I can do anymore..."
     "It looks like I’ve reached my limit first..."
     extend " My adversary laughs triumphantly."
+
+    nvl clear
 
     c "Priam...I'm sorry. I tried my best..."
 
@@ -1179,6 +1308,8 @@ label scene_05:
 
     "..."
 
+    nvl clear
+
     g "Caught you!"
 
     p "Eh?!" with vpunch
@@ -1187,6 +1318,8 @@ label scene_05:
 
     "Griswyr jumps down from the ceiling, driving both his hatchet and his Malice into her arm."
     "She clutches it, and her body convulses."
+
+    nvl clear
 
     g "Even if he couldn't finish the job, there's still a lot of Grace inside you."
     extend " Seeing as how both manas repel each other, I wonder what will happen when my Malice comes into play!"
@@ -1220,11 +1353,15 @@ label scene_05:
     "The lingering effects of the explosion dissipate and Griswyr stomps furiously."
     extend " Persephone was defeated, so what is setting him off?"
 
+    nvl clear
+
     g "HOW THE HELL DID SHE ESCAPE?!" with vpunch
 
     c "Wh-wha...?"
 
     "I look to the floor and gasp. There are no remains, no body, no sign of her. Persephone is gone!"
+
+    nvl clear
 
     g "GODDAMN IT! SHE WAS A NUISANCE BEFORE, YESHUA FORBID HOW HARD SHE’S GOING TO BE TO TRACK NOW!!!" with vpunch
 
@@ -1232,11 +1369,15 @@ label scene_05:
 
     "A voice booms into my ear."
 
+    nvl clear
+
     p "...Looks like you win this time."
     extend " Don't worry, I'll leave Jory be just as you wished. Anything to get away from you..."
     p "If you see me again, do a girl a favor, and just keep walking!"
 
     "...You're kidding me."
+
+    nvl clear
 
     c "Griswyr..."
 
