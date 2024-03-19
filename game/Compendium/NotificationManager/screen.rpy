@@ -3,15 +3,15 @@
 
 style notification_system_text:
 
-    font "fonts/Ronysiswadi15.ttf"
-    color "#173150"
+    font "fonts/gara.ttf"
+    color "#172768"
 
 style notification_system_frame is frame:
 
     xpadding 10
-    top_padding 10
-    bottom_padding 0
-    background Frame("Compendium/NotificationManager/notification.png", 3, 2, 4, 4)
+    ypadding 35
+    right_padding 82
+    background Frame("Compendium/NotificationManager/notification.png", 0, 35, 82, 35)
 
 
 ## Notify screen ###############################################################

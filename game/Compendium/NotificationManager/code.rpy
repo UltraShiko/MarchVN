@@ -17,7 +17,7 @@ init python:
 
                     self.claimNotificationSpot( i )
 
-                    renpy.show_screen( "custom_notify_" + str(i + 1), message, gui.notify_ypos + i * 105, self, i)
+                    renpy.show_screen( "custom_notify_" + str(i + 1), message, gui.notify_ypos + i * 125, self, i)
 
                     break
 
