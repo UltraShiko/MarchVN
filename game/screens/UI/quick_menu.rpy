@@ -25,7 +25,7 @@ screen quick_menu():
             textbutton _("Log") action ShowMenu('history')
 
         imagebutton auto "gui/skip_%s.png" xpos 1620  ypos 845 action Skip() alternate Skip(fast=True, confirm=True)
-        imagebutton auto "gui/codex_%s.png" xpos 1620  ypos 920 action ShowMenu('codex_default')
+        imagebutton auto "gui/codex_%s.png" xpos 1620  ypos 920 action ShowMenu('compendium_screen')
         imagebutton auto "gui/gear_%s.png" xpos 1620 ypos 770 action ShowMenu('preferences')
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever

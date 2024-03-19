@@ -31,7 +31,7 @@ screen navigation():
 
         textbutton _("Options") action ShowMenu("preferences")
 
-        textbutton _("Compendium") action ShowMenu("codex_default")
+        textbutton _("Compendium") action ShowMenu("compendium_screen")
 
         if not main_menu:
 

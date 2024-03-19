@@ -40,7 +40,7 @@ screen main_menu():
 
             imagebutton auto "gui/title_screen/option_%s.png" action ShowMenu("preferences")
 
-            imagebutton auto "gui/title_screen/codex_%s.png" action ShowMenu("codex_default")
+            imagebutton auto "gui/title_screen/codex_%s.png" action ShowMenu("compendium_screen")
 
             imagebutton auto "gui/title_screen/credits_%s.png" action ShowMenu("about")
 
