@@ -42,7 +42,7 @@ style credits_text_name_style is credits_text_role_style:
 
 ### Screen definition
 
-screen credits_screen():
+screen cinematic_credits_screen():
 
     frame:
 
