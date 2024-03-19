@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("March")
+define config.name = _("March of the Emissaries")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -30,6 +30,25 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+
+Credits:
+
+Project Manager/Writer: Ultrashiko
+
+Editing: Blankmarks, JennaRose
+
+Sprite Art: Kate
+
+Background Art: TBD
+
+Programmers: YoruUta, TBD
+
+GUI: Senchou
+
+Music: Monochrome
+
+Resources: (list)
+
 """)
 
 
@@ -37,7 +56,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "March"
+define build.name = "MarchoftheEmissaries"
 
 
 ## Sounds and music ############################################################
@@ -143,7 +162,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "March-1709652199"
+define config.save_directory = "MarchoftheEmissaries-1709652199"
 
 
 ## Icon ########################################################################
