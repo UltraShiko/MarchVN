@@ -9,11 +9,17 @@ label start:
 
             window hide
 
+            $ quick_menu = False
+
             show screen cinematic_credits_screen()
 
             pause
 
+            hide screen cinematic_credits_screen
+
             window show
+
+            $ quick_menu = True
 
             jump start
 
