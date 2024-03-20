@@ -91,7 +91,7 @@ screen compendium_screen():
 
                                 action [
                                     SetScreenVariable( "currently_selected_entry", i ),
-                                    # Scroll("compendium_content_viewport", "vertical decrease", amount=1.0)
+                                    Scroll("compendium_content_viewport", "vertical decrease", amount=1.0)
                                 ]
 
         ### Selected entry content.
@@ -100,57 +100,55 @@ screen compendium_screen():
         # -1 means no entry is selected.
         if not currently_selected_entry == -1:
 
-            vbox:
-                style_prefix "codex"
-
-                xsize 850
-                xalign 0.5 yalign 0.5
-                xoffset 200
-                #xoffset 400
-                text persistent.compendium.getEntryContent( currently_selected_entry )
-                #text _p("""Welcome to the codex!""")
+            # vbox:
+            #     style_prefix "codex"
+            #
+            #     xsize 850
+            #     xalign 0.5 yalign 0.5
+            #     xoffset 200
+            #     text persistent.compendium.getEntryContent( currently_selected_entry )
+            #     #text _p("""Welcome to the codex!""")
 
 
                     #Really short text might not be centered correctly, you have to adjust the xoffset.
 
-        #
-        #         viewport:
-        #
-        #             id "compendium_content_viewport"
-        #
-        #             pos (501, 251)
-        #             xysize (1291, 709)
-        #
-        #             mousewheel True
-        #             draggable True
-        #             edgescroll None
-        #             arrowkeys True
-        #             pagekeys True
-        #
-        #             xinitial 0.0
-        #             yinitial 0.0
-        #
-        #             scrollbars None
-        #
-        #             vbox:
-        #
-        #                 pos (0,0)
-        #                 xfill True
-        #                 yfill False
-        #
-        #                 text persistent.compendium.getEntryContent( currently_selected_entry ):
-        #
-        #                     style "compendium_content_text"
-        #
-        #         # Right Scroller
-        #         vbar:
-        #
-        #             #style "compendium_vbar_small"
-        #
-        #             pos (1809, 211)
-        #             xysize (36, 749)
-        #
-        #             value YScrollValue( "compendium_content_viewport" )
+
+            viewport:
+
+                id "compendium_content_viewport"
+
+                xpos 642 ypos 190
+                xsize 948 ysize 781
+
+                mousewheel True
+                scrollbars None
+                draggable True
+                pagekeys True
+
+                scrollbar_unscrollable "hide"
+
+                vbox:
+
+                    pos (0,0)
+                    xfill True
+                    yfill False
+
+                    text persistent.compendium.getEntryContent( currently_selected_entry ):
+
+                        style "compendium_content_text"
+
+            # Right Scroller
+            vbar:
+
+                #style "compendium_vbar_small"
+
+                pos (1600, 190)
+                xysize (18, 781)
+
+                unscrollable "hide"
+
+
+                value YScrollValue( "compendium_content_viewport" )
         #
         #     ### Buttons
         #     # use shared_back_button()
