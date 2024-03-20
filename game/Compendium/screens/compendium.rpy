@@ -135,14 +135,16 @@ screen compendium_screen():
 
                     text persistent.compendium.getEntryContent( currently_selected_entry ):
 
-                        style "compendium_content_text"
+                        justify True
+
+                    #    style "compendium_content_text"
 
             # Right Scroller
             vbar:
 
                 #style "compendium_vbar_small"
 
-                pos (1600, 190)
+                pos (1710, 190)
                 xysize (18, 781)
 
                 unscrollable "hide"
