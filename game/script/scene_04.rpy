@@ -1,14 +1,17 @@
 
 label scene_04:
 
-    scene background cave with dissolve
-
-    play sound sfx.door_open # TODO: Using a placeholder, replace with correct sfx.
+    play sound door
+    scene background cave with dissolve 
+    #I doubt we'll find a suitable background in time. I'll look around for a proxy
+    play music dungeon-ambience
+    queue music dungeon-ambience loop
 
     "We slither through the door and are greeted by a dim cave."
     "Torches with purple flames light the corridor, and the pleasant aroma of roses enters our noses."
     "Their dedication to that single flower astonishes me. I expected something more elaborate..."
-    "Griswyr moves so lightly. There are times when I have to double check if he’s still beside me."
+    #show griswyr neutral at center with fade
+    "Griswyr moves so lightly. There are times when I have to double check if he's still beside me."
 
     nvl clear
 
@@ -18,6 +21,7 @@ label scene_04:
 
     g "Watch your step. We are in enemy territory."
 
+    play sound weapondraw
     "He draws his hatchet and kneels."
     extend " Ah, a tripwire! Of course, I should've expected that..."
 
@@ -28,11 +32,12 @@ label scene_04:
     play sound sfx.kathunk # TODO: Using placeholder. Replace with correct sfx.
 
     "I leap backwards, only for a loud noise to follow!"
+    #play sound fartherfootsteps TODO: find a sfx
     "We turn to and fro but hear nothing heading our way except footsteps."
 
     nvl clear
 
-    g "Damn. I should've known they lacked the funds for elaborate traps..."
+    g "Damn! I should've expected something crude... These people aren't living in a fortress."
 
     c "We're caught in a corridor. There won't be much room to maneuver."
 
@@ -47,12 +52,16 @@ label scene_04:
     # TODO: If we have a combat sprite with black pupils, they'll shift to red here
     extend " They're mine!"
 
-    "It’s momentary, but I think I see a glimmer in his eyes."
+    #they'll change back to black now
+    "It's momentary, but I think I see a glimmer in his eyes."
     extend " It irks me. I know Emissaries hunted down apostates, but I fear he might be taking that role too seriously..."
     "Several disciples rush forward, weapons drawn."
     extend "Just like the first guard though, no one notices us at first."
 
     nvl clear
+
+    #show cultist silhouette at left with dissolve
+    #show cultist silhouette at right with dissolve
 
     cu "The hell? Did Oakley set off the tripwire again?! How many times do we have to spell it out for him?!"
     cu "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
@@ -63,9 +72,11 @@ label scene_04:
 
     cu "GAAAAAAAAHHHHHH!!!!" with vpunch
 
+    #hide cultist silhouette with dissolve
     play sound sfx.thud
 
-    "Griswyr doesn’t strike from behind – no, he plants himself at the center of the group!"
+    #show griswyr combat at center with dissolve
+    "Griswyr doesn't strike from behind - no, he plants himself at the center of the group!"
     "His victim collapses, his throat cut wide open. I didn't even see the slash."
 
     nvl clear
@@ -75,35 +86,45 @@ label scene_04:
 
     g "Too slow."
 
-    # TODO: some flashy animation or whatever with a lot of blood
-
+    play sound sfx.heavy_slash
+    with bloodflash
     "The cultists realize they are being ambushed and turn their fury on Griswyr. As each one attacks him though, he spins with his weapon, each twirl tearing apart his victims completely."
     extend " His stance is wide, and he spirals with ferocity AND dexterity! No matter how they try to fight him, none of the cultists stand a chance."
+    play sound sfx.blood_splatter
+    with bloodflash
     "The cave quickly fills with blood and screams."
-    extend " The acolytes are panicking now, desperate to stop him or escape. Griswyr won’t let them do either."
+    extend " The acolytes are panicking now, desperate to stop him or escape. Griswyr won't let them do either."
+    play sound sfx.heavy_slash
+    with bloodflash
     "He may as well be a tornado, cutting down his victims with vicious twirls."
     extend " But he does more than just spinning. Whenever someone runs at him from behind, he pauses and suddenly gouges them with his sword."
 
+    play sounf sfx.magiccharge
     with maliceflash
-
     "At one point, we hear chanting and notice a cultist draped in a red aura."
-    extend " He’s channeling Malice, the mana that devils wield! It gives unimaginable power to its wielder, but is also known to corrupt them."
+    extend " He's channeling Malice, the mana that devils wield! It gives unimaginable power to its wielder, but is also known to corrupt them."
+    play sounf sfx.magiccharge
+    with maliceflash
     "Griswyr pauses his massacre to face the powerful cultist. Unfazed, he scoffs."
-    extend "I gasp as Malice erupts from Gryswyr's arm as he flings his hatchet."
+    extend "I gasp as the same Malice erupts from Gryswyr's arm as he flings his hatchet."
 
     nvl clear
 
+    play sound sfx.heavy_slash
     with bloodflash
 
     cu "AAAAAHHHH!!!!" with vpunch
 
     "The apostate bellows, the hatchet lodged within his skull!"
+    play sound sfx.blood_splatter
     extend " I grow sick, watching blood pour from him like a fountain..."
     "I couldn't believe what I saw. Gryswyr summoned the same, wicked mana as the Thorn!"
     extend " But he's an Emissary, someone who protects people. So why would he use Malice when it corrupts people?"
     "Being down a weapon hardly slows Griswyr."
-    extend " He flourishes his sword as if it’s a knife and cuts down the rest of the cultists who are now in disarray and significantly low on numbers."
-    "They know they don’t have a chance of winning or surviving."
+    play sound sfx.heavy_slash
+    with bloodflash
+    extend " He flourishes his sword  and cuts down the rest of the cultists who are now in disarray and significantly low on numbers."
+    "They know they don't have a chance of winning or surviving."
     extend " Moments later, the cave becomes silent as the final bodies fall. Griswyr merely frowns in disgust as he collects his weapons."
 
     nvl clear
@@ -114,16 +135,17 @@ label scene_04:
     c "Ngh..."
 
     "The hallway, AND Griswyr are painted crimson!"
-    extend " The metallic stench upsets my stomach. The gore, the carnage, the corpses littered across the floor, it all taxes me greatly..."
+    extend " The metallic stench leaves me dizzy. The gore, the carnage, the corpses littered across the floor, it all taxes me greatly..."
+    play sound sfx.blood_splatter
     "Worst of all, the man with the hatchet inside his forehead is still alive and {i}still{/i} screaming..."
 
     nvl clear
 
-    cu "Please! I surrender! Just get this thing out of my head!!!"
+    cu "Please! I surrender! Just get this thing out of my head!" with vpunch
 
     c "By Yeshua, I'm going to be ill..."
 
-    g "Swallow it! This is only the beginning."
+    g "Swallow it! This is nothing compared to the horrors we face!"
 
     "Griswyr waltzes up to the man, not granting him any mercy."
     extend " The poor Thorn scurries away, until he has nowhere left to go."
@@ -135,29 +157,30 @@ label scene_04:
 
     cu "Right, right! Just get this thing out of my head!"
 
-    g "I'll remove it AND your head if you don't start talking."
+    g "I'll remove it AND your head if you don't start talking!"
 
     cu "Alright! Please, just don't hurt me..."
 
     g "Tch..."
-    extend " Quit cowering, Caius! Get over here."
+    extend " Quit cowering, Caius. Get over here."
 
     c "...Right"
 
+    #TODO: Find a sfx of wet footsteps
     "Each of my steps squelches as I walk..."
     extend " The blood has formed puddles across the ground. Moving through the carnage sends shivers down my spine..."
-    "It feels like I’m wading through a sticky, red mud... By Yeshua, I hope this will wash out."
+    "It feels like I'm wading through a sticky, red mud... By Yeshua, I hope this will wash out."
 
     nvl clear
 
     cu "So there's...five men leading the ritual. They've already begun chanting..."
     extend " I doubt you have much longer. If you're here to stop us, then you best hurry..."
 
-    g "What devil are you trying to summon?"
+    g "What kind of devil are you trying to summon?"
 
     cu "Wh-what...?"
 
-    g "Don't be coy. You worship an archfiend. There's no way you're unfamiliar with her kin."
+    g "Don't be coy. You worship an Archfiend. There's no way you're unfamiliar with her kin."
 
     cu "I...I don't know! Our leader kept it under-"
 
@@ -165,9 +188,9 @@ label scene_04:
 
     cu "Nnnngggghhhh!!!" with vpunch
 
-    g "I hope you aren't foolish enough to lie to me!"
+    g "I hope for your sake you aren't lying."
 
-    "When Griswyr presses his boot into the hatchet, I spring forward."
+    "As Griswyr presses his boot into the hatchet, I spring forward."
     extend " I run on air, or at least that's what it feels like."
 
     nvl clear
@@ -186,14 +209,16 @@ label scene_04:
 
     c "So what?! You can't treat people like this!"
     extend " You're supposed to be protecting people, not torturing them! I can understand the grim reality of our job, but this is too much!"
-
+    g "I thought I made it clear we were exterminators, not heroes."
+    c "That might be true, but it doesn't mean we have to behave like brutes!"
+    extend " How can we stop the devils when we behave no differently? We'll just become the same monsters we vowed to destroy!"
     g "...You choose now to make a stand?"
 
     "I nod fiercely."
 
     nvl clear
 
-    c "You may not follow Yeshua, but I know an Archlord wouldn’t stand for what you are doing!"
+    c "You may not follow Yeshua, but I know Ahriman won't stand for what you are doing!"
 
     g "You forget your place, and I care not for what Ahriman or any Archlord has to say."
     extend " I wear his symbol out of formality, nothing more."
@@ -206,20 +231,20 @@ label scene_04:
 
     g "...We don't have time for this."
 
-    "He darts past me. Before I can react..."
+    "He moves past me. Before I can react..."
 
     play sound sfx.heavy_slash
     with bloodflash
 
-    extend "He yanks the ax from the cultist's head."
+    extend " The cultist wheezes as the ax is yanked out of his head."
 
     g "Get out of my sight. Consider it an act of your false goddess that I don't flay you like a fish!"
 
-    "The man, the gash in his head streaming blood, scrambles to his feet and barrels to the exit."
+    "The man, with the gash in his head streaming blood, scrambles to his feet and barrels to the exit."
     "I sigh in relief."
     extend " If I accomplish anything tonight, I have at least given that man another chance at life."
     "Griswyr turns to me, his gaze just as disinterested as usual."
-    extend " I don’t flinch. After my actions, I might not end up becoming an Emmisary, but at least I’ll still have my humanity!"
+    extend " I don't flinch. After my actions, I might not end up becoming an Emmisary, but at least I'll still have my humanity!"
 
     nvl clear
 
@@ -246,6 +271,9 @@ label scene_04:
     nvl clear
 
     scene image "#000" with dissolve
+
+    stop music fadeout 1.5
+    #Here would be a good place to ask the player to save
 
     jump scene_05
 

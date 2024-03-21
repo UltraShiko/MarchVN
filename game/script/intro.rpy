@@ -9,7 +9,7 @@ label intro:
 
     nvl clear
 
-    #text at center
+    #text at center #Is there a way to make this appear at the center?
     "..."
     "...I can't believe you did that! You really are a monster!"
     "Caius, I...I had too! He was going to-"

@@ -18,7 +18,7 @@ label scene_01:
 
     v "Hey, how are you holding up?"
 
-    show Jory happy at center with dissolve
+    #show Jory silhouete at center with dissolve - we'll re-add him once the jam has ended
 
     "I shudder as the giant approaches me."
     extend " I never understood how a man so big could be so quiet."
@@ -139,6 +139,7 @@ label scene_01:
 
     j "Shoot, guess I can't complain then, can I?"
 
+    #play sound LightGrapple
     "His meaty hand pats my shoulder."
     extend " Well... more like engulfs it."
 
@@ -150,7 +151,7 @@ label scene_01:
 
     v "Hmmm... I knew you took a vow of poverty, but I still expected better lodgings..."
 
-    show griswyr at center with dissolve
+    #show griswyr neutral at center with dissolve
 
     "We turn, and there stands a gaunt man."
     "His pale complexion rivals that of snow, and his hair is just as white."
@@ -177,7 +178,7 @@ label scene_01:
 
     c "No sir..."
 
-    "Oh, but it is a BIG problem! I wasn't prepared for a nocturnal expedition..."
+    "Oh, but it is a BIG problem! I'm not prepared for a nocturnal expedition..."
     extend " I thought the trial would test my skills in combat, not my endurance...."
 
     nvl clear
@@ -190,10 +191,12 @@ label scene_01:
 
     c "Hmm, that name doesn't ring a bell..."
 
+    #$ unlockCompendionEntry("ThornLore")
     g "They call themselves the {i}Agents of the Rose{/i}, Hecate's cultists, to be precise."
 
+    #show jory silhouete at left flip
     "Jory grimaces audibly."
-    extend " I don’t blame him. I expected to face a vagabond, an apostate, or a weaker devil, but not an entire cult?!"
+    extend " I don't blame him. I expected to face a vagabond, an apostate, or a weaker devil, but not an entire cult?!"
     extend " With just the two of us?!"
     "Griswyr's eyes narrow."
     extend " On top of being unprepared, now I’ve earned his ire..."
@@ -221,7 +224,7 @@ label scene_01:
 
     extend " Jory just might be onto something, but it's too late for me to back out now..."
     "I suppose it's only natural that the trials of the Emmisaries are just as dangerous as the work they do, and Griswyr has a point."
-    extend " I wonder why he chose me for this particular task... I’m as green as they come."
+    extend " I wonder why he chose me for this particular task... I'm as green as they come."
 
     nvl clear
 

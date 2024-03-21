@@ -2,19 +2,24 @@
 label scene_05:
 
     scene background cult altar with dissolve
+    play music altar-ambience 
+    queue music alatr-ambience loop
 
-    "The sanctum isn’t too far away, and the sounds of prayer grow louder as we advance."
+    "The sanctum isn't too far away, and the sounds of prayer grow louder as we advance."
     "When we approach, my eyes scan the room."
     "On top of what you'd expect from a summoning circle, there is a corpse entangled in rose bushes."
-    extend " It’s an elderly woman, and her pink eyes paint her as a hag. Is this her lair?"
+    extend " It's an elderly woman, and her pink eyes paint her as a hag. Is this her lair?"
     "An altar takes up the back portion of the room."
     extend " Three bronze statuettes rest atop the podium. Each is of a woman, aging from one statuette to the next."
     "The sickly-sweet smell of roses overtakes the room, and the crimson aura of Malice is so thick that it could be cut with a knife."
+    #show cultist silhouette at center with dissolve
+    #show cultist silhouette at left with dissolve
+    #show cultist silhouette at right with dissolve
     "Five acolytes stand at each position of the pentagram, too engrossed in their trance to notice us."
     extend " There's no way they didn't hear the racket of our fight. They must have decided to continue the ritual and are now close to finishing."
 
     nvl clear
-
+    
     g "Looks like we made it in time."
 
     c "I suppose we...just attack?"
@@ -29,7 +34,7 @@ label scene_05:
     "At least the aura is beginning to wane. I've had enough bloodshed for one night, maybe for a week..."
     extend " Jory wasn't wrong about the brutality of the Emmisaries. I doubt that gentle giant would stand any of this..."
     "When I open my eyes, Griswyr cuts down the final Thorn."
-    extend " Yet the man doesn’t whimper. He grins menacingly as Griswyr towers over him."
+    extend " Yet the man doesn't whimper. He grins menacingly as Griswyr towers over him."
 
     nvl clear
 
