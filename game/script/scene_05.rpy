@@ -462,14 +462,22 @@ label scene_05:
     with bloodflash
     extend " Gnnnnggggghhh!!!!" with vpunch
 
+    #Ragyuo: If you think some movement is pertinent here, maybe have her zoom out?
     "It pierces her chest like a dagger."
     extend " Had she not backpedaled at the last moment, it would've impaled her."
+    #hide Persephone
+    show Griswyr combat with dissolve
     "Meanwhile, Griswyr's arm reddens violently."
     extend " I cringe. He is showing no reaction to it, but it looks painful..."
+    #TODO: Find sfx for throwing a hatchet
     "He throws his hatchet at her."
-    extend " She sidesteps, and Griswyr...vanishes into a red mist?!"
+    #move Persephone slightly, than have Griswyr hide
+    extend " She sidesteps, and Griswyr...vanishes?!"
+    #show griswyr behind Persephone
     "He reappears behind her, alarming Persephone as he takes his hatchet in hand once again."
-    extend " Again comes his flurry of deadly strikes, but Persephone isn’t amused."
+    #might want to find a sfx for his flurry...
+    #Ragyuo: This is a similar situation as before where he's swinging madly and she's dodging
+    extend " Again comes his flurry of deadly strikes, but Persephone isn't amused."
     "Her wound isn't deep, but Griswyr has her on the run."
     extend " She can't just float around anymore, or else he might catch her off guard again!"
     "He feints and as Persephone braces herself..."
@@ -484,18 +492,23 @@ label scene_05:
 
     play sound sfx.heavy_slash
 
-    "Griswyr darts behind her and impales her waist!"
-    "But Persephone smiles."
+    "With his sword, Griswyr gouges her waist!"
+    extend " Yet Persephone smiles."
 
     nvl clear
 
     p "And you should've brought silver!"
 
+    play sound sfx.galeblast
+    queue sound sfx.crash
+    with hpunch
+    #Ragyuo: Griswyr would be send off screen and the screen shakes. He got punted just like Caius did 
     "A gale blast sends Griswyr crashing into the wall."
     "I watch in horror! She hit him point blank!"
-    extend " She wanted him to get close... Why else would she have avoided attacking him in favor of just dodging his blows? And now she knows what he’s capable of..."
+    extend " She wanted him to get close... Why else would she have relied so heavily on evasion?"
+    #Ragyuo: Griswyr would ease back in here
     "Griswyr snarls and recovers."
-    extend " He may seem unharmed, but his breaths are heavy as he clutches his stomach."
+    extend " He may seem unharmed, but his breaths are heavy as he clutches his chest."
 
     nvl clear
 
@@ -508,24 +521,26 @@ label scene_05:
 
     g "Grrr..."
 
-    p "My god, you're pious, I’ll give you that..."
+    p "My god, you're pious, I'll give you that..."
 
     "Griswyr's temperament is much more aggressive than before."
-    extend " He isn’t cool and collected anymore, and he eyes me as if I were his foe."
-    "Now that I think about it though, he did lose his temper earlier, when he beheaded that cultist..."
+    extend " He isn't cool and collected anymore, and he eyes me as if I were his foe."
+    "And now that I think about it, he did lose his temper earlier, when he beheaded that cultist..."
 
     nvl clear
 
-    g "...Very well. She is yours, as long as you can handle her."
+    g "...Very well. She is yours. Do not disappoint me."
 
     p "Hehehe, you ought to watch your mouth, Snowflake. Someone might get the wrong idea~."
 
     c "Thank you, Griswyr. I won't let you down!"
 
+    #Ragyuo Maybe she would zoom in a little? Or have the screen shake slightly to simulate him approaching her?
     "I ready my stance then slowly walk towards her."
-    "I circle her, our eyes not breaking contact."
+    #Idk how we'd simulate them circling each other, though if you got any ideas let me know
+    "We circle each other, our eyes not breaking contact."
     extend " She could pounce at any moment, yet all I continue to get from her is that scheming grin."
-    "Even now, she’s still choosing to toy with us. Something tells me that her blasting power are going to be the least of our worries."
+    "Even now, she's still choosing to toy with us. Something tells me she's a lot stronger than what she's letting on..."
 
     nvl clear
 
@@ -535,7 +550,7 @@ label scene_05:
     c "Nothing much. Just that you dragged The Third into Hell..."
 
     p "Are you sure that was me? It could've been one of my sisters. We all look alike, after all~."
-    p "Come on! This is all a misunderstanding! I didn't do anything...I just want to check up on an old friend..."
+    p "Come on... This is all a misunderstanding! I didn't do anything...I just want to check up on an old friend..."
 
     "My blood freezes with anger."
 
@@ -546,6 +561,7 @@ label scene_05:
     p "Well..."
     extend " If his name's Jory, then-"
 
+    #play sound sfx.strike
     with graceflash
 
     extend "Grrrr!!!" with vpunch
@@ -553,15 +569,20 @@ label scene_05:
     "Too slow!"
     extend " She recoils heavily from that blow, even more than when she got stabbed!"
     "The mana flows in me alongside my fury."
-    extend " Her death caused Jory a lot of heartache, and I won't allow this ghost to haunt him further!"
+    extend " I don't know what she wants with him, but I don't care."
+    "Jory has only wanted to help others. He doesn't deserved to be pestered by the likes of her!"
 
     nvl clear
 
-    c "Keep my friend's name..."
-    extend " Out of your mouth!!!" with vpunch
+    c "Keep my friend's name...out of your mouth!" with vpunch
 
+    #play sound sfx.strike (x3)
+    #Ragyuo: For reference if you're familiar with Wing Chun, or Kung Lao from Mortal Kombat, Caius is jabbing her like them.
+    #If not, think of something like gatling fists or something. We can discuss later
+    #His hands are also glowing blue from his mana. I'd rather not make the screen flash with every punch.
+    #Animation wise, I leave it up to you if you want to add anything
     "She twitches and staggers with each consecutive blow to her chest."
-    extend " My strikes fly as quickly as Griswyr's barrage of swipes maybe even faster!"
+    extend " My strikes fly as quickly as Griswyr's swipes, maybe even faster!"
     "I manage to back her into a corner. I have to finish this fight quickly before she can hurt Griswyr or Jory or anyone else."
     "Eventually, she musters her Malice and retaliates!"
     extend " I block the blow with my own, the clashing manas dispersing whilst our palms are clenched."
