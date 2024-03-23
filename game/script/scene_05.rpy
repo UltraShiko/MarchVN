@@ -3,7 +3,7 @@ label scene_05:
 
     scene background cult altar with dissolve
     play music altar-ambience 
-    queue music alatr-ambience loop
+    queue music altar-ambience loop
 
     "The sanctum isn't too far away, and the sounds of prayer grow louder as we advance."
     "When we approach, my eyes scan the room."
@@ -29,10 +29,15 @@ label scene_05:
 
     c "No please, after you."
 
+    hide cultist silhouette
+    scene image "#000"
     "I cover my eyes, and he goes to work."
+    #play sound sfx.thud
     extend " Much like with the group of Thorns we just faced, the bodies here also fall like rain..."
-    "At least the aura is beginning to wane. I've had enough bloodshed for one night, maybe for a week..."
+    "I can feel the aura beginning to wane. I've had enough bloodshed for one night, maybe for a lifetime..."
     extend " Jory wasn't wrong about the brutality of the Emmisaries. I doubt that gentle giant would stand any of this..."
+    scene background cult altar with dissolve
+    show Griswyr combat at center with dissolve
     "When I open my eyes, Griswyr cuts down the final Thorn."
     extend " Yet the man doesn't whimper. He grins menacingly as Griswyr towers over him."
 
@@ -55,8 +60,8 @@ label scene_05:
     play sound sfx.heavy_slash
     with bloodflash
 
-    "The cultist’s severed head soars through the air."
-    extend " That swing wasn't nearly as graceful as Griswyr’s others. It was crude, brutish, and wild."
+    "The cultist's severed head soars through the air."
+    extend " That swing wasn't nearly as graceful as usual. It was crude, brutish, and wild."
     "When he turns, his face is twisted into a scowl."
 
     nvl clear
@@ -68,19 +73,28 @@ label scene_05:
 
     g "It doesn't matter! Our objective has changed!"
 
+    #TODO: Find sound fx for bubbling
     "The blood begins bubbling, and we retreat behind a pillar."
-    extend " The circle glows orange, and a red mist rises from the blood."
+    extend " A caustic scene fills the air, burning my nose."
+    play sound sfx.MagicCharge
+    with maliceflash
+    "The circle glows orange, and a red mist rises from the blood."
+    hide griswyr
+    scene image "#cb4a4a" with dissolve
+    extend " It shrouds us, obscuring our vision and surrounding us in a crimson fog."
+    play sound sfx.weapondraw
+    #show Persephone silhouette at center with dissolve #might want to zoom her out a bit
     "Griswyr and I ready ourselves as a curvaceous silhouette comes into view."
-    extend " My mind races. Would she attack? Would she try to bewitch us? The suspense is unnerving..."
+    extend " My mind races. Will she attack? Will she try to bewitch us? The suspense is unnerving..."
 
     nvl clear
 
     c "Ngh..."
 
-    "My heart pounds. It’s as if I can {i}feel{/i} her presence..."
-    extend " It’s soothing, almost bewitching, and at same time suffocating..."
-    "I sense both an alluring and a frightening presence from behind that mist..."
-    extend " I look to my comrade. His eyes stare ahead, fixated."
+    "My heart pounds. I swear I can {i}feel{/i} her presence..."
+    extend " It's soothing, alluring, and at same time, suffocating..."
+    "I sense both an welcoming and a frightening presence from her..."
+    extend " I've never been so relaxed, yet afraid for my life at the same before."
 
     nvl clear
 
@@ -91,14 +105,16 @@ label scene_05:
     g "My eyes are more precise than most. This is a succubus."
     extend " Pfft, these people gave their lives to summon that? What a waste."
 
-    c "Why would they risk life and limb for her?"
+    c "But why?"
 
-    g "Hmmm, I have no clue..."
+    g "I have no clue."
     extend " Time to adapt."
 
+    play sound sfx.meleeswing
+    #we'd zoom in on the silhouette here
     "I yelp as he shoves me forward."
-    extend " I turn to lambast him, only to see no one."
-    "I fidget as the veil disperses. What does he want me to do?!"
+    extend " I turn in protest, only to see no one."
+    "I fidget as the veil starts to dispers. What does he want me to do?!"
     extend " Wait, succubi aren't very strong. They're spies more than anything else, so he must be testing me."
     "Ok, Caius..."
     extend " Breathe in...breath out..."
@@ -108,10 +124,12 @@ label scene_05:
 
     nvl clear
 
+    scene background cult altar with dissolve
+    #hide persephone silhouette
     show persephone at center with dissolve
 
     "I gulp when her true form appears."
-    extend " I sense no threat from her. Her eyes aren’t narrowed, there isn’t disgust or bloodlust in her gaze, and I can’t find any malice on her."
+    extend " I sense no threat from her. Her eyes aren't cross, and there isn't disgust or bloodlust in them."
     "Careful, Caius, eyes above the chest. Stare too long, and you'll become enthralled..."
     "My mouth opens, but no words leave. I feel breathless."
     extend " If I enter any stance, my guise will be blown. If she lunges first though, I'll be defenseless..."
@@ -125,13 +143,13 @@ label scene_05:
 
     "Oh no! We're surrounded by corpses! There's no way she won't suspect anything now..."
     "Damn it! How could I be so careless?! All I've done is give her an opening!"
-    extend " Wait...no reaction. She isn’t drawing a weapon or anything..."
-    "Hell, she’s smiling! It’s one of amusement, not indignation."
+    extend " Wait...no reaction. She isn't drawing a weapon or anything..."
+    "Hell, she's smiling! It's one of amusement, not indignation."
 
     nvl clear
 
-    v "Hehehe! Relax, they're in a better place now."
-    extend " Besides, there's no blood on {i}your{/i}hands. Looks like I'm outnumbered"
+    v "Hehehe! Relax! They're in a better place now."
+    extend " Besides, there's no blood on {i}your{/i} hands. Looks like I'm outnumbered"
 
     nvl clear
 
@@ -140,9 +158,9 @@ label scene_05:
     v "So, what am I dealing with here?"
     extend " Celestial?"
     extend " Exorcist?"
-    extend " Adventurer who’s in over his head?"
+    extend " Adventurer who's in over his head?"
 
-    c "Emmisary..."
+    c "Emissary..."
 
     v "Really? You, one of those cutthroats?"
     extend " Ohhh, it's your first day isn't it?"
@@ -156,7 +174,7 @@ label scene_05:
 
     v "So, are you going to kill me?"
 
-    c "Or send you back to Hell. I have no preference."
+    c "Or send you back to Hell. I prefer the latter to be honest...."
 
     v "Aww, how thoughtful!"
     extend " Buuut...."
@@ -167,12 +185,13 @@ label scene_05:
 
     "Her eyes flash pink, and my head throbs."
     extend " It feels like a hand is squeezing my head, forcing my mind to bend to her will..."
-    extend " Except it won’t work!"
-    "She caught me off guard, but my vow and training have honed my mind."
-    extend " I am aware of every thought and influence in my own head and perfectly in control of all of them."
+    extend " Except it won't work!"
+    "She caught me off guard, but my mind won't bend so easily."
+    extend " I faced many temptations when I took my vow, her magic is pitiful in comparison."
     "I'll let her think she has the upper hand...for now."
-    "My stance relaxes. As long as her spell persists, I’ll have to act like her most devoted companion."
-    extend " Besides, she can’t force me to channel mana nor harm myself, so a little roleplay won’t hurt."
+    extend " Besides, compulsion magic has a fatal flaw: it cannot force it's victim to channel mana nor harm themself."
+    "My stance relaxes. As long as her spell persists, I'll have to act like her most devoted companion."
+    extend " I'm not too experienced with acting, but I can at least give Griswyr a show."
 
     nvl clear
 
@@ -185,7 +204,7 @@ label scene_05:
     c "...Thrycia?"
 
     p "That mound of dirt? Wow! That place is older than me!"
-    extend " Though I haven’t been around that long..."
+    extend " Though I haven't been around that long..."
 
     c "...How old are you?"
 
@@ -194,20 +213,23 @@ label scene_05:
     c "...My apologies. ...It appears your magic is working too well."
 
     p "Pfft! I softened you up, I didn't remove your manners..."
-    p "I've been around for...five years? I'm unsure... Time flows differently in Hell..."
+    p "I've been around for...twenty years? I'm unsure... Time flows differently in Hell..."
     extend " Don't worry, I'm very mature for my age, hehehehe!"
 
-    "Five years? Her soul must've fallen not too long ago..."
+    "Devils are immortal, so twenty years was hardly a drop in the bucket for them."
+    extend " Her soul must not have fallen too long ago. So in tandem with being alone, she's also not as experienced."
 
     nvl clear
 
-    p "I don't have any intention of hurting you or whoever is lurking or any of your precious subjects. I just have an, \"errand\", to run."
+    p "I don't have any intention of hurting you or whoever is lurking in the corner. I just have an, \"errand\", to run."
     extend " You won't even know I was here!"
 
     c "...What kind of errand?"
 
     p "Nothing special, I just need to touch base with a certain someone."
-    extend " Would you happen to know a man named Jory? He's a giant! You couldn't have missed him! I think he's still living in Jubilee..."
+    p "Would you happen to know a man named Jory? He's a giant! You couldn't have missed him! I think he's still living in Jubilee..."
+
+    "My heart accelerates!"
 
     c "Wh-What do you want-"
 
@@ -216,8 +238,10 @@ label scene_05:
     nvl clear
 
     c "I-uh, I mean...I think he left several years ago."
+    #$ unlockCompendionEntry("MeropianLore")
     extend " Poor man was wrought with grief. They say he fell in love with a Meropian."
-    c "I never believed the rumors, but he wasn't the same after one was executed. I prayed for his soul, but that was the only interaction I ever had with him."
+    c "I never believed the rumors, but he wasn't the same after one was executed." 
+    extend " I prayed for his soul, but that was the only interaction I ever had with him."
 
     "Her smile curls into a frown, and her eyes widen."
     extend " Every mention of Jory pains her. But why? He never worshiped Hecate, did he?"
@@ -229,9 +253,9 @@ label scene_05:
 
     c "...A small village to the west of Jubilee. ...I guess he wanted to get away from everything."
 
-    p "Huh, I see..."
+    p "Huh, I see."
 
-    c "Right..."
+    c "Right."
 
     p "Right..."
 
@@ -244,6 +268,9 @@ label scene_05:
     p "..."
     extend "You lying piece of shit!"
 
+    # Raagyuo: If possible, I would like to make this scene work without any narration.
+    # So I'm thinking, maybe the screen zooms in to emulate Caius attacking, and then darts back as he's shunted backwards
+    # In summary, the screen will demonstrate Caius attacking, than being slammed backwards
     "I lunge!"
 
     nvl clear
@@ -257,9 +284,9 @@ label scene_05:
 
     "I collide with the wall, knocking the wind out of me..."
     "What was that....?"
-    extend " It felt like leaping into a tornado. I was shunted backwards as if I were a toy...!"
-    "I didn't see her conjure any mana...though she hadn’t wielded any while charming me either."
-    extend " Is this power she just used against me also innate? I don't recall succubi being able to manipulate the wind."
+    extend " It feels like leaping into a tornado. I got shunted backwards as if I were a toy...!"
+    "I didn't see her conjure any mana...though she hasn't wielded any while charming me either."
+    extend " If no mana is used, it must be innate. But I don't recall succubi being able to manipulate the wind."
 
     nvl clear
 
@@ -267,6 +294,8 @@ label scene_05:
     p "All things considered, I thought your little act was adorable."
     extend " Until you lied about HIM!"
 
+    play sound sfx.MagicCharge
+    with maliceflash
     "When she snarls, Malice oozes from her eyes."
     extend " She must notice because she shakes her head and resumes her smirk."
 
@@ -277,13 +306,17 @@ label scene_05:
 
     play sound sfx.slash
 
+    #Ragyuo: I'm thinking Griswyr would come in from the top and appear at the left / right of Persephone
+    #Normally I'd use a moveintop command, but maybe you have a better idea?
+    #show Griswyr combat at left
     "Gryswyr jumps down from the ceiling, grazing her cheek with his blade."
-    "He lands then swings to land a deeper blow against her."
-    extend "But she floats out of the way."
+    "He lands then swings at her neck."
+    #Maybe zoom Persephone back? Or to the opposite direction?
+    extend "only for her to float out of the way."
 
     nvl clear
 
-    p "Hehehe, finally showed yourself, huh? I take it you're his superior?"
+    p "Hehehe, finally showed yourself, huh? I take it you're his boss?"
 
     g "Now I've figured you out."
 
@@ -292,30 +325,22 @@ label scene_05:
     g "Your cult was very adamant about bringing you here, so adamant that they were ready to die."
     extend " And for a lowly sex devil? That made no sense."
 
-    p "Oh, so we're going there, are we...?"
+    p "Oh, so we're going there..."
     extend " Sorry, Snowflake, but you aren't my type."
-    p "Here's some advice. You should reaaally learn what the sun is. You're looking a little pale."
+    p "Here's some advice: you should reaaally learn what the sun is. You're looking a little pale~."
 
     g "Then you brought up Jory, a man shrouded in rumors."
-    extend " They say many things about him. How he knew The Reckoning would happen. How he fell in love with a gar who happened to be a heretic."
+    #$ unlockCompendionEntry("ThornLore")
+    extend " They say many things about him. How he knew {i}The Reckoning{/i} would happen. How he fell in love with a gar who worshiped Hecate."
 
     p "Gar...?"
 
-    c "...Do you mean a Meropian?"
 
-    g "Whatever they go by..."
     g "They say her death throes shook The Third so much that he hired double the protection, and they also say a succubus was the one who dragged him into Hell."
     extend " Which means..."
     g "You're the banshee who caused the Reckoning!" with vpunch
 
-    "I shudder. Could she have been that SAME monster?!"
-    extend " No wait... If Gryswyr's right, that means..."
-
-    nvl clear
-
-    c "You're..."
-    extend " Aurielle, aren't you...?"
-
+    "I shudder. Could she have been that SAME monster who caused so much Chos?!"
     "She sighs grumpily and claps her hands slowly."
 
     nvl clear
@@ -325,6 +350,7 @@ label scene_05:
 
     g "It was hardly a secret. Even the boy would've figured it out eventually."
 
+    play sound sfx.weapondraw
     "He draws his hatchet and throws an arm in front of me."
 
     nvl clear
@@ -352,13 +378,15 @@ label scene_05:
 
     g "I will have those wings, banshee! Scream if you must!"
 
+    #Ragyuo: If an animation is needed, maybe Griswyr would zoom in towards her?
     "He leaps towards her, and she shakes her head."
 
     nvl clear
 
-    p "Good grief, did you not learn nothing from your friend?"
+    p "Good grief, did you learn nothing from your friend?"
 
     "She waves her hand, and a gust of wind shields her."
+    #show Griswyr behind Persephone
     extend " Griswyr lands and skirts behind her."
     extend " She gasps as his sword hisses through the air."
 
@@ -366,9 +394,15 @@ label scene_05:
 
     g "Die!"
 
+    #Ragyuo: So the idea is that she used aeromancy as a launching pad
+    #Currently unsure as to how to make this work. Maybe move her out quickly? We'll see
     "He cleaves, only to cut air."
     "That wasn't a hover... She {i}propelled{/i} herself out of his reach."
-    "I understand now. She relies on aeromancy. I supposed it was unwise of me to try and generalize about how devils fight..."
+    "To move so gracefully, I think I get it now."
+    extend " I'm not too experienced with magic, but considering that mana is involved, it should function the same."
+    "The more you practice wielding it, the less mana you consume. Much like exercising a muscle, mana needs to be nurtured."
+    extend " She must've incorporated Aeromancy into her fighting style. Impressive!"
+    "I suppose it was unwise of me to try and generalize about how devils fight..."
 
     nvl clear
 
@@ -384,25 +418,29 @@ label scene_05:
 
     g "...Are you mocking me?"
 
-    p "...What?"
+    p "What?"
 
     g "You copied my stance!"
 
     p "..."
-    extend " Snowflake, I just met you. Never heard of you before either."
+    extend " Snowflake, I just met you. Never heard of you  either."
     extend " Guess you're not that important~."
 
     g "Hmph!"
 
+    #play sound Parry
+    #Ragyuo: Not sure how to animate this. Maybe using hpunch alongside the sfx will be enough?
+    #The upcoming scene is basically Griswyr trying and failing to cut Persephone. What are your thoughts?
     "They both spring forward, claws dragging across steel when they clash."
-    "While their stances are similar, their techniques aren’t."
+    "While their stances are similar, their techniques aren't."
     extend " As Griswyr spins in a flurry of swings, Persephone keeps evading his efforts before retaliating."
     "Griswyr attacks viciously, but Persephone appears more relaxed."
     extend " She might just be trying to lure him into lowering his guard, or trying to antagonize him..."
     "Strike after strike comes from Griswyr, but not one lands on Persephone.."
     extend " Griswyr snarls and repeats the same maneuvers.... He is the same whirling cyclone of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions. They dance around the room as I do my best to follow their movements and not get swept up in the battle."
-    "My heart pounds when she suddenly slips away more swiftly than ever."
-    extend " Griswyr can’t stop his momentum as he swings at her, stumbling forward into nothingness. He's left wide open!"
+    "My heart pounds as she begins evading with growing ease."
+    #we'd probably show Persephone behind him here?
+    extend " After a wide swing, Griswyr stumbles forward. He's wide open!"
 
     nvl clear
 
@@ -413,26 +451,27 @@ label scene_05:
     g "..."
     g "{i}Blood Lance{/i}."
 
-    "A spear of blood appears and extends from his blade, thrusting forward at Persephone."
+    #TODO: Find a torrent-like sfx
+    "A spear of blood eupts from his blade."
 
     nvl clear
 
     p "W-wait..."
 
     play sound sfx.blood_splatter
-
-    extend " GAAAAHHHH!!!" with vpunch
+    with bloodflash
+    extend " Gnnnnggggghhh!!!!" with vpunch
 
     "It pierces her chest like a dagger."
-    extend " Had she not backpedaled at the last minute, I imagine it would've impaled her."
+    extend " Had she not backpedaled at the last moment, it would've impaled her."
     "Meanwhile, Griswyr's arm reddens violently."
-    extend " I cringe. He is showing no reaction to the change, but it looks painful..."
+    extend " I cringe. He is showing no reaction to it, but it looks painful..."
     "He throws his hatchet at her."
     extend " She sidesteps, and Griswyr...vanishes into a red mist?!"
     "He reappears behind her, alarming Persephone as he takes his hatchet in hand once again."
     extend " Again comes his flurry of deadly strikes, but Persephone isn’t amused."
-    "Her wound isn’t deep, but Griswyr has her on the run."
-    extend " She can’t just float around anymore, or else he might catch her off guard again!"
+    "Her wound isn't deep, but Griswyr has her on the run."
+    extend " She can't just float around anymore, or else he might catch her off guard again!"
     "He feints and as Persephone braces herself..."
 
     nvl clear
