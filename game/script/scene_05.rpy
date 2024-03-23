@@ -284,7 +284,7 @@ label scene_05:
 
     "I collide with the wall, knocking the wind out of me..."
     "What was that....?"
-    extend " It feels like leaping into a tornado. I got shunted backwards as if I were a toy...!"
+    extend " It felt like leaping into a tornado. I got shunted backwards as if I were a toy...!"
     "I didn't see her conjure any mana...though she hasn't wielded any while charming me either."
     extend " If no mana is used, it must be innate. But I don't recall succubi being able to manipulate the wind."
 
