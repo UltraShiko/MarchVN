@@ -117,6 +117,10 @@ screen cinematic_credits_screen():
 
         key "dismiss" action Return()
 
+    # Disable the option of opening the menu.
+    key "game_menu" action NullAction()
+
+
 
 screen credits_screen_role_and_name(role, name):
 
