@@ -32,18 +32,6 @@ style credits_text_name_style is credits_text_role_style:
 
     bold False
 
-#
-# define gui.about = _p("""
-
-# {b}{/b}
-#
-#  ({a=https://yoruuta.itch.io}Itch.io{/a})
-#
-# {b}{/b}
-#
-#  ({a=https://twitter.com/mediamonochrome}Twitter{/a})
-
-
 ### Screen definition
 
 screen cinematic_credits_screen():
@@ -123,6 +111,11 @@ screen cinematic_credits_screen():
             use credits_screen_role_and_name("Sound Composer", "Monochrome")
 
             at credits_text_fade(15.0, 1.0, 2.0, 1.0)
+
+    # If credits have been watched once, allow the credits to be skipped.
+    if persistent.ending_watched is True:
+
+        key "dismiss" action Return()
 
 
 screen credits_screen_role_and_name(role, name):

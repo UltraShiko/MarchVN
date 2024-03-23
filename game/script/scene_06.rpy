@@ -114,6 +114,10 @@ label scene_06:
 
     c "PRRRRRRRIIIIIIIIIAAAAAAAAMMMMMM!!!" with vpunch
 
+    $ quick_menu = False
+
+    window hide
+
     scene image "#fff" with iris_in_out_slow
 
     pause 2.0
@@ -121,6 +125,20 @@ label scene_06:
     scene image "#000" with Dissolve(2.0)
 
     pause 2.0
+
+    ##############################
+    ### Roll credits.
+    ##############################
+
+    $ quick_menu = False
+
+    call screen cinematic_credits_screen()
+
+    # Update flag used to determine if the ending has been seen once.
+    # From this point forward, the credits can be skipped.
+    $ persistent.ending_watched =  True
+
+    pause 1.0
 
     return
 
