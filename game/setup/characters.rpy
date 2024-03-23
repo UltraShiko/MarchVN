@@ -3,7 +3,7 @@
 
 define narrator = nvl_narrator # Enable NVL mode.
 
-define c   = Character("Caius")
+define c   = Character("Caius", image="caius")
 define ci  = Character("Caius", what_italic=True)
 define j   = Character("Jory")
 define g   = Character("Griswyr")

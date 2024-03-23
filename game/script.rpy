@@ -5,6 +5,22 @@ label start:
 
         "What do you want to do?"
 
+        "Test sprites.":
+
+            window hide
+
+            scene background slums
+
+            show persephone angry at center
+
+            pause
+
+            show persephone smirk at center
+
+            pause
+
+            jump start
+
         "Test credits.":
 
             window hide
