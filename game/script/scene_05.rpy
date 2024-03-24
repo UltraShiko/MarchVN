@@ -1637,4 +1637,6 @@ label scene_05:
 
     jump scene_06
 
+    #ask player to save game
+
     return
