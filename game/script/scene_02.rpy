@@ -2,9 +2,10 @@
 label scene_02:
 
     scene background forest with dissolve
-    play music night-ambience 
-    queue music night-ambience loop
-    play sound forestfootsteps loop
+
+    play music bgm.night_ambience # TODO: Using placeholder track. Replace with correct one.
+
+    play sound sfx.forest_footsteps loop # TODO: Using placeholder track. Replace with correct one.
 
     "A choir of crickets chirps as we leave Jubilee's outskirts."
     "I feel dismayed. The moon's radiance is telling me it's time for bed, but we've only just started our journey..."
@@ -232,7 +233,7 @@ label scene_02:
     extend " Though if he sleeps during the day, I guess it makes sense. Much like how I'm an early riser, and rely on the sun to keep me going."
 
     nvl clear
-    
+
     g "Enough questions, we're almost there."
 
     hide Griswyr

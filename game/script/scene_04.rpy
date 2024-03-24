@@ -2,10 +2,12 @@
 label scene_04:
 
     play sound door
-    scene background cave with dissolve 
+
     #I doubt we'll find a suitable background in time. I'll look around for a proxy
-    play music dungeon-ambience
-    queue music dungeon-ambience loop
+    scene background cave with dissolve
+
+    play music bgm.dungeon_ambience # TODO: Using placeholder track. Replace with correct one.
+
 
     "We slither through the door and are greeted by a dim cave."
     "Torches with purple flames light the corridor, and the pleasant aroma of roses enters our noses."
@@ -21,7 +23,7 @@ label scene_04:
 
     g "Watch your step. We are in enemy territory."
 
-    play sound weapondraw
+    play sound weapon_draw
     "He draws his hatchet and kneels."
     extend " Ah, a tripwire! Of course, I should've expected that..."
 
@@ -29,7 +31,7 @@ label scene_04:
 
     g "Brace yourself."
 
-    play sound sfx.kathunk # TODO: Using placeholder. Replace with correct sfx.
+    play sound sfx.kathunk
 
     "I leap backwards, only for a loud noise to follow!"
     #play sound fartherfootsteps TODO: find a sfx
@@ -88,23 +90,31 @@ label scene_04:
 
     play sound sfx.heavy_slash
     with bloodflash
+
     "The cultists realize they are being ambushed and turn their fury on Griswyr. As each one attacks him though, he spins with his weapon, each twirl tearing apart his victims completely."
     extend " His stance is wide, and he spirals with ferocity AND dexterity! No matter how they try to fight him, none of the cultists stand a chance."
+
     play sound sfx.blood_splatter
     with bloodflash
+
     "The cave quickly fills with blood and screams."
     extend " The acolytes are panicking now, desperate to stop him or escape. Griswyr won't let them do either."
+
     play sound sfx.heavy_slash
     with bloodflash
+
     "He may as well be a tornado, cutting down his victims with vicious twirls."
     extend " But he does more than just spinning. Whenever someone runs at him from behind, he pauses and suddenly gouges them with his sword."
 
-    play sounf sfx.magiccharge
+    play sound sfx.magic_charge
     with maliceflash
+
     "At one point, we hear chanting and notice a cultist draped in a red aura."
     extend " He's channeling Malice, the mana that devils wield! It gives unimaginable power to its wielder, but is also known to corrupt them."
-    play sounf sfx.magiccharge
+
+    play sound sfx.magic_charge
     with maliceflash
+
     "Griswyr pauses his massacre to face the powerful cultist. Unfazed, he scoffs."
     extend "I gasp as the same Malice erupts from Gryswyr's arm as he flings his hatchet."
 

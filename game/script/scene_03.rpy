@@ -2,8 +2,8 @@
 label scene_03:
 
     #scene background cave entrance
-    play music night-ambience 
-    queue music night-ambience loop
+
+    play music bgm.night_ambience # TODO: Using placeholder track. Replace with correct one.
 
     "As we brush past the thickets, we come upon a cave."
     extend " It has crude, wooden doors at the entrance, much like you'd expect from hovels owned by brigands."
@@ -46,7 +46,7 @@ label scene_03:
     c "Ugh, yes sir..."
 
     hide Griswyr with dissolve
-    play sound forestfootsteps loop
+    play sound sfx.forest_footsteps loop
     "I stumble out from the bushes. I was prepared to fight, but not by myself..."
     "Alright, what's my plan?"
     extend " Perhaps I could rush him. If I'm quick, I could knock him out and slip inside."
@@ -58,7 +58,7 @@ label scene_03:
     nvl clear
 
     stop sound
-    
+
     cu "Who the hell are you?!" with vpunch
 
     "Ah no..."
@@ -84,7 +84,7 @@ label scene_03:
 
     nvl clear
 
-    cu "Just keep heading straight, and you'll find the road." 
+    cu "Just keep heading straight, and you'll find the road."
     extend " If you got this far, you should be okay on your own."
 
     c "Ahh! Is it that simple?! I made so many twists and turns..."
@@ -114,7 +114,7 @@ label scene_03:
 
     cu "Ahh, I can relate. So do I!"
 
-    play sound sfx.weaponswing
+    play sound sfx.weapon_swing
     queue sound sfx.bam
     queue sound sfx.thud
 
@@ -152,7 +152,7 @@ label scene_03:
     extend " I close my eyes multiple times, just to open them to the same carnage..."
 
     nvl clear
-    
+
     g "If any cultists are on patrol, I say we leave the body in the open."
     extend " It'll give them a taste of what awaits them."
 

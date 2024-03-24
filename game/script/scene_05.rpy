@@ -2,8 +2,8 @@
 label scene_05:
 
     scene background cult altar with dissolve
-    play music altar-ambience 
-    queue music altar-ambience loop
+
+    play music bgm.altar_ambience # TODO: Using placeholder track. Replace with correct one.
 
     "The sanctum isn't too far away, and the sounds of prayer grow louder as we advance."
     "When we approach, my eyes scan the room."
@@ -19,7 +19,7 @@ label scene_05:
     extend " There's no way they didn't hear the racket of our fight. They must have decided to continue the ritual and are now close to finishing."
 
     nvl clear
-    
+
     g "Looks like we made it in time."
 
     c "I suppose we...just attack?"
@@ -76,13 +76,13 @@ label scene_05:
     #TODO: Find sound fx for bubbling
     "The blood begins bubbling, and we retreat behind a pillar."
     extend " A caustic scene fills the air, burning my nose."
-    play sound sfx.MagicCharge
+    play sound sfx.magic_charge
     with maliceflash
     "The circle glows orange, and a red mist rises from the blood."
     hide griswyr
     scene image "#cb4a4a" with dissolve
     extend " It shrouds us, obscuring our vision and surrounding us in a crimson fog."
-    play sound sfx.weapondraw
+    play sound sfx.weapon_draw
     #show Persephone silhouette at center with dissolve #might want to zoom her out a bit
     "Griswyr and I ready ourselves as a curvaceous silhouette comes into view."
     extend " My mind races. Will she attack? Will she try to bewitch us? The suspense is unnerving..."
@@ -110,7 +110,7 @@ label scene_05:
     g "I have no clue."
     extend " Time to adapt."
 
-    play sound sfx.meleeswing
+    play sound sfx.melee_swing
     #we'd zoom in on the silhouette here
     "I yelp as he shoves me forward."
     extend " I turn in protest, only to see no one."
@@ -240,7 +240,7 @@ label scene_05:
     c "I-uh, I mean...I think he left several years ago."
     #$ unlockCompendionEntry("MeropianLore")
     extend " Poor man was wrought with grief. They say he fell in love with a Meropian."
-    c "I never believed the rumors, but he wasn't the same after one was executed." 
+    c "I never believed the rumors, but he wasn't the same after one was executed."
     extend " I prayed for his soul, but that was the only interaction I ever had with him."
 
     "Her smile curls into a frown, and her eyes widen."
@@ -294,7 +294,7 @@ label scene_05:
     p "All things considered, I thought your little act was adorable."
     extend " Until you lied about HIM!"
 
-    play sound sfx.MagicCharge
+    play sound sfx.magic_charge
     with maliceflash
     "When she snarls, Malice oozes from her eyes."
     extend " She must notice because she shakes her head and resumes her smirk."
@@ -350,7 +350,7 @@ label scene_05:
 
     g "It was hardly a secret. Even the boy would've figured it out eventually."
 
-    play sound sfx.weapondraw
+    play sound sfx.weapon_draw
     "He draws his hatchet and throws an arm in front of me."
 
     nvl clear
@@ -500,9 +500,10 @@ label scene_05:
     p "And you should've brought silver!"
 
     play sound sfx.galeblast
-    queue sound sfx.crash
+    queue sound sfx.crash # TODO: Using a placeholder. Replace with correct track.
+
     with hpunch
-    #Ragyuo: Griswyr would be send off screen and the screen shakes. He got punted just like Caius did 
+    #Ragyuo: Griswyr would be send off screen and the screen shakes. He got punted just like Caius did
     "A gale blast sends Griswyr crashing into the wall."
     "I watch in horror! She hit him point blank!"
     extend " She wanted him to get close... Why else would she have relied so heavily on evasion?"
@@ -585,11 +586,11 @@ label scene_05:
     extend " My strikes fly as quickly as Griswyr's swipes, maybe even faster!"
     #maybe push her back a bit?
     "I manage to back her into a corner. I have to finish this fight quickly before she can hurt Griswyr or Jory or anyone else."
-    play sound sfx.Magic_Charge
+    play sound sfx.magic_charge
     with maliceflash
     "Eventually, she musters her Malice and retaliates!"
     #maybe zoom in closer to simulate their clench?
-    play sound Magic_Charge
+    play sound sfx.magic_charge
     #with whiteflash
     extend " I block the blow with my own, the clashing manas dispersing whilst our palms are clenched."
     "Our brows furrow, eyes locked onto one another."
@@ -605,7 +606,7 @@ label scene_05:
 
     p "Hahaha! If you only knew!"
 
-    play sound sfx.weaponswing
+    play sound sfx.weapon_swing
     "She breaks out of our hold and slashes."
     extend " I breathe deeply..."
     "And catch her clawed wrists mid-swing."
@@ -683,7 +684,7 @@ label scene_05:
     extend " Yeshua knows how mangled her soul must've been after Hecate got her hands on it..."
     extend " It saddens me..."
 
-    play sound sfx.Magic_Charge
+    play sound sfx.magic_charge
     with graceflash
 
     "I close my eyes and summon Grace. I will put her to rest with this next strike."
@@ -691,7 +692,7 @@ label scene_05:
     nvl clear
 
     c "...Farewell."
-    
+
     p "...Is that pity in your eyes?"
     extend " Aww, how noble! Though not showing kindness to your friend? That's pretty cold..."
 
@@ -715,7 +716,7 @@ label scene_05:
 
     p "Ahahahaha! Why else would people sell their souls?"
     extend " It's because we see everything! Your regrets, what you care about, and what haunts you. It's all an open book!"
-    p "Aww, what's with the long face? You were looking so high-and-mighty just a moment ago..." 
+    p "Aww, what's with the long face? You were looking so high-and-mighty just a moment ago..."
     extend " I'm guessing I lost your sympathy?"
 
     "If Griswyr knowing about my past unnerved me, Persephone knowing about it took the cake!"
@@ -734,7 +735,7 @@ label scene_05:
     c "Grrr! Be quiet, devil!" with vpunch
 
     #have Persephone zoom out and back in
-    play sound sfx.meleeswing
+    play sound sfx.melee_swing
 
     p "Whoa, whoa....what's swatting at me going to do? I'm not the one who abandoned him..."
 
@@ -745,16 +746,16 @@ label scene_05:
     p "Oh, your friend? Hmm, I'm sure he's much different now. People change when their hearts are ripped out."
 
     #have Persephone zoom out and back in
-    play sound sfx.meleeswing
+    play sound sfx.melee_swing
 
     c "Tell me, Persephone!"
 
     #have Persephone zoom out and back in
-    play sound sfx.meleeswing
+    play sound sfx.melee_swing
 
     c "Hecate calls herself the mother of outcasts, a protector of the damned!"
     #have Persephone zoom out and back in
-    play sound sfx.meleeswing
+    play sound sfx.melee_swing
     extend " But you're just like any other devil! You'd corner and bewitch the same people you claim to care about!"
     c "The Dretchlings suffer enough without your poison!"
 
@@ -764,16 +765,17 @@ label scene_05:
     extend " We don't corrupt people, we {i}save{/i} them from the lies of your absent Archlords."
 
     #have Persephone zoom out and back in
-    play sound sfx.meleeswing
+    play sound sfx.melee_swing
 
     c "Damn you!!!"
 
     #zoom in, they're locked again
-    play sound sfx.Magic_Charge
-    with whiteflash
+    play sound sfx.magic_charge
+    with whiteflash # TODO: Set up this colour, but Shiko needs to let me know if this is the correct one.
+
     "Our manas clash as we clench again."
     "My eyes beam at that grinning monster!"
-    play sound sfx.Magic_Charge
+    play sound sfx.magic_charge
     with graceflash
     extend " My Grace spikes. It must sting her severely, yet she only grins more."
 
@@ -811,7 +813,7 @@ label scene_05:
     p "And now you've failed him twice..."
     extend " Nah! You did him a favor!"
 
-    play sound sfx.Magic_Charge
+    play sound sfx.magic_charge
     with maliceflash
     "Wind blasts me from her grip, and she channels Malice and winds in her other hand."
 
@@ -821,7 +823,7 @@ label scene_05:
     extend " Buh-bye~!"
 
     #Ragyuo: Not sure how to animate her here. She basically dropped Caius and leapt backwards
-    play sound sfx.weaponswing
+    play sound sfx.weapon_swing
     queue sound sfx.thud
     p " Shit!" with hpunch
 
@@ -838,7 +840,7 @@ label scene_05:
     p "Aww, did I break your friend-"
 
     #have Persephone zoom out and back in
-    play sound sfx.weaponswing
+    play sound sfx.weapon_swing
 
     extend " Whoa Snowflake! Lighten up, will ya?!"
     #$ unlockCompendionEntry("JinxLore")
@@ -857,12 +859,13 @@ label scene_05:
     extend " You've completely lost it... I knew you were into some weird stuff, but-"
 
     #have Persephone zoom out and back in
-    play sound sfx.weaponswing
+    play sound sfx.weapon_swing
 
     extend " Whoops! You're going to have to do better if you want my neck, you leech~."
 
-    play sound sfx.parry
+    play sound sfx.parry # TODO: Using a placeholder. Replace with correct track.
     with vpunch
+
     "I watch them clash, my mind blank."
     "How can I help Griswyr when I can't even help myself? I'll just be in the way..."
     #Queue in similar animation where Griswyr flurries, and she dodges
@@ -888,7 +891,7 @@ label scene_05:
     #play sound hurl
     "He siphons some of the blood and flings his hatchet."
     extend " Persephone turns around, but he teleports in front of her, sword at the ready."
-    play sound Parry
+    play sound sfx.parry
     "She catches his sword in two fingers, the blade causing blood to trickle down her hand."
     extend " Griswyr winces."
 
@@ -897,14 +900,14 @@ label scene_05:
     p "Ooh, looks like you grazed me..."
     extend " Go on, have a taste."
 
-    #Compared to last animation, Griswyr is slowing down. 
+    #Compared to last animation, Griswyr is slowing down.
     "She releases his blade and holds out her fingers."
     extend " Griswyr cringes but follows through with his swing."
 
     nvl clear
 
     #have Persephone zoom out and back in
-    play sound sfx.weaponswing
+    play sound sfx.weapon_swing
 
     p "Hey now, don't be greedy..."
 
@@ -913,7 +916,7 @@ label scene_05:
 
     p "Then why did you flinch? You might've had my head if you were faster~."
 
-    play sound sfx.weaponswing
+    play sound sfx.weapon_swing
 
     "Persephone darts backwards, and he fires another Blood Lance."
     extend " She swats it away with her wings."
