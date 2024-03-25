@@ -6,6 +6,7 @@ image side caius neutral = "caius neutral"
 
 layeredimage caius:
 
+    xysize (496, 457)
     xoffset -80
 
     always:
@@ -16,7 +17,7 @@ layeredimage caius:
 
         attribute neutral default:
 
-            pos (212, 146)
+            pos (212, 138)
 
             "images/sprites/caius/neutral.png"
 
