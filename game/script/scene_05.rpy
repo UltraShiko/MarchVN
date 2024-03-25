@@ -935,14 +935,14 @@ label scene_05:
     play sound sfx.slash
     with bloodflash
     "He evades her pounce and hisses as more wounds rip open on his body."
-    extend " It was subtle, but I finally spot the source of her attack. She's channeling wind through her hands." 
+    extend " It was subtle, but I finally spot the source of her attack. She's channeling wind through her hands."
     "So even if he dodges her blows, the gusts will still cut him."
     #have Persephone zoom in
     "She launches herself again!"
 
     nvl clear
 
-    #show griswyr combatR 
+    #show griswyr combatR
     c "Don't dodge, Griswyr, or you'll be cut by her wind!"
 
     g "Grr! No shit!!!"
@@ -978,7 +978,7 @@ label scene_05:
     play sound sfx.slash
     with bloodflash
     p "Gngh...!" with vpunch
-    g "What will it take for you to stay down?!" 
+    g "What will it take for you to stay down?!"
     extend " You're like a cockroach! You sever its head, yet it still crawls!"
 
     p "Ohh, don't let me stop you. If you want my neck, go for it."
@@ -1052,7 +1052,7 @@ label scene_05:
     with hpunch
     "Sounds of hissing rattle the room. The mana screams just as violently as our blows."
     extend " Yet, she suffers more than I do. Looking more closely, I see her body tremble."
-    #Ragyou more gatling fist Kung lao barrage 
+    #Ragyou more gatling fist Kung lao barrage
     "My blows from earlier weren't in vain, my mana still wracks her body!"
     extend " Which means I can still strike a killing blow."
 
@@ -1082,7 +1082,7 @@ label scene_05:
     c "Fall, monster!" with vpunch
 
     #zoom out Persephone
-    play sound sfx.meeleeswing
+    play sound sfx.melee_swing
     "I kick and hit nothing but air..."
     "She flies backwards, digging her claws into the wall. She glowers, ready to attack again."
     play sound sfx.magic_charge
@@ -1121,7 +1121,7 @@ label scene_05:
     extend " WEAK!!!" with vpunch
 
     #zoom out Persephone
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
     "Her Roundhouse kick sends me flying. Time stands still as I float away..."
     extend " I turn to her, that insipid grin peering into my soul."
     "I breathe heavily, coughing up blood as I clasp my hands."
@@ -1193,7 +1193,7 @@ label scene_05:
     extend " Her Malice spikes. In hindsight, she didn't use up as much mana as I expected..."
     #show Grisyr combat at center with dissolve
     "Griswyr seems more upset than afraid as he looks to the ground."
-    play sound sfx.weapondraw
+    play sound sfx.weapon_draw
     extend " He spits and readies his weapons."
 
     nvl clear
@@ -1241,7 +1241,7 @@ label scene_05:
 
     nvl clear
 
-    p "Grr! Snowflake, I'm not in the mood!" 
+    p "Grr! Snowflake, I'm not in the mood!"
     extend " Let go!!!"
 
     g "Ngggh...what are you doing, idiot?! Run!"
@@ -1354,7 +1354,7 @@ label scene_05:
     with vpunch
     "I breathe deeply and block her swipe."
     extend " She retreats before lunging for my legs!"
-    play sound sfx.meeleeswing
+    play sound sfx.melee_swing
     "I drive my heel into her jaw."
     play sound sfx.slash
     with bloodflash
@@ -1422,7 +1422,7 @@ label scene_05:
     queue sound sfx.heavy_bam
     extend " Her wings flap, and I grab her foot before clobbering her face."
     #move sprite slightly
-    play sound sfx.weaponswing
+    play sound sfx.weapon_swing
     "She squirms and slashes."
     extend " Her nails graze me. I spit up blood and keep attacking."
     "She isn't nearly as dangerous when you have her pinned!"
@@ -1482,14 +1482,14 @@ label scene_05:
     play sound sfx.magic_charge
     with whiteflash
     "A hand presses against my chest, with Malice hissing against my Grace..."
-    play sound sfx.beam
+    play sound sfx.beam # TODO: Using placeholder. Please replace with correct sfx.
     #shake Persephone sprite
     "I jab her throat, causing her to spit and her breath to fly from her maw."
     #play sound galeblast
     #queue sound heavybam
     with hpunch
     extend " Yet I still get blasted..."
-    #zoom out screen 
+    #zoom out screen
     "I fly backwards, doing my best to brace my fall as I land."
     extend " With an eldritch calm, I peer back at her."
 
@@ -1546,7 +1546,7 @@ label scene_05:
 
     g "Caught you!"
 
-    scene background cult altar 
+    scene background cult altar
     #show griswyr combat at center
     "Griswyr jumps down from the ceiling, his body engulfed by his Malice."
     "She clutches her slashed arm, and her body convulses."
@@ -1569,7 +1569,7 @@ label scene_05:
     play sound sfx.explosion # TODO: Using a placeholder. Replace with correct sfx.
 
     #hide persephone
-    scene image "#faf7f7" 
+    scene image "#faf7f7"
 
     extend " Before exploding just like before."
 

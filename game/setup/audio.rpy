@@ -16,6 +16,7 @@ define bgm.altar_ambience = "audio/bgm/Village_Ambience.ogg" # TODO: Using place
 ### SFX
 
 define sfx.bam = "audio/sfx/bam.ogg"
+define sfx.beam = "audio/sfx/magic_charge.ogg" # TODO: Using placeholder. Please replace with correct sfx.
 define sfx.blood_splatter = "audio/sfx/blood_splatter.ogg"
 define sfx.crash = "audio/sfx/heavy_crash.ogg"  # TODO: Using a placeholder. Replace with correct sfx.
 define sfx.dagger_draw = "audio/sfx/dagger_draw.ogg"
