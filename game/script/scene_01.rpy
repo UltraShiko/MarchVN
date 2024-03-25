@@ -25,12 +25,12 @@ label scene_01:
 
     nvl clear
 
-    c "I'm managing, thanks for asking, sir."
+    c smile "I'm managing, thanks for asking, sir."
 
     j "...You're not going to stop calling me that, are you?"
     extend " We're family! We don't need formalities!"
 
-    c "I prefer them. You did adopt me, I want to show my respect."
+    c smile "I prefer them. You did adopt me, I want to show my respect."
 
     j "Respect? I don't care about that. I'm proud of you, Caius! You've grown into a fine man!"
     extend " And now, you're going away..."
@@ -83,9 +83,9 @@ label scene_01:
 
     nvl clear
 
-    c "Sir, I'm aware of the danger. I've been preparing myself all week."
-    c "How can I change this country if I don't have the courage to face the evils I want to abolish? Devils lurk not just in Hell but also in the ears and minds of our leaders."
-    c "If I don't learn how to deal with them, I’ll run the risk of making the same mistake The Third did."
+    c neutral "Sir, I'm aware of the danger. I've been preparing myself all week."
+    c neutral "How can I change this country if I don't have the courage to face the evils I want to abolish? Devils lurk not just in Hell but also in the ears and minds of our leaders."
+    c angry "If I don't learn how to deal with them, I'll run the risk of making the same mistake The Third did."
 
     j "Hmmm, he was a terrible man indeed..."
 
