@@ -7,11 +7,11 @@ label start:
 
         "Test sprites.":
 
-            c "test"
-            c neutral "test"
-            c angry "test"
-            c smile "test"
-            c snide "test"
+            #c "I'm expressive!"
+            c neutral "I'm expressive!"
+            c angry "I'm expressive!"
+            c smile "I'm expressive!"
+            c snide "I'm expressive!"
 
             window hide
 

@@ -21,7 +21,7 @@ Lynnasaurus ({a=https://www.instagram.com/borderbreakersofficial/}Instagram{/a})
 
 {b}Sprite Artist{/b}
 
-Kate
+Kate ({a=https://www.instagram.com/rkade801}Instagram{/a})
 
 {b}Cinematography{/b}
 
