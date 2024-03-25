@@ -7,6 +7,12 @@ label start:
 
         "Test sprites.":
 
+            c "test"
+            c neutral "test"
+            c angry "test"
+            c smile "test"
+            c snide "test"
+
             window hide
 
             scene background slums

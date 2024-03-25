@@ -3,6 +3,9 @@
 
 image side caius = "caius neutral"
 image side caius neutral = "caius neutral"
+image side caius angry = "caius angry"
+image side caius smile = "caius smile"
+image side caius snide = "caius snide"
 
 layeredimage caius:
 
@@ -20,6 +23,24 @@ layeredimage caius:
             pos (212, 138)
 
             "images/sprites/caius/neutral.png"
+
+        attribute angry:
+
+            pos (213, 140)
+
+            "images/sprites/caius/angry.png"
+
+        attribute smile:
+
+            pos (212, 136)
+
+            "images/sprites/caius/smile.png"
+
+        attribute snide:
+
+            pos (214, 125)
+
+            "images/sprites/caius/snide.png"
 
 ### Persephone
 
