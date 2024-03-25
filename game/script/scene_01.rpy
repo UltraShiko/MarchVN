@@ -95,14 +95,14 @@ label scene_01:
 
     nvl clear
 
-    c "He abused you. He abused everyone! His pride and arrogance caused the Reckoning, and now our country is divided!"
+    c angry "He abused you. He abused everyone! His pride and arrogance caused the Reckoning, and now our country is divided!"
 
     j "Caius, hear me out..."
     extend " That man's vices weren't because of a fiend. He walked into that fire himself."
     j "Not every act of malice has a devil behind it. We're capable of making decisions, both good and bad..."
     j "I know your guilt is heavy, and I know that you want to make things right."
     extend " But you can't let your past blind you. You need to think about the here and now."
-    j "If I hadn’t done so, Caius, I would've been burnt alive just like her... And we wouldn't be having this conversation."
+    j "If I hadn't done so, Caius, I would've been burnt alive just like her... And we wouldn't be having this conversation."
 
     "I cringe along with him."
     extend " It takes a lot to get under Jory's skin, and when something does, it’s always about a woman he once cared for..."
@@ -123,11 +123,11 @@ label scene_01:
     j "Uh whoops! Lost myself there!"
     extend " You get what I mean though, right?"
 
-    c "I do, sir. And I appreciate your concern, but my mind is made up."
+    c smile "I do, sir. And I appreciate your concern, but my mind is made up."
 
     j "Oh, I see..."
 
-    c "I will make things right, for my friend and Aurielle."
+    c angry "I will make things right, for my friend and Aurielle."
     extend " I won't let anyone make the same mistakes we did!"
 
     j " But...you know what you're getting yourself into, right?"
@@ -147,7 +147,7 @@ label scene_01:
 
     j "Just come back in one piece, alright?"
 
-    c "I promise!"
+    c smile "I promise!"
 
     v "Hmmm... I knew you took a vow of poverty, but I still expected better lodgings..."
 
@@ -176,7 +176,7 @@ label scene_01:
     g "That's right, it's the perfect time to be on the move. Our foes will strike when we are most vulnerable."
     extend  " That's not a problem, is it?"
 
-    c "No sir..."
+    c angry "No sir..."
 
     "Oh, but it is a BIG problem! I'm not prepared for a nocturnal expedition..."
     extend " I thought the trial would test my skills in combat, not my endurance...."
