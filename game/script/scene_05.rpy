@@ -615,7 +615,7 @@ label scene_05:
     "And catch her clawed wrists mid-swing."
 
     #hide Persephone with move out something.
-    play sound sfx.heavy_crash
+    play sound sfx.potterycrash
     with vpunch
     "She gasps as I spin and hurl her onto the altar."
     extend " She lies splayed among the fractured statuettes."
@@ -629,10 +629,16 @@ label scene_05:
     p "Wise ass, huh...?!"
 
     play sound sfx.galeblast
+    queue sound sfx.potterycrash
     "She summons the wind and blasted the table, sending debris my way."
     #Ragyuo: Not sure how to go about this. Debris is flying at him. Maybe a screen shake and a sfx will be enough?
-    extend " I jump out of the way and thankfully block and evade it all."
-    "I land, trying to regain my bearings, but my pause gives her the opening she needs."
+    #Or zoom out, and shake the screen?
+    play sound sfx.lunge
+    queue sound sfx.block
+    queue sound sfx.block
+    queue sound sfx.block
+    extend " I jump out of the way and managed to block the projectiles."
+    "I land, trying to regain my bearings, but my pause leaves me open."
 
     nvl clear
 
@@ -655,7 +661,7 @@ label scene_05:
     "I obey."
 
     nvl clear
-    #play sound sfx.jab
+    play sound sfx.jab
     with graceflash
 
     p "Nuagh...!" with vpunch
@@ -669,9 +675,10 @@ label scene_05:
 
     play sound sfx.galeblast
 
-    with graceflash
+    
     #Have her zoom out, than back in to simulate Caius chasing her
     "She tries to retreat by blasting the ground, but I continue to pursue her."
+    with graceflash
     extend " As strong as she might be, my Grace tore through her like a venom."
     "I keep going."
     extend " I've trained my arms and legs to ceaselessly land consecutive blows. Stamina isn't an issue!"
@@ -744,7 +751,8 @@ label scene_05:
 
     c "You...You leave him alone, monster!"
 
-    play sound sfx.whoosh
+    #have Persephone zoom out and back in
+    play sound sfx.melee_swing
 
     p "Oh, your friend? Hmm, I'm sure he's much different now. People change when their hearts are ripped out."
 
@@ -891,7 +899,7 @@ label scene_05:
 
     g "Tch...just a flesh wound!"
 
-    #play sound hurl
+    play sound hurl
     "He siphons some of the blood and flings his hatchet."
     extend " Persephone turns around, but he teleports in front of her, sword at the ready."
     play sound sfx.parry
@@ -931,7 +939,7 @@ label scene_05:
     nvl clear
 
     #have Persephone zoom in
-    play sound sfx.lunge # TODO: Using a placeholder. Replace with correct track.
+    play sound sfx.lunge 
 
     p "Wake up, Snowflake!"
 
@@ -1068,14 +1076,14 @@ label scene_05:
 
     #zoom in Persephone
     play sound sfx.galeblast
-    #queue sound strike
+    queue sound jab
     "I weave past her gale and jab her chest."
     "I gnash my teeth whilst my palms assail her like a barrage of arrows."
     play sound sfx.weapon_swing
-    #queue sound strike
+    queue sound jab
     extend " She swipes, but I duck and slam my heel into her sternum."
     #shake persephone with each blow
-    #play sound strike
+    play sound jab
     "Her hisses devolve to growls the more I strike her."
     extend " Her eye twitches. She's reaching her limit."
     #zoom in and out of Persephone
@@ -1399,7 +1407,8 @@ label scene_05:
     "I breathe deeply before jumping up to attack her"
     play sound sfx.grapple
     #move screen downwards
-    #queue sound crash
+    queue sound crash
+    with hpunch
     extend " She dodges and grabs me, and I drive my mana into her as we plummet to the floor."
 
     nvl clear
@@ -1418,7 +1427,7 @@ label scene_05:
     with bloodflash
     "My fractured arm latches onto her face, my fingernails and Grace digging into her flesh!"
     extend " A shrill yelp meets my ears. More of her blood trickles down my hands as I hold on for dear life."
-    #play sound strike
+    play sound jab
     #zoom her out a bit
     "She pries my palm from her head, and I kick her off of me."
     extend " I rise, my teeth bared and my eyes seeing red."
@@ -1442,7 +1451,7 @@ label scene_05:
     p "Ngh...struggle all you want! In the end...you'll stll-"
 
     #move her out to the left/right
-    #play sound sfx.hurl
+    play sound sfx.hurl
     "I shove her jaw shut and hurl her into the table."
     #show Persephone combat zoomed in slightly
     extend " She leaps to her feet and I approach, walking slowly."

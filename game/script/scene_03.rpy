@@ -115,7 +115,7 @@ label scene_03:
     cu "Ahh, I can relate. So do I!"
 
     play sound sfx.weapon_swing
-    queue sound sfx.bam
+    queue sound sfx.jab
     queue sound sfx.thud
 
     #hide Cultist moveoutbottom
@@ -141,7 +141,7 @@ label scene_03:
 
     c "Huh?"
 
-    play sound sfx.blood_splatter
+    play sound sfx.heavy_slash
     with bloodflash
 
     "Did Griswyr just..."

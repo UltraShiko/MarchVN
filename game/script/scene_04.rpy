@@ -176,7 +176,7 @@ label scene_04:
 
     c "...Right"
 
-    #TODO: Find a sfx of wet footsteps
+    play sound bloodfootsteps
     "Each of my steps squelches as I walk..."
     extend " The blood has formed puddles across the ground. Moving through the carnage sends shivers down my spine..."
     "It feels like I'm wading through a sticky, red mud... By Yeshua, I hope this will wash out."
