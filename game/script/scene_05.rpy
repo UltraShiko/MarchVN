@@ -584,8 +584,11 @@ label scene_05:
     #If not, think of something like gatling fists or something. We can discuss later
     #His hands are also glowing blue from his mana. I'd rather not make the screen flash with every punch.
     #Animation wise, I leave it up to you if you want to add anything
+    play sound sfx.rapidfirepunch
+    #shake Persephone if anything
     "She twitches and staggers with each consecutive blow to her chest."
     extend " My strikes fly as quickly as Griswyr's swipes, maybe even faster!"
+    play sound sfx.rapidfirepunch
     #maybe push her back a bit?
     "I manage to back her into a corner. I have to finish this fight quickly before she can hurt Griswyr or Jory or anyone else."
     play sound sfx.magic_charge
@@ -667,14 +670,16 @@ label scene_05:
 
     "I understand now. I can do more than harm her with my attacks - I can also block her attacks with my own!"
     #Ragyuo: Gatling punch spam again.
+    play sound sfx.rapidfirepunch
     "I double down on my efforts, both striking blows and preventing her attacks as they come. A barrage of my strikes batters her chest."
-    "A shrill groan leaves her clamped teeth. My frenzy of attacks is starting to rack up damage!"
+
+    p "Nnnnnnggghhhh....!"
+
     extend " I'm using a lot of mana and energy, but I can't let up!"
     "I can't risk giving her another opening! Our lives are on the line, and the lives of others as well."
 
     play sound sfx.galeblast
 
-    
     #Have her zoom out, than back in to simulate Caius chasing her
     "She tries to retreat by blasting the ground, but I continue to pursue her."
     with graceflash
@@ -1067,6 +1072,8 @@ label scene_05:
     "Sounds of hissing rattle the room. The mana screams just as violently as our blows."
     extend " Yet, she suffers more than I do. Looking more closely, I see her body tremble."
     #Ragyou more gatling fist Kung lao barrage
+    play sound sfx.rapidfirepunch
+    with hpunch
     "My blows from earlier weren't in vain, my mana still wracks her body!"
     extend " Which means I can still strike a killing blow."
 
