@@ -3,7 +3,7 @@ label scene_05:
 
     scene background cult altar with dissolve
 
-    play music bgm.altar_ambience # TODO: Using placeholder track. Replace with correct one.
+    play music bgm.altar_ambience 
 
     "The sanctum isn't too far away, and the sounds of prayer grow louder as we advance."
     "When we approach, my eyes scan the room."
@@ -73,9 +73,11 @@ label scene_05:
 
     g "It doesn't matter! Our objective has changed!"
 
-    #TODO: Find sound fx for bubbling
+    play sound sfx.bubble1
+    queue sound sfx.bubble loop
     "The blood begins bubbling, and we retreat behind a pillar."
     extend " A caustic scene fills the air, burning my nose."
+    stop sound
     play sound sfx.magic_charge
     with maliceflash
     "The circle glows orange, and a red mist rises from the blood."
@@ -179,7 +181,8 @@ label scene_05:
     v "Aww, how thoughtful!"
     extend " Buuut...."
 
-    with charmflash # TODO: Placehoder color. Replace with correct one.
+    play sound sfx.charm
+    with charmflash 
 
     c "Gnnnghhh...!" with vpunch
 
@@ -451,7 +454,7 @@ label scene_05:
     g "..."
     g "{i}Blood Lance{/i}."
 
-    #TODO: Find a torrent-like sfx
+    play sound sfx.bloodlance
     "A spear of blood eupts from his blade."
 
     nvl clear
@@ -469,7 +472,7 @@ label scene_05:
     show Griswyr combat with dissolve
     "Meanwhile, Griswyr's arm reddens violently."
     extend " I cringe. He is showing no reaction to it, but it looks painful..."
-    #TODO: Find sfx for throwing a hatchet
+    play sound sfx.hurl
     "He throws his hatchet at her."
     #move Persephone slightly, than have Griswyr hide
     extend " She sidesteps, and Griswyr...vanishes?!"
@@ -652,7 +655,7 @@ label scene_05:
     "I obey."
 
     nvl clear
-    #TODO: Find a sfx for strike
+    #play sound sfx.jab
     with graceflash
 
     p "Nuagh...!" with vpunch
@@ -863,7 +866,7 @@ label scene_05:
 
     extend " Whoops! You're going to have to do better if you want my neck, you leech~."
 
-    play sound sfx.parry # TODO: Using a placeholder. Replace with correct track.
+    play sound sfx.parry 
     with vpunch
 
     "I watch them clash, my mind blank."
@@ -1023,7 +1026,7 @@ label scene_05:
     with vpunch
     "Her arms lash out and hold his head still."
     extend " Her head springs forward, and my heart stops."
-    #TODO: Find kiss sfx
+    play sound sfx.kiss
     extend " She plants her lips onto his!"
 
     nvl clear
@@ -1031,8 +1034,11 @@ label scene_05:
     c "Griswyr!"
 
     "A second wind lifts me back onto my feet, and I dash toward them!"
+    play sound sfx.kiss
     extend " Her kiss is lethal! She's sapping his mana with every twist of her lips."
+    play sound sfx.kiss
     "His body wrinkles, and her wounds begin to close."
+    #zoom in
     extend "She pulls away as I charge."
 
     nvl clear
@@ -1138,7 +1144,7 @@ label scene_05:
 
     p "Huh...?"
 
-    play sound sfx.light_explosion # TODO: Using placeholder. Need to ser the correct sfx.
+    play sound sfx.manaexplosion 
 
     scene image "#fff" with iris_in_out
 
@@ -1350,7 +1356,7 @@ label scene_05:
     p "That's not the first time I've heard those words, and it won't be the last..."
     extend " Doesn't mean this won't hurt like a bitch!!!" with vpunch
 
-    #TODO: Find block sfx
+    play sound sfx.block
     with vpunch
     "I breathe deeply and block her swipe."
     extend " She retreats before lunging for my legs!"
@@ -1482,11 +1488,11 @@ label scene_05:
     play sound sfx.magic_charge
     with whiteflash
     "A hand presses against my chest, with Malice hissing against my Grace..."
-    play sound sfx.beam # TODO: Using placeholder. Please replace with correct sfx.
+    play sound sfx.jab
     #shake Persephone sprite
     "I jab her throat, causing her to spit and her breath to fly from her maw."
-    #play sound galeblast
-    #queue sound heavybam
+    play sound galeblast
+    queue sound heavybam
     with hpunch
     extend " Yet I still get blasted..."
     #zoom out screen
@@ -1566,7 +1572,7 @@ label scene_05:
     "Her jaw clamps shut as my mana begins to violently leave her."
     "She looks dead at me and narrows her eyes."
 
-    play sound sfx.explosion # TODO: Using a placeholder. Replace with correct sfx.
+    play sound sfx.manaexplosion 
 
     #hide persephone
     scene image "#faf7f7"
