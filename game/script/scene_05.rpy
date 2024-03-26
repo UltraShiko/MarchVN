@@ -503,8 +503,7 @@ label scene_05:
     p "And you should've brought silver!"
 
     play sound sfx.galeblast
-    queue sound sfx.crash # TODO: Using a placeholder. Replace with correct track.
-
+    queue sound sfx.crash 
     with hpunch
     #Ragyuo: Griswyr would be send off screen and the screen shakes. He got punted just like Caius did
     "A gale blast sends Griswyr crashing into the wall."
@@ -782,7 +781,7 @@ label scene_05:
 
     #zoom in, they're locked again
     play sound sfx.magic_charge
-    with whiteflash # TODO: Set up this colour, but Shiko needs to let me know if this is the correct one.
+    with whiteflash 
 
     "Our manas clash as we clench again."
     "My eyes beam at that grinning monster!"
@@ -930,7 +929,8 @@ label scene_05:
 
     #have Persephone zoom out to simulate evasion
     play sound sfx.weapon_swing
-    #queue sound sfx.bloodlance
+    queue sound sfx.bloodlance
+    with bloodflash
     "Persephone darts backwards, and he fires another Blood Lance."
     extend " She swats it away with her wings."
     "Griswyr's body hunches over, his breaths weighty."
