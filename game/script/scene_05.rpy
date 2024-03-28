@@ -858,7 +858,7 @@ label scene_05:
     play sound sfx.weapon_swing
 
     extend " Whoa Snowflake! Lighten up, will ya?!"
-    #$ unlockCompendionEntry("JinxLore")
+    $ unlockCompendionEntry("JinxLore")
     extend " I mean, isn't being jinxed bad enough?"
 
     g "..."
