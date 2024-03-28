@@ -91,6 +91,8 @@ label scene_01:
 
     j "Hmmm, he was a terrible man indeed..."
 
+
+    $ unlockCompendionEntry("HaleLore")
     "The current Reverend is the fourth of his lineage. Jory has told me many stories of how cruel his uncle was."
     "Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
     extend " They say his antics were so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
@@ -141,7 +143,7 @@ label scene_01:
 
     j "Shoot, guess I can't complain then, can I?"
 
-    #play sound LightGrapple
+    play sound LightGrapple
     "His meaty hand pats my shoulder."
     extend " Well... more like engulfs it."
 

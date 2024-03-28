@@ -13,7 +13,7 @@ label scene_06:
     show Jory sad at center
     show griswyr at left
 
-    with Dissolve(0.8)
+    with dissolve(0.8)
 
     "I stir wearily, wrapped in bandages in more places than I can fathom..."
     "I find myself in Jory's arms... It still hurts to move, but it looks like I've pulled through."
@@ -145,6 +145,7 @@ label scene_06:
 
     pause 1.0
 
+    $ unlockCompendionEntry("HecateLore")
     return
 
     #### Game ends

@@ -38,8 +38,16 @@ default persistent.compendium = Compendium([
         The Holy Lands are to the south of the plane. Biomes, cold and hot, can be found in this continent, with its neighbor, Jorunderfell, being covered in swamps and ice. They are referred to as the Holy Lands because its capital, Constantania, was where the Celestials and Exorcists were founded.
 
         Many speculate that these lands are the hunting grounds for Devils. There is no proof, but the Celestials are always hard at work with hunting them. Meanwhile the Exorcists shun all of the divine. They strive for independence from gods and other empires, and forbid anyone from seeking any divine aid. This creates an interesting schism; with the Celestials embracing the divine and shunning the arcane, and vice versa. This rivalry not only shapes the cultures, but also the land it resides on. Dominions occupied by the Celestials are more hospitable, sacred, and welcoming whilst the dark cities of the Exorcists are gothic, cruel, and ruled by fear.
+        
+        For generations, the lands were united under one ruler; Reverend Hale. It is said that this man was chosen by Yeshua himself, using magic from Heaven itself to leads his troops against the Thrycians. His predecessor forged the Celestial empire into what it is, and it wasn't until Reverend Hale III's demise that the empire split into separate factions. After the Calamity known as the Reckoning, the secular Exorcists were formed.
+
+        The Exorcists shun all of the divine. They strive for independence from gods, and forbid anyone from seeking any divine aid. In their eyes, mortals are capable of not only independence, but even surpassing the gods themselves. After all, the races native to the plane of Eldermyst Brawnies, Pigmies, Wrackies, and so forth flourished without their influence for millenia.
+
+        This creates an interesting schism; with the Celestials embracing the divine and shunning the arcane, and vice versa. This rivalry not only shapes the cultures, but also the land it resides on. Dominions occupied by the Celestials are more hospitabl, sacred, and welcoming whilst the dark cities of the Exorcists are gothic, atrict, and wary of newcomers..
+
+        An uneasy peace exists between both factions, and scholars are constantly speculating of when war will break out. Some fear that the spark of violence will trigger another reckoning, while others believe that the empire is doomed to invasion from it's neighbor, Jorunderfell. Only time will tell...
         """,
-        locked_by_default=True
+        locked_by_default=false
     ),
 
     CompendiumEntry(
@@ -59,6 +67,24 @@ default persistent.compendium = Compendium([
     ),
 
     CompendiumEntry(
+        "ThryciaLore",
+        "Holy Lands Cities - Thrycia",
+        """{=compendium_screen_title_style}Holy Lands Cities - Thrycia{/compendium_screen_title_style}
+        
+        Being the remnants of an empire as old as time, Thrycia is a shell of its former self. The city carries an ancient tradition. Unlike most settlements, Thrycia worships no deity. It's been an empire infamous for its violent and hedonistic ways.
+
+        It is said that Thrycia survived the wrath of Yeshua. Many priests believe that Yeshua once turned his armies onto the sinful empire. Back when Eldermyst was unexplored and when the angels and devils became divided, many believe that the citizens of Thrycia took to breeding with the outcasts of Heaven. It is speculated that Cambions and Dretchlings were first sired here, and that had it not been for the Archfiend Hecate, Thrycia would be nothing but ash.
+
+        The capital feature of Thrycia is its colosseum. Many come to speculate gladiators fighting for fame, or Hunters going toe-to-toe against whatever monstrosity the tamers could wrangle up. Thrycia was the empire to commercialize violence, and is the only hold in the The Holy Lands that is allowed to host such sport, as long as they keep the ferocity to a minimum.
+
+        Thrycia is ruled by an Emperor. To behold such a title involves not royal blood, but feats of skill, leadership, and the fame of the crowd. The nobility of Thrycia is earned in the arena, through military service, and so on. However the toll these challenges inflict is too much for many. Merchants and farmers much prefer a comfortable life to one forged with steel and blood. While royalty is open to the public, few dare to meet its challenge.
+
+        The Celestials, after conquering most of Thrycia's ancient dominion, allowed the capital to retain not only its culture, but also its own government in exchange for trade and Thrycian soldiers. Many are unsure as to why, with the most believed reason being that Thrycian warfare is respected almost as much as Yeshua. However the Exorcists from the Babelonian Theocracy find the old kingdom a stain. And had tensions between the Celestials and the Exorcists not been so dismal, they just might've made an attempt on the Emperor's life.
+        """,
+        locked_by_default=True
+    ),
+
+    CompendiumEntry(
         "HaleLore",
         "The Hale Bloodline",
         """{=compendium_screen_title_style}The Hale Bloodline{/compendium_screen_title_style}
@@ -67,7 +93,7 @@ default persistent.compendium = Compendium([
 
         Due to their founder's mastery of the rare mana, Justice, these scions are believed to have a divine lineage to Yeshua. The Hales are famous for performing miracles, banishing devils, and other feats that draw pilgrimages to the city of Jubilee.
 
-        Currently, Reverend Hale III carries the torch. While his reign is founded on fear, many accept it due to Reverend Hale II's authoritative regime.
+        Currently, Reverend Hale IV carries the torch. His stern, but compassonate rulership has drawn much favor from the public. Unlike his uncle, he seeks to break the cycle of hatred and fear from his subjects. But with the Reckoning still fresh on people's minds, such a task is a tall order to ask..."
         """,
         locked_by_default=True
     ),
@@ -95,7 +121,7 @@ default persistent.compendium = Compendium([
     CompendiumEntry(
         "EmissaryLore",
         "Emissaries, the Messengers of the Star",
-        """{=compendium_screen_title_style}Celestials, the Knights of Heaven{/compendium_screen_title_style}
+        """{=compendium_screen_title_style}Emissaries, the Messengers of the Star{/compendium_screen_title_style}
 
         A dark sect of the Celestials, the Emissaries are a mysterious band of rogues that specialize in espionage and the execution.
 
@@ -108,6 +134,22 @@ default persistent.compendium = Compendium([
         The Emisaries were founded under the Archlord Ahriman, the Guiding Star. Many have his upside down symbol pinned somewhere on their clothing tp symbolize his impending judgement. Though this faith varies from person to person, and worship of this Archlord is not enforced, just his more, "extreme" idealogies...
         
         Many who enter the organization leave with broken spirits or in a coffin. Those that survive earn a begrudging respect from both ally and enemy alike. And with their cold determination, even devils are wary of them
+        """,
+        locked_by_default=True
+    ),
+
+    CompendiumEntry(
+        "ThornLore",
+        "The Agents of the Rose",
+        """{=compendium_screen_title_style}The Agents of the Rose{/compendium_screen_title_style}
+
+        Often referred to as Thorns, this notorious cult of Hecate is often just as elusive as the Archfiend herself.
+
+        What does one think of when they hear cultist? A man in dark robes leading a sacrifice? Or a person calling upon dark powers? These depictions are how the Thorns hope you perceive them, for what makes this sect so infamous is their ability to blend in. Almost anyone could be a Thorn, from a beggar to a smith to a guard and even a priest of Yeshua! 
+
+        Hecate does not aspire her followers to be cruel or bloodthirsty. With her pension for children, orphanages required supervision because of how often the mothers were caught worshiping her. Roses of all colors are forbidden for their similarity to Hecate's symbology. Kukris are banned for similar reasons, and the color purple now draws suspicion from nobles rather than admiration.
+
+        With all of this in mind, there are rituals and asttire involved in her worship. These aren't mandatory in this cult, and those that defy the law hold much respect from their colleagues. Many shadow wars have been fought between these cultists and Emissaries, and her worship is especially dangerous with the penalties being extraordinarily severe. Many people have been wrongfully accused of worshiping Hecate ever since the Reckoning, and only Reverend Hale IV himself can save them... 
         """,
         locked_by_default=True
     ),
@@ -127,31 +169,13 @@ default persistent.compendium = Compendium([
 
         Some say she called for the Archfiend herself, some claim she had gone mad and embraced her death with a smile, and others believed that she swore vengeance: a common threat made by many of Hecate's followers.
         """,
-        locked_by_default=False
-    ),
-
-    CompendiumEntry(
-        "NephilimLore",
-        "Nephilim, Scions of Might",
-        """{=compendium_screen_title_style}Nephilim, Scions of Might{/compendium_screen_title_style}
-
-        Dretchlings are considered the outcasts of Eldermyst. Being the descendants devils, these wretched beings struggle just to exist. There are few sanctuaries that willingly house this species of man, for their bloodline alone brands them as undesirable by most. 
-
-        While Dretchlings inherited the blood of devils, their creation isn't as simple as a mortal breeding with a fiend. The product of this unholy union is known as a Cambion; a dretchling with a stronger link to their infernal ancestry. This cambion's offspring is where the dretchling babe comes into play. However, rumors speculate that the Succubi serving under the archfiend Hecate produce dretchling children instead of cambions. And seeing as how succubi are notorious for seducing man, it is accepted as fact by most scholars.
-
-        Dretchlings can also be the result of a curse. A common penalty of unfulfilled contracts with devils curses one's bloodline to produce dretchlings. This is the preferred punishment for most devils. While they could lay claim to the soul of the transgressor, it is seen as more lucrative to allow the fool to live their life and bear children; children that'll be easier to deceive and corrupt.
-
-        Dretchlings have free will just like other mortals. While their bloodlines link them to Hell, it is not unheard of for a dretchling to disown this connection and distance themselves from it as much as possible. However, mortals are often their worst enemies. Many dretchlings that fall to Hell's influence have been beaten and broken by the people that demonize them. Devils flock to them not because of their blood, they flock to them because many are forced into desperate circumstances by their own neighbors. Hecate's followers are known for "adopting" these downtrodden souls and forging them into vengeful champions and protectors of their brethren. Other archfiends prefer a fatalistic approach to enlisting them; convincing them that their fates were decided the moment their heartless matrons that gave birth to them. 
-
-        With how much the cards are stacked against these people, many wonder how most survive. Crimes against a dretchling are met with slaps on the wrist, with the reverse being met with crueler penalties. The most common speculation is fear. It is a well known fact that attacking children or their mothers is seen as unforgivable to Hecate, who has a history of avenging these injustices directly. Others see them as unstable, liable to lash out or to consult with devils to retaliate. Dretchlings can be intimidating by their features alone. It is difficult to converse with someone who has horns protruding from their head after all. Governments might make policies to protect them, whilst others might seek to exclude the race to camps or banish them entirely. Though whilst fear is a strong deterrent, dretchlings are still the most victimized ancestry of mortals.
-        """,
         locked_by_default=True
     ),
 
     CompendiumEntry(
         "JinxLore",
         "Terminology - Jinx",
-        """{=compendium_screen_title_style}Meropian Terminology - School{/compendium_screen_title_style}
+        """{=compendium_screen_title_style}Terminology - Jinx{/compendium_screen_title_style}
 
         Jinx - a curse or handicap inflicted on an individual at birth, believed to be by a Tu'un or malevolent entity.
 
@@ -164,22 +188,10 @@ default persistent.compendium = Compendium([
         locked_by_default=True
     ),
 
-    CompendiumEntry(
-        "TerraflitLore",
-        "Meropian Terminology - Terraflit",
-        """{=compendium_screen_title_style}Meropian Terminology - Terraflit{/compendium_screen_title_style}
-
-        Terraflit - is a term Meropians use to refer to the races of mortal that walk the land.
-
-        With Meropians living longer than any of the other ancestries, they see these people, including the Elves, as sparks in the world. While they may accomplish much, they fade just as quickly
-        """,
-        locked_by_default=True
-    ),
-
     Compendium( 
         "ManaLore",
         "Mana - the Essence of Resolve"
-        """
+        """{=compendium_screen_title_style}Mana - The Essence{/compendium_screen_title_style}
 
         Mana is a spiritual energy found in all beings. It is primarily channeled into making one’s ideals become reality, whether it be the achievement of a dream, maintaining order and goodwill, the destruction of one's foes, etc. For example, a farmer might find his energy nigh limitless when determined to make a profit. A merchant who is desperate to make ends meet or to acquire an expensive item might find his tongue silvered more so than before. The hymns, songs, stories, and art created from the passions of its founders.
 
@@ -231,7 +243,7 @@ default persistent.compendium = Compendium([
     CompendiumEntry(
         "MaliceLore",
         "Malice, the Mana of Domination",
-        """{=compendium_screen_title_style}Malice, the Mana of Hatred{/compendium_screen_title_style}
+        """{=compendium_screen_title_style}Malice, the Mana of Domination{/compendium_screen_title_style}
 
         There is little that isn't inherently evil about Malice. It is a variant of mana that has been distorted and twisted by selfishness and a lust for controlr. Most of the evil connotations surrounding Sin aren't based around the mana itself, but the potential for it to morph into Malice.
 
@@ -242,26 +254,6 @@ default persistent.compendium = Compendium([
         Malice comes from the plane of Hell. The devils that hail from there are beings of Malice. To them, funneling the mana is second nature; unlike mortals who claim they can contain it. Malice, despite it's immediate power, demands a lot from its wielder mentally. On top of the side effects from burnout, overuse of Malice usually leads people into insanity. Only devils are immune from this effect, and even they are careful not to let this fiendish effigy control them.
 
         While people who channel Malice have evil intent, that isn't to say that they can't fit into society. Malice might not be directed at the world, just a portion of it. Those who channel Malice can still love others, have friends, and have a moral compass. But what makes them use Malice is the ruthless endeavors they're willing to undertake to achieve their goals, caring not for anyone's well-being but themselves. Some mortals flock to the mana as a test of their character even, albeit a rash decision... It is believed that our darkest desires stem from Malice, and like the monsters that are born from it, it is not to be treated lightly.
-        """,
-        locked_by_default=True
-    ),
-
-    CompendiumEntry(
-        "Tu'unLore",
-        "Tu'uns, Wanderers of the Veil",
-        """{=compendium_screen_title_style}Tu'uns, Wanderers of the Veil{/compendium_screen_title_style}
-
-        A Tu'un is a spirit that can take many forms. Unlike the Primordials, such as the Archons or Devils, Tu'uns are native to the plane of Eldermyst. These entities are often credited as the ancestors of races such as Brawnies, Pigmies, Wrackies, Meropians, and other mortals with a peculiar appearance.
-
-        Tu'uns do not operate under the same principles as good or evil. A Tu'un is interested in self indulgence, and nothing else. This doesn't make them adversaries by design. A Tu'un can be pleasant or very unplesant based upon it's nature and how it is respected. Many spellcasters that serve as wardens of the plane form alliances with these whimiscal creatures, and are often called upon to serve as mediators if a dispute arises.
-
-        What sets a Tu'un apart any other being is its inability to follow rules. Not only does this hint towards their chaotic nature, but also to their existence as a whole. Say you encountered a Tu'un that took the form of a talking pigeon. Imagine your face when you see said pigeon demonstrate the strength of a giant! Or perhaps you may encounter an elephant who can't lift a fimble but be quicker than most creatures half it's size. The only thing "consistent" about Tu'uns is that while they excel at something, they are liable to be hopeless incompetent at another ability. Most are unlikely to learn a Tu'un's abilities until it is too late, so they should be approached with caution.
-
-        Tu'uns originate from a phenomenon known as the Veil, an alternate Eldermyst the coexists as a mirror version of the plane. Some speculate that this was Eldermyst's original form before the Primordials discovered it. Some claim that the Tu'uns constructed it to get away from the angels and zealous mortals trying to wipe them out. Everyone claims that they'd sooner visit Hell than that mad dimension. Various continents of the plane might have a strong, or nonexistent attraction to the Veil. While Tu;uns are very rare in the Holy Lands, the upper cities of Elmyra have cultures integrated with these creatures.
-
-        Czartu'uns are legendary Tu'uns that are worshipped like other pantheons. They are quick to reward any who make offerings to them, but easily provoked. One can find themselves blessed and cursed within the same day for whatever reason. This unpredictability makes their worship rare, but their quick rewards prevent it from dying out.
-
-        All Czartu'uns make their domains related to facets of mortality. Titania takes dominion over life, birth, spring, and the sun, whilst Oberon takes dominion over death, winter, and the moon. These domains however, are not so easily followed. Titania loathes intermixing of races, and Oberon finds most healers offensive to behold. While their worship is often founded on gratification, many offerings are made for the sole purpose of the Czartu'uns leaving them alone.
         """,
         locked_by_default=True
     ),
