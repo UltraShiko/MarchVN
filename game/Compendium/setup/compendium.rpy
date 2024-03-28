@@ -47,11 +47,13 @@ default persistent.compendium = Compendium([
         "Holy Lands Cities - Jubilee",
         """{=compendium_screen_title_style}Holy Lands Cities - Jubilee{/compendium_screen_title_style}
 
-        Jubilee is a hustling trading center, known as the marketplace of the continent alongside the capital Constatantania. It is also the city where the kingdom's ruling reverend has resided throughout generations.
+        Jubilee is a hustling trading center, seen as the marketplace of the continent alongside the capital Constatantania. It is also the city where the kingdom's ruling reverend has resided throughout generations.
 
-        Jubilee serves as a haven for refugees, aspiring merchants, and adventurers. Depending on the reverend in power, it might also serve as a sanctuary for outcasts, such as the dretchlings, or a place to garrison armies such as the Celestials. The trading city has taken many forms as its reverend engineered its construction.
+        Jubilee serves as a haven for refugees, aspiring merchants, and adventurers. Depending on the reverend in power, it might also serve as a sanctuary for outcasts, such as the Dretchlings, or a place to garrison armies such as the Celestials. The trading city has taken many forms as its reverend engineered its construction.
 
-        While it is not as big as Constantania, that does not exonerate it from problems. Cults of various archfiends litter the outskirts, evading detection by even the reverend himself...
+        The city's crown attraction is the Luminous Tower, a massive building of architecture ingenuity. The building was not forged from stone, wood, brick, or anything other than glass! No one is certain of how, but the stalwart building has been the resting place for the reverend for generations.
+
+        Despite being under the reverend's command, this city is not free from strife. Crime is always an issue, and after the Reckoning, the Emissaries have been weeding out Hecate's cultists like lice in hair. Many shadow wars have been fought within Jubilee's sanctum, but the new Reverend Hale IV has promised his citizens protection if a second reckoning occurs.
         """,
         locked_by_default=True
     ),
@@ -83,23 +85,31 @@ default persistent.compendium = Compendium([
 
         All Celestials follow a hierarchy. The more heroic a Celestial is, the more likely they are to be promoted. This ceremony is not only led by mortals, but the gods themselves. It is not a man who decides that one should attain higher status but a messenger from Heaven itself. But these come with a test. A Celestial who wishes to become a Legate might be asked to lead a band of refugees to sanctuary. A Legate who wishes to become a Warden must develop a shrewdness for not just selflessness, but economics themselves. And a Warden who wishes to become a Reverend must be approved by Yeshua himself.
 
+        However, ever since the Reckoning, these warriors have been in short supply. Many Celestials abandoned their faith, and many that remain have taken to paranoia, cruelty, or the law into their own hands. While Reverend Hale has tried to encourage his subjects to be the change people need, many cling to the old customs of his forefathers; arresting anyone they deem suspicious, namely Dretchlings
+
         Celestials carry burdens that are heavier than any armor they may don, but they are humanity's staunchest defenders. When a portal opens and all hell breaks loose, they will be at the forefront, ready to defend their realm.
         """,
         locked_by_default=True
     ),
 
     CompendiumEntry(
-        "MeropiaLore",
-        "Meropia, the Utopia Under the Sea",
-        """{=compendium_screen_title_style}Meropia, the Utopia under the Sea{/compendium_screen_title_style}
+        "EmissaryLore",
+        "Emissaries, the Messengers of the Star",
+        """{=compendium_screen_title_style}Celestials, the Knights of Heaven{/compendium_screen_title_style}
 
-        Meropia is a kingdom enraptured in mystique. It is a kingdom with no set location or factual information backing it's existence. The only proof of this mysterious city is the Meropians, who are often unsure of its existence as well. They say that this is where they originate from, but many Meropians have yet to see their home for themselves.
+        A dark sect of the Celestials, the Emissaries are a mysterious band of rogues that specialize in espionage and the execution.
 
-        Sightings of this kingdom are just as erratic as the rumors behind. Many believe it's at the bottom of the ocean, while other adventures claim to have found it in a bayou of all places. Meropians are unlikely to confide information about Meropia and if they do, it is often dubious at best. Many tales have depicted armies from the kingdom appearing on Dolphins, Orca Whales, and various sea creatures to smite the foolhardy mortals that provoked the ocean. Many a scholar might speak such tales to dissuade pollution, or even to persuade invaders who have to cross an ocean to get to their lands..
+        When this band was founded, the Emissaries were originally tasked with infiltrating other nations, and dispacting of spies. As Reverend Hale II came into power, their goals shifted to extraplanar affairs. With Celestia a now established empire, people feared the influence and potential invasions from devils. As of the Reckoning, this group has all but abandoned political affairs in favor of hunting devils and their acolytes.
 
-        The agreed upon name for its king is Merus. Just like his hold, King Merus is shrouded in mystery. Many believe he is an ancient wyrm that is worshipped like Yggdravundr, and others claim he is an archmage who has discovered immortality. Many skeptics, namely the zealous naysayers, claim that he dabbled with devils or other dark forces to obtain his power. Most Meropians wouldn't know.
+        The Emissaries do not strive to protect others, well not as much as the Celestials. They strike fear into the hearts of citizens, and have no qualms with torturing those they capture. This dark outlook isn't mandatory, just a byproduct of the horrors these agents endure. 
+
+        In the hierarchy, Emissaries do not hold much power but are respected and left to their own devices. A budding Celestial is allowed to become one, and many seek the title as a test of faith and themselves. More reserved Celestials enjoy the role's exclusion from the public, and many flocked the position in hopes of preventing another divine calamity. However this profession is not trusted by the more idealistic knights, and some have called for its often cruel procedures."
+
+        The Emisaries were founded under the Archlord Ahriman, the Guiding Star. Many have his upside down symbol pinned somewhere on their clothing tp symbolize his impending judgement. Though this faith varies from person to person, and worship of this Archlord is not enforced, just his more, "extreme" idealogies...
+        
+        Many who enter the organization leave with broken spirits or in a coffin. Those that survive earn a begrudging respect from both ally and enemy alike. And with their cold determination, even devils are wary of them
         """,
-        locked_by_default=False
+        locked_by_default=True
     ),
 
     CompendiumEntry(
@@ -107,11 +117,15 @@ default persistent.compendium = Compendium([
         "Meropians, Mortals of the Sea",
         """{=compendium_screen_title_style}Meropians, Mortals of the Sea{/compendium_screen_title_style}
 
-        Meropians; often dubbed Mermaids or Mermen, hail from the Coral Kingdom of Meropia. This race of mortals rarely surfaces from their haven, wishing to keep their societies separated from everyone else; and for good reason. Treasure Hunters, zealous crusades, and curiosity have caused friction between the Merfolk and the other races on numerous occasions.
+        Meropians; often dubbed Mermaids or Mermen, hail fromthe Coral Kingdom of Meropia. This race of mortals rarely surfaces from their haven, wishing to keep their societies separated from everyone els; and for good reason. Treasure Hunters, zealous crusades, and curiosity have caused friction between the Merfolk and the other races on numerous occasions.
 
         What sets a meropian apart, aside from their tails, are their scales littered about their humanoid torso. Some are more bestial, sporting webbed ears or dorsal fins on their back. With Meropians being nomadic, one Meropian can look completely different from another. Meropia is the only kingdom where armies gather. The ocean is littered with predators and other nefarious enemies, so it's best to keep schools small and mobile. Sometimes different schools combine or disperse based upon the needs of the people. Meropians tend to be friendly to foreign tribes, however it is not unheard of skirmishes to start. But no Meropian would dare strike out against Meropia. And with Meropians being so spread out, any body of water is liable to have a Meropian or two slithering around its banks. And this wonderlust is often what puts them in danger...
 
-        Whilst Meropians prefer to keep to themselves, trade still occurs. Trinkets crafted from coral, fish, and Meropian handiwork are very popular with sailors and towns that make their living off of the coastline. Meropians trust these smaller towns above any kingdoms they fall under. Villagers tend to be more honest and keep their word, seeing as they often need these products to survive. And Meropians do take delight in studying and collecting trinkets of the land. Some Meropians learn the magic needed to transform, and act ambassadors for other schools or Meropia. But that will not make the Meropians hesitate to seek vengeance unto these villagers if they take advantage of these alliances. Unfortunately, while these magicians may make friends with other races, many of them are shunned by their own communities...
+        Whilst Meropians prefer to keep to themselves, trade still occurs. Trinkets crafted from coral, fish, and Meropian handiwork are very popular with sailors and towns that make their living off of the coastline. Meropians trust these smaller towns above any kingdoms fall under. Villagers tend to be more honest and keep their word, seeing as they often need these products to survive. And meropians do take delight in studying and collecting trinkets of the land. Some Meropians learn the magic needed to transform, and act ambassadors for other schools or Meropia. But that will not make the Meropians hesitate to seek vengeance unto these villagers if they take advantage of these alliances. Unfortunately, while these magicians befriend other races, many of them are shunned by their own communities...
+
+        It is believed that the Reckoning might've been caused by a Meropian. Five years prior, Reverend Hale III executed a Meropian who had allied herself with the Archfiend Hecate in exchange for being transformed into a human. They say that she schemed to assassinate the reverend, and many believe that she fell in love with a human. What is certain was the chilling speech she spoke before she was burnt at the stake.
+
+        Some say she called for the Archfiend herself, some claim she had gone mad and embraced her death with a smile, and others believed that she swore vengeance: a common threat made by many of Hecate's followers.
         """,
         locked_by_default=False
     ),
@@ -121,21 +135,31 @@ default persistent.compendium = Compendium([
         "Nephilim, Scions of Might",
         """{=compendium_screen_title_style}Nephilim, Scions of Might{/compendium_screen_title_style}
 
-        Often believed to be the first humans who walked Eldermyst, these titanic mortals stand as the strongest race. They stand at a whopping eight feet on average, and are believed to have the strength to move mountains.
+        Dretchlings are considered the outcasts of Eldermyst. Being the descendants devils, these wretched beings struggle just to exist. There are few sanctuaries that willingly house this species of man, for their bloodline alone brands them as undesirable by most. 
 
-        But their strength and origins have not shielded them from oppression. Many zealous mortals believe that the Nephillim abandoned their creator and took to cannibalism and brutality. The races exempt from Yeshua's lore sees them as monsters, brigands, and sometimes, spies sent from Yeshua to subjugate the plane.
+        While Dretchlings inherited the blood of devils, their creation isn't as simple as a mortal breeding with a fiend. The product of this unholy union is known as a Cambion; a dretchling with a stronger link to their infernal ancestry. This cambion's offspring is where the dretchling babe comes into play. However, rumors speculate that the Succubi serving under the archfiend Hecate produce dretchling children instead of cambions. And seeing as how succubi are notorious for seducing man, it is accepted as fact by most scholars.
 
-        These people were driven to the moutains of Skyfold. Their strength served them well in those rugged conditions, and some believe that they worship dragons. These harsh lands serve as a refuge, for many adventurers have perished trying to explore the tundras. And even if they survived, legend has it that one of the Dragon Lords rests atop the peak.
+        Dretchlings can also be the result of a curse. A common penalty of unfulfilled contracts with devils curses one's bloodline to produce dretchlings. This is the preferred punishment for most devils. While they could lay claim to the soul of the transgressor, it is seen as more lucrative to allow the fool to live their life and bear children; children that'll be easier to deceive and corrupt.
+
+        Dretchlings have free will just like other mortals. While their bloodlines link them to Hell, it is not unheard of for a dretchling to disown this connection and distance themselves from it as much as possible. However, mortals are often their worst enemies. Many dretchlings that fall to Hell's influence have been beaten and broken by the people that demonize them. Devils flock to them not because of their blood, they flock to them because many are forced into desperate circumstances by their own neighbors. Hecate's followers are known for "adopting" these downtrodden souls and forging them into vengeful champions and protectors of their brethren. Other archfiends prefer a fatalistic approach to enlisting them; convincing them that their fates were decided the moment their heartless matrons that gave birth to them. 
+
+        With how much the cards are stacked against these people, many wonder how most survive. Crimes against a dretchling are met with slaps on the wrist, with the reverse being met with crueler penalties. The most common speculation is fear. It is a well known fact that attacking children or their mothers is seen as unforgivable to Hecate, who has a history of avenging these injustices directly. Others see them as unstable, liable to lash out or to consult with devils to retaliate. Dretchlings can be intimidating by their features alone. It is difficult to converse with someone who has horns protruding from their head after all. Governments might make policies to protect them, whilst others might seek to exclude the race to camps or banish them entirely. Though whilst fear is a strong deterrent, dretchlings are still the most victimized ancestry of mortals.
         """,
         locked_by_default=True
     ),
 
     CompendiumEntry(
-        "SchoolLore",
-        "Meropian Terminology - School",
+        "JinxLore",
+        "Terminology - Jinx",
         """{=compendium_screen_title_style}Meropian Terminology - School{/compendium_screen_title_style}
 
-        School - a group of Meropians; often residing together through familial or tribal bonds.
+        Jinx - a curse or handicap inflicted on an individual at birth, believed to be by a Tu'un or malevolent entity.
+
+        Jinxes can come in all shapes and sizes. Some are more visible, like stagnated height or uneven limbs, while others are harder to spot. It is unclear why these beings jinx babes, and some are uncertain if these afflictions aren't better explained by biological causes. 
+
+        The way jinxed individuals are treated is largely basd upon the nature of the curse. Fear of the Archfiend Hecate has discouraged the disposal of afflicted children, and many flock to the assistance of a jinxed person assuming they are good natured. However some jinxes are much less civilized, and force a victim to behave in manner that is beyond sympathy. 
+
+        Hence, many have been researching cures for these hexes. Some have consulted with Tu;uns, but to varying results. Some jnxes have been cured with magic, while others demand certain items or rituals be undertaken to keep symptoms at bay. The only method that will cure a jinx permanently is a deal with a fiend, at the low cost of the victim;s soul.
         """,
         locked_by_default=True
     ),
@@ -152,16 +176,52 @@ default persistent.compendium = Compendium([
         locked_by_default=True
     ),
 
+    Compendium( 
+        "ManaLore",
+        "Mana - the Essence of Resolve"
+        """
+
+        Mana is a spiritual energy found in all beings. It is primarily channeled into making one’s ideals become reality, whether it be the achievement of a dream, maintaining order and goodwill, the destruction of one's foes, etc. For example, a farmer might find his energy nigh limitless when determined to make a profit. A merchant who is desperate to make ends meet or to acquire an expensive item might find his tongue silvered more so than before. The hymns, songs, stories, and art created from the passions of its founders.
+
+        The layperson's use of mana is not as empowering as the person might believe. "Nigh limitless energy" is a minor expression of one's mana. While there is indeed a boost, a lot of mana's empowering effects need to be practiced and channeled. A lot of the "legendary" effects to the layperson are simply one's personal resolve. That said, Mana can and will push one to perform feats comparable to the gods themselves with enough training and determination.
+
+        When channeled, Mana becomes an important component to everyone in combat. Often viewed as the manifestation of willpower, mana can grant a number of abilities. Priests can channel mana to heal the sick, mages channel mana to hurl their spells, warriors channel mana to perform deeds in combat, and so on. One's mana capabilities are reliant on their wielder's mental constitution. Just as it takes energy to swing an ax, it takes focus and resolve to see that it strikes true. When one believes that their life is in jeopardy, a concoction of mana and adrenaline grant every cornered rat the will to fight. However mana is not limitless. 
+        
+        The most rudimentary way one can describe Mana's capacity is to compare it to your favorite pasttime. Perhaps you enjoy tending to the animals every day. You start out ffixated on playing with them, until eventually you opt to head inside and find something else to do. However if you were forced to only play with the animals ad nauseum, you might become bored. Hell you may devolve into hating the farm activity as a whole. This declinet is often called Compassion Fatigue. Mana is the same.It grows harder to channel once someone's limit is reached, and overuse can result in injury; both physical and mental. Dubbed burnout, this exhaustion is a common manifestation of mana overuse.
+
+        There are many theories behind the origins of Mana. The faithful believe that it was a gift from the gods to equip their faithful. Secular practitioners believe that it is a cosmological effect of the differing planes on it's inhabitants. Some believe it is the essence of one's soul, noted by the physical deterioration one expends too much mana.
+
+        Regardless of origin, it takes a lot of physical, mental, and spiritual training to properly wield Mana. One's emotions can influence both the type of mana conjured, and its intensity. Improper use can lead to disaster; both on the individual and those around them,
+
+        There are four known forms of Mana:
+
+        - Sin
+
+        - Grace
+
+        - Justice
+
+        - Malice
+
+        """,
+        locked_by_default=false
+        
+    )
+
     CompendiumEntry(
         "GraceLore",
         "Grace, the Mana of Goodwill",
         """{=compendium_screen_title_style}Grace, the Mana of Goodwill{/compendium_screen_title_style}
 
-        When someone wields mana for purposes other than themselves, Grace is likely to be wielded. This mana is often associated with healers, triumph over evil, and even the angels themselves. Few are able to wield it, and those that do draw a lot of awe from others around them.
+        When someone wields mana for purposes other than themselves, Grace is likely the result. This mana is often associated with healers, forbearancel, and even the archons themselves. Few are able to wield it, and those that do draw a lot of awe from others around them.
 
-        Grace functions differently from other forms of mana. Its strengths are found through its healing and blessing capabilities. It can be used to fortify one's constitution, alongside relieving fear or other mental maladies. Stronger wielders can break curses or undo corrupt transformations.
+        Grace functions differently from other forms of mana. Its strengths are found through its healing and blessing capabilities. It can be used to fortify one's constitution, alongside relieving fear or other mental maladies. Stronger wielders can break curses or undo corrupt transformations, while more cunning practitioners have used it for offensive purposes.
 
-        However, Grace bestows no other strength. Blows powered by Grace are no stronger than without. If anything, Grace ensures that an attack doesn't kill. Though it does a good job at bolstering one's endurance and numbing pain, it is not a mana wielded by those who wish to become stronger but by those who wish to protect the ones they care about.
+        Unlike other forms of Mana, Grace consumes less from its wielder, allowing one to channel it longer than other mana. Those that weaponize it do so through disrupting others' mana: using Grace as a poison while relying on brute force or precise strikes for damage.
+
+        There is one major drawback however. Grace revolves around goodwill and selfless pursuits. If one strays too far from these ideals, the mana will cease and some other mana; usually Sin, will appear instead. Wielding Grace isn't just a choice, it's a lifestyle.
+
+        Furthermore, Grace bestows no other strength. Blows powered by Grace are no stronger than without. If anything, Grace ensures that an attack doesn't kill. Though it does a good job at bolstering one's endurance, it is not a mana wielded by those who wish to become stronger but to protect those they care about. Therefore the mana is rare, even amongst those who claim to stand for justice.
 
         Grace's aura is a icy blue.
         """,
@@ -170,20 +230,18 @@ default persistent.compendium = Compendium([
 
     CompendiumEntry(
         "MaliceLore",
-        "Malice, the Mana of Hatred",
+        "Malice, the Mana of Domination",
         """{=compendium_screen_title_style}Malice, the Mana of Hatred{/compendium_screen_title_style}
 
-        There is little that isn't inherently evil about Malice. It is a variant of mana that has been distorted and twisted by pride and hatred. Most of the evil connotations surrounding Sin aren't based around the mana itself, but the potential for it to morph into Malice.
+        There is little that isn't inherently evil about Malice. It is a variant of mana that has been distorted and twisted by selfishness and a lust for controlr. Most of the evil connotations surrounding Sin aren't based around the mana itself, but the potential for it to morph into Malice.
 
-        The techniques and ambitions fueled by Malice seek not just to destroy one's enemy, but to conquer. Whilst one who channels other types of mana would focus on victory, Malice's wielder would wish to strike fear, pain, and despair into their foes. Victory is still the objective, but the more pain one inflicts, the stronger Malice becomes.
+        The techniques and ambitions fueled by Malice seek not just to destroy one's enemy, but to dominate and torment. Whilst one who channels other types of mana would focus on victory, Malice's wielder would wish to strike fear, pain, and despair into their foes. The more pain one inflicts, the stronger Malice becomes.
 
-        There is little that isn't inherently evil about Malice. It is a variant of mana that has been distorted and twisted by selfishness and a hatred for all that oppose its wielder. Most of the evil connotations surrounding Sin aren't based around the mana itself, but the potential for it to morph into Malice.
+        It's rare for someone to wield Malice by accident. It might start out as simple pursuit, such as vengeance, with their intent become more malevolent and selfish. Trauma, strife, and injustices are the prime contributors to Malice's use. Sometimes people wield Malice as a boon from a devil's contract, and the fiend-blooded Dretchlings have an innate attraction to the wicked mana. The pitiful race often falls to Malice not because of their birthright, but because of the people that fear and despise them.
 
-        The techniques and ambitions fueled by Malice seek not just to destroy one's enemy, but to dominate and torment. Whilst one who channels other types of mana would focus on victory, Malice's wielder would wish to strike fear, pain, and despair into their foes. Victory is still the objective, but the more pain one inflicts, the stronger Malice becomes.
+        Malice comes from the plane of Hell. The devils that hail from there are beings of Malice. To them, funneling the mana is second nature; unlike mortals who claim they can contain it. Malice, despite it's immediate power, demands a lot from its wielder mentally. On top of the side effects from burnout, overuse of Malice usually leads people into insanity. Only devils are immune from this effect, and even they are careful not to let this fiendish effigy control them.
 
-        It's rare for someone to wield Malice by accident. It might start out as someone wanting one thing, such as vengeance, with their intent become more malevolent and selfish. Trauma, strife, and injustices are the prime contributors to Malice's use. Sometimes people wield Malice as a boon from a devil's contract, and the fiend-blooded dretchlings have an innate attraction to the wicked mana. The pitiful race often falls to Malice not because of their birthright, but because of the people that fear and despise them.
-
-        While people who channel Malice have evil intent, that isn't to say that they can't fit into society. Malice might not be directed at the world, just a portion of it. Those who channel Malice can still love others, have friends, and have a moral compass. But what makes them use Malice is the ruthless endeavors they're willing to undertake to achieve their goals, caring not for anyone's well-being but themselves.
+        While people who channel Malice have evil intent, that isn't to say that they can't fit into society. Malice might not be directed at the world, just a portion of it. Those who channel Malice can still love others, have friends, and have a moral compass. But what makes them use Malice is the ruthless endeavors they're willing to undertake to achieve their goals, caring not for anyone's well-being but themselves. Some mortals flock to the mana as a test of their character even, albeit a rash decision... It is believed that our darkest desires stem from Malice, and like the monsters that are born from it, it is not to be treated lightly.
         """,
         locked_by_default=True
     ),
