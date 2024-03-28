@@ -36,8 +36,9 @@ label scene_01:
     extend " And now, you're going away..."
 
     "As jovial as he was trying to be, I read him like a book."
-    extend " Jory supports me, but I know he doesn’t want me to leave. Like he said, we’re family."
-    extend " That and the mortality rate for Emmisaries is high."
+    extend " Jory supports me, but I know he doesn't want me to leave. Like he said, we're family."
+    $ unlockCompendionEntry("EmissaryLore")
+    extend " That and the mortality rate for Emissaries is high."
     "They say death is a daily occurrence in their ranks. I've heard tales that some of the recruits are criminals forced to join them or face execution."
     extend " Apparently, many prefer the noose..."
     "The Emmisaries aren't like normal Celestials. They aren't guards. Instead, they go out and confront problems directly."
@@ -73,9 +74,10 @@ label scene_01:
     v "Although the crime committed is great, his end was his own doing."
     extend " As your reverend, I command you to rise. Your friend will not face retribution."
 
-    "...I haven’t seen him since. I’ve been too ashamed, too afraid to face him."
+    "...I haven't seen him since. I’ve been too ashamed, too afraid to face him."
     extend " He was spared, but that didn't erase the horrible things I said to him... I treated him no differently than anyone else that day, like a Dretchling whose life had no value."
     extend " So I cannot squander the chance he has given me. I owe my life to Yeshua, and I want to prevent others from making the same mistakes I’ve made."
+    $ unlockCompendionEntry("DretchlingLore")
     "The Dretchlings are a race feared, hated, and even attacked because of their fiendish blood."
     extend " Their horns, hooves, and complexion paint targets on their backs. They resemble the monsters that came before them."
     "Once I rise up through the ranks, putting in laws to protect them will be the first change I implement."
@@ -191,7 +193,7 @@ label scene_01:
 
     c "Hmm, that name doesn't ring a bell..."
 
-    #$ unlockCompendionEntry("ThornLore")
+    $ unlockCompendionEntry("ThornLore")
     g "They call themselves the {i}Agents of the Rose{/i}, Hecate's cultists, to be precise."
 
     #show jory silhouete at left flip
