@@ -18,14 +18,14 @@ screen main_menu():
         margin (0,0)
         padding (0,0)
 
-        background "background cult altar"
+        background "gui/title_screen/test_3.png" # "background cult altar"
 
-        add "gui/title_screen/background.png":
-
-            pos (0,0)
-            xysize (1.0, 1.0)
-
-            alpha 0.25
+        # add "gui/title_screen/background.png":
+        #
+        #     pos (0,0)
+        #     xysize (1.0, 1.0)
+        #
+        #     alpha 0.25
 
         add "gui/title_screen/logo.png":
 
