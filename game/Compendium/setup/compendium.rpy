@@ -38,7 +38,7 @@ default persistent.compendium = Compendium([
         The Holy Lands are to the south of the plane. Biomes, cold and hot, can be found in this continent, with its neighbor, Jorunderfell, being covered in swamps and ice. They are referred to as the Holy Lands because its capital, Constantania, was where the Celestials and Exorcists were founded.
 
         Many speculate that these lands are the hunting grounds for Devils. There is no proof, but the Celestials are always hard at work with hunting them. Meanwhile the Exorcists shun all of the divine. They strive for independence from gods and other empires, and forbid anyone from seeking any divine aid. This creates an interesting schism; with the Celestials embracing the divine and shunning the arcane, and vice versa. This rivalry not only shapes the cultures, but also the land it resides on. Dominions occupied by the Celestials are more hospitable, sacred, and welcoming whilst the dark cities of the Exorcists are gothic, cruel, and ruled by fear.
-        
+
         For generations, the lands were united under one ruler; Reverend Hale. It is said that this man was chosen by Yeshua himself, using magic from Heaven itself to leads his troops against the Thrycians. His predecessor forged the Celestial empire into what it is, and it wasn't until Reverend Hale III's demise that the empire split into separate factions. After the Calamity known as the Reckoning, the secular Exorcists were formed.
 
         The Exorcists shun all of the divine. They strive for independence from gods, and forbid anyone from seeking any divine aid. In their eyes, mortals are capable of not only independence, but even surpassing the gods themselves. After all, the races native to the plane of Eldermyst Brawnies, Pigmies, Wrackies, and so forth flourished without their influence for millenia.
@@ -47,7 +47,7 @@ default persistent.compendium = Compendium([
 
         An uneasy peace exists between both factions, and scholars are constantly speculating of when war will break out. Some fear that the spark of violence will trigger another reckoning, while others believe that the empire is doomed to invasion from it's neighbor, Jorunderfell. Only time will tell...
         """,
-        locked_by_default=false
+        locked_by_default=False
     ),
 
     CompendiumEntry(
@@ -70,7 +70,7 @@ default persistent.compendium = Compendium([
         "ThryciaLore",
         "Holy Lands Cities - Thrycia",
         """{=compendium_screen_title_style}Holy Lands Cities - Thrycia{/compendium_screen_title_style}
-        
+
         Being the remnants of an empire as old as time, Thrycia is a shell of its former self. The city carries an ancient tradition. Unlike most settlements, Thrycia worships no deity. It's been an empire infamous for its violent and hedonistic ways.
 
         It is said that Thrycia survived the wrath of Yeshua. Many priests believe that Yeshua once turned his armies onto the sinful empire. Back when Eldermyst was unexplored and when the angels and devils became divided, many believe that the citizens of Thrycia took to breeding with the outcasts of Heaven. It is speculated that Cambions and Dretchlings were first sired here, and that had it not been for the Archfiend Hecate, Thrycia would be nothing but ash.
@@ -127,12 +127,12 @@ default persistent.compendium = Compendium([
 
         When this band was founded, the Emissaries were originally tasked with infiltrating other nations, and dispacting of spies. As Reverend Hale II came into power, their goals shifted to extraplanar affairs. With Celestia a now established empire, people feared the influence and potential invasions from devils. As of the Reckoning, this group has all but abandoned political affairs in favor of hunting devils and their acolytes.
 
-        The Emissaries do not strive to protect others, well not as much as the Celestials. They strike fear into the hearts of citizens, and have no qualms with torturing those they capture. This dark outlook isn't mandatory, just a byproduct of the horrors these agents endure. 
+        The Emissaries do not strive to protect others, well not as much as the Celestials. They strike fear into the hearts of citizens, and have no qualms with torturing those they capture. This dark outlook isn't mandatory, just a byproduct of the horrors these agents endure.
 
         In the hierarchy, Emissaries do not hold much power but are respected and left to their own devices. A budding Celestial is allowed to become one, and many seek the title as a test of faith and themselves. More reserved Celestials enjoy the role's exclusion from the public, and many flocked the position in hopes of preventing another divine calamity. However this profession is not trusted by the more idealistic knights, and some have called for its often cruel procedures."
 
         The Emisaries were founded under the Archlord Ahriman, the Guiding Star. Many have his upside down symbol pinned somewhere on their clothing tp symbolize his impending judgement. Though this faith varies from person to person, and worship of this Archlord is not enforced, just his more, "extreme" idealogies...
-        
+
         Many who enter the organization leave with broken spirits or in a coffin. Those that survive earn a begrudging respect from both ally and enemy alike. And with their cold determination, even devils are wary of them
         """,
         locked_by_default=True
@@ -145,11 +145,11 @@ default persistent.compendium = Compendium([
 
         Often referred to as Thorns, this notorious cult of Hecate is often just as elusive as the Archfiend herself.
 
-        What does one think of when they hear cultist? A man in dark robes leading a sacrifice? Or a person calling upon dark powers? These depictions are how the Thorns hope you perceive them, for what makes this sect so infamous is their ability to blend in. Almost anyone could be a Thorn, from a beggar to a smith to a guard and even a priest of Yeshua! 
+        What does one think of when they hear cultist? A man in dark robes leading a sacrifice? Or a person calling upon dark powers? These depictions are how the Thorns hope you perceive them, for what makes this sect so infamous is their ability to blend in. Almost anyone could be a Thorn, from a beggar to a smith to a guard and even a priest of Yeshua!
 
         Hecate does not aspire her followers to be cruel or bloodthirsty. With her pension for children, orphanages required supervision because of how often the mothers were caught worshiping her. Roses of all colors are forbidden for their similarity to Hecate's symbology. Kukris are banned for similar reasons, and the color purple now draws suspicion from nobles rather than admiration.
 
-        With all of this in mind, there are rituals and asttire involved in her worship. These aren't mandatory in this cult, and those that defy the law hold much respect from their colleagues. Many shadow wars have been fought between these cultists and Emissaries, and her worship is especially dangerous with the penalties being extraordinarily severe. Many people have been wrongfully accused of worshiping Hecate ever since the Reckoning, and only Reverend Hale IV himself can save them... 
+        With all of this in mind, there are rituals and asttire involved in her worship. These aren't mandatory in this cult, and those that defy the law hold much respect from their colleagues. Many shadow wars have been fought between these cultists and Emissaries, and her worship is especially dangerous with the penalties being extraordinarily severe. Many people have been wrongfully accused of worshiping Hecate ever since the Reckoning, and only Reverend Hale IV himself can save them...
         """,
         locked_by_default=True
     ),
@@ -179,7 +179,7 @@ default persistent.compendium = Compendium([
 
         Jinx - a curse or handicap inflicted on an individual at birth, believed to be by a Tu'un or malevolent entity.
 
-        Jinxes can come in all shapes and sizes. Some are more visible, like stagnated height or uneven limbs, while others are harder to spot. It is unclear why these beings jinx babes, and some are uncertain if these afflictions aren't better explained by biological causes. 
+        Jinxes can come in all shapes and sizes. Some are more visible, like stagnated height or uneven limbs, while others are harder to spot. It is unclear why these beings jinx babes, and some are uncertain if these afflictions aren't better explained by biological causes.
 
         The way jinxed individuals are treated is largely basd upon the nature of the curse. Fear of the Archfiend Hecate has discouraged the disposal of afflicted children, and many flock to the assistance of a jinxed person assuming they are good natured. However some jinxes are much less civilized, and force a victim to behave in manner that is beyond sympathy. 
 
@@ -188,17 +188,17 @@ default persistent.compendium = Compendium([
         locked_by_default=True
     ),
 
-    Compendium( 
+    CompendiumEntry(
         "ManaLore",
-        "Mana - the Essence of Resolve"
+        "Mana - the Essence of Resolve",
         """{=compendium_screen_title_style}Mana - The Essence{/compendium_screen_title_style}
 
         Mana is a spiritual energy found in all beings. It is primarily channeled into making one’s ideals become reality, whether it be the achievement of a dream, maintaining order and goodwill, the destruction of one's foes, etc. For example, a farmer might find his energy nigh limitless when determined to make a profit. A merchant who is desperate to make ends meet or to acquire an expensive item might find his tongue silvered more so than before. The hymns, songs, stories, and art created from the passions of its founders.
 
         The layperson's use of mana is not as empowering as the person might believe. "Nigh limitless energy" is a minor expression of one's mana. While there is indeed a boost, a lot of mana's empowering effects need to be practiced and channeled. A lot of the "legendary" effects to the layperson are simply one's personal resolve. That said, Mana can and will push one to perform feats comparable to the gods themselves with enough training and determination.
 
-        When channeled, Mana becomes an important component to everyone in combat. Often viewed as the manifestation of willpower, mana can grant a number of abilities. Priests can channel mana to heal the sick, mages channel mana to hurl their spells, warriors channel mana to perform deeds in combat, and so on. One's mana capabilities are reliant on their wielder's mental constitution. Just as it takes energy to swing an ax, it takes focus and resolve to see that it strikes true. When one believes that their life is in jeopardy, a concoction of mana and adrenaline grant every cornered rat the will to fight. However mana is not limitless. 
-        
+        When channeled, Mana becomes an important component to everyone in combat. Often viewed as the manifestation of willpower, mana can grant a number of abilities. Priests can channel mana to heal the sick, mages channel mana to hurl their spells, warriors channel mana to perform deeds in combat, and so on. One's mana capabilities are reliant on their wielder's mental constitution. Just as it takes energy to swing an ax, it takes focus and resolve to see that it strikes true. When one believes that their life is in jeopardy, a concoction of mana and adrenaline grant every cornered rat the will to fight. However mana is not limitless.
+
         The most rudimentary way one can describe Mana's capacity is to compare it to your favorite pasttime. Perhaps you enjoy tending to the animals every day. You start out ffixated on playing with them, until eventually you opt to head inside and find something else to do. However if you were forced to only play with the animals ad nauseum, you might become bored. Hell you may devolve into hating the farm activity as a whole. This declinet is often called Compassion Fatigue. Mana is the same.It grows harder to channel once someone's limit is reached, and overuse can result in injury; both physical and mental. Dubbed burnout, this exhaustion is a common manifestation of mana overuse.
 
         There are many theories behind the origins of Mana. The faithful believe that it was a gift from the gods to equip their faithful. Secular practitioners believe that it is a cosmological effect of the differing planes on it's inhabitants. Some believe it is the essence of one's soul, noted by the physical deterioration one expends too much mana.
@@ -216,9 +216,9 @@ default persistent.compendium = Compendium([
         - Malice
 
         """,
-        locked_by_default=false
-        
-    )
+        locked_by_default=False
+
+    ),
 
     CompendiumEntry(
         "GraceLore",
