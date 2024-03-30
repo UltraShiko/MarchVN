@@ -22,6 +22,11 @@ style codex_scrollbar is gui_vscrollbar:
 
     xoffset 100
 
+style compendium_screen_title_style:
+
+    bold True
+    size 50
+
 ### Screen used to display the compendium information unlocked by the player.
 
 screen compendium_screen():
