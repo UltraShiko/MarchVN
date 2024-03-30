@@ -4,7 +4,7 @@ label scene_06:
     v "By Yeshua, I knew I shouldn't have let him leave!"
     v "Enough. He needs rest. You can't treat all injuries with mana."
     v "Damn you, Emissary!"
-    v "I'll accept your insults. I should be dead myself." 
+    v "I'll accept your insults. I should be dead myself."
     extend " In fact, I'd prefer death over the position we're in now..."
     v "Oh! He's waking up! Thank goodness!"
 
@@ -19,7 +19,7 @@ label scene_06:
     "I find myself in Jory's arms... It still hurts to move, but it looks like I've pulled through."
     "Griswyr stands in the corner, at a distant as always."
 
-    nvl clear
+    # nvl clear
 
     j "By Yeshua, are you alright?!"
 
@@ -42,7 +42,7 @@ label scene_06:
     "I know he didn't mean to, but damn that hurts my ribs..."
     extend " Of course Griswyr hardly cares..."
 
-    nvl clear
+    # nvl clear
 
     j "Get out! We're done here!"
     extend " It may be his choice, but I don't want to see you or your kind ever again!"
@@ -75,7 +75,7 @@ label scene_06:
 
     "Jory sighs deeply and closes his eyes."
 
-    nvl clear
+    # nvl clear
 
     j "Caius...there's something you need to know."
     extend " While you were gone, word hit Jubilee, and..."
@@ -83,7 +83,7 @@ label scene_06:
 
     "He gulps hard and speaks slowly."
 
-    nvl clear
+    # nvl clear
 
     j "Thrycia..."
     extend "is no more."
@@ -100,7 +100,7 @@ label scene_06:
 
     "I swear I hear Persephone's words in my mind again."
 
-    nvl clear
+    # nvl clear
 
     p "Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you..."
 
@@ -109,7 +109,7 @@ label scene_06:
     "Yet again, I was too weak...and now."
     extend " There's nothing I can do to save him...!"
 
-    nvl clear
+    # nvl clear
 
     c "...Priam?!"
 

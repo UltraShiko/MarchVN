@@ -1,8 +1,10 @@
 
 label scene_03:
 
-    scene background cave_entrance with fade
-    play music bgm.night_ambience 
+    scene background cave entrance with fade
+    play music bgm.night_ambience
+
+    window show
 
     "As we brush past the thickets, we come upon a cave."
     extend " It has crude, wooden doors at the entrance, much like you'd expect from hovels owned by brigands."
@@ -14,9 +16,10 @@ label scene_03:
     extend " If he's on watch, he's doing a poor job..."
     "Griswyr and I crouch beneath the bushes. The Thorn continues his daydreaming, mumbling to himself."
 
-    nvl clear
+    # nvl clear
 
     #show cultist silhouette at center with dissolve
+
     cu "Oh man, tonight's the night! We can finally take back what's ours!"
     extend " Those damned Celestials chased us out of the city, and for what?! I baked bread! Worshiping mother wasn't hurtin' nobody!"
     cu "But damn, why did I get stuck outside? I wanna see her emerge on that altar. Gotta make sure she's given a warm welcome!"
@@ -24,12 +27,14 @@ label scene_03:
 
     "He really enjoys talking to himself..."
     extend " Was he trying to summon the Archfiend herself? It can't be that simple..."
+
     hide Cultist
-    #show Griswyr neutral at center with dissolve
+
+    show Griswyr neutral at center with dissolve
     "I shudder, spotting Griswyr on all fours."
     extend " He leers at the cultist like a wolf would at a deer!"
 
-    nvl clear
+    # nvl clear
 
     #show Griswyr neutral at center with dissolve
     g "Alright, recruit, deal with him."
@@ -54,7 +59,7 @@ label scene_03:
     "Hmm, maybe I could convince them to let me inside? Many have called me a monk, so I could claim I'm a pilgrim of Hecate.."
     extend "But I don't know anything about Hecate's faith. If they test me, I won't-"
 
-    nvl clear
+    # nvl clear
 
     stop sound
 
@@ -65,7 +70,7 @@ label scene_03:
     "He draws his kukri and strides towards me."
     extend " I toss my hands in the air, stammering like a child."
 
-    nvl clear
+    # nvl clear
 
     c "Ah! I-I mean no harm! I-I'm just a m-monk, and I was-was just going for a walk!"
 
@@ -81,7 +86,7 @@ label scene_03:
     extend " A broad smile answers my worries. It's as if he's forgotten he's upset."
     "Hold on, did my plan actually work?!"
 
-    nvl clear
+    # nvl clear
 
     cu "Just keep heading straight, and you'll find the road."
     extend " If you got this far, you should be okay on your own."
@@ -105,7 +110,7 @@ label scene_03:
     "Why is he being so nice to me...? Especially after I said Yeshua?"
     extend " If memory serves, Hecate detests Yeshua specifically. I believe she's still vengeful about her banishment"
 
-    nvl clear
+    # nvl clear
 
     cu "You monks are a dime a dozen! Can't believe you'd come this far without an escort."
 
@@ -123,7 +128,7 @@ label scene_03:
     "I tremble. So he was just leading me on? How could I be so naive...?"
     extend " Had I been a second slower..."
 
-    nvl clear
+    # nvl clear
 
     show griswyr at center with dissolve
 
@@ -150,7 +155,7 @@ label scene_03:
     "Time stands still. The body wriggles slightly before going stiff..."
     extend " I close my eyes multiple times, just to open them to the same carnage..."
 
-    nvl clear
+    # nvl clear
 
     g "If any cultists are on patrol, I say we leave the body in the open."
     extend " It'll give them a taste of what awaits them."
@@ -199,7 +204,7 @@ label scene_03:
     extend " Dretchlings are prime targets for Devils. Their bitter mistreatment by others pushes those poor souls straight into their hands."
     "I only hoped that a saint would give {i}him{/i} the compassion I couldn't..."
 
-    nvl clear
+    # nvl clear
 
     hide griswyr
     stop music fadeout 1.5

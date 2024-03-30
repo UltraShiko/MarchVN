@@ -42,6 +42,23 @@ layeredimage caius:
 
             "images/sprites/caius/snide.png"
 
+### Griswyr
+
+layeredimage Griswyr:
+
+    yoffset 175
+    zoom 0.90
+
+    always:
+
+        "images/sprites/griswyr/base.png"
+
+    group emotions:
+
+        attribute neutral default:
+
+            null
+
 ### Persephone
 
 layeredimage persephone:
@@ -77,32 +94,38 @@ layeredimage persephone:
 
 ### Jory
 
+# TODO: Replace Jory's sprites with the correct ones, post-jam.
 image Jory:
 
     yoffset 251
 
-    "images/sprites/jory/neutral.png"
+    # "images/sprites/jory/neutral.png"
+    "images/sprites/jory/silhouette.png"
 
 image Jory angry:
 
     yoffset 251
 
-    "images/sprites/jory/angry.png"
+    # "images/sprites/jory/angry.png"
+    "images/sprites/jory/silhouette.png"
 
 image Jory happy:
 
     yoffset 251
 
-    "images/sprites/jory/happy.png"
+    # "images/sprites/jory/happy.png"
+    "images/sprites/jory/silhouette.png"
 
 image Jory neutral:
 
     yoffset 251
 
-    "images/sprites/jory/neutral.png"
+    # "images/sprites/jory/neutral.png"
+    "images/sprites/jory/silhouette.png"
 
 image Jory sad:
 
     yoffset 251
 
-    "images/sprites/jory/sad.png"
+    # "images/sprites/jory/sad.png"
+    "images/sprites/jory/silhouette.png"

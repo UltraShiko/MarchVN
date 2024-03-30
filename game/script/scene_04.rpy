@@ -15,7 +15,7 @@ label scene_04:
     #show griswyr neutral at center with fade
     "Griswyr moves so lightly. There are times when I have to double check if he's still beside me."
 
-    nvl clear
+    # nvl clear
 
     play sound sfx.light_grapple
 
@@ -27,7 +27,7 @@ label scene_04:
     "He draws his hatchet and kneels."
     extend " Ah, a tripwire! Of course, I should've expected that..."
 
-    nvl clear
+    # nvl clear
 
     g "Brace yourself."
 
@@ -37,7 +37,7 @@ label scene_04:
     #play sound fartherfootsteps TODO: find a sfx
     "We turn to and fro but hear nothing heading our way except footsteps."
 
-    nvl clear
+    # nvl clear
 
     g "Damn! I should've expected something crude... These people aren't living in a fortress."
 
@@ -60,7 +60,7 @@ label scene_04:
     "Several disciples rush forward, weapons drawn."
     extend "Just like the first guard though, no one notices us at first."
 
-    nvl clear
+    # nvl clear
 
     #show cultist silhouette at left with dissolve
     #show cultist silhouette at right with dissolve
@@ -81,7 +81,7 @@ label scene_04:
     "Griswyr doesn't strike from behind - no, he plants himself at the center of the group!"
     "His victim collapses, his throat cut wide open. I didn't even see the slash."
 
-    nvl clear
+    # nvl clear
 
     cu "Agh...!"
     extend " Intruder-"
@@ -118,7 +118,7 @@ label scene_04:
     "Griswyr pauses his massacre to face the powerful cultist. Unfazed, he scoffs."
     extend "I gasp as the same Malice erupts from Gryswyr's arm as he flings his hatchet."
 
-    nvl clear
+    # nvl clear
 
     play sound sfx.heavyslash
     with bloodflash
@@ -137,7 +137,7 @@ label scene_04:
     "They know they don't have a chance of winning or surviving."
     extend " Moments later, the cave becomes silent as the final bodies fall. Griswyr merely frowns in disgust as he collects his weapons."
 
-    nvl clear
+    # nvl clear
 
     g "As expected, they were pathetic."
     extend " Were you paying attention Caius?"
@@ -149,7 +149,7 @@ label scene_04:
     play sound sfx.blood_splatter
     "Worst of all, the man with the hatchet inside his forehead is still alive and {i}still{/i} screaming..."
 
-    nvl clear
+    # nvl clear
 
     cu "Please! I surrender! Just get this thing out of my head!" with vpunch
 
@@ -161,7 +161,7 @@ label scene_04:
     extend " The poor Thorn scurries away, until he has nowhere left to go."
     "Griswyr shakes his head. He appears bored, of all things..."
 
-    nvl clear
+    # nvl clear
 
     g "Surrender is cheap, I want information."
 
@@ -181,7 +181,7 @@ label scene_04:
     extend " The blood has formed puddles across the ground. Moving through the carnage sends shivers down my spine..."
     "It feels like I'm wading through a sticky, red mud... By Yeshua, I hope this will wash out."
 
-    nvl clear
+    # nvl clear
 
     cu "So there's...five men leading the ritual. They've already begun chanting..."
     extend " I doubt you have much longer. If you're here to stop us, then you best hurry..."
@@ -203,7 +203,7 @@ label scene_04:
     "As Griswyr presses his boot into the hatchet, I spring forward."
     extend " I run on air, or at least that's what it feels like."
 
-    nvl clear
+    # nvl clear
 
     c "Stop it Griswyr!"
 
@@ -211,7 +211,7 @@ label scene_04:
     "My breaths accelerate, and a cold sweat breaks out on my brow. I can’t allow this torture to continue!"
     extend " Superior or otherwise, he has gone too far! There's no way the reverend would stand for this cruelty!"
 
-    nvl clear
+    # nvl clear
 
     c "That's enough! He's already down!"
 
@@ -226,7 +226,7 @@ label scene_04:
 
     "I nod fiercely."
 
-    nvl clear
+    # nvl clear
 
     c "You may not follow Yeshua, but I know Ahriman won't stand for what you are doing!"
 
@@ -237,7 +237,7 @@ label scene_04:
 
     "He sighs."
 
-    nvl clear
+    # nvl clear
 
     g "...We don't have time for this."
 
@@ -256,7 +256,7 @@ label scene_04:
     "Griswyr turns to me, his gaze just as disinterested as usual."
     extend " I don't flinch. After my actions, I might not end up becoming an Emmisary, but at least I'll still have my humanity!"
 
-    nvl clear
+    # nvl clear
 
     g "You understand he's going to bleed out, correct?"
 
@@ -278,7 +278,7 @@ label scene_04:
     extend " He looks more than capable of fighting on his own. What would drive him to such ends?"
     "That is a question for after the mission."
 
-    nvl clear
+    # nvl clear
 
     scene image "#000" with dissolve
 

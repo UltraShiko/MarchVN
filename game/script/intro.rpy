@@ -7,7 +7,7 @@ label intro:
 
     pause 2.0
 
-    nvl clear
+    # nvl clear
 
     #text at center #Is there a way to make this appear at the center?
     "..."
@@ -25,8 +25,10 @@ label intro:
     "I hate you..."
     extend " I hate you!!!"
 
-    nvl clear
-    
+    window hide
+
+    # nvl clear
+
     jump scene_01
 
     return

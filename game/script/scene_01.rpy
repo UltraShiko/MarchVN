@@ -1,9 +1,13 @@
 
 label scene_01:
 
-    scene background slums
+    pause 0.5
 
     play music bgm.VillageAmbienceLoop fadein 1.5
+
+    scene background slums with Dissolve(1.0)
+
+    window show
 
     c "Ngh..."
 
@@ -14,16 +18,20 @@ label scene_01:
     extend " It wasn't his fault. The whole thing was just a big mistake. We were cornered, he didn’t have any other choice..."
     "Once I become an Emmisary though, I'll change everything. I'll make things right."
 
-    nvl clear
+    # nvl clear
 
     v "Hey, how are you holding up?"
 
-    #show Jory silhouete at center with dissolve - we'll re-add him once the jam has ended
+    window hide
+
+    show Jory happy at center with dissolve
+
+    window show
 
     "I shudder as the giant approaches me."
     extend " I never understood how a man so big could be so quiet."
 
-    nvl clear
+    # nvl clear
 
     c smile "I'm managing, thanks for asking, sir."
 
@@ -48,7 +56,7 @@ label scene_01:
     "I could enlist as a Celestial, but the Emissaries often work alongside the Reverend, or at least closely with him."
     extend " Even if Jory knows him well, I would still rather impress the Reverend with my own deeds instead of relying on Jory buttering him up."
 
-    nvl clear
+    # nvl clear
 
     c "You've taught me well, sir."
     extend " From combat, to controlling mana, to keeping my mind pure. I'm ready!"
@@ -67,7 +75,7 @@ label scene_01:
     "He didn't believe me. I could tell..."
     extend " Rather than executing me though, he said something that I'll never forget..."
 
-    nvl clear
+    # nvl clear
 
     v "Blessed are the peacekeepers. Blessed are those who relinquish themselves for the sake of others."
     extend " I do not know what really transpired, but I'm thankful I met someone as noble as you. You remind me of why I took up the mantle."
@@ -83,7 +91,7 @@ label scene_01:
     "Once I rise up through the ranks, putting in laws to protect them will be the first change I implement."
     extend " After all, devils don't need our help harvesting souls. And I hear they flock to Dretchlings like moths to a flame..."
 
-    nvl clear
+    # nvl clear
 
     c neutral "Sir, I'm aware of the danger. I've been preparing myself all week."
     c neutral "How can I change this country if I don't have the courage to face the evils I want to abolish? Devils lurk not just in Hell but also in the ears and minds of our leaders."
@@ -97,7 +105,7 @@ label scene_01:
     "Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
     extend " They say his antics were so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
 
-    nvl clear
+    # nvl clear
 
     c angry "He abused you. He abused everyone! His pride and arrogance caused the Reckoning, and now our country is divided!"
 
@@ -111,7 +119,7 @@ label scene_01:
     "I cringe along with him."
     extend " It takes a lot to get under Jory's skin, and when something does, it’s always about a woman he once cared for..."
 
-    nvl clear
+    # nvl clear
 
     c "...But you've made amends. I mean, you took me in despite the fact I...you know."
 
@@ -122,7 +130,7 @@ label scene_01:
     "I still can’t believe the earlier reverend had the courage to bully Jory or his friends."
     extend " Jory always holds back when we spar, yet his blows still hurt more than anything I’ve ever endured. Yeshua forbid what damage he could cause if he ever got angry enough..."
 
-    nvl clear
+    # nvl clear
 
     j "Uh whoops! Lost myself there!"
     extend " You get what I mean though, right?"
@@ -147,7 +155,7 @@ label scene_01:
     "His meaty hand pats my shoulder."
     extend " Well... more like engulfs it."
 
-    nvl clear
+    # nvl clear
 
     j "Just come back in one piece, alright?"
 
@@ -155,7 +163,13 @@ label scene_01:
 
     v "Hmmm... I knew you took a vow of poverty, but I still expected better lodgings..."
 
-    #show griswyr neutral at center with dissolve
+    window hide
+
+    hide Jory with dissolve
+
+    show Griswyr neutral at center with dissolve
+
+    window show
 
     "We turn, and there stands a gaunt man."
     "His pale complexion rivals that of snow, and his hair is just as white."
@@ -167,13 +181,22 @@ label scene_01:
     extend " The stories depict Emmisaries as dark, brooding individuals. He fits that description perfectly."
     "He puts away his notebook and looks towards us, emotionless..."
 
-    nvl clear
+    # nvl clear
 
     v "You are Caius, correct?"
 
     c "Yes, sir."
 
     g "I am Griswyr Alucard. I have come to claim you."
+
+    window hide
+
+    show Jory neutral at center_left
+    show Griswyr neutral at center_right
+
+    with dissolve
+
+    window show
 
     j "So late in the day? It'll be night within the hour..."
 
@@ -185,7 +208,7 @@ label scene_01:
     "Oh, but it is a BIG problem! I'm not prepared for a nocturnal expedition..."
     extend " I thought the trial would test my skills in combat, not my endurance...."
 
-    nvl clear
+    # nvl clear
 
     g "If you are ready, then let's go. Our enemy has already begun their machinations."
 
@@ -205,7 +228,7 @@ label scene_01:
     "Griswyr's eyes narrow."
     extend " On top of being unprepared, now I’ve earned his ire..."
 
-    nvl clear
+    # nvl clear
 
     g "...I'm sorry, did you expect this mission to be simple?"
 
@@ -216,6 +239,12 @@ label scene_01:
     g "Now let's be off. Time is of the essence."
 
     c "Yes, sir..."
+
+    window hide
+
+    hide Griswyr with dissolve
+
+    window show
 
     "As we depart, Jory waves me off, but the enthusiasm has vanished from his face..."
     "My blood freezes as the sun sets."
@@ -230,7 +259,9 @@ label scene_01:
     "I suppose it's only natural that the trials of the Emmisaries are just as dangerous as the work they do, and Griswyr has a point."
     extend " I wonder why he chose me for this particular task... I'm as green as they come."
 
-    nvl clear
+    # nvl clear
+
+    window hide
 
     stop music
     jump scene_02

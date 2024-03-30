@@ -3,19 +3,28 @@ label scene_02:
 
     scene background forest with dissolve
 
-    play music bgm.night_ambience 
+    play music bgm.night_ambience
 
     play sound sfx.forestfootsteps loop # TODO: Using placeholder track. Replace with correct one.
 
+    window show
+
     "A choir of crickets chirps as we leave Jubilee's outskirts."
     "I feel dismayed. The moon's radiance is telling me it's time for bed, but we've only just started our journey..."
+
+    window hide
+
+    show Griswyr neutral at center with dissolve
+
+    window show
+
     extend " Meanwhile, Griswyr moves like he's in his element, under the cover of night..."
     "Now that I think about it, something is...different about him."
     extend " He can't be a Dretchling. They're pale, but not to his degree. And his eyes don’t share their crimson pupils."
     "Yet the way he carries himself, feels unnatural somehow."
     extend " He looks human, but..."
 
-    nvl clear
+    # nvl clear
 
     g "You aren't getting tired already, are you?"
 
@@ -92,7 +101,7 @@ label scene_02:
     "Besides, this vow has forced me to look within myself, to master every thought that passes through."
     extend " And it has made me stronger!"
 
-    nvl clear
+    # nvl clear
 
     g "How pious..."
     extend " Too pious! You expect such flimsy arms to have an impact?"
@@ -149,7 +158,7 @@ label scene_02:
     extend " I should've expected no less from an Emmisary... Why wouldn't they research their applicants?"
     "Though I had hoped that the reverend and Jory had kept what happened a secret amongst themselves..."
 
-    nvl clear
+    # nvl clear
 
     c "...How much do you know?"
 
@@ -179,7 +188,7 @@ label scene_02:
 
     "He snarls softly, but quickly recovers his stoicism."
 
-    nvl clear
+    # nvl clear
 
     g "Indeed. I picked you because I believe you are driven by regret."
     g "I'm not a fan of the \"righteous crusaders\", or anyone with a savior complex. They may as well be infants."
@@ -188,7 +197,7 @@ label scene_02:
     extend " He's very condescending... I understand that his work is treacherous, yet I can't imagine myself ever becoming so cynical."
     "Is this attitude what Jory meant by the life as an Emmisary \"breaking\" people?"
 
-    nvl clear
+    # nvl clear
 
     c "...With all due respect sir, you are very judgemental."
 
@@ -209,7 +218,7 @@ label scene_02:
     extend " Whenever I bring up my friend being a Dretchling, people always scowl, grimace, or become disgusted. I figured an Emmisary would react no differently..."
     "Then again, Griswyr doesn't strike me as normal either."
 
-    nvl clear
+    # nvl clear
 
     g "It's a pious goal, but at least it has direction."
 
@@ -218,7 +227,7 @@ label scene_02:
 
     "He blinks at me, as if I'm asking him if the sky was blue."
 
-    nvl clear
+    # nvl clear
 
     g "...What makes you think otherwise?"
 
@@ -232,13 +241,17 @@ label scene_02:
     "Griswy wasn't this outspoken when we met. I can understand being a night owl, but it's like the night is his element."
     extend " Though if he sleeps during the day, I guess it makes sense. Much like how I'm an early riser, and rely on the sun to keep me going."
 
-    nvl clear
+    # nvl clear
 
     g "Enough questions, we're almost there."
 
-    hide Griswyr
+    window hide
+
+    hide Griswyr with dissolve
+
     stop music
     stop sound
+
     scene image "#000" with dissolve
 
     #I think here would be a good place to ask the player if they want to save their game.
