@@ -125,7 +125,7 @@ Celestials carry burdens that are heavier than any armor they may don, but they 
 
 A dark sect of the Celestials, the Emissaries are a mysterious band of rogues that specialize in espionage and the execution.
 
-When this band was founded, the Emissaries were originally tasked with infiltrating other nations, and dispacting of spies. As Reverend Hale II came into power, their goals shifted to extraplanar affairs. With Celestia a now established empire, people feared the influence and potential invasions from devils. As of the Reckoning, this group has all but abandoned political affairs in favor of hunting devils and their acolytes.
+When this band was founded, the Emissaries were originally tasked with infiltrating other nations, and dispatching of spies. As Reverend Hale II came into power, their goals shifted to extraplanar affairs. With Celestia a now established empire, people feared the influence and potential invasions from devils. As of the Reckoning, this group has all but abandoned political affairs in favor of hunting devils and their acolytes.
 
 The Emissaries do not strive to protect others, well not as much as the Celestials. They strike fear into the hearts of citizens, and have no qualms with torturing those they capture. This dark outlook isn't mandatory, just a byproduct of the horrors these agents endure.
 
@@ -199,7 +199,7 @@ The layperson's use of mana is not as empowering as the person might believe. "N
 
 When channeled, Mana becomes an important component to everyone in combat. Often viewed as the manifestation of willpower, mana can grant a number of abilities. Priests can channel mana to heal the sick, mages channel mana to hurl their spells, warriors channel mana to perform deeds in combat, and so on. One's mana capabilities are reliant on their wielder's mental constitution. Just as it takes energy to swing an ax, it takes focus and resolve to see that it strikes true. When one believes that their life is in jeopardy, a concoction of mana and adrenaline grant every cornered rat the will to fight. However mana is not limitless.
 
-The most rudimentary way one can describe Mana's capacity is to compare it to your favorite pasttime. Perhaps you enjoy tending to the animals every day. You start out fixated on playing with them, until eventually you opt to head inside and find something else to do. However if you were forced to only play with the animals ad nauseum, you might become bored. Hell you may devolve into hating the farm activity as a whole. This declinet is often called Compassion Fatigue. Mana is the same. It grows harder to channel once someone's limit is reached, and overuse can result in injury; both physical and mental. Dubbed burnout, this exhaustion is a common manifestation of mana overuse.
+The most rudimentary way one can describe Mana's capacity is to compare it to your favorite pasttime. Perhaps you enjoy tending to the animals every day. You start out fixated on playing with them, until eventually you opt to head inside and find something else to do. However if you were forced to only play with the animals ad nauseum, you might become bored. Hell you may devolve into hating the farm activity as a whole. This decline is often called Compassion Fatigue. Mana is the same. It grows harder to channel once someone's limit is reached, and overuse can result in injury; both physical and mental. Dubbed burnout, this exhaustion is a common manifestation of mana overuse.
 
 There are many theories behind the origins of Mana. The faithful believe that it was a gift from the gods to equip their faithful. Secular practitioners believe that it is a cosmological effect of the differing planes on its inhabitants. Some believe it is the essence of one's soul, noted by the physical deterioration one expends too much mana.
 
@@ -223,7 +223,7 @@ There are four known forms of Mana:
         "Grace, the Mana of Goodwill",
         """{=compendium_screen_title_style}Grace, the Mana of Goodwill{/compendium_screen_title_style}
 
-When someone wields mana for purposes other than themselves, Grace is likely the result. This mana is often associated with healers, forbearancel, and even the archons themselves. Few are able to wield it, and those that do draw a lot of awe from others around them.
+When someone wields mana for purposes other than themselves, Grace is likely the result. This mana is often associated with healers, forbearance, and even the archons themselves. Few are able to wield it, and those that do draw a lot of awe from others around them.
 
 Grace functions differently from other forms of mana. Its strengths are found through its healing and blessing capabilities. It can be used to fortify one's constitution, alongside relieving fear or other mental maladies. Stronger wielders can break curses or undo corrupt transformations, while more cunning practitioners have used it for offensive purposes.
 
