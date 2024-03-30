@@ -13,7 +13,7 @@ label scene_06:
     show Jory sad at center
     show griswyr at left
 
-    with dissolve(0.8)
+    with Dissolve(0.8)
 
     "I stir wearily, wrapped in bandages in more places than I can fathom..."
     "I find myself in Jory's arms... It still hurts to move, but it looks like I've pulled through."
@@ -23,6 +23,7 @@ label scene_06:
 
     j "By Yeshua, are you alright?!"
 
+    play music bgm.epilogue fadein 1.5
     c "Ngh....well, I'm still breathing so..."
 
     g "Luckily most of his injuries weren't deep. Those broken ribs are going to need some time, not like you can move anyways."

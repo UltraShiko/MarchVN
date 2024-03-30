@@ -69,7 +69,7 @@ label scene_04:
     cu "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
     cu "Wait, Oakley is as stubborn as a mule! He wouldn't cower like that, so that means-"
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
     with bloodflash
 
     cu "GAAAAAAAAHHHHHH!!!!" with vpunch
@@ -88,7 +88,7 @@ label scene_04:
 
     g "Too slow."
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
     with bloodflash
 
     "The cultists realize they are being ambushed and turn their fury on Griswyr. As each one attacks him though, he spins with his weapon, each twirl tearing apart his victims completely."
@@ -100,7 +100,7 @@ label scene_04:
     "The cave quickly fills with blood and screams."
     extend " The acolytes are panicking now, desperate to stop him or escape. Griswyr won't let them do either."
 
-    play sound sfx.heavy_slash
+    play sound sfx.slash
     with bloodflash
 
     "He may as well be a tornado, cutting down his victims with vicious twirls."
@@ -120,7 +120,7 @@ label scene_04:
 
     nvl clear
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
     with bloodflash
 
     cu "AAAAAHHHH!!!!" with vpunch
@@ -131,7 +131,7 @@ label scene_04:
     "I couldn't believe what I saw. Gryswyr summoned the same, wicked mana as the Thorn!"
     extend " But he's an Emissary, someone who protects people. So why would he use Malice when it corrupts people?"
     "Being down a weapon hardly slows Griswyr."
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
     with bloodflash
     extend " He flourishes his sword  and cuts down the rest of the cultists who are now in disarray and significantly low on numbers."
     "They know they don't have a chance of winning or surviving."
@@ -194,7 +194,7 @@ label scene_04:
 
     cu "I...I don't know! Our leader kept it under-"
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
 
     cu "Nnnngggghhhh!!!" with vpunch
 
@@ -243,7 +243,7 @@ label scene_04:
 
     "He moves past me. Before I can react..."
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
     with bloodflash
 
     extend " The cultist wheezes as the ax is yanked out of his head."

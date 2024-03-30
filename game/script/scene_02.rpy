@@ -3,9 +3,9 @@ label scene_02:
 
     scene background forest with dissolve
 
-    play music bgm.night_ambience # TODO: Using placeholder track. Replace with correct one.
+    play music bgm.night_ambience 
 
-    play sound sfx.forest_footsteps loop # TODO: Using placeholder track. Replace with correct one.
+    play sound sfx.forestfootsteps loop # TODO: Using placeholder track. Replace with correct one.
 
     "A choir of crickets chirps as we leave Jubilee's outskirts."
     "I feel dismayed. The moon's radiance is telling me it's time for bed, but we've only just started our journey..."

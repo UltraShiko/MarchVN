@@ -77,7 +77,7 @@ label scene_01:
     "...I haven't seen him since. I’ve been too ashamed, too afraid to face him."
     extend " He was spared, but that didn't erase the horrible things I said to him... I treated him no differently than anyone else that day, like a Dretchling whose life had no value."
     extend " So I cannot squander the chance he has given me. I owe my life to Yeshua, and I want to prevent others from making the same mistakes I’ve made."
-    $ unlockCompendionEntry("DretchlingLore")
+    #$ unlockCompendionEntry("DretchlingLore")
     "The Dretchlings are a race feared, hated, and even attacked because of their fiendish blood."
     extend " Their horns, hooves, and complexion paint targets on their backs. They resemble the monsters that came before them."
     "Once I rise up through the ranks, putting in laws to protect them will be the first change I implement."
@@ -143,7 +143,7 @@ label scene_01:
 
     j "Shoot, guess I can't complain then, can I?"
 
-    play sound LightGrapple
+    play sound light_grapple
     "His meaty hand pats my shoulder."
     extend " Well... more like engulfs it."
 
@@ -232,6 +232,7 @@ label scene_01:
 
     nvl clear
 
+    stop music
     jump scene_02
 
     return

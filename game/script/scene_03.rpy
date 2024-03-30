@@ -1,9 +1,8 @@
 
 label scene_03:
 
-    #scene background cave entrance
-
-    play music bgm.night_ambience # TODO: Using placeholder track. Replace with correct one.
+    scene background cave_entrance with fade
+    play music bgm.night_ambience 
 
     "As we brush past the thickets, we come upon a cave."
     extend " It has crude, wooden doors at the entrance, much like you'd expect from hovels owned by brigands."
@@ -45,8 +44,8 @@ label scene_03:
 
     c "Ugh, yes sir..."
 
-    hide Griswyr with dissolve
-    play sound sfx.forest_footsteps loop
+    hide griswyr with dissolve
+    play sound sfx.forestfootsteps loop
     "I stumble out from the bushes. I was prepared to fight, but not by myself..."
     "Alright, what's my plan?"
     extend " Perhaps I could rush him. If I'm quick, I could knock him out and slip inside."
@@ -141,7 +140,7 @@ label scene_03:
 
     c "Huh?"
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
     with bloodflash
 
     "Did Griswyr just..."

@@ -57,7 +57,7 @@ label scene_05:
 
     g "Graaaahhhh!!!" with vpunch
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
     with bloodflash
 
     "The cultist's severed head soars through the air."
@@ -73,8 +73,10 @@ label scene_05:
 
     g "It doesn't matter! Our objective has changed!"
 
+    stop music
+    #play music bgm.lethal_suspense #TODO: Add this after jam release
     play sound sfx.bubble1
-    queue sound sfx.bubble loop
+    queue sound sfx.bubble1 loop
     "The blood begins bubbling, and we retreat behind a pillar."
     extend " A caustic scene fills the air, burning my nose."
     stop sound
@@ -241,7 +243,7 @@ label scene_05:
     nvl clear
 
     c "I-uh, I mean...I think he left several years ago."
-    #$ unlockCompendionEntry("MeropianLore")
+    $ unlockCompendionEntry("MeropianLore")
     extend " Poor man was wrought with grief. They say he fell in love with a Meropian."
     c "I never believed the rumors, but he wasn't the same after one was executed."
     extend " I prayed for his soul, but that was the only interaction I ever had with him."
@@ -338,7 +340,6 @@ label scene_05:
 
     p "Gar...?"
 
-
     g "They say her death throes shook The Third so much that he hired double the protection, and they also say a succubus was the one who dragged him into Hell."
     extend " Which means..."
     g "You're the banshee who caused the Reckoning!" with vpunch
@@ -381,6 +382,7 @@ label scene_05:
 
     g "I will have those wings, banshee! Scream if you must!"
 
+    play music bgm.reckoning_I
     #Ragyuo: If an animation is needed, maybe Griswyr would zoom in towards her?
     "He leaps towards her, and she shakes her head."
 
@@ -493,7 +495,7 @@ label scene_05:
 
     g "You should've stayed in Hell, banshee!"
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
 
     "With his sword, Griswyr gouges her waist!"
     extend " Yet Persephone smiles."
@@ -579,7 +581,9 @@ label scene_05:
 
     c "Keep my friend's name...out of your mouth!" with vpunch
 
-    #play sound sfx.strike (x3)
+    play sound sfx.jab
+    queue sound sfx.jab
+    queue sound sfx.jab
     #Ragyuo: For reference if you're familiar with Wing Chun, or Kung Lao from Mortal Kombat, Caius is jabbing her like them.
     #If not, think of something like gatling fists or something. We can discuss later
     #His hands are also glowing blue from his mana. I'd rather not make the screen flash with every punch.
@@ -616,7 +620,7 @@ label scene_05:
     extend " I breathe deeply..."
     "And catch her clawed wrists mid-swing."
 
-    #hide Persephone with move out something.
+    #hide Persephone with move out left/right
     play sound sfx.potterycrash
     with vpunch
     "She gasps as I spin and hurl her onto the altar."
@@ -1130,7 +1134,7 @@ label scene_05:
 
     nvl clear
 
-    play sound sfx.heavy_bam
+    play sound sfx.heavybam
     c "HAAAA!!!!" with vpunch
 
     "I deliver a mighty blow to her chest and..."
@@ -1142,7 +1146,7 @@ label scene_05:
     extend " WEAK!!!" with vpunch
 
     #zoom out Persephone
-    play sound sfx.heavy_bam
+    play sound sfx.heavybam
     "Her Roundhouse kick sends me flying. Time stands still as I float away..."
     extend " I turn to her, that insipid grin peering into my soul."
     "I breathe heavily, coughing up blood as I clasp my hands."
@@ -1241,7 +1245,7 @@ label scene_05:
 
     c "Griswyr, don't...!"
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
     with bloodflash
 
     "Her claws tear into his chest, ripping blood and flesh from his body."
@@ -1325,7 +1329,7 @@ label scene_05:
 
     p "Now now, I'm still playing with you. Besides, you've had a long day~."
 
-    play sound sfx.heavy_bam
+    play sound sfx.heavybam
     with vpunch
     extend " So go to sleep!"
 
@@ -1345,6 +1349,8 @@ label scene_05:
     extend "My body twitches with every movement. My lungs are on fire, and these shattered ribs are all too eager to feed me pain..."
     "I breathe heavily, knowing that I only have one way out of this."
 
+    stop music
+    play music bgm.reckoning_II
     play sound sfx.magic_charge
     with graceflash
     "Grace surges from my body."
@@ -1393,7 +1399,7 @@ label scene_05:
     j "{i}Relax, Caius, you're always so uptight.{/i}"
     extend " {i}Take a load off and breathe once in a while, yeah?{/i}"
     hide jory with dissolve
-    play sound sfx.heavy_bam
+    play sound sfx.heavybam
     with vpunch
     #show persephone combat at center
     p "Gaaaaahhhh!!!" with vpunch
@@ -1421,7 +1427,7 @@ label scene_05:
     nvl clear
 
     #hide Persephone
-    play sound sfx.heavy_bam
+    play sound sfx.heavybam
     with vpunch
     #show griswyr silhouette at center with dissolve
     g "{i}How do you expect to be an Emmisary when you're so weak?!{/i}"
@@ -1441,7 +1447,7 @@ label scene_05:
     #zoom in
     "Her gaze wavers when I sprint towards her."
     play sound sfx.grapple
-    queue sound sfx.heavy_bam
+    queue sound sfx.heavybam
     extend " Her wings flap, and I grab her foot before clobbering her face."
     #move sprite slightly
     play sound sfx.weapon_swing
@@ -1478,7 +1484,7 @@ label scene_05:
 
     nvl clear
 
-    play sound sfx.heavy_bam
+    play sound sfx.heavybam
 
     p "AHHHH!!!!!" with vpunch
 
@@ -1488,7 +1494,7 @@ label scene_05:
 
     nvl clear
 
-    play sound sfx.heavy_bam
+    play sound sfx.heavybam
 
     p "Gah...damn you! Ngh...!"
 
@@ -1508,7 +1514,7 @@ label scene_05:
     #shake Persephone sprite
     "I jab her throat, causing her to spit and her breath to fly from her maw."
     play sound galeblast
-    queue sound heavybam
+    queue sound sfx.heavybam
     with hpunch
     extend " Yet I still get blasted..."
     #zoom out screen
@@ -1560,7 +1566,7 @@ label scene_05:
     "She pounces, and I close my eyes..."
     extend " So be it. Someone, anyone, help him..."
 
-    play sound sfx.heavy_slash
+    play sound sfx.heavyslash
 
     "..."
 
@@ -1582,7 +1588,8 @@ label scene_05:
     #show persephone combat a center with dissolve
     p "..."
     extend " Oh shit!"
-
+   
+    stop music fadeout 2.5
     play sound sfx.magic_charge
     with graceflash
     "Her jaw clamps shut as my mana begins to violently leave her."
@@ -1653,7 +1660,7 @@ label scene_05:
 
     play sound sfx.thud
 
-    scene image "#000" with dissolve(1.0)
+    scene image "#000" with Dissolve(1.0)
 
     pause 3.0
 
