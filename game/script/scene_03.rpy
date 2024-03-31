@@ -222,7 +222,7 @@ label scene_03:
     extend " He didn't think twice when he tried to remove your head."
 
     c angry "..."
-    extend "I don't like this. We're Emmisaries. We protect people, not butcher them..."
+    extend "I don't like this. We're Emissaries. We protect people, not butcher them..."
 
     g "Yes, we should give a man who wanted to plunge our world into Hell another chance."
     extend " Why? So he could give us lip service and try again?"

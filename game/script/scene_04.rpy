@@ -59,6 +59,7 @@ label scene_04:
 
     g "Watch and learn, and don't interfere."
 
+    hide griswyr
     # TODO: If we have a combat sprite with black pupils, they'll shift to red here
     extend " They're mine!"
 
@@ -85,7 +86,7 @@ label scene_04:
     hide cultist silhouette with moveoutbottom
     play sound sfx.thud
 
-    show griswyr combat at center with dissolve
+    show griswyr neutral at center with dissolve
     "Griswyr doesn't strike from behind - no, he plants himself at the center of the group!"
     "His victim collapses, his throat cut wide open. I didn't even see the slash."
 
@@ -124,7 +125,7 @@ label scene_04:
     with maliceflash
 
     "Griswyr pauses his massacre to face the powerful cultist. Unfazed, he scoffs."
-    extend "I gasp as the same Malice erupts from Gryswyr's arm as he flings his hatchet."
+    extend " I gasp as the same Malice erupts from Gryswyr's arm as he flings his hatchet."
 
     # nvl clear
 
@@ -143,6 +144,8 @@ label scene_04:
     with bloodflash
     extend " He flourishes his sword  and cuts down the rest of the cultists who are now in disarray and significantly low on numbers."
     "They know they don't have a chance of winning or surviving."
+    hide cultist
+    show griswyr neutral at center with dissolve
     extend " Moments later, the cave becomes silent as the final bodies fall. Griswyr merely frowns in disgust as he collects his weapons."
 
     # nvl clear
@@ -194,7 +197,7 @@ label scene_04:
     cu "So there's...five men leading the ritual. They've already begun chanting..."
     extend " I doubt you have much longer. If you're here to stop us, then you best hurry..."
 
-    g "What kind of devil are you trying to summon?"
+    g "What kind of devil are you summoning?"
 
     cu "Wh-what...?"
 
@@ -202,12 +205,10 @@ label scene_04:
 
     cu "I...I don't know! Our leader kept it under-"
 
+    g "I hope for your sake you aren't lying!"
+
     play sound sfx.heavyslash
-
-    cu "Nnnngggghhhh!!!" with vpunch
-
-    g "I hope for your sake you aren't lying."
-
+    with hpunch
     "As Griswyr presses his boot into the hatchet, I spring forward."
     extend " I run on air, or at least that's what it feels like."
 
@@ -262,7 +263,7 @@ label scene_04:
     "I sigh in relief."
     extend " If I accomplish anything tonight, I have at least given that man another chance at life."
     "Griswyr turns to me, his gaze just as disinterested as usual."
-    extend " I don't flinch. After my actions, I might not end up becoming an Emmisary, but at least I'll still have my humanity!"
+    extend " I don't flinch. After my actions, I might not end up becoming an Emissary, but at least I'll still have my humanity!"
 
     # nvl clear
 

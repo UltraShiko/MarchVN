@@ -16,7 +16,7 @@ label scene_01:
     extend " No matter how much I've repented, I still haven’t been able to shake their hold over me. I can't forgive myself, no matter what I do to atone."
     "Five years... I wonder how he's doing..."
     extend " It wasn't his fault. The whole thing was just a big mistake. We were cornered, he didn’t have any other choice..."
-    "Once I become an Emmisary though, I'll change everything. I'll make things right."
+    "Once I become an Emissary though, I'll change everything. I'll make things right."
 
     # nvl clear
 
@@ -49,9 +49,9 @@ label scene_01:
     extend " That and the mortality rate for Emissaries is high."
     "They say death is a daily occurrence in their ranks. I've heard tales that some of the recruits are criminals forced to join them or face execution."
     extend " Apparently, many prefer the noose..."
-    "The Emmisaries aren't like normal Celestials. They aren't guards. Instead, they go out and confront problems directly."
+    "The Emissaries aren't like normal Celestials. They aren't guards. Instead, they go out and confront problems directly."
     extend " Whether it be outlaws, spies from Jorunderfell, witches, or devils, they hunt down every last one of them."
-    "I don’t blame Jory for worrying. I might not be the same person when – if – I return..."
+    "I don't blame Jory for worrying. I might not be the same person when – if – I return..."
     extend " Still, I had to go. I only met Jory because the Reverend took pity on me. I had to make things right."
     "I could enlist as a Celestial, but the Emissaries often work alongside the Reverend, or at least closely with him."
     extend " Even if Jory knows him well, I would still rather impress the Reverend with my own deeds instead of relying on Jory buttering him up."
@@ -62,9 +62,9 @@ label scene_01:
     extend " From combat, to controlling mana, to keeping my mind pure. I'm ready!"
 
     j "Oh of course you are, it's just..."
-    extend " A lot of people join the Emmisaries, and it breaks them."
+    extend " A lot of people join the Emissaries, and it breaks them."
     j " I'm not trying to trample on your dream, but are you sure there's no other way?"
-    extend " I mean, look at me! I never joined the Emmisaries, and I'm the Reverend's right hand man!"
+    extend " I mean, look at me! I never joined the Emissaries, and I'm the Reverend's right hand man!"
     j "It's not just about what you accomplish Caius, it's about who you know and the impressions you make."
     extend " I mean, that's why we met. The Reverend plopped you at my doorstep, remember?"
 
@@ -178,7 +178,7 @@ label scene_01:
     "On one hip rests a shortsword, on the other...a grisly-edged hatchet."
     extend " Then there are his eyes. I feel like I’m peering into an abyss when our gazes meet."
     "This man has to be my recruiter."
-    extend " The stories depict Emmisaries as dark, brooding individuals. He fits that description perfectly."
+    extend " The stories depict Emissaries as dark, brooding individuals. He fits that description perfectly."
     "He puts away his notebook and looks towards us, emotionless..."
 
     # nvl clear
@@ -256,7 +256,7 @@ label scene_01:
     window show
 
     extend " Jory just might be onto something, but it's too late for me to back out now..."
-    "I suppose it's only natural that the trials of the Emmisaries are just as dangerous as the work they do, and Griswyr has a point."
+    "I suppose it's only natural that the trials of the Emissaries are just as dangerous as the work they do, and Griswyr has a point."
     extend " I wonder why he chose me for this particular task... I'm as green as they come."
 
     # nvl clear

@@ -10,7 +10,7 @@ label scene_06:
 
     scene background slums
 
-    show Jory silhouettw at center #will add in official sprite after jam
+    show Jory happy at center #will add in official sprite after jam
     with Dissolve(0.8)
 
     "I stir wearily, wrapped in bandages in more places than I can fathom..."
@@ -34,7 +34,7 @@ label scene_06:
     extend " Caius was the only reason we lived. This won't make you feel better, but I believe he'll make a fine Emissary."
     g "If he wants to, that is."
 
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
     with vpunch
     "The ground quakes from Jory's stomp!"
     "I know he didn't mean to, but damn that hurts my ribs..."
@@ -86,6 +86,7 @@ label scene_06:
     j "Thrycia..."
     extend "is no more."
 
+    stop music 
     c snide "Huh...?"
 
     j "No one is sure of what happened, but the rumors say a devil was involved..."

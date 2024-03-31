@@ -155,7 +155,7 @@ label scene_02:
     g "I also know about your run-in with the law."
 
     "I gasp."
-    extend " I should've expected no less from an Emmisary... Why wouldn't they research their applicants?"
+    extend " I should've expected no less from an Emissary... Why wouldn't they research their applicants?"
     "Though I had hoped that the reverend and Jory had kept what happened a secret amongst themselves..."
 
     # nvl clear
@@ -179,7 +179,7 @@ label scene_02:
     c "That's..."
     extend "cold."
 
-    g "Consider it a taste of being an Emmisary."
+    g "Consider it a taste of being an Emissary."
     extend " We aren't heroes, Caius. We're exterminators."
     extend " Those Celestials, or Luminaries as we call them, only serve to assuage the public."
     g "The Celestials that truly care about defending our country join our ranks. Anyone else is just a pretender."
@@ -195,7 +195,7 @@ label scene_02:
 
     "The more he belittles others, the uneasier I grow."
     extend " He's very condescending... I understand that his work is treacherous, yet I can't imagine myself ever becoming so cynical."
-    "Is this attitude what Jory meant by the life as an Emmisary \"breaking\" people?"
+    "Is this attitude what Jory meant by the life as an Emissary \"breaking\" people?"
 
     # nvl clear
 
@@ -215,7 +215,7 @@ label scene_02:
     g "Fear - it drives the weak. How unfortunate for him."
 
     "Hmm, Griswyr still remains unfazed."
-    extend " Whenever I bring up my friend being a Dretchling, people always scowl, grimace, or become disgusted. I figured an Emmisary would react no differently..."
+    extend " Whenever I bring up my friend being a Dretchling, people always scowl, grimace, or become disgusted. I figured an Emissary would react no differently..."
     "Then again, Griswyr doesn't strike me as normal either."
 
     # nvl clear
