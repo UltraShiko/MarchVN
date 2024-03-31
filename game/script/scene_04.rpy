@@ -59,7 +59,8 @@ label scene_04:
 
     g "Watch and learn, and don't interfere."
 
-    hide Griswyr
+    hide Griswyr with dissolve
+
     # TODO: If we have a combat sprite with black pupils, they'll shift to red here
     extend " They're mine!"
 
@@ -67,12 +68,14 @@ label scene_04:
     "It's momentary, but I think I see a glimmer in his eyes."
     extend " It irks me. I know Emissaries hunted down apostates, but I fear he might be taking that role too seriously..."
     "Several disciples rush forward, weapons drawn."
-    extend "Just like the first guard though, no one notices us at first."
+    extend " Just like the first guard though, no one notices us at first."
 
     # nvl clear
 
-    show cultist at center_left as cultist1 with dissolve
-    show cultist at center_right as cultist2 with dissolve
+    show cultist at center_left as cultist1
+    show cultist at center_right as cultist2
+
+    with dissolve
 
     cu "The hell? Did Oakley set off the tripwire again?! How many times do we have to spell it out for him?!"
     cu "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
@@ -83,7 +86,10 @@ label scene_04:
 
     cu "GAAAAAAAAHHHHHH!!!!" with vpunch
 
-    hide cultist silhouette with moveoutbottom
+    ###### YORU: Stopped here.
+
+
+    hide cultist1 with moveoutbottom
     play sound sfx.thud
 
     show Griswyr neutral at center with dissolve #will be griswyr combat later

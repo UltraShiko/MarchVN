@@ -7,7 +7,7 @@ label scene_03:
     window show
 
     "As we brush past the thickets, we come upon a cave."
-    extend " There's an eerie, pink radiance leering at me from within. ."
+    extend " There's an eerie, pink radiance leering at me from within."
     "What catches my eye, however, are the roses."
     extend " The outskirts of the area are decorated with bushes of purple roses: Hecate's symbol."
     "To be so bold as to place your beliefs out in the open, especially when growing any type of rose is forbidden..."
@@ -74,17 +74,14 @@ label scene_03:
 
     stop sound
 
-    show Cultist at center 
+    show Cultist at center
 
     cu "Who the hell are you?!" with vpunch
 
     "Ah no..."
 
-    window hide
-
-    window show
-
     play sound sfx.dagger_draw
+
     "He draws his kukri and strides towards me."
     extend " I toss my hands in the air, stammering like a child."
 
@@ -261,12 +258,12 @@ label scene_03:
 
         zoom 1.0
 
-        ease 1.5 zoom 1.5
-
-
-    pause 0.9
+        easeout 2.0 zoom 1.5
 
     stop music fadeout 1.5
+
+    pause 1.4
+
     scene image "#000" with dissolve
 
     jump scene_04
