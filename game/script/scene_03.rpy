@@ -7,18 +7,19 @@ label scene_03:
     window show
 
     "As we brush past the thickets, we come upon a cave."
-    extend " It has crude, wooden doors at the entrance, much like you'd expect from hovels owned by brigands."
+    extend " There's an eerie, pink radiance leering at me from within. ."
     "What catches my eye, however, are the roses."
     extend " The outskirts of the area are decorated with bushes of purple roses: Hecate's symbol."
-    "To be so bold as to place your beliefs out in the open, especially when growing purple roses is forbidden..."
+    "To be so bold as to place your beliefs out in the open, especially when growing any type of rose is forbidden..."
     extend " Does their faith inspire that arrogance, or do they have reason to be so open?"
-    "To the side of the door stands a man cloaked in purple robes, nodding off."
+
+    show Cultist at center with dissolve
+
+    "To the side of the entrance stands a man cloaked in purple robes, nodding off."
     extend " If he's on watch, he's doing a poor job..."
     "Griswyr and I crouch beneath the bushes. The Thorn continues his daydreaming, mumbling to himself."
 
     # nvl clear
-
-    show Cultist at center with dissolve
 
     cu "Oh man, tonight's the night! We can finally take back what's ours!"
     extend " Those damned Celestials chased us out of the city, and for what?! I baked bread! Worshiping mother wasn't hurtin' nobody!"
@@ -64,7 +65,7 @@ label scene_03:
     "I stumble out from the bushes. I was prepared to fight, but not by myself..."
     "Alright, what's my plan?"
     extend " Perhaps I could rush him. If I'm quick, I could knock him out and slip inside."
-    "But what if there are others watching from behind the door?"
+    "But what if there are others watching from deeper inside?"
     extend " I can't see anyone from the other side, yet I would still be risking getting swamped by an ambush."
     "Hmm, maybe I could convince them to let me inside? Many have called me a monk, so I could claim I'm a pilgrim of Hecate.."
     extend "But I don't know anything about Hecate's faith. If they test me, I won't-"
@@ -73,16 +74,17 @@ label scene_03:
 
     stop sound
 
+    show Cultist at center 
+
     cu "Who the hell are you?!" with vpunch
 
     "Ah no..."
 
     window hide
 
-    show Cultist at center with dissolve
-
     window show
 
+    play sound sfx.dagger_draw
     "He draws his kukri and strides towards me."
     extend " I toss my hands in the air, stammering like a child."
 
@@ -173,7 +175,7 @@ label scene_03:
 
     window hide
 
-    #show Griswyr neutral at center with dissolve
+    show Griswyr neutral at center with dissolve
 
     window show
 

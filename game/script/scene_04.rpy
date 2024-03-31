@@ -1,16 +1,16 @@
 
 label scene_04:
 
-    play sound door
+    #play sound door
 
     #I doubt we'll find a suitable background in time. I'll look around for a proxy
     scene background cave with dissolve
 
-    play music bgm.dungeon_ambience # TODO: Using placeholder track. Replace with correct one.
+    play music bgm.dungeon_ambience 
 
     window show
 
-    "We slither through the door and are greeted by a dim cave."
+    "We slither inside and are greeted by a luminous path."
     "Torches with purple flames light the corridor, and the pleasant aroma of roses enters our noses."
     "Their dedication to that single flower astonishes me. I expected something more elaborate..."
 
@@ -39,6 +39,7 @@ label scene_04:
     g "Brace yourself."
 
     play sound sfx.kathunk
+    with vpunch
 
     "I leap backwards, only for a loud noise to follow!"
     #play sound fartherfootsteps TODO: find a sfx
@@ -50,7 +51,7 @@ label scene_04:
 
     c "We're caught in a corridor. There won't be much room to maneuver."
 
-    show griswyr combat at center with dissolve
+    #show griswyr combat at center with dissolve
 
     g "Stand back. I'll take care of them."
 
@@ -69,8 +70,8 @@ label scene_04:
 
     # nvl clear
 
-    #show cultist silhouette at left with dissolve
-    #show cultist silhouette at right with dissolve
+    show cultist silhouette at left with dissolve
+    show cultist silhouette at right with dissolve
 
     cu "The hell? Did Oakley set off the tripwire again?! How many times do we have to spell it out for him?!"
     cu "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
@@ -81,10 +82,10 @@ label scene_04:
 
     cu "GAAAAAAAAHHHHHH!!!!" with vpunch
 
-    #hide cultist silhouette with dissolve
+    hide cultist silhouette with moveoutbottom
     play sound sfx.thud
 
-    #show griswyr combat at center with dissolve
+    show griswyr combat at center with dissolve
     "Griswyr doesn't strike from behind - no, he plants himself at the center of the group!"
     "His victim collapses, his throat cut wide open. I didn't even see the slash."
 
