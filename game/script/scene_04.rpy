@@ -281,7 +281,7 @@ label scene_04:
     c smile "Fair enough."
 
     "Though Griswyr manifesting Malice concerns me. No wonder he’s so cold."
-    extend " Malice doesn’t morph people into monsters, it erodes their character. No one wakes up and decides to be a villain. It's a slope..."
+    extend " Malice doesn't morph people into monsters, it erodes their character. No one wakes up and decides to be a villain. It's a slope..."
     "How long has he been channeling it? Why does he rely on it?"
     extend " He looks more than capable of fighting on his own. What would drive him to such ends?"
     "That is a question for after the mission."

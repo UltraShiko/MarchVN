@@ -10,9 +10,7 @@ label scene_06:
 
     scene background slums
 
-    show Jory sad at center
-    show griswyr at left
-
+    show Jory silhouettw at center #will add in official sprite after jam
     with Dissolve(0.8)
 
     "I stir wearily, wrapped in bandages in more places than I can fathom..."
@@ -51,7 +49,7 @@ label scene_06:
     extend " I'll find Caius when my superior makes a decision. I won't blame him if he wants to reconsider joining after last night."
     g " Until next time."
 
-    hide griswyr with dissolve
+    #hide griswyr with dissolve
 
     j "Grr... Damn it! Why does this keep happening my friends?!"
 
