@@ -63,14 +63,14 @@ label scene_01:
     extend " From combat, to controlling mana, to keeping my mind pure. I'm ready!"
 
     # TODO:
-    show Jory neutral with dissolve
+    # show Jory neutral with dissolve
 
     j "Oh of course you are, it's just..."
     extend " A lot of people join the Emissaries, and it breaks them."
     j " I'm not trying to trample on your dream, but are you sure there's no other way?"
 
     # TODO:
-    show Jory happy with dissolve
+    # show Jory happy with dissolve
 
     extend " I mean, look at me! I never joined the Emmisaries, and I'm the Reverend's right hand man!"
     j "It's not just about what you accomplish Caius, it's about who you know and the impressions you make."
@@ -106,7 +106,7 @@ label scene_01:
     c angry "If I don't learn how to deal with them, I'll run the risk of making the same mistake The Third did."
 
     # TODO:
-    show Jory sad with dissolve
+    # show Jory sad with dissolve
 
     j "Hmmm, he was a terrible man indeed..."
 
@@ -122,14 +122,14 @@ label scene_01:
     c angry "He abused you. He abused everyone! His pride and arrogance caused the Reckoning, and now our country is divided!"
 
     # TODO:
-    show Jory neutral with dissolve
+    # show Jory neutral with dissolve
 
     j "Caius, hear me out..."
     extend " That man's vices weren't because of a fiend. He walked into that fire himself."
     j "Not every act of malice has a devil behind it. We're capable of making decisions, both good and bad..."
 
     # TODO:
-    show Jory sad with dissolve
+    # show Jory sad with dissolve
 
     j "I know your guilt is heavy, and I know that you want to make things right."
     extend " But you can't let your past blind you. You need to think about the here and now."
@@ -143,7 +143,7 @@ label scene_01:
     c snide "...But you've made amends. I mean, you took me in despite the fact I...you know."
 
     # TODO:
-    show Jory neutral with dissolve
+    # show Jory neutral with dissolve
 
     j "I sure did, and I have no regrets!"
     extend " Still, a day doesn't go by when I don't think about her or how I wanted to avenge her...!"
@@ -155,12 +155,12 @@ label scene_01:
     # nvl clear
 
     # TODO:
-    show Jory happy with dissolve
+    # show Jory happy with dissolve
 
     j "Uh whoops! Lost myself there!"
 
     # TODO:
-    show Jory neutral with dissolve
+    # show Jory neutral with dissolve
 
     extend " You get what I mean though, right?"
 
@@ -172,7 +172,7 @@ label scene_01:
     extend " I won't let anyone make the same mistakes we did!"
 
     # TODO:
-    show Jory sad with dissolve
+    # show Jory sad with dissolve
 
     j " But...you know what you're getting yourself into, right?"
     extend " These rogues are very strict. I bet your recruiter has some sort of test cooked up for you."
@@ -182,7 +182,7 @@ label scene_01:
     c "I'll manage. I'm not sure how, but I'll figure it out!"
 
     # TODO:
-    show Jory happy with dissolve
+    # show Jory happy with dissolve
 
     j "Shoot, guess I can't complain then, can I?"
 
@@ -283,7 +283,8 @@ label scene_01:
 
     pause 0.5
 
-    show Jory neutral with dissolve
+    # TODO:
+    # show Jory neutral with dissolve
 
     window show
 

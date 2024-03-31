@@ -30,7 +30,7 @@ label scene_06:
     g "You nearly burnt all of your mana, Caius. A drop more, and you would be a corpse."
 
     # TODO:
-    show Jory angry with dissolve
+    # show Jory angry with dissolve
 
     j "It shouldn't have ended this way!"
     j "What came of this?! All you did was put my friend in bandages! You didn't even kill the devil!"
@@ -60,7 +60,6 @@ label scene_06:
 
     pause 0.5
 
-    # TODO:
     show Jory sad at center with dissolve
 
     window show
@@ -73,14 +72,14 @@ label scene_06:
     j "Oh right, you made that promise..."
 
     # TODO:
-    show Jory angry at center with dissolve
+    # show Jory angry with dissolve
 
     extend " But I'm not the one who needs to be protected!"
 
     c neutral  "On that, we'll have to agree to disagree..."
 
     # TODO:
-    show Jory neutral at center with dissolve
+    # show Jory neutral with dissolve
 
     j "By Yeshua, you're as stubborn as always..."
 
@@ -93,7 +92,7 @@ label scene_06:
     extend " I may not be able to change anything yet, but I can still see him..."
 
     # TODO:
-    show Jory sad at center with dissolve
+    # show Jory sad with dissolve
 
     "Jory sighs deeply and closes his eyes."
 
@@ -143,7 +142,7 @@ label scene_06:
     with graceflash
 
     # TODO:
-    show Jory neutral with dissolve
+    # show Jory neutral with dissolve
 
     j "Woah!"
 
