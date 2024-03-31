@@ -103,6 +103,7 @@ label scene_01:
     $ unlockCompendionEntry("HaleLore")
     "The current Reverend is the fourth of his lineage. Jory has told me many stories of how cruel his uncle was."
     "Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
+    #$ unlockCompendionEntry("ReckoningLore")
     extend " They say his antics were so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
 
     # nvl clear

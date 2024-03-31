@@ -110,9 +110,11 @@ label scene_02:
 
     g "What mana do you wield?"
 
+    $ unlockCompendionEntry("GraceLore")
     c "Grace."
     extend " Normally it doesn't empower its wielder like other mana, but I've learned to manipulate it to my advantage."
     c smile "Grace will be paramount if this monster is summoned."
+    $ unlockCompendionEntry("MaliceLore")
     extend " Devils are beings of the dark mana, Malice. Seeing how Grace repels that mana, I'm certain even my jabs will be lethal to it."
 
     g "It might, assuming you get the chance to use it."
