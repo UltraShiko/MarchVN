@@ -93,7 +93,7 @@ label scene_01:
     "...I haven't seen him since. I’ve been too ashamed, too afraid to face him."
     extend " He was spared, but that didn't erase the horrible things I said to him... I treated him no differently than anyone else that day, like a Dretchling whose life had no value."
     extend " So I cannot squander the chance he has given me. I owe my life to Yeshua, and I want to prevent others from making the same mistakes I’ve made."
-    #$ unlockCompendionEntry("DretchlingLore")
+    $ unlockCompendionEntry("DretchlingLore")
     "The Dretchlings are a race feared, hated, and even attacked because of their fiendish blood."
     extend " Their horns, hooves, and complexion paint targets on their backs. They resemble the monsters that came before them."
     "Once I rise up through the ranks, putting in laws to protect them will be the first change I implement."
@@ -114,7 +114,7 @@ label scene_01:
 
     "The current Reverend is the fourth of his lineage. Jory has told me many stories of how cruel his uncle was."
     "Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
-    #$ unlockCompendionEntry("ReckoningLore")
+    $ unlockCompendionEntry("ReckoningLore")
     extend " They say his antics were so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
 
     # nvl clear
