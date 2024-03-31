@@ -12,9 +12,9 @@ label scene_05:
     "An altar takes up the back portion of the room."
     extend " Three bronze statuettes rest atop the podium. Each is of a woman, aging from one statuette to the next."
     "The sickly-sweet smell of roses overtakes the room, and the crimson aura of Malice is so thick that it could be cut with a knife."
-    #show cultist silhouette at center with dissolve
-    #show cultist silhouette at left with dissolve
-    #show cultist silhouette at right with dissolve
+    show cultist silhouette at center with dissolve
+    show cultist silhouette at left with dissolve
+    show cultist silhouette at right with dissolve
     "Five acolytes stand at each position of the pentagram, too engrossed in their trance to notice us."
     extend " There's no way they didn't hear the racket of our fight. They must have decided to continue the ritual and are now close to finishing."
 
@@ -30,16 +30,22 @@ label scene_05:
     c smide "No please, after you."
 
     hide cultist silhouette
-    scene image "#000"
+    scene image "#000" with dissolve
     "I cover my eyes, and he goes to work."
-    play sound sfx.thud
+    play sound heavyslash
+    pause 0.6
+    queue sound sfx.thud
     extend " Much like with the group of Thorns we just faced, the bodies here also fall like rain..."
-    play sound sfx.thud
+    play sound heavyslash
+    pause 0.6
+    queue sound sfx.thud
     "I can feel the aura beginning to wane. I've had enough bloodshed for one night, maybe for a lifetime..."
-    play sound sfx.thud
-    extend " Jory wasn't wrong about the brutality of the Emmisaries. I doubt that gentle giant would stand any of this..."
+    play sound heavyslash
+    pause 0.6
+    queue sound sfx.thud
+    extend " Jory wasn't wrong about the brutality of the Emissaries. I doubt that gentle giant would stand any of this..."
     scene background cult altar with dissolve
-    show Griswyr combat at center with dissolve
+    show Griswyr neutral at center with dissolve
     "When I open my eyes, Griswyr cuts down the final Thorn."
     extend " Yet the man doesn't whimper. He grins menacingly as Griswyr towers over him."
 
@@ -75,7 +81,7 @@ label scene_05:
 
     g "It doesn't matter! Our objective has changed!"
 
-    stop music
+    stop music fadeout 1.5
     #play music bgm.lethal_suspense #TODO: Add this after jam release
     play sound sfx.bubble1
     queue sound sfx.bubble2 loop
@@ -85,7 +91,7 @@ label scene_05:
     play sound sfx.magic_charge
     with maliceflash
     "The circle glows purple, and a red mist rises from the blood."
-    hide griswyr
+    hide Griswyr
     scene image "#cb4a4a" with dissolve
     extend " It shrouds us, obscuring our vision and surrounding us in a crimson fog."
     play sound sfx.weapon_draw
@@ -131,6 +137,8 @@ label scene_05:
     # nvl clear
 
     scene background cult altar with dissolve
+    play music bgm.altar_ambience fadein 1.5 
+    #will be lethal_suspense after jam
     #hide persephone silhouette
     show persephone smirk at center with dissolve
 
@@ -321,8 +329,10 @@ label scene_05:
     #Ragyuo: I'm thinking Griswyr would come in from the top and appear at the left / right of Persephone
     #Normally I'd use a moveintop command, but maybe you have a better idea?
     hide persephone
-    show Griswyr combat at left with moveinleft
+    show Griswyr neutral at left with moveinleft 
+    #will be combat later
     "Gryswyr jumps down from the ceiling, grazing her cheek with his blade."
+    play sound sfx.thud
     "He lands then swings at her neck."
     #Maybe zoom Persephone back? Or to the opposite direction?
     extend "only for her to float out of the way."
@@ -390,13 +400,15 @@ label scene_05:
 
     g "I will have those wings, banshee! Scream if you must!"
 
+    stop music
     play music bgm.reckoning_I
+    play sound sfx.lunge
     #Ragyuo: If an animation is needed, maybe Griswyr would zoom in towards her?
     "He leaps towards her, and she shakes her head."
 
     # nvl clear
 
-    hide griswyr
+    hide Griswyr
     show persephone smirk at center with dissolve
     p "Good grief, did you learn nothing from your friend?"
 
@@ -405,7 +417,7 @@ label scene_05:
     extend " Griswyr lands and skirts behind her."
     play sound sfx.weapon_draw
     hide persephone
-    show griswyr combat at center
+    show Griswyr neutral at center
     extend " She gasps as his sword hisses through the air."
 
     # nvl clear
@@ -424,14 +436,14 @@ label scene_05:
 
     # nvl clear
 
-    hide griswyr
+    hide Griswyr
     show persephone smirk at center
     p "Fine, fine... You wanna play rough?"
 
     play sound sfx.dagger_draw
 
     "Five, razor-sharp claws spring from her fingertips."
-    "She hunches forward, mimicking Girswyr's stance."
+    "She hunches forward, mimicking Griswyr's stance."
     extend " He does not appreciate that."
 
     # nvl clear
@@ -460,7 +472,7 @@ label scene_05:
     extend " Griswyr snarls and repeats the same maneuvers.... He is the same whirling cyclone of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions. They dance around the room as I do my best to follow their movements and not get swept up in the battle."
     "My heart pounds as she begins evading with growing ease."
     #we'd probably show Persephone behind him here?
-    hide griswyr with moveoutright
+    hide Griswyr with moveoutright
     show persephone smirk at center 
     extend " After a wide swing, Griswyr stumbles forward. He's wide open!"
 
@@ -487,8 +499,8 @@ label scene_05:
     #Ragyuo: If you think some movement is pertinent here, maybe have her zoom out?
     "It pierces her chest like a dagger."
     extend " Had she not backpedaled at the last moment, it would've impaled her."
-    hide Persephone
-    show Griswyr combat with dissolve
+    hide persephone
+    show Griswyr neutral with dissolve
     "Meanwhile, Griswyr's arm reddens violently."
     extend " I cringe. He is showing no reaction to it, but it looks painful..."
     play sound sfx.hurl
@@ -526,12 +538,14 @@ label scene_05:
     queue sound sfx.crash
     with hpunch
     #Ragyuo: Griswyr would be send off screen and the screen shakes. He got punted just like Caius did
-    hide griswyr with moveoutright
+    hide Griswyr with moveoutright
     "A gale blast sends Griswyr crashing into the wall."
     "I watch in horror! She hit him point blank!"
     extend " She wanted him to get close... Why else would she have relied so heavily on evasion?"
     #Ragyuo: Griswyr would ease back in here
-    show griswyr combat at center with easeinbottom
+    hide persephone
+    show Griswyr neutral at center with easeinbottom 
+    #combat
     "Griswyr snarls and recovers."
     extend " He may seem unharmed, but his breaths are heavy as he clutches his chest."
 
@@ -563,7 +577,7 @@ label scene_05:
     #Ragyuo Maybe she would zoom in a little? Or have the screen shake slightly to simulate him approaching her?
     "I ready my stance then slowly walk towards her."
     #Idk how we'd simulate them circling each other, though if you got any ideas let me know
-    hide griswyr
+    hide Griswyr
     show persephone smirk with dissolve
     "We circle each other, our eyes not breaking contact."
     extend " She could pounce at any moment, yet all I continue to get from her is that scheming grin."
@@ -646,14 +660,16 @@ label scene_05:
     play sound sfx.weapon_swing
     "She breaks out of our hold and slashes."
     extend " I breathe deeply..."
+    play sound sfx.block
     "And catch her clawed wrists mid-swing."
 
-    hide Persephone with moveoutright
+    hide persephone with moveoutright
     play sound sfx.potterycrash
     with vpunch
     "She gasps as I spin and hurl her onto the altar."
     extend " She lies splayed among the fractured statuettes."
-    show Persephone angry at center with moveinbottom #zoomed out Ragyuou
+    show persephone angry at center with moveinbottom 
+    #zoomed out Ragyuou
     "She pushes herself up, furious, as I waggle my finger."
 
     # nvl clear
@@ -682,7 +698,7 @@ label scene_05:
 
     play sound sfx.galeblast
     pause 0.6 
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
     c snide "Gahhh!" with vpunch
 
     "Her second gale that hits me hard... It feels like getting kicked by a mule!"
@@ -889,8 +905,9 @@ label scene_05:
     queue sound sfx.thud
     p "Shit!" with hpunch
 
-    hide persephone
-    show griswyr combat at left with moveinleft
+    hide persephone with moveoutright
+    show Griswyr neutral at left with moveinleft 
+    #combat
     "She drops me, narrowly slipping past Griswyr's slash."
     "I don't have the strength nor the courage to stand..."
     extend " She played me like a harp... So easily too!"
@@ -917,7 +934,7 @@ label scene_05:
     "Persephone looks as dumbfounded as I do."
 
     # nvl clear
-    hide griswyr
+    hide Griswyr
     show persephone smirk at center with dissolve
     p "Oh, oh wow..."
     extend " You've completely lost it... I knew you were into some weird stuff, but-"
@@ -936,7 +953,7 @@ label scene_05:
     "All the blows I landed were because she let me... Now she's dodging and weaving past Griswyr's swipes just like before..."
     "She rears back."
     hide Persephone
-    show griswyr at right
+    show Griswyr neutral at right
     extend " And Griswyr ducks behind her, readying his ax."
 
     # nvl clear
@@ -962,7 +979,7 @@ label scene_05:
 
     # nvl clear
 
-    hide griswyr
+    hide Griswyr
     show persephone smirk at center with dissolve
     p "Ooh, looks like you grazed me..."
     extend " Go on, have a taste."
@@ -1002,34 +1019,33 @@ label scene_05:
     p "Wake up, Snowflake!"
 
     hide persephone with moveoutright
-    show griswyr at right with moveinright
+    show Griswyr neutral at right with moveinright
     play sound sfx.slash
     with bloodflash
     "He evades her pounce and hisses as more wounds rip open on his body."
     extend " It was subtle, but I finally spot the source of her attack. She's channeling wind through her hands."
     "So even if he dodges her blows, the gusts will still cut him."
     #have Persephone zoom in
-    hide griswyr with moveoutright
+    hide Griswyr with moveoutright
     show persephone smirk at center with moveinright
     play sound sfx.lunge
     "She launches herself again!"
 
     # nvl clear
 
-    #show griswyr combatR
     c angry "Don't dodge, Griswyr, or you'll be cut by her wind!"
 
     g "Grr! No shit!!!" with vpunch
 
     #move his sprite to the left and right
     hide Persephone
-    show griswyr at left with moveinright
+    show Griswyr neutral at left with moveinright
     "He spins."
     play sound sfx.parry
     pause 0.6
     queue sound sfx.slash
     with bloodflash
-    extend "His hatchet parries her claws, and his blade sinks into her side."
+    extend " His hatchet parries her claws, and his blade sinks into her side."
     #move his sprite down x-axis slighty
     play sound sfx.grapple
     with bloodflash
@@ -1098,7 +1114,7 @@ label scene_05:
 
     play sound grapple
     with vpunch
-    hide griswyr with moveoutbottom
+    hide Griswyr with moveoutbottom
     show persephone smirk at center with moveinbottom
     "Her arms lash out and hold his head still."
     extend " Her head springs forward, and my heart stops."
@@ -1122,15 +1138,20 @@ label scene_05:
     p "...Oh, you're still with us?"
 
     play sound sfx.thud
-    #show Persephone combat at center, hide Griswyr combat with moveoutbottom
     "Griswyr collapses to the floor as we engage."
+    play sound sfx.bam
+    pause 0.6
     play sound sfx.magic_charge
     with whiteflash
     with hpunch
-    queue sound sfx.magic_charge
+    play sound sfx.bam
+    pause 0.6
+    play sound sfx.magic_charge
     with whiteflash
     with hpunch
-    queue sound sfx.magic_charge
+    play sound sfx.bam
+    pause 0.6
+    play sound sfx.magic_charge
     with whiteflash
     with hpunch
     "Sounds of hissing rattle the room. The mana screams just as violently as our blows."
@@ -1144,7 +1165,7 @@ label scene_05:
     # nvl clear
 
     hide persephone 
-    show persephone angry at right with moveinright
+    show persephone angry at center
     p "Ugh, you're so annoying! Go away!"
 
     #zoom in Persephone
@@ -1187,9 +1208,9 @@ label scene_05:
     extend " I know, Griswyr."
 
     #zoom in Persephone
-    play sound sfx.lunges
+    play sound sfx.lunge
     pause 0.6
-    queue sound heavybam
+    queue sound heavy_bam
     c "Gnnnnngggggghhhh!!!" with vpunch
 
     "I dodge, and her intense gusts bludgeon my body. I felt like I’ve slammed straight into a wall of pure force!"
@@ -1212,7 +1233,7 @@ label scene_05:
     extend " WEAK!!!" with vpunch
 
     #zoom out Persephone
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
     "Her Roundhouse kick sends me flying. Time stands still as I float away..."
     extend " I turn to her, that insipid grin peering into my soul."
     "I breathe heavily, coughing up blood as I clasp my hands."
@@ -1227,7 +1248,7 @@ label scene_05:
     # nvl clear
 
     scene background cult altar with dissolve
-
+    stop music fadeout 1.5
     p "Huh...?"
 
     play sound sfx.manaexplosion
@@ -1264,7 +1285,7 @@ label scene_05:
     scene background cult altar with dissolve
     "As the radiance dies down, the first thing I spot are two, red eyes glaring at me..."
     extend " My teeth chatter. My body feels cold, exhausted, and afraid. That was my strongest technique, how did she survive it?!"
-    show Persephone smirkat center with dissolve
+    show persephone smirk at center with dissolve
     play sound sfx.magic_charge
     with maliceflash
     "Malice's crimson hue shrouds her. Her stance is unsteady, however she appears more than capable to continue..."
@@ -1276,15 +1297,15 @@ label scene_05:
     p "You know, I tried to be nice... I tried to make your death quick and painless BUT now I don't really care!"
     p "I'll give you credit, that might've killed me. Good thing Snowflake topped me off hehehe...!"
 
-    hide Persephone
-    show Persephone angry
+    hide persephone
+    show persephone angry
     play sound sfx.dagger_draw
     "She hisses as her talons spring from her fingers."
     play sound sfx.magic_charge
     with maliceflash
     extend " Her Malice spikes. In hindsight, she didn't use up as much mana as I expected..."
     hide persephone
-    show Grisyr combat at center with dissolve
+    show Griswyr neutral at center with dissolve
     "Griswyr seems more upset than afraid as he looks to the ground."
     play sound sfx.weapon_draw
     extend " He spits and readies his weapons."
@@ -1373,7 +1394,7 @@ label scene_05:
 
     g "See you in Hell, banshee!" with hpunch
 
-    hide Girswyr
+    hide Griswyr
     show persephone angry at center
     p "Ngh..."
     hide persephone
@@ -1405,7 +1426,7 @@ label scene_05:
 
     p "Now now, I'm still playing with you. Besides, you've had a long day~."
 
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
     with vpunch
     extend " So go to sleep!"
 
@@ -1467,8 +1488,8 @@ label scene_05:
     #have her sprite move around to left and right
     "We dance, blocking and countering each other's blows."
     extend " The manas screech. Our motives are personified and continue to clash!"
-    hide Persephone
-    show Jory silhouette at center with dissolve
+    hide persephone
+    show Jory happy at center with dissolve
     "With each punch, visions of Jory enter my mind..."
     extend " Is my life flashing before my eyes...?"
 
@@ -1477,8 +1498,9 @@ label scene_05:
     j "{i}Relax, Caius, you're always so uptight.{/i}"
     extend " {i}Take a load off and breathe once in a while, yeah?{/i}"
     hide jory with dissolve
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
     with vpunch
+    hide Jory
     show persephone angry at center
     p "Gaaaaahhhh!!!" with vpunch
     #zoom out Persephone
@@ -1509,15 +1531,15 @@ label scene_05:
     # nvl clear
 
     hide Persephone
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
     with vpunch
-    show griswyr silhouette at center with dissolve
-    g "{i}How do you expect to be an Emmisary when you're so weak?!{/i}"
+    #show griswyr silhouette at center with dissolve
+    g "{i}How do you expect to be an Emissary when you're so weak?!{/i}"
     g "{i}I was ready to die for the mission, yet here you are, ready to surrender everything you stand for!{/i}"
     g "{i}Fight goddamn it, even if it kills you!{/i}"
 
-    hide griswyr with dissolve
-    show Persephone angry at center
+    hide Griswyr with dissolve
+    show persephone angry at center
     play sound sfx.grapple
     with bloodflash
     "My fractured arm latches onto her face, my fingernails and Grace digging into her flesh!"
@@ -1530,7 +1552,7 @@ label scene_05:
     "Her gaze wavers when I sprint towards her."
     play sound sfx.grapple
     pause 0.6
-    queue sound sfx.heavybam
+    queue sound sfx.heavy_bam
     with hpunch
     extend " Her wings flap, and I grab her foot before clobbering her face."
     #move sprite slightly
@@ -1547,12 +1569,13 @@ label scene_05:
 
     p "Ngh...struggle all you want! In the end...you'll stll-"
 
-    hide persephone with moveoutrigh
+    hide persephone with moveoutright
     play sound sfx.hurl
     pause 0.6
     queue sound sfx.potterycrash
     "I shove her jaw shut and hurl her into the table."
-    show Persephone combat at center with easeinbottom #zoomed in slightly Ragyuou
+    show persephone combat at center with easeinbottom 
+    #zoomed in slightly Ragyuou
     extend " She leaps to her feet and I approach, walking slowly."
     #zoom in slighty
     "She lunges but flinches."
@@ -1561,7 +1584,7 @@ label scene_05:
 
     # nvl clear
 
-    #hide Persephone
+    #hide persephone
     #show Priam sprite at center with dissolve
     vi "...You hate me, huh?"
     extend " Man...I knew I messed up, but did you have to tell her about me...?"
@@ -1570,7 +1593,7 @@ label scene_05:
 
     # nvl clear
 
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
 
     p "AHHHH!!!!!" with vpunch
 
@@ -1580,7 +1603,7 @@ label scene_05:
 
     # nvl clear
 
-    play sound sfx.heavybam
+    play sound sfx.heavy_bam
     with hpunch
     p "Gah...damn you! Ngh...!"
 
@@ -1590,7 +1613,7 @@ label scene_05:
     # nvl clear
 
     #hide Priam
-    #show Persephone combat at center with dissolve
+    #show persephone combat at center with dissolve
     play sound sfx.grapple
     "She catches my last strike, deflecting it."
     play sound sfx.magic_charge
@@ -1601,7 +1624,7 @@ label scene_05:
     "I jab her throat, causing her to spit and her breath to fly from her maw."
     play sound galeblast
     pause 0.6
-    queue sound sfx.heavybam
+    queue sound sfx.heavy_bam
     with hpunch
     extend " Yet I still get blasted..."
     #zoom out screen
@@ -1664,7 +1687,8 @@ label scene_05:
     g "Caught you!"
 
     scene background cult altar
-    show griswyr combat at center
+    show Griswyr neutral at center 
+    #combat
     "Griswyr jumps down from the ceiling, his body engulfed by his Malice."
     "She clutches her slashed arm, and her body convulses."
 
@@ -1673,7 +1697,7 @@ label scene_05:
     g "Even if he couldn't finish the job, there's still a lot of Grace inside you."
     extend " Seeing as how both manas repel each other, I wonder what will happen when my Malice is added."
 
-    hide griswyr
+    hide Griswyr
     show persephone angry a center with dissolve
     p "...Oh shit!"
 
@@ -1684,7 +1708,7 @@ label scene_05:
     hide persephone
     scene image "#faf7f7"
 
-    extend " Before exploding just like before."
+    " Before exploding just like before."
 
     pause 3.0
 
@@ -1704,7 +1728,8 @@ label scene_05:
     extend " WHAT THE FUCK?!" with vpunch
 
     scene background cult altar with dissolve
-    show griswyr combat at center with dissolve
+    show Griswyr neutral at center with dissolve 
+    #combat
     "The lingering effects of the explosion dissipate and Griswyr stomps furiously."
     extend " Persephone was defeated, so what is setting him off?"
 

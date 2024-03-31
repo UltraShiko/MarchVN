@@ -63,7 +63,7 @@ The city's crown attraction is the Luminous Tower, a massive building of archite
 
 Despite being under the reverend's command, this city is not free from strife. Crime is always an issue, and after the Reckoning, the Emissaries have been weeding out Hecate's cultists like lice in hair. Many shadow wars have been fought within Jubilee's sanctum, but the new Reverend Hale IV has promised his citizens protection if a second reckoning occurs.
         """,
-        locked_by_default=True
+        locked_by_default=False
     ),
 
     CompendiumEntry(
@@ -115,7 +115,7 @@ However, ever since the Reckoning, these warriors have been in short supply. Man
 
 Celestials carry burdens that are heavier than any armor they may don, but they are humanity's staunchest defenders. When a portal opens and all hell breaks loose, they will be at the forefront, ready to defend their realm.
         """,
-        locked_by_default=True
+        locked_by_default=False
     ),
 
     CompendiumEntry(
@@ -150,6 +150,46 @@ What does one think of when they hear cultist? A man in dark robes leading a sac
 Hecate does not aspire her followers to be cruel or bloodthirsty. With her pension for children, orphanages required supervision because of how often the mothers were caught worshiping her. Roses of all colors are forbidden for their similarity to Hecate's symbology. Kukris are banned for similar reasons, and the color purple now draws suspicion from nobles rather than admiration.
 
 With all of this in mind, there are rituals and asttire involved in her worship. These aren't mandatory in this cult, and those that defy the law hold much respect from their colleagues. Many shadow wars have been fought between these cultists and Emissaries, and her worship is especially dangerous with the penalties being extraordinarily severe. Many people have been wrongfully accused of worshiping Hecate ever since the Reckoning, and only Reverend Hale IV himself can save them...
+        """,
+        locked_by_default=True
+    ),
+
+CompendiumEntry(
+        "ReckoningLore",
+        "Divine Calamities - The Reckoning",
+        """{=compendium_screen_title_style}Divine Calamities - The Reckoning{/compendium_screen_title_style}
+
+Before Reverend Hale IV succeed his uncle, a divine tragedy known as the Reckoning occurred. Unlke his forefathers, the current reverend ascended not through ceremony, but blood.
+
+Twenty years ago, in the city of Jubilee, disaster struck. They say the sky tore itself open, and devils rained down like a heavy storm. Those that witnessed it still have nightmares of its horrors. Celestials, the sentinels of mankind, were butchered, abducted, and Yeshua knows what else the fiends came up with. Many a Paladin fell that day, and those that didn't usually retired not just their profession, but their affiliation with the Archons. Despite the mass destruction, not a single archon came to their aid. Especially not to Reverend Hale III, who witnesses claimed, was dragged into the void, screaming, by a female devil now known as the Banshee of Jubilee.‌
+
+People speculate the reason behind the attack. Many believe that Reverend Hale III's tyranny drew the ire of an archfiend. The reverend burned many "witches", and was quick to dish out punishment at even the slightest offense.
+
+The Reckoning did more thn just slay the reverend. Reverend Hale III was despised by the other barons of the Holy Lands. His damnation led to the opportunistic nobles to denouncing the next reverend as their ruler. Many Celestials broke their vows that day as well. Many civilians believed that Yeshua was punishing them, but the broken knights came to a worse conclusion; that the Archlords cared little for mortals.
+        """,
+        locked_by_default=True
+    ),
+
+    CompendiumEntry(
+        "DretchlingLore",
+        "Dretchlings, Scions of Sin",
+        """{=compendium_screen_title_style}Dretchlings, Scions of Sin{/compendium_screen_title_style}
+
+Dretchlings are considered the outcasts of Eldermyst. Being the descendants devils, these wretched beings struggle just to exist. There are few sanctuaries that willingly house this species of man, for their bloodline alone brands them as undesirable by most. 
+
+While Dretchlings inherited the blood of devils, their creation isn't as simple as a mortal breeding with a fiend. The product of this unholy union is known as a Cambion; a dretchling with a stronger link to their infernal ancestry. 
+
+This cambion's offspring is where the dretchling babe comes into play. However, rumors speculate that the Succubi serving under the archfiend Hecate produce dretchling children instead of cambions. And seeing as how succubi are notorious for seducing man, it is accepted as fact by most scholars.
+
+Dretchlings can also be the result of a curse. A common penalty of unfulfilled contracts with devils curses one's bloodline to produce dretchlings. This is the preferred punishment for most devils. While they could lay claim to the soul of the transgressor, it is seen as more lucrative to allow the fool to live their life and bear children; children that'll be easier to deceive and corrupt.
+
+Dretchlings have free will just like other mortals. While their bloodlines link them to Hell, it is not unheard of for a dretchling to disown this connection and distance themselves from it as much as possible. However, mortals are often their worst enemies. Many dretchlings that fall to Hell's influence have been beaten and broken by the people that demonize them. Devils flock to them not because of their blood, they flock to them because many are forced into desperate circumstances by their own neighbors. 
+
+Hecate's followers are known for \"adopting\" these downtrodden souls and forging them into vengeful champions and protectors of their brethren. Other archfiends prefer a fatalistic approach to enlisting them; convincing them that their fates were decided the moment their heartless matrons that gave birth to them. 
+
+With how much the cards are stacked against these people, many wonder how most survive. Crimes against a dretchling are met with slaps on the wrist, with the reverse being met with crueler penalties. The most common speculation is fear. It is a well known fact that attacking children or their mothers is seen as unforgivable to Hecate, who has a history of avenging these injustices directly. Others see them as unstable, liable to lash out or to consult with devils to retaliate. Dretchlings can be intimidating by their features alone. 
+
+It is difficult to converse with someone who has horns protruding from their head after all. Governments might make policies to protect them, whilst others might seek to exclude the race to camps or banish them entirely. Though whilst fear is a strong deterrent, dretchlings are still the most victimized ancestry of mortals.
         """,
         locked_by_default=True
     ),
