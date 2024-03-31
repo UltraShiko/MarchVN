@@ -328,7 +328,7 @@ label scene_05:
     #Ragyuo: I'm thinking Griswyr would come in from the top and appear at the left / right of Persephone
     #Normally I'd use a moveintop command, but maybe you have a better idea?
     hide persephone
-    show griswyr at left with moveinleft #will be combat later
+    show griswyr neutral at left with moveinleft #will be combat later
     "Gryswyr jumps down from the ceiling, grazing her cheek with his blade."
     play sound sfx.thud
     "He lands then swings at her neck."
@@ -415,7 +415,7 @@ label scene_05:
     extend " Griswyr lands and skirts behind her."
     play sound sfx.weapon_draw
     hide persephone
-    show griswyr at center
+    show griswyr neutral at center
     extend " She gasps as his sword hisses through the air."
 
     # nvl clear
@@ -947,7 +947,7 @@ label scene_05:
     "All the blows I landed were because she let me... Now she's dodging and weaving past Griswyr's swipes just like before..."
     "She rears back."
     hide Persephone
-    show griswyr at right
+    show griswyr neutral at right
     extend " And Griswyr ducks behind her, readying his ax."
 
     # nvl clear
@@ -1013,7 +1013,7 @@ label scene_05:
     p "Wake up, Snowflake!"
 
     hide persephone with moveoutright
-    show griswyr at right with moveinright
+    show griswyr neutral at right with moveinright
     play sound sfx.slash
     with bloodflash
     "He evades her pounce and hisses as more wounds rip open on his body."
@@ -1034,7 +1034,7 @@ label scene_05:
 
     #move his sprite to the left and right
     hide Persephone
-    show griswyr at left with moveinright
+    show griswyr neutral at left with moveinright
     "He spins."
     play sound sfx.parry
     pause 0.6
