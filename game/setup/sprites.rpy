@@ -129,3 +129,7 @@ image Jory sad:
 
     # "images/sprites/jory/sad.png"
     "images/sprites/jory/silhouette.png"
+
+### Other
+
+image Cultist =  Placeholder(base='boy', full=False, text="Cultist")

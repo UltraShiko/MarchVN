@@ -8,11 +8,18 @@ label scene_04:
 
     play music bgm.dungeon_ambience # TODO: Using placeholder track. Replace with correct one.
 
+    window show
 
     "We slither through the door and are greeted by a dim cave."
     "Torches with purple flames light the corridor, and the pleasant aroma of roses enters our noses."
     "Their dedication to that single flower astonishes me. I expected something more elaborate..."
-    #show griswyr neutral at center with fade
+
+    window hide
+
+    show Griswyr neutral at center with dissolve
+
+    window show
+
     "Griswyr moves so lightly. There are times when I have to double check if he's still beside me."
 
     # nvl clear

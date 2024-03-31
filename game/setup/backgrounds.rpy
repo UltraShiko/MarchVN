@@ -1,6 +1,6 @@
 
 image background cave entrance = "images/backgrounds/cave_entrance.png"
-image background cave = Placeholder('bg', text='Cave')
+image background cave = "images/backgrounds/cave.png"
 
 image background cult altar = "images/backgrounds/cult_altar.png"
 image background cult altar 2 = "images/backgrounds/cult_altar_2.png"

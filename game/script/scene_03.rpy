@@ -18,7 +18,7 @@ label scene_03:
 
     # nvl clear
 
-    #show cultist silhouette at center with dissolve
+    show Cultist at center with dissolve
 
     cu "Oh man, tonight's the night! We can finally take back what's ours!"
     extend " Those damned Celestials chased us out of the city, and for what?! I baked bread! Worshiping mother wasn't hurtin' nobody!"
@@ -28,15 +28,19 @@ label scene_03:
     "He really enjoys talking to himself..."
     extend " Was he trying to summon the Archfiend herself? It can't be that simple..."
 
-    hide Cultist
+    window hide
+
+    hide Cultist with dissolve
 
     show Griswyr neutral at center with dissolve
+
+    window show
+
     "I shudder, spotting Griswyr on all fours."
     extend " He leers at the cultist like a wolf would at a deer!"
 
     # nvl clear
 
-    #show Griswyr neutral at center with dissolve
     g "Alright, recruit, deal with him."
 
     c "Wh-What?! Just by myself?!"
@@ -49,8 +53,14 @@ label scene_03:
 
     c "Ugh, yes sir..."
 
-    hide griswyr with dissolve
+    window hide
+
+    hide Griswyr with dissolve
+
     play sound sfx.forestfootsteps loop
+
+    window show
+
     "I stumble out from the bushes. I was prepared to fight, but not by myself..."
     "Alright, what's my plan?"
     extend " Perhaps I could rush him. If I'm quick, I could knock him out and slip inside."
@@ -66,7 +76,13 @@ label scene_03:
     cu "Who the hell are you?!" with vpunch
 
     "Ah no..."
-    #show cultist silhouette with dissolve
+
+    window hide
+
+    show Cultist at center with dissolve
+
+    window show
+
     "He draws his kukri and strides towards me."
     extend " I toss my hands in the air, stammering like a child."
 
@@ -118,11 +134,36 @@ label scene_03:
 
     cu "Ahh, I can relate. So do I!"
 
-    play sound sfx.weapon_swing
-    queue sound sfx.jab
-    queue sound sfx.thud
+    window hide
 
-    #hide Cultist moveoutbottom
+    play sound sfx.weapon_swing
+
+    pause 0.6
+
+    play sound sfx.jab
+
+    show Cultist:
+
+        ease 0.1 xoffset -10
+        ease 0.1 xoffset 10
+        ease 0.1 xoffset -10
+        ease 0.1 xoffset 0
+
+    pause 0.4
+
+    show Cultist:
+
+        ease 0.3 yoffset 150
+
+    pause 0.1
+
+    play sound sfx.thud
+
+    hide Cultist with Dissolve(0.2)
+
+    stop sound
+
+    window show
 
     "Within a blink of an eye, he swings the knife and I strike his chest."
     "I tremble. So he was just leading me on? How could I be so naive...?"
@@ -130,7 +171,11 @@ label scene_03:
 
     # nvl clear
 
-    show griswyr at center with dissolve
+    window hide
+
+    show Griswyr neutral at center with dissolve
+
+    window show
 
     g "So what was your strategy, there?"
 
@@ -204,9 +249,21 @@ label scene_03:
     extend " Dretchlings are prime targets for Devils. Their bitter mistreatment by others pushes those poor souls straight into their hands."
     "I only hoped that a saint would give {i}him{/i} the compassion I couldn't..."
 
+    window hide
+
     # nvl clear
 
-    hide griswyr
+    hide Griswyr with dissolve
+
+    scene background cave entrance at truecenter:
+
+        zoom 1.0
+
+        ease 1.5 zoom 1.5
+
+
+    pause 0.9
+
     stop music fadeout 1.5
     scene image "#000" with dissolve
 
