@@ -143,4 +143,7 @@ image Jory sad:
 
 ### Other
 
-image Cultist = "images/sprites/jory/cultist.png"
+image Cultist:
+    yoffset 100
+
+    "images/sprites/cultist.png"
