@@ -10,7 +10,9 @@ label scene_06:
 
     scene background slums
 
-    show Jory happy at center #will add in official sprite after jam
+    show Jory sad at center_left #will add in official sprite after jam
+    show Griswyr neutral at center_right behind Jory
+
     with Dissolve(0.8)
 
     "I stir wearily, wrapped in bandages in more places than I can fathom..."
@@ -26,6 +28,9 @@ label scene_06:
 
     g "Luckily most of his injuries weren't deep. Those broken ribs are going to need some time, not like you can move anyways."
     g "You nearly burnt all of your mana, Caius. A drop more, and you would be a corpse."
+
+    # TODO:
+    show Jory angry with dissolve
 
     j "It shouldn't have ended this way!"
     j "What came of this?! All you did was put my friend in bandages! You didn't even kill the devil!"
@@ -49,7 +54,16 @@ label scene_06:
     extend " I'll find Caius when my superior makes a decision. I won't blame him if he wants to reconsider joining after last night."
     g " Until next time."
 
-    #hide griswyr with dissolve
+    window hide
+
+    hide Griswyr with dissolve
+
+    pause 0.5
+
+    # TODO:
+    show Jory sad at center with dissolve
+
+    window show
 
     j "Grr... Damn it! Why does this keep happening my friends?!"
 
@@ -57,9 +71,16 @@ label scene_06:
     extend " I couldn't stop thinking about you... I kept pushing myself for your sake..."
 
     j "Oh right, you made that promise..."
+
+    # TODO:
+    show Jory angry at center with dissolve
+
     extend " But I'm not the one who needs to be protected!"
 
     c neutral  "On that, we'll have to agree to disagree..."
+
+    # TODO:
+    show Jory neutral at center with dissolve
 
     j "By Yeshua, you're as stubborn as always..."
 
@@ -71,12 +92,16 @@ label scene_06:
     c neutral "I did, but after last night, I'm ready to go back now."
     extend " I may not be able to change anything yet, but I can still see him..."
 
+    # TODO:
+    show Jory sad at center with dissolve
+
     "Jory sighs deeply and closes his eyes."
 
     # nvl clear
 
     j "Caius...there's something you need to know."
     extend " While you were gone, word hit Jubilee, and..."
+
     c neutral "And...?"
 
     "He gulps hard and speaks slowly."
@@ -84,9 +109,11 @@ label scene_06:
     # nvl clear
 
     j "Thrycia..."
+
+    stop music
+
     extend "is no more."
 
-    stop music 
     c snide "Huh...?"
 
     j "No one is sure of what happened, but the rumors say a devil was involved..."
@@ -114,6 +141,9 @@ label scene_06:
 
     play sound magic_charge
     with graceflash
+
+    # TODO:
+    show Jory neutral with dissolve
 
     j "Woah!"
 
