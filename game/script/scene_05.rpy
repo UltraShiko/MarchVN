@@ -27,17 +27,17 @@ label scene_05:
     g "If they're going to make it that easy."
     extend " Stay back, wouldn't want you to stain your conscience."
 
-    c "No please, after you."
+    c smide "No please, after you."
 
     hide cultist silhouette
     scene image "#000"
     "I cover my eyes, and he goes to work."
-    #play sound sfx.thud
+    play sound sfx.thud
     extend " Much like with the group of Thorns we just faced, the bodies here also fall like rain..."
     "I can feel the aura beginning to wane. I've had enough bloodshed for one night, maybe for a lifetime..."
     extend " Jory wasn't wrong about the brutality of the Emmisaries. I doubt that gentle giant would stand any of this..."
     scene background cult altar with dissolve
-    show Griswyr combat at center with dissolve
+    #show Griswyr combat at center with dissolve
     "When I open my eyes, Griswyr cuts down the final Thorn."
     extend " Yet the man doesn't whimper. He grins menacingly as Griswyr towers over him."
 
@@ -93,7 +93,7 @@ label scene_05:
 
     # nvl clear
 
-    c "Ngh..."
+    c snide "Ngh..."
 
     "My heart pounds. I swear I can {i}feel{/i} her presence..."
     extend " It's soothing, alluring, and at same time, suffocating..."
@@ -141,9 +141,9 @@ label scene_05:
 
     # nvl clear
 
-    v "Did you kill these people?"
+    v "...Did you kill her children?"
 
-    c "Uhh..!"
+    c snide "Uhh..!"
 
     "Oh no! We're surrounded by corpses! There's no way she won't suspect anything now..."
     "Damn it! How could I be so careless?! All I've done is give her an opening!"
@@ -164,7 +164,7 @@ label scene_05:
     extend " Exorcist?"
     extend " Adventurer who's in over his head?"
 
-    c "Emissary..."
+    c "Emissary."
 
     v "Really? You, one of those cutthroats?"
     extend " Ohhh, it's your first day isn't it?"
@@ -178,7 +178,7 @@ label scene_05:
 
     v "So, are you going to kill me?"
 
-    c "Or send you back to Hell. I prefer the latter to be honest...."
+    c "Or send you back to Hell. I prefer the latter to be honest."
 
     v "Aww, how thoughtful!"
     extend " Buuut...."
@@ -186,7 +186,7 @@ label scene_05:
     play sound sfx.charm
     with charmflash
 
-    c "Gnnnghhh...!" with vpunch
+    c snide "Gnnnghhh...!" with vpunch
 
     "Her eyes flash pink, and my head throbs."
     extend " It feels like a hand is squeezing my head, forcing my mind to bend to her will..."
@@ -218,7 +218,7 @@ label scene_05:
     c "...My apologies. ...It appears your magic is working too well."
 
     p "Pfft! I softened you up, I didn't remove your manners..."
-    p "I've been around for...twenty years? I'm unsure... Time flows differently in Hell..."
+    p "I've been around for...twenty years? I'm unsure... Time flows differently in Hell."
     extend " Don't worry, I'm very mature for my age, hehehehe!"
 
     "Devils are immortal, so twenty years was hardly a drop in the bucket for them."
@@ -236,7 +236,7 @@ label scene_05:
 
     "My heart accelerates!"
 
-    c "Wh-What do you want-"
+    c angry "Wh-What do you want-"
 
     "Calm down, Caius...you're supposed to be pulling her leg."
 
@@ -264,7 +264,7 @@ label scene_05:
 
     p "Right..."
 
-    c "Mhm..."
+    c snide "Mhm..."
 
     p "Mm...hm."
 
@@ -276,6 +276,7 @@ label scene_05:
     # Raagyuo: If possible, I would like to make this scene work without any narration.
     # So I'm thinking, maybe the screen zooms in to emulate Caius attacking, and then darts back as he's shunted backwards
     # In summary, the screen will demonstrate Caius attacking, than being slammed backwards
+    play sound sfx.lunge
     "I lunge!"
 
     # nvl clear
@@ -366,7 +367,7 @@ label scene_05:
     g "I've pushed you into danger twice tonight, but only because I knew you could overcome it."
     extend " This fiend is much stronger than a succubus. You'll only get in the way."
 
-    c "Griswyr, she'll just revive in Hell if you-"
+    c "Griswyr, she'll just revive in Hell if I don't-"
 
     g "You talk too much! Do you forget that the enemy is right there?!"
 
@@ -517,7 +518,7 @@ label scene_05:
 
     # nvl clear
 
-    c "That's enough, Griswyr! Let me handle this!"
+    c angry "That's enough, Griswyr! Let me handle this!"
 
     g "Nnngh..."
     extend " Just who do you think you are?! I'm your superior!"
@@ -538,7 +539,7 @@ label scene_05:
 
     p "Hehehe, you ought to watch your mouth, Snowflake. Someone might get the wrong idea~."
 
-    c "Thank you, Griswyr. I won't let you down!"
+    c smile "Thank you, Griswyr. I won't let you down!"
 
     #Ragyuo Maybe she would zoom in a little? Or have the screen shake slightly to simulate him approaching her?
     "I ready my stance then slowly walk towards her."
@@ -561,12 +562,13 @@ label scene_05:
 
     # nvl clear
 
-    c "...You mean my mentor?"
+    c angry "..."
+    extend " You mean my friend?!"
 
     p "Well..."
     extend " If his name's Jory, then-"
 
-    #play sound sfx.strike
+    play sound sfx.jab
     with graceflash
 
     extend "Grrrr!!!" with vpunch
@@ -582,7 +584,9 @@ label scene_05:
     c "Keep my friend's name...out of your mouth!" with vpunch
 
     play sound sfx.jab
+    pause 0.6
     queue sound sfx.jab
+    pause 0.6
     queue sound sfx.jab
     #Ragyuo: For reference if you're familiar with Wing Chun, or Kung Lao from Mortal Kombat, Caius is jabbing her like them.
     #If not, think of something like gatling fists or something. We can discuss later
@@ -630,7 +634,7 @@ label scene_05:
 
     # nvl clear
 
-    c "Blasphemer! Mother will be displeased!"
+    c angry "Blasphemer! Mother will be displeased!"
 
     p "Wise ass, huh...?!"
 
@@ -640,8 +644,11 @@ label scene_05:
     #Ragyuo: Not sure how to go about this. Debris is flying at him. Maybe a screen shake and a sfx will be enough?
     #Or zoom out, and shake the screen?
     play sound sfx.lunge
+    pause 0.6
     queue sound sfx.block
+    pause 0.6
     queue sound sfx.block
+    pause 0.6
     queue sound sfx.block
     extend " I jump out of the way and managed to block the projectiles."
     "I land, trying to regain my bearings, but my pause leaves me open."
@@ -649,7 +656,7 @@ label scene_05:
     # nvl clear
 
     play sound sfx.galeblast
-    c "Gahhh!" with vpunch
+    c snide "Gahhh!" with vpunch
 
     "Her second gale that hits me hard... It feels like getting kicked by a mule!"
     #have her zoom in
@@ -723,14 +730,14 @@ label scene_05:
 
     p "So what? You know that we fiends can peer into your past, right?"
 
-    c "Huh?!"
+    c angry "Huh?!"
 
     p "Uh oh, guess not~."
     extend " Well I can understand Jory not knowing, but Snowflake? Tsk tsk, how irresponsible~!"
 
     g "Do not humor her, Caius!"
 
-    c "You lie!"
+    c angry "You lie!"
 
     p "Ahahahaha! Why else would people sell their souls?"
     extend " It's because we see everything! Your regrets, what you care about, and what haunts you. It's all an open book!"
@@ -750,14 +757,15 @@ label scene_05:
 
     g "Strike her down, goddamn it!"
 
-    c "Grrr! Be quiet, devil!" with vpunch
+    c angry "Grrr! Be quiet, devil!" with vpunch
 
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
 
     p "Whoa, whoa....what's swatting at me going to do? I'm not the one who abandoned him..."
 
-    c "You...You leave him alone, monster!"
+    c angry "You... "
+    extend " You leave him alone, monster!" with vpunch
 
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
@@ -767,16 +775,16 @@ label scene_05:
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
 
-    c "Tell me, Persephone!"
+    c angry "Tell me, Persephone!"
 
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
 
-    c "Hecate calls herself the mother of outcasts, a protector of the damned!"
+    c angry "Hecate calls herself the mother of outcasts, a protector of the damned!"
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
     extend " But you're just like any other devil! You'd corner and bewitch the same people you claim to care about!"
-    c "The Dretchlings suffer enough without your poison!"
+    c angry "The Dretchlings suffer enough without your poison!"
 
     g "Stop talking, Caius-"
 
@@ -786,7 +794,7 @@ label scene_05:
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
 
-    c "Damn you!!!"
+    c angry "Damn you!!!" with vpunch
 
     #zoom in, they're locked again
     play sound sfx.magic_charge
@@ -800,7 +808,8 @@ label scene_05:
 
     # nvl clear
 
-    c "You and that goddamned archfiend aren't any different! Why else would she reside in Hell?!"
+    c angry "You and that goddamned archfiend aren't any different!"
+    extend " Why else would she reside in Hell?!"
 
     p "Right, because your god's any better?"
     extend " Who were the Celestials founded under? Oh, he must've been cruel to allow his followers to imprison Dretchlings like cattle."
@@ -808,7 +817,7 @@ label scene_05:
     extend " Face it, your precious Archlords doesn't care, and Hecate."
     extend " ...Now that I think about it, looks I have TWO errands to run!"
 
-    c "I'll end you-"
+    c angry "I'll end you-"
 
     play sound sfx.grapple
     extend " Agh!" with vpunch
@@ -822,7 +831,7 @@ label scene_05:
     p "Though while we're talking about fibbing, I wasn't entirely honest with you."
     extend " You see, we devils can't read people;s pasts. So I appreciate the information~."
 
-    c "Gngh!!!" with vpunch
+    c snide "Gngh!!!" with vpunch
 
     "My heart stops, and she giggles darkly."
 
@@ -843,8 +852,9 @@ label scene_05:
 
     #Ragyuo: Not sure how to animate her here. She basically dropped Caius and leapt backwards
     play sound sfx.weapon_swing
+    pause 0.6
     queue sound sfx.thud
-    p " Shit!" with hpunch
+    p "Shit!" with hpunch
 
     show griswyr combat at left with dissolve
     "She drops me, narrowly slipping past Griswyr's slash."
@@ -938,6 +948,7 @@ label scene_05:
 
     #have Persephone zoom out to simulate evasion
     play sound sfx.weapon_swing
+    pause 0.6
     queue sound sfx.bloodlance
     with bloodflash
     "Persephone darts backwards, and he fires another Blood Lance."
@@ -1104,7 +1115,7 @@ label scene_05:
 
     # nvl clear
 
-    c "Fall, monster!" with vpunch
+    c angry "Fall, monster!" with vpunch
 
     #zoom out Persephone
     play sound sfx.melee_swing
@@ -1135,7 +1146,7 @@ label scene_05:
     # nvl clear
 
     play sound sfx.heavybam
-    c "HAAAA!!!!" with vpunch
+    c angry "HAAAA!!!!" with vpunch
 
     "I deliver a mighty blow to her chest and..."
     extend "nothing."
@@ -1175,7 +1186,7 @@ label scene_05:
 
     # nvl clear
 
-    c "Ngh..."
+    c snide "Ngh..."
 
     g "Impressive. What was that?"
 
@@ -1225,7 +1236,7 @@ label scene_05:
 
     g "Looks like this mission is a failure! Out of all the monsters, we had to get matched up against that goddamned banshee!"
 
-    c "Griswyr...?"
+    c snide "Griswyr...?"
 
     g "I'll hold her off while you crawl away. Don't worry about me, because I'm not coming back."
 
@@ -1243,7 +1254,7 @@ label scene_05:
 
     # nvl clear
 
-    c "Griswyr, don't...!"
+    c snide"Griswyr, don't..!"
 
     play sound sfx.heavyslash
     with bloodflash
@@ -1407,9 +1418,13 @@ label scene_05:
     "That attack sends her reeling. If I can just land a few more strikes like that one..."
     #zoom her out and up y-axis
     play sound sfx.galeblast
+    pause 0.6
     queue sound sfx.galeblast
+    pause 0.6
     queue sound sfx.galeblast
+    pause 0.6
     queue sound sfx.galeblast
+    pause 0.6
     queue sound sfx.galeblast
     "She blasts herself airborne, screeching before launching a volley of gusts towards me."
     extend " I lack the agility to dodge... I walk forward, blocking, deflecting, and even enduring gust after gust..."
@@ -1447,7 +1462,9 @@ label scene_05:
     #zoom in
     "Her gaze wavers when I sprint towards her."
     play sound sfx.grapple
+    pause 0.6
     queue sound sfx.heavybam
+    with hpunch
     extend " Her wings flap, and I grab her foot before clobbering her face."
     #move sprite slightly
     play sound sfx.weapon_swing
@@ -1546,7 +1563,7 @@ label scene_05:
 
     # nvl clear
 
-    c "No...not now!"
+    c snide "No...not now!"
 
     vi "I knew I couldn't trust you..."
 
@@ -1589,7 +1606,7 @@ label scene_05:
     p "..."
     extend " Oh shit!"
 
-    stop music fadeout 2.5
+    stop music fadeout 1.5
     play sound sfx.magic_charge
     with graceflash
     "Her jaw clamps shut as my mana begins to violently leave her."
@@ -1627,7 +1644,7 @@ label scene_05:
 
     g "HOW THE HELL DID SHE ESCAPE?!" with vpunch
 
-    c "Wh-wha...?"
+    c snide "Wh-wha...?"
 
     "I look to the floor and gasp. There are no remains, no body, no sign of her. Persephone is gone!"
 

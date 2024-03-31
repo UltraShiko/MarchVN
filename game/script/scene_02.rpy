@@ -32,58 +32,58 @@ label scene_02:
 
     g "You'll wake up soon enough. Their cave isn't far from here."
 
-    c "R-Right!"
+    c angry "R-Right!"
     extend " So, can you tell me about these uhh, \"Thorns\"?"
 
     g "...It's a band of heretics worshiping an Archfiend. What more do you need to know?"
 
-    c "I mean, their numbers? Their weapons? If there's anyone among them who can cast spells or utilize mana?"
+    c neutral "I mean, their numbers? Their weapons? If there's anyone among them who can cast spells or utilize mana?"
 
     g "Hmm, I wasn't expecting you to be so resourceful."
     extend " It's a small sect. I doubt there's more than ten of them. I'd imagine their leader can wield magic."
 
-    c "Ah! I was expecting something more organized! That eases my mind!"
+    c smile "Ah! I was expecting something more organized! That eases my mind!"
 
     g "And they're on the cusp of summoning a devil."
 
-    c "..."
+    c neutral "..."
     extend "Tonight?"
 
     g "Tonight."
     g "If one pops out, this mission becomes much deadlier. Even I will have to be careful.."
     extend " Not like it'll change the outcome, of course."
 
-    c "Hmm..."
+    c neutral "Hmm..."
 
     g "I wouldn't have picked someone who was incapable. I have high expectations for you, and I expect to see them met."
     extend " I don't think I need to explain the consequences of a devil escaping."
 
-    c "O-Of course not. Not like I'd let them finish summoning it."
+    c angry "O-Of course not. Not like I'd let them finish summoning it."
 
     g "How do you intend to stop it?"
 
-    c "Well, if we move together, we can dispatch them  one-by-one."
+    c neutral "Well, if we move together, we can dispatch them  one-by-one."
     extend " I assume this ritual requires a lot of mana. The fewer men they have, the more mana will be needed from each of them."
 
     g "And you don't think their leader has mana in spades? He's devout, after all. His fervor alone is likely all that's needed."
 
-    c "Well then, we can sneak in, take him out, and-"
+    c neutral "Well then, we can sneak in, take him out, and-"
 
     g "Are you so quick to abandon your plans?"
 
-    c "But you said-"
+    c snide "But you said-"
 
     g "So what? One weak point doesn't make a plan fallible."
     extend " If anything, your next suggestion may as well be suicide. What cult would be foolish enough to allow us to assassinate their leader?"
     g "These people are aware of the danger; from us, from rival cults, and from the wrath of their deity."
     extend " If anything, they already know we're coming. Hecate's followers are excellent at blending in."
 
-    c "If I recall correctly, Hecate favors deception. I've heard that even beggars worship her in secret."
+    c neutral "If I recall correctly, Hecate favors deception. I've heard that even beggars worship her in secret."
 
     g "Why do you think we have Celestials guarding every orphanage? They're breeding grounds for her acolytes. No one ever suspects caregivers."
     g "I was lucky to locate this cult. Normally they are just as elusive as succubi, but I guess someone got sloppy. Or arrogant."
 
-    c "Alright, then let's discuss tactics."
+    c neutral "Alright, then let's discuss tactics."
     extend " I'm good at fighting hand-to-hand, and I have great control of my mana."
 
     g "You, a fighter? With arms that spindly?"
@@ -106,13 +106,13 @@ label scene_02:
     g "How pious..."
     extend " Too pious! You expect such flimsy arms to have an impact?"
 
-    c "That's what my mana is for."
+    c smile "That's what my mana is for."
 
     g "What mana do you wield?"
 
     c "Grace."
     extend " Normally it doesn't empower its wielder like other mana, but I've learned to manipulate it to my advantage."
-    c "Grace will be paramount if this monster is summoned."
+    c smile "Grace will be paramount if this monster is summoned."
     extend " Devils are beings of the dark mana, Malice. Seeing how Grace repels that mana, I'm certain even my jabs will be lethal to it."
 
     g "It might, assuming you get the chance to use it."
@@ -128,14 +128,14 @@ label scene_02:
     g "Too late, you're dead!"
     extend " You hesitated, and it tore your throat out."
 
-    c "Oh..."
+    c snide "Oh..."
 
     g "You don't hesitate. Not for a second. If it attacks, you fight back."
     extend " If it chases after me, you pursue it. If it casts a spell, you dodge. Whatever happens, you adapt!"
     g "I can tell that you spend way too much time thinking, and not enough time acting."
     extend " On a good day, the best plans fail. We're dealing with schemers from Hell itself, what makes you think that you can outwit them?"
 
-    c "..."
+    c snide "..."
 
     g "Humor me. Why do you think I picked you?"
 
@@ -144,13 +144,13 @@ label scene_02:
     g "Two reasons."
     extend " One, for your mana. If this monster is summoned, I need someone to exploit its weakness. I don't channel Grace, nor do I plan on it."
 
-    c "So you knew all along?"
+    c snide "So you knew all along?"
 
     g "Of course I did."
     extend " I know who you are, your abilities, your nature, and more importantly, your origins."
 
-    #$ unlockCompendionEntry("ThryciaLore")
-    c "That means...you know I'm from Thrycia."
+    $ unlockCompendionEntry("ThryciaLore")
+    c snide "That means...you know I'm from Thrycia."
 
     g "I also know about your run-in with the law."
 
@@ -160,13 +160,13 @@ label scene_02:
 
     # nvl clear
 
-    c "...How much do you know?"
+    c snide "...How much do you know?"
 
     g "Enough."
     extend " I know about the Dretchling, and I know about the dead Celestial."
     extend " I also understand that you and the Dretchling were cutpurses at one point."
 
-    c "...We were."
+    c snide "...We were."
     extend " You don't have...plans to arrest my friend, do you?"
 
     g "That decision is not mine to make."
@@ -199,17 +199,17 @@ label scene_02:
 
     # nvl clear
 
-    c "...With all due respect sir, you are very judgemental."
+    c angry "...With all due respect sir, you are very judgemental."
 
     g "And?"
 
-    c "What's wrong with wanting to protect other people? Would you prefer people to join for money alone?"
+    c angry "What's wrong with wanting to protect other people? Would you prefer people to join for money alone?"
 
     g "Yes, it's a realistic and achievable goal."
 
-    c "Well, I hate to upset you, but my motivation isn't too far off from the former."
+    c angry "Well, I hate to upset you, but my motivation isn't too far off from the former."
     extend " Regret is a big part of it, but I want to reform our country into something better."
-    c "That Dretchling and Jory were victims of oppression."
+    c angry "That Dretchling and Jory were victims of oppression."
     extend " I used to be a cutthroat, but I had a choice. My friend...no one would pay a \"mongrel\" to shine their shoes."
 
     g "Fear - it drives the weak. How unfortunate for him."
@@ -231,7 +231,7 @@ label scene_02:
 
     g "...What makes you think otherwise?"
 
-    c "I-I don't mean to be rude-"
+    c snide "I-I don't mean to be rude-"
 
     g "Save it. It's not the first time I've been asked that."
     extend " Let's just say a whimsical creature thought it'd be humorous to mangle with my soul when I was a child. The end."

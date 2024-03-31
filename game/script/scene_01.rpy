@@ -121,7 +121,7 @@ label scene_01:
 
     # nvl clear
 
-    c "...But you've made amends. I mean, you took me in despite the fact I...you know."
+    c snide "...But you've made amends. I mean, you took me in despite the fact I...you know."
 
     j "I sure did, and I have no regrets!"
     extend " Still, a day doesn't go by when I don't think about her or how I wanted to avenge her...!"
@@ -212,11 +212,11 @@ label scene_01:
 
     g "If you are ready, then let's go. Our enemy has already begun their machinations."
 
-    c "Who are we going after?"
+    c neutral "Who are we going after?"
 
     g "You're familiar with the Thorns, correct?"
 
-    c "Hmm, that name doesn't ring a bell..."
+    c neutral "Hmm, that name doesn't ring a bell..."
 
     $ unlockCompendionEntry("ThornLore")
     g "They call themselves the {i}Agents of the Rose{/i}, Hecate's cultists, to be precise."
@@ -232,13 +232,13 @@ label scene_01:
 
     g "...I'm sorry, did you expect this mission to be simple?"
 
-    c "No, I'm ready for anything."
+    c neutral "No, I'm ready for anything."
 
     g "Many fools have run to their end believing such nonsense."
     extend " It is alright to be intimidated, how you follow through is what matters."
     g "Now let's be off. Time is of the essence."
 
-    c "Yes, sir..."
+    c neutral "Yes, sir..."
 
     window hide
 

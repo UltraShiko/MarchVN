@@ -26,7 +26,7 @@ label scene_04:
 
     play sound sfx.light_grapple
 
-    c "Ngh..."
+    c snide "Ngh..."
 
     g "Watch your step. We are in enemy territory."
 
@@ -149,7 +149,7 @@ label scene_04:
     g "As expected, they were pathetic."
     extend " Were you paying attention Caius?"
 
-    c "Ngh..."
+    c snide "Ngh..."
 
     "The hallway, AND Griswyr are painted crimson!"
     extend " The metallic stench leaves me dizzy. The gore, the carnage, the corpses littered across the floor, it all taxes me greatly..."
@@ -160,7 +160,7 @@ label scene_04:
 
     cu "Please! I surrender! Just get this thing out of my head!" with vpunch
 
-    c "By Yeshua, I'm going to be ill..."
+    c snide "By Yeshua, I'm going to be ill..."
 
     g "Swallow it! This is nothing compared to the horrors we face!"
 
@@ -212,7 +212,7 @@ label scene_04:
 
     # nvl clear
 
-    c "Stop it Griswyr!"
+    c angry "Stop it Griswyr!"
 
     "I shield the man, placing my body between him and his tormentor."
     "My breaths accelerate, and a cold sweat breaks out on my brow. I can’t allow this torture to continue!"
@@ -220,14 +220,14 @@ label scene_04:
 
     # nvl clear
 
-    c "That's enough! He's already down!"
+    c angry "That's enough! He's already down!"
 
     g "So what?"
 
-    c "So what?! You can't treat people like this!"
+    c angry "So what?! You can't treat people like this!"
     extend " You're supposed to be protecting people, not torturing them! I can understand the grim reality of our job, but this is too much!"
     g "I thought I made it clear we were exterminators, not heroes."
-    c "That might be true, but it doesn't mean we have to behave like brutes!"
+    c angry "That might be true, but it doesn't mean we have to behave like brutes!"
     extend " How can we stop the devils when we behave no differently? We'll just become the same monsters we vowed to destroy!"
     g "...You choose now to make a stand?"
 
@@ -235,12 +235,12 @@ label scene_04:
 
     # nvl clear
 
-    c "You may not follow Yeshua, but I know Ahriman won't stand for what you are doing!"
+    c angry "You may not follow Yeshua, but I know Ahriman won't stand for what you are doing!"
 
     g "You forget your place, and I care not for what Ahriman or any Archlord has to say."
     extend " I wear his symbol out of formality, nothing more."
 
-    c "But I care, and I will not let this treatment continue!"
+    c angry "But I care, and I will not let this treatment continue!"
 
     "He sighs."
 
@@ -271,13 +271,13 @@ label scene_04:
 
     g "Who would tend to a Thorn?"
 
-    c "If healers are true to their oath, someone will."
+    c angry "If healers are true to their oath, someone will."
 
     "He scoffs and turns forward."
 
     g "Let's move. I've had enough preaching for a lifetime."
 
-    c "Fair enough."
+    c smile "Fair enough."
 
     "Though Griswyr manifesting Malice concerns me. No wonder he’s so cold."
     extend " Malice doesn’t morph people into monsters, it erodes their character. No one wakes up and decides to be a villain. It's a slope..."

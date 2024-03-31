@@ -24,7 +24,7 @@ label scene_06:
     j "By Yeshua, are you alright?!"
 
     play music bgm.epilogue fadein 1.5
-    c "Ngh....well, I'm still breathing so..."
+    c snide "Ngh....well, I'm still breathing so..."
 
     g "Luckily most of his injuries weren't deep. Those broken ribs are going to need some time, not like you can move anyways."
     g "You nearly burnt all of your mana, Caius. A drop more, and you would be a corpse."
@@ -61,16 +61,16 @@ label scene_06:
     j "Oh right, you made that promise..."
     extend " But I'm not the one who needs to be protected!"
 
-    c "On that, we'll have to agree to disagree..."
+    c neutral  "On that, we'll have to agree to disagree..."
 
     j "By Yeshua, you're as stubborn as always..."
 
-    c "Hey Jory, when I'm better..."
+    c smile "Hey Jory, when I'm better..."
     extend " Can we visit Thrycia?"
 
     j "I...thought you wanted to become an Emissary first."
 
-    c "I did, but after last night, I'm ready to go back now."
+    c neutral "I did, but after last night, I'm ready to go back now."
     extend " I may not be able to change anything yet, but I can still see him..."
 
     "Jory sighs deeply and closes his eyes."
@@ -79,7 +79,7 @@ label scene_06:
 
     j "Caius...there's something you need to know."
     extend " While you were gone, word hit Jubilee, and..."
-    c "And...?"
+    c neutral "And...?"
 
     "He gulps hard and speaks slowly."
 
@@ -88,15 +88,15 @@ label scene_06:
     j "Thrycia..."
     extend "is no more."
 
-    c "Huh...?"
+    c snide "Huh...?"
 
     j "No one is sure of what happened, but the rumors say a devil was involved..."
 
-    c "A devil...?!"
+    c snide "A devil...?!"
 
     j "Two... Apparently, a dretchling summoned it. I'm sorry..."
 
-    c "Gngh!" with vpunch
+    c angry "Gngh!" with vpunch
 
     "I swear I hear Persephone's words in my mind again."
 
@@ -111,14 +111,14 @@ label scene_06:
 
     # nvl clear
 
-    c "...Priam?!"
+    c snide "...Priam?!"
 
     play sound magic_charge
     with graceflash
 
     j "Woah!"
 
-    c "PRRRRRRRIIIIIIIIIAAAAAAAAMMMMMM!!!" with vpunch
+    c snide "PRRRRRRRIIIIIIIIIAAAAAAAAMMMMMM!!!" with vpunch
 
     $ quick_menu = False
 

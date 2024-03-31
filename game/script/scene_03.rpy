@@ -43,7 +43,7 @@ label scene_03:
 
     g "Alright, recruit, deal with him."
 
-    c "Wh-What?! Just by myself?!"
+    c snide "Wh-What?! Just by myself?!"
 
     g "Did I stutter?"
 
@@ -51,7 +51,7 @@ label scene_03:
 
     g "There's no guarantee that we'll make it. And I wish to see what you're capable of. Now go!"
 
-    c "Ugh, yes sir..."
+    c snide "Ugh, yes sir..."
 
     window hide
 
@@ -88,7 +88,7 @@ label scene_03:
 
     # nvl clear
 
-    c "Ah! I-I mean no harm! I-I'm just a m-monk, and I was-was just going for a walk!"
+    c snide "Ah! I-I mean no harm! I-I'm just a m-monk, and I was-was just going for a walk!"
 
     cu "Out here, in the depths of the forest, near midnight?"
 
@@ -107,7 +107,7 @@ label scene_03:
     cu "Just keep heading straight, and you'll find the road."
     extend " If you got this far, you should be okay on your own."
 
-    c "Ahh! Is it that simple?! I made so many twists and turns..."
+    c smile "Ahh! Is it that simple?! I made so many twists and turns..."
 
     cu "It is a nice night. That full moon is splendid!"
 
@@ -115,11 +115,11 @@ label scene_03:
 
     cu "Wait, you said you were a monk?"
 
-    c "Uh huh..."
+    c snide "Uh huh..."
 
     cu "Who do you worship?"
 
-    c "Ummm, Yeshua!"
+    c snide "Ummm, Yeshua!"
 
     cu "Ha, I never would've guessed."
 
@@ -130,7 +130,7 @@ label scene_03:
 
     cu "You monks are a dime a dozen! Can't believe you'd come this far without an escort."
 
-    c "Well haha, I have faith in my lord..."
+    c smile "Well haha, I have faith in my lord..."
 
     cu "Ahh, I can relate. So do I!"
 
@@ -173,13 +173,13 @@ label scene_03:
 
     window hide
 
-    show Griswyr neutral at center with dissolve
+    #show Griswyr neutral at center with dissolve
 
     window show
 
     g "So what was your strategy, there?"
 
-    c "I have no idea..."
+    c snide "I have no idea..."
 
     g "Well, you got him away from the door... I suppose some praise is in order."
 
@@ -205,38 +205,38 @@ label scene_03:
     g "If any cultists are on patrol, I say we leave the body in the open."
     extend " It'll give them a taste of what awaits them."
 
-    c "...Why?"
+    c angry "...Why?"
 
     g "Oh? Do you feel sorry for him?"
 
-    c "That's...not how we do things. He should have been tried by the Law, not us..."
+    c angry "That's...not how we do things. He should have been tried by the Law, not us..."
 
     g "I don't see the problem. He would've been killed either way."
     extend " If anything, he got off easy. I doubt he even knows he's dead."
 
-    c "Griswyr...!"
+    c angry "Griswyr...!"
 
     g "What? Are you going to tell me he could've been redeemed?"
     extend " He didn't think twice when he tried to remove your head."
 
-    c "..."
+    c angry "..."
     extend "I don't like this. We're Emmisaries. We protect people, not butcher them..."
 
     g "Yes, we should give a man who wanted to plunge our world into Hell another chance."
     extend " Why? So he could give us lip service and try again?"
 
-    c "You're assuming again, Griswyr."
+    c angry "You're assuming again, Griswyr."
     extend " Devils prey on weakness. Not all of their worshipers are malicious. A lot of them didn't have a choice..."
 
     g "And I'm supposed to care?"
     extend " The road to Hell is paved with good intentions. If you try to bring a fiend into this world, you are an enemy of humanity no matter your reasons."
 
-    c "And if they were deceived?"
+    c angry "And if they were deceived?"
 
     g "If a devil tricks you, that is a failure on your end. Even a simpleton knows not to believe those monsters."
     extend " People aren't blameless. That man knew what he was signing up for. And now he is with his wretched goddess."
 
-    c "And has become another asset for her ranks..."
+    c snide "And has become another asset for her ranks..."
     g "So be it. He's locked in Hell and no longer our concern."
     extend " If you're done preaching, can we resume our objective?"
 
