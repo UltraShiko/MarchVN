@@ -59,7 +59,7 @@ label scene_04:
 
     g "Watch and learn, and don't interfere."
 
-    hide griswyr
+    hide Griswyr
     # TODO: If we have a combat sprite with black pupils, they'll shift to red here
     extend " They're mine!"
 
@@ -86,7 +86,7 @@ label scene_04:
     hide cultist silhouette with moveoutbottom
     play sound sfx.thud
 
-    show griswyr neutral at center with dissolve #will be griswyr combat later
+    show Griswyr neutral at center with dissolve #will be griswyr combat later
     "Griswyr doesn't strike from behind - no, he plants himself at the center of the group!"
     "His victim collapses, his throat cut wide open. I didn't even see the slash."
 
@@ -145,7 +145,7 @@ label scene_04:
     extend " He flourishes his sword  and cuts down the rest of the cultists who are now in disarray and significantly low on numbers."
     "They know they don't have a chance of winning or surviving."
     hide cultist
-    show griswyr neutral at center with dissolve
+    show Griswyr neutral at center with dissolve
     extend " Moments later, the cave becomes silent as the final bodies fall. Griswyr merely frowns in disgust as he collects his weapons."
 
     # nvl clear
