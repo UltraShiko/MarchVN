@@ -47,7 +47,8 @@ layeredimage caius:
 layeredimage Griswyr:
 
     yoffset 175
-    zoom 0.90
+    xoffset -100
+    zoom 0.85
 
     always:
 
@@ -55,9 +56,19 @@ layeredimage Griswyr:
 
     group emotions:
 
+        pos (615, 415)
+
         attribute neutral default:
 
-            null
+            "images/sprites/griswyr/angry.png"
+
+        attribute angry:
+
+            "images/sprites/griswyr/angry.png"
+
+        attribute feral:
+
+            "images/sprites/griswyr/feral.png"
 
 ### Persephone
 
@@ -99,37 +110,37 @@ image Jory:
 
     yoffset 251
 
-    # "images/sprites/jory/neutral.png"
-    "images/sprites/jory/silhouette.png"
+    "images/sprites/jory/neutral.png"
+    # "images/sprites/jory/silhouette.png"
 
 image Jory angry:
 
     yoffset 251
 
-    # "images/sprites/jory/angry.png"
-    "images/sprites/jory/silhouette.png"
+    "images/sprites/jory/angry.png"
+    # "images/sprites/jory/silhouette.png"
 
 image Jory happy:
 
     yoffset 251
 
-    # "images/sprites/jory/happy.png"
-    "images/sprites/jory/silhouette.png"
+    "images/sprites/jory/happy.png"
+    # "images/sprites/jory/silhouette.png"
 
 image Jory neutral:
 
     yoffset 251
 
-    # "images/sprites/jory/neutral.png"
-    "images/sprites/jory/silhouette.png"
+    "images/sprites/jory/neutral.png"
+    # "images/sprites/jory/silhouette.png"
 
 image Jory sad:
 
     yoffset 251
 
-    # "images/sprites/jory/sad.png"
-    "images/sprites/jory/silhouette.png"
+    "images/sprites/jory/sad.png"
+    # "images/sprites/jory/silhouette.png"
 
 ### Other
 
-image Cultist =  Placeholder(base='boy', full=False, text="Cultist")
+image Cultist = "images/sprites/jory/cultist.png"

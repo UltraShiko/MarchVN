@@ -41,6 +41,7 @@ label scene_01:
     c smile "I prefer them. You did adopt me, I want to show my respect."
 
     j "Respect? I don't care about that. I'm proud of you, Caius! You've grown into a fine man!"
+
     extend " And now, you're going away..."
 
     "As jovial as he was trying to be, I read him like a book."
@@ -61,9 +62,16 @@ label scene_01:
     c "You've taught me well, sir."
     extend " From combat, to controlling mana, to keeping my mind pure. I'm ready!"
 
+    # TODO:
+    show Jory neutral with dissolve
+
     j "Oh of course you are, it's just..."
     extend " A lot of people join the Emmisaries, and it breaks them."
     j " I'm not trying to trample on your dream, but are you sure there's no other way?"
+
+    # TODO:
+    show Jory happy with dissolve
+
     extend " I mean, look at me! I never joined the Emmisaries, and I'm the Reverend's right hand man!"
     j "It's not just about what you accomplish Caius, it's about who you know and the impressions you make."
     extend " I mean, that's why we met. The Reverend plopped you at my doorstep, remember?"
@@ -71,7 +79,7 @@ label scene_01:
     "How could I not?"
     extend " When he found me, crying over that Celestial's corpse so many years ago, I thought my fate was sealed...."
     "From what I hear, the Reverend is a tyrant. But that's what I saw..."
-    extend " I mean, I took the blame. I told them that the bloody dagger was mine and I was the murderer. ."
+    extend " I mean, I took the blame. I told them that the bloody dagger was mine and I was the murderer."
     "He didn't believe me. I could tell..."
     extend " Rather than executing me though, he said something that I'll never forget..."
 
@@ -97,10 +105,13 @@ label scene_01:
     c neutral "How can I change this country if I don't have the courage to face the evils I want to abolish? Devils lurk not just in Hell but also in the ears and minds of our leaders."
     c angry "If I don't learn how to deal with them, I'll run the risk of making the same mistake The Third did."
 
+    # TODO:
+    show Jory sad with dissolve
+
     j "Hmmm, he was a terrible man indeed..."
 
-
     $ unlockCompendionEntry("HaleLore")
+
     "The current Reverend is the fourth of his lineage. Jory has told me many stories of how cruel his uncle was."
     "Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
     extend " They say his antics were so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
@@ -109,9 +120,16 @@ label scene_01:
 
     c angry "He abused you. He abused everyone! His pride and arrogance caused the Reckoning, and now our country is divided!"
 
+    # TODO:
+    show Jory neutral with dissolve
+
     j "Caius, hear me out..."
     extend " That man's vices weren't because of a fiend. He walked into that fire himself."
     j "Not every act of malice has a devil behind it. We're capable of making decisions, both good and bad..."
+
+    # TODO:
+    show Jory sad with dissolve
+
     j "I know your guilt is heavy, and I know that you want to make things right."
     extend " But you can't let your past blind you. You need to think about the here and now."
     j "If I hadn't done so, Caius, I would've been burnt alive just like her... And we wouldn't be having this conversation."
@@ -123,6 +141,9 @@ label scene_01:
 
     c snide "...But you've made amends. I mean, you took me in despite the fact I...you know."
 
+    # TODO:
+    show Jory neutral with dissolve
+
     j "I sure did, and I have no regrets!"
     extend " Still, a day doesn't go by when I don't think about her or how I wanted to avenge her...!"
 
@@ -132,7 +153,14 @@ label scene_01:
 
     # nvl clear
 
+    # TODO:
+    show Jory happy with dissolve
+
     j "Uh whoops! Lost myself there!"
+
+    # TODO:
+    show Jory neutral with dissolve
+
     extend " You get what I mean though, right?"
 
     c smile "I do, sir. And I appreciate your concern, but my mind is made up."
@@ -142,12 +170,18 @@ label scene_01:
     c angry "I will make things right, for my friend and Aurielle."
     extend " I won't let anyone make the same mistakes we did!"
 
+    # TODO:
+    show Jory sad with dissolve
+
     j " But...you know what you're getting yourself into, right?"
     extend " These rogues are very strict. I bet your recruiter has some sort of test cooked up for you."
     j "And even if, no when, you complete it, there's not guarantee they'll let you join."
     extend " It's one thing when a condemned criminal is admitted, but another when someone wants to impress them. Their work isn't for everyone..."
 
     c "I'll manage. I'm not sure how, but I'll figure it out!"
+
+    # TODO:
+    show Jory happy with dissolve
 
     j "Shoot, guess I can't complain then, can I?"
 
@@ -168,6 +202,8 @@ label scene_01:
     hide Jory with dissolve
 
     show Griswyr neutral at center with dissolve
+
+    pause 0.75
 
     window show
 
@@ -191,7 +227,7 @@ label scene_01:
 
     window hide
 
-    show Jory neutral at center_left
+    show Jory sad at center_left
     show Griswyr neutral at center_right
 
     with dissolve
@@ -243,6 +279,10 @@ label scene_01:
     window hide
 
     hide Griswyr with dissolve
+
+    pause 0.5
+
+    show Jory neutral with dissolve
 
     window show
 
