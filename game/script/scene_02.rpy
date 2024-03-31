@@ -97,7 +97,7 @@ label scene_02:
     "But I wouldn't be able to forgive myself. My friend shouldn't continue to starve while I enjoy myself. Especially when my mistake got me where I am."
     extend " I'm no snake. I'm grateful for where I am, but I will indulge myself once I've changed how Dretchlings are treated."
     "This vow limits my nutrition and spending activities. I only eat enough to sustain myself, and purchase items that are absolutely necessary."
-    extend " Jory believes I would have been taller had I eaten a normal diet. But I care little about my appearance,"
+    extend " Jory believes I would have been taller had I eaten a normal diet. But I care little about my appearance."
     "Besides, this vow has forced me to look within myself, to master every thought that passes through."
     extend " And it has made me stronger!"
 
@@ -253,6 +253,8 @@ label scene_02:
 
     stop music
     stop sound
+
+    pause 0.5
 
     scene image "#000" with dissolve
 
