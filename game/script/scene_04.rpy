@@ -6,7 +6,7 @@ label scene_04:
     #I doubt we'll find a suitable background in time. I'll look around for a proxy
     scene background cave with dissolve
 
-    play music bgm.dungeon_ambience 
+    play music bgm.dungeon_ambience
 
     window show
 
@@ -71,8 +71,8 @@ label scene_04:
 
     # nvl clear
 
-    show cultist silhouette at left with dissolve
-    show cultist silhouette at right with dissolve
+    show cultist at center_left as cultist1 with dissolve
+    show cultist at center_right as cultist2 with dissolve
 
     cu "The hell? Did Oakley set off the tripwire again?! How many times do we have to spell it out for him?!"
     cu "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."

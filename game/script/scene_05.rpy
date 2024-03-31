@@ -12,9 +12,9 @@ label scene_05:
     "An altar takes up the back portion of the room."
     extend " Three bronze statuettes rest atop the podium. Each is of a woman, aging from one statuette to the next."
     "The sickly-sweet smell of roses overtakes the room, and the crimson aura of Malice is so thick that it could be cut with a knife."
-    show cultist silhouette at center with dissolve
-    show cultist silhouette at left with dissolve
-    show cultist silhouette at right with dissolve
+    show cultist at center as cultist1 with dissolve
+    show cultist at center_left as cultist2 with dissolve
+    show cultist at center_right as cultist3 with dissolve
     "Five acolytes stand at each position of the pentagram, too engrossed in their trance to notice us."
     extend " There's no way they didn't hear the racket of our fight. They must have decided to continue the ritual and are now close to finishing."
 
@@ -29,7 +29,6 @@ label scene_05:
 
     c smide "No please, after you."
 
-    hide cultist silhouette
     scene image "#000" with dissolve
     "I cover my eyes, and he goes to work."
     play sound heavyslash
@@ -137,7 +136,7 @@ label scene_05:
     # nvl clear
 
     scene background cult altar with dissolve
-    play music bgm.altar_ambience fadein 1.5 
+    play music bgm.altar_ambience fadein 1.5
     #will be lethal_suspense after jam
     #hide persephone silhouette
     show persephone smirk at center with dissolve
@@ -329,7 +328,7 @@ label scene_05:
     #Ragyuo: I'm thinking Griswyr would come in from the top and appear at the left / right of Persephone
     #Normally I'd use a moveintop command, but maybe you have a better idea?
     hide persephone
-    show Griswyr neutral at left with moveinleft 
+    show Griswyr neutral at left with moveinleft
     #will be combat later
     "Gryswyr jumps down from the ceiling, grazing her cheek with his blade."
     play sound sfx.thud
@@ -473,7 +472,7 @@ label scene_05:
     "My heart pounds as she begins evading with growing ease."
     #we'd probably show Persephone behind him here?
     hide Griswyr with moveoutright
-    show persephone smirk at center 
+    show persephone smirk at center
     extend " After a wide swing, Griswyr stumbles forward. He's wide open!"
 
     # nvl clear
@@ -544,7 +543,7 @@ label scene_05:
     extend " She wanted him to get close... Why else would she have relied so heavily on evasion?"
     #Ragyuo: Griswyr would ease back in here
     hide persephone
-    show Griswyr neutral at center with easeinbottom 
+    show Griswyr neutral at center with easeinbottom
     #combat
     "Griswyr snarls and recovers."
     extend " He may seem unharmed, but his breaths are heavy as he clutches his chest."
@@ -668,7 +667,7 @@ label scene_05:
     with vpunch
     "She gasps as I spin and hurl her onto the altar."
     extend " She lies splayed among the fractured statuettes."
-    show persephone angry at center with moveinbottom 
+    show persephone angry at center with moveinbottom
     #zoomed out Ragyuou
     "She pushes herself up, furious, as I waggle my finger."
 
@@ -697,7 +696,7 @@ label scene_05:
     # nvl clear
 
     play sound sfx.galeblast
-    pause 0.6 
+    pause 0.6
     play sound sfx.heavy_bam
     c snide "Gahhh!" with vpunch
 
@@ -906,7 +905,7 @@ label scene_05:
     p "Shit!" with hpunch
 
     hide persephone with moveoutright
-    show Griswyr neutral at left with moveinleft 
+    show Griswyr neutral at left with moveinleft
     #combat
     "She drops me, narrowly slipping past Griswyr's slash."
     "I don't have the strength nor the courage to stand..."
@@ -1164,7 +1163,7 @@ label scene_05:
 
     # nvl clear
 
-    hide persephone 
+    hide persephone
     show persephone angry at center
     p "Ugh, you're so annoying! Go away!"
 
@@ -1574,7 +1573,7 @@ label scene_05:
     pause 0.6
     queue sound sfx.potterycrash
     "I shove her jaw shut and hurl her into the table."
-    show persephone combat at center with easeinbottom 
+    show persephone at center with easeinbottom
     #zoomed in slightly Ragyuou
     extend " She leaps to her feet and I approach, walking slowly."
     #zoom in slighty
@@ -1687,7 +1686,7 @@ label scene_05:
     g "Caught you!"
 
     scene background cult altar
-    show Griswyr neutral at center 
+    show Griswyr neutral at center
     #combat
     "Griswyr jumps down from the ceiling, his body engulfed by his Malice."
     "She clutches her slashed arm, and her body convulses."
@@ -1698,7 +1697,7 @@ label scene_05:
     extend " Seeing as how both manas repel each other, I wonder what will happen when my Malice is added."
 
     hide Griswyr
-    show persephone angry a center with dissolve
+    show persephone angry at center with dissolve
     p "...Oh shit!"
 
     stop music fadeout 1.5
@@ -1728,7 +1727,7 @@ label scene_05:
     extend " WHAT THE FUCK?!" with vpunch
 
     scene background cult altar with dissolve
-    show Griswyr neutral at center with dissolve 
+    show Griswyr neutral at center with dissolve
     #combat
     "The lingering effects of the explosion dissipate and Griswyr stomps furiously."
     extend " Persephone was defeated, so what is setting him off?"
