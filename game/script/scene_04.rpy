@@ -86,7 +86,7 @@ label scene_04:
     hide cultist silhouette with moveoutbottom
     play sound sfx.thud
 
-    show griswyr neutral at center with dissolve
+    show griswyr neutral at center with dissolve #will be griswyr combat later
     "Griswyr doesn't strike from behind - no, he plants himself at the center of the group!"
     "His victim collapses, his throat cut wide open. I didn't even see the slash."
 

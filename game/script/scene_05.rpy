@@ -328,7 +328,7 @@ label scene_05:
     #Ragyuo: I'm thinking Griswyr would come in from the top and appear at the left / right of Persephone
     #Normally I'd use a moveintop command, but maybe you have a better idea?
     hide persephone
-    show Griswyr at left with moveinleft #will be combat later
+    show griswyr at left with moveinleft #will be combat later
     "Gryswyr jumps down from the ceiling, grazing her cheek with his blade."
     play sound sfx.thud
     "He lands then swings at her neck."
