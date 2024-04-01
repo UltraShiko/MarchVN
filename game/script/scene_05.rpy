@@ -5,6 +5,8 @@ label scene_05:
 
     play music bgm.altar_ambience
 
+    window show
+
     "The sanctum isn't too far away, and the sounds of prayer grow louder as we advance."
     "When we approach, my eyes scan the room."
     "On top of what you'd expect from a summoning circle, there is a corpse entangled in rose bushes."
