@@ -123,7 +123,7 @@ label scene_03:
     cu "Ha, I never would've guessed."
 
     "Why is he being so nice to me...? Especially after I said Yeshua?"
-    extend " If memory serves, Hecate detests Yeshua specifically. I believe she's still vengeful about her banishment"
+    extend " If memory serves, Hecate detests Yeshua specifically. I believe she's still vengeful about her banishment."
 
     # nvl clear
 
