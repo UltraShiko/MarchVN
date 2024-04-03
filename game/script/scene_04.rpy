@@ -216,7 +216,7 @@ label scene_04:
 
     g "Swallow it! This is nothing compared to the horrors we face!"
 
-    "Griswyr waltzes up to the man, not granting him any mercy."
+    "Griswyr strolls up to the man, not granting him any mercy."
     extend " The poor Thorn scurries away, until he has nowhere left to go."
     "Griswyr shakes his head. He appears bored, of all things..."
 
@@ -228,7 +228,7 @@ label scene_04:
 
     g "I'll remove it AND your head if you don't start talking!"
 
-    cu "Alright! Please, just don't hurt me..."
+    cu "Alright! Please, just don't kill me..."
 
     g "Tch..."
     extend " Quit cowering, Caius. Get over here."

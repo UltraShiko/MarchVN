@@ -73,7 +73,7 @@ label scene_01:
     # show Jory happy with dissolve
 
     extend " I mean, look at me! I never joined the Emmisaries, and I'm the Reverend's right hand man!"
-    j "It's not just about what you accomplish Caius, it's about who you know and the impressions you make."
+    j "It's not just about what you accomplish Caius. It's about who you know and the impressions you make."
     extend " I mean, that's why we met. The Reverend plopped you at my doorstep, remember?"
 
     "How could I not?"
@@ -176,7 +176,7 @@ label scene_01:
 
     j " But...you know what you're getting yourself into, right?"
     extend " These rogues are very strict. I bet your recruiter has some sort of test cooked up for you."
-    j "And even if, no when, you complete it, there's not guarantee they'll let you join."
+    j "And even if - no when, you complete it, there's not guarantee they'll let you join."
     extend " It's one thing when a condemned criminal is admitted, but another when someone wants to impress them. Their work isn't for everyone..."
 
     c "I'll manage. I'm not sure how, but I'll figure it out!"
@@ -210,10 +210,10 @@ label scene_01:
 
     "We turn, and there stands a gaunt man."
     "His pale complexion rivals that of snow, and his hair is just as white."
-    "He is almost as skinny as myself, but his arms and legs are chiseled with muscle."
-    extend " Despite him being taller than me, he wears only a leather vest and breeches."
+    "He is almost as skinny as mye, but his arms and legs are chiseled with muscle."
+    extend " Despite him being an elite, he wears only a leather vest and breeches."
     "On one hip rests a shortsword, on the other...a grisly-edged hatchet."
-    extend " Then there are his eyes. I feel like I’m peering into an abyss when our gazes meet."
+    extend " Then there are his eyes. I feel like I'm peering into an abyss when our gazes meet."
     "This man has to be my recruiter."
     extend " The stories depict Emissaries as dark, brooding individuals. He fits that description perfectly."
     "He puts away his notebook and looks towards us, emotionless..."
@@ -259,7 +259,7 @@ label scene_01:
     g "They call themselves the {i}Agents of the Rose{/i}, Hecate's cultists, to be precise."
 
     #show jory silhouete at left flip
-    "Jory grimaces audibly."
+    "Jory grimaces."
     extend " I don't blame him. I expected to face a vagabond, an apostate, or a weaker devil, but not an entire cult?!"
     extend " With just the two of us?!"
     "Griswyr's eyes narrow."

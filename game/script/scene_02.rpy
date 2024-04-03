@@ -50,7 +50,7 @@ label scene_02:
     extend "Tonight?"
 
     g "Tonight."
-    g "If one pops out, this mission becomes much deadlier. Even I will have to be careful.."
+    g "If one pops out, this mission becomes much deadlier. Even I will have to be careful."
     extend " Not like it'll change the outcome, of course."
 
     c neutral "Hmm..."
