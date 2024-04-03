@@ -175,6 +175,9 @@ label scene_06:
     pause 1.0
 
     $ unlockCompendionEntry("HecateLore")
+
+    pause 2.0
+
     return
 
     #### Game ends

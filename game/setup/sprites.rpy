@@ -54,6 +54,19 @@ layeredimage Griswyr:
 
         "images/sprites/griswyr/base.png"
 
+    group blood_layer:
+
+        pos (3,0)
+
+
+        attribute blood_on:
+
+            "images/sprites/griswyr/blood_layer.png"
+
+        attribute blood_off default:
+
+            null
+
     group emotions:
 
         pos (615, 415)

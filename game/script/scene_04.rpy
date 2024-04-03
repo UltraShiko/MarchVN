@@ -86,13 +86,20 @@ label scene_04:
 
     cu "GAAAAAAAAHHHHHH!!!!" with vpunch
 
-    ###### YORU: Stopped here.
+    show cultist at center_left as cultist1:
 
+        xoffset 0
 
-    hide cultist1 with moveoutbottom
+        ease 0.3 yoffset 150
+
+    pause 0.1
+
     play sound sfx.thud
 
+    hide cultist1 with Dissolve(0.2)
+
     show Griswyr neutral at center with dissolve #will be griswyr combat later
+
     "Griswyr doesn't strike from behind - no, he plants himself at the center of the group!"
     "His victim collapses, his throat cut wide open. I didn't even see the slash."
 
@@ -103,8 +110,36 @@ label scene_04:
 
     g "Too slow."
 
+    window hide
+
+    show Griswyr:
+
+        parallel:
+
+            ease 0.25 xoffset 250
+
+        parallel:
+
+            ease 0.25 alpha 0.0
+
+    pause 0.35
+
+    hide Griswyr
+
     play sound sfx.heavyslash
     with bloodflash
+
+    show cultist at center_right as cultist2:
+
+        ease 0.3 yoffset 150
+
+    pause 0.1
+
+    play sound sfx.thud
+
+    hide cultist2 with Dissolve(0.2)
+
+    window show
 
     "The cultists realize they are being ambushed and turn their fury on Griswyr. As each one attacks him though, he spins with his weapon, each twirl tearing apart his victims completely."
     extend " His stance is wide, and he spirals with ferocity AND dexterity! No matter how they try to fight him, none of the cultists stand a chance."
@@ -130,6 +165,8 @@ label scene_04:
     play sound sfx.magic_charge
     with maliceflash
 
+    window show
+
     "Griswyr pauses his massacre to face the powerful cultist. Unfazed, he scoffs."
     extend " I gasp as the same Malice erupts from Gryswyr's arm as he flings his hatchet."
 
@@ -145,16 +182,21 @@ label scene_04:
     extend " I grow sick, watching blood pour from him like a fountain..."
     "I couldn't believe what I saw. Gryswyr summoned the same, wicked mana as the Thorn!"
     extend " But he's an Emissary, someone who protects people. So why would he use Malice when it corrupts people?"
+
     "Being down a weapon hardly slows Griswyr."
+
     play sound sfx.heavyslash
     with bloodflash
     extend " He flourishes his sword  and cuts down the rest of the cultists who are now in disarray and significantly low on numbers."
     "They know they don't have a chance of winning or surviving."
-    hide cultist
-    show Griswyr neutral at center with dissolve
-    extend " Moments later, the cave becomes silent as the final bodies fall. Griswyr merely frowns in disgust as he collects his weapons."
+    "Moments later, the cave becomes silent as the final bodies fall. Griswyr merely frowns in disgust as he collects his weapons."
 
     # nvl clear
+    window hide
+
+    show Griswyr neutral blood_on at center with dissolve
+
+    window show
 
     g "As expected, they were pathetic."
     extend " Were you paying attention Caius?"
@@ -293,7 +335,13 @@ label scene_04:
     extend " He looks more than capable of fighting on his own. What would drive him to such ends?"
     "That is a question for after the mission."
 
+    window hide
+
     # nvl clear
+
+    hide Griswyr with dissolve
+
+    pause 0.3
 
     scene image "#000" with dissolve
 
