@@ -760,7 +760,9 @@ label scene_05:
     play sound sfx.magic_charge
     with graceflash
 
-    "I close my eyes and summon Grace. I will put her to rest with this next strike."
+    "I close my eyes and clasp my hands."
+    extend " She should have enough of my Grace within her. With a flex of my hands, it'll explode."
+    "She won't feel a thing."
 
     # nvl clear
 
@@ -1103,7 +1105,7 @@ label scene_05:
     extend " Or is it because your instincts won't allow you to move?" with vpunch
 
     g "...Enough of this!"
-    extend " I am not enslaved by my hunger..."
+    extend " I am not enslaved by my hunger!"
     extend " It is enslaved by me!!!" with vpunch
 
     "His jaw expands as he dives!"
@@ -1160,8 +1162,8 @@ label scene_05:
     #Ragyou more gatling fist Kung lao barrage
     play sound sfx.rapidfirepunch
     with hpunch
-    "My blows from earlier weren't in vain, my mana still wracks her body!"
-    extend " Which means I can still strike a killing blow."
+    "My blows from earlier weren't in vain after all, but I need to keep injecting more mana into her."
+    extend " If this explosion doesn't kill her, I don't know if I'll get another chance!"
 
     # nvl clear
 
