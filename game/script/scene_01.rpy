@@ -52,10 +52,9 @@ label scene_01:
     extend " Apparently, many prefer the noose..."
     "The Emissaries aren't like normal Celestials. They aren't guards. Instead, they go out and confront problems directly."
     extend " Whether it be outlaws, spies from Jorunderfell, witches, or devils, they hunt down every last one of them."
-    "I don't blame Jory for worrying. I might not be the same person when – if – I return..."
+    "I don't blame Jory for worrying. I might not be the same person when - if - I return..."
     extend " Still, I had to go. I only met Jory because the Reverend took pity on me. I had to make things right."
-    "I could enlist as a Celestial, but the Emissaries often work alongside the Reverend, or at least closely with him."
-    extend " Even if Jory knows him well, I would still rather impress the Reverend with my own deeds instead of relying on Jory buttering him up."
+
 
     # nvl clear
 
@@ -73,7 +72,7 @@ label scene_01:
     # show Jory happy with dissolve
 
     extend " I mean, look at me! I never joined the Emmisaries, and I'm the Reverend's right hand man!"
-    j "It's not just about what you accomplish Caius, it's about who you know and the impressions you make."
+    j "It's not just about what you accomplish Caius. It's about who you know and the impressions you make."
     extend " I mean, that's why we met. The Reverend plopped you at my doorstep, remember?"
 
     "How could I not?"
@@ -90,12 +89,9 @@ label scene_01:
     v "Although the crime committed is great, his end was his own doing."
     extend " As your reverend, I command you to rise. Your friend will not face retribution."
 
-    "...I haven't seen him since. I’ve been too ashamed, too afraid to face him."
-    extend " He was spared, but that didn't erase the horrible things I said to him... I treated him no differently than anyone else that day, like a Dretchling whose life had no value."
-    extend " So I cannot squander the chance he has given me. I owe my life to Yeshua, and I want to prevent others from making the same mistakes I’ve made."
-    $ unlockCompendionEntry("DretchlingLore")
+    "...I haven't seen him since. I've been too ashamed, too afraid to face him."
+    #$ unlockCompendionEntry("DretchlingLore")
     "The Dretchlings are a race feared, hated, and even attacked because of their fiendish blood."
-    extend " Their horns, hooves, and complexion paint targets on their backs. They resemble the monsters that came before them."
     "Once I rise up through the ranks, putting in laws to protect them will be the first change I implement."
     extend " After all, devils don't need our help harvesting souls. And I hear they flock to Dretchlings like moths to a flame..."
 
@@ -112,10 +108,9 @@ label scene_01:
 
     $ unlockCompendionEntry("HaleLore")
 
-    "The current Reverend is the fourth of his lineage. Jory has told me many stories of how cruel his uncle was."
-    "Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
-    $ unlockCompendionEntry("ReckoningLore")
-    extend " They say his antics were so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
+    "The now deceased Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
+    #$ unlockCompendionEntry("ReckoningLore")
+    extend " They say his cruelty was so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
 
     # nvl clear
 
@@ -149,8 +144,8 @@ label scene_01:
     extend " Still, a day doesn't go by when I don't think about her or how I wanted to avenge her...!"
 
     "The sight of his fists clenching makes me shudder."
-    "I still can’t believe the earlier reverend had the courage to bully Jory or his friends."
-    extend " Jory always holds back when we spar, yet his blows still hurt more than anything I’ve ever endured. Yeshua forbid what damage he could cause if he ever got angry enough..."
+    extend "I still can't believe The Third had the courage to bully Jory or his friends."
+    
 
     # nvl clear
 
@@ -176,7 +171,7 @@ label scene_01:
 
     j " But...you know what you're getting yourself into, right?"
     extend " These rogues are very strict. I bet your recruiter has some sort of test cooked up for you."
-    j "And even if, no when, you complete it, there's not guarantee they'll let you join."
+    j "And even if - no when, you complete it, there's not guarantee they'll let you join."
     extend " It's one thing when a condemned criminal is admitted, but another when someone wants to impress them. Their work isn't for everyone..."
 
     c "I'll manage. I'm not sure how, but I'll figure it out!"
@@ -210,13 +205,13 @@ label scene_01:
 
     "We turn, and there stands a gaunt man."
     "His pale complexion rivals that of snow, and his hair is just as white."
-    "He is almost as skinny as myself, but his arms and legs are chiseled with muscle."
-    extend " Despite him being taller than me, he wears only a leather vest and breeches."
+    "He is almost as skinny as mye, but his arms and legs are chiseled with muscle."
+    extend " Despite him being an elite, he wears only a leather vest and breeches."
     "On one hip rests a shortsword, on the other...a grisly-edged hatchet."
-    extend " Then there are his eyes. I feel like I’m peering into an abyss when our gazes meet."
+    extend " Then there are his eyes. I feel like I'm peering into an abyss when our gazes meet."
     "This man has to be my recruiter."
     extend " The stories depict Emissaries as dark, brooding individuals. He fits that description perfectly."
-    "He puts away his notebook and looks towards us, emotionless..."
+    "He puts away his notebook and looks towards us, disinterested..."
 
     # nvl clear
 
@@ -259,11 +254,11 @@ label scene_01:
     g "They call themselves the {i}Agents of the Rose{/i}, Hecate's cultists, to be precise."
 
     #show jory silhouete at left flip
-    "Jory grimaces audibly."
+    "Jory grimaces."
     extend " I don't blame him. I expected to face a vagabond, an apostate, or a weaker devil, but not an entire cult?!"
     extend " With just the two of us?!"
     "Griswyr's eyes narrow."
-    extend " On top of being unprepared, now I’ve earned his ire..."
+    extend " On top of being unprepared, now I've earned his ire..."
 
     # nvl clear
 

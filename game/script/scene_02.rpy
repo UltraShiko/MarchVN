@@ -50,7 +50,7 @@ label scene_02:
     extend "Tonight?"
 
     g "Tonight."
-    g "If one pops out, this mission becomes much deadlier. Even I will have to be careful.."
+    g "If one pops out, this mission becomes much deadlier. Even I will have to be careful."
     extend " Not like it'll change the outcome, of course."
 
     c neutral "Hmm..."
@@ -99,7 +99,6 @@ label scene_02:
     "This vow limits my nutrition and spending activities. I only eat enough to sustain myself, and purchase items that are absolutely necessary."
     extend " Jory believes I would have been taller had I eaten a normal diet. But I care little about my appearance."
     "Besides, this vow has forced me to look within myself, to master every thought that passes through."
-    extend " And it has made me stronger!"
 
     # nvl clear
 

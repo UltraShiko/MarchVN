@@ -13,7 +13,7 @@ label scene_05:
     extend " It's an elderly woman, and her pink eyes paint her as a hag. Is this her lair?"
     "An altar takes up the back portion of the room."
     extend " Three bronze statuettes rest atop the podium. Each is of a woman, aging from one statuette to the next."
-    "The sickly-sweet smell of roses overtakes the room, and the crimson aura of Malice is so thick that it could be cut with a knife."
+    "The sickly-sweet smell of roses overtakes the room, and the crimson aura of Malice was thicker than the swamps in Jorunderfell."
     show cultist at center as cultist1 with dissolve
     show cultist at center_left as cultist2 with dissolve
     show cultist at center_right as cultist3 with dissolve
@@ -159,12 +159,12 @@ label scene_05:
     "Oh no! We're surrounded by corpses! There's no way she won't suspect anything now..."
     "Damn it! How could I be so careless?! All I've done is give her an opening!"
     extend " Wait...no reaction. She isn't drawing a weapon or anything..."
-    "Hell, she's smiling! It's one of amusement, not indignation."
+    "Hell, she's smiling! It's one of amusement, not malevolence."
 
     # nvl clear
 
     v "Hehehe! Relax! They're in a better place now."
-    extend " Besides, there's no blood on {i}your{/i} hands. Looks like I'm outnumbered"
+    extend " Besides, there's no blood on {i}your{/i} hands. Looks like I'm outnumbered."
 
     # nvl clear
 
@@ -237,7 +237,7 @@ label scene_05:
 
     # nvl clear
 
-    p "I don't have any intention of hurting you or whoever is lurking in the corner. I just have an, \"errand\", to run."
+    p "I don't have any intention of hurting you or whoever is lurking in the corner. I just have an \"errand\" to run."
     extend " You won't even know I was here!"
 
     c "...What kind of errand?"
@@ -334,9 +334,9 @@ label scene_05:
     #will be combat later
     "Gryswyr jumps down from the ceiling, grazing her cheek with his blade."
     play sound sfx.thud
-    "He lands then swings at her neck."
+    "He lands then swings at her neck..."
     #Maybe zoom Persephone back? Or to the opposite direction?
-    extend "only for her to float out of the way."
+    extend " only for her to float out of the way."
 
     # nvl clear
 
@@ -363,7 +363,7 @@ label scene_05:
     extend " Which means..."
     g "You're the banshee who caused the Reckoning!" with vpunch
 
-    "I shudder. Could she have been that SAME monster who caused so much Chos?!"
+    "I shudder. Could she have been that SAME monster who caused so much chaos?!"
     "She sighs grumpily and claps her hands slowly."
 
     # nvl clear
@@ -709,7 +709,7 @@ label scene_05:
     play sound sfx.lunge
     "She springs at me, but I block her attack and throw her a second time."
     extend " She lands hard again but recovers quickly and braces herself against the wall."
-    "Again she lunges.."
+    "Again she lunges."
     #maybe her sprite would hop to simulate the pounce
     extend " And feints, her flapping wings frightening me and nearly causing me to stumble. What is she going do now?! I don't have the time to-"
 
@@ -748,7 +748,7 @@ label scene_05:
     #have her zoom out
     "She finally manages to break away, but she writhes in damage and pain."
     #have the sprite move slightly to simulate her writing
-    extend " I can see my mana taking its toll.. Each blow makes her twitch and shiver. I almost pity her."
+    extend " I see my mana taking its toll. Each blow makes her twitch and shiver. I almost pity her."
 
     # nvl clear
 
@@ -760,7 +760,9 @@ label scene_05:
     play sound sfx.magic_charge
     with graceflash
 
-    "I close my eyes and summon Grace. I will put her to rest with this next strike."
+    "I close my eyes and clasp my hands."
+    extend " She should have enough of my Grace within her. With a flex of my hands, it'll explode."
+    "She won't feel a thing."
 
     # nvl clear
 
@@ -864,8 +866,8 @@ label scene_05:
     p "Right, because your god's any better?"
     extend " Who were the Celestials founded under? Oh, he must've been cruel to allow his followers to imprison Dretchlings like cattle."
     p "Yet we're the bad guys for coming to their rescue? How is that fair?"
-    extend " Face it, your precious Archlords doesn't care, and Hecate."
-    extend " ...Now that I think about it, looks I have TWO errands to run!"
+    extend " Face it, your precious Archlords don't care about you!."
+    extend " Now that I think about it, looks I have TWO errands to run!"
 
     c angry "I'll end you-"
 
@@ -883,7 +885,7 @@ label scene_05:
 
     c snide "Gngh!!!" with vpunch
 
-    "My heart stops, and she giggles darkly."
+    "My heart skips, and she giggles darkly."
 
     # nvl clear
 
@@ -1103,7 +1105,7 @@ label scene_05:
     extend " Or is it because your instincts won't allow you to move?" with vpunch
 
     g "...Enough of this!"
-    extend " I am not enslaved by my hunger..."
+    extend " I am not enslaved by my hunger!"
     extend " It is enslaved by me!!!" with vpunch
 
     "His jaw expands as he dives!"
@@ -1160,8 +1162,8 @@ label scene_05:
     #Ragyou more gatling fist Kung lao barrage
     play sound sfx.rapidfirepunch
     with hpunch
-    "My blows from earlier weren't in vain, my mana still wracks her body!"
-    extend " Which means I can still strike a killing blow."
+    "My blows from earlier weren't in vain after all, but I need to keep injecting more mana into her."
+    extend " If this explosion doesn't kill her, I don't know if I'll get another chance!"
 
     # nvl clear
 
