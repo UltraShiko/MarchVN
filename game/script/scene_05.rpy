@@ -127,7 +127,7 @@ label scene_05:
     #we'd zoom in on the silhouette here
     "I yelp as he shoves me forward."
     extend " I turn in protest, only to see no one."
-    "I fidget as the veil starts to dispers. What does he want me to do?!"
+    "I fidget as the veil starts to disperse. What does he want me to do?!"
     extend " Wait, succubi aren't very strong. They're spies more than anything else, so he must be testing me."
     "Ok, Caius..."
     extend " Breathe in...breath out..."
@@ -147,7 +147,7 @@ label scene_05:
     extend " I sense no threat from her. Her eyes aren't cross, and there isn't disgust or bloodlust in them."
     "Careful, Caius, eyes above the chest. Stare too long, and you'll become enthralled..."
     "My mouth opens, but no words leave. I feel breathless."
-    extend " If I enter any stance, my guise will be blown. If she lunges first though, I'll be defenseless..."
+    extend " If I enter any stance, my guise will be blown. If she lunges first though, I'll be defenceless..."
     "Ugh, to hell with duplicity! I'll engage her before she can-"
 
     # nvl clear
@@ -205,7 +205,7 @@ label scene_05:
     "She caught me off guard, but my mind won't bend so easily."
     extend " I faced many temptations when I took my vow, her magic is pitiful in comparison."
     "I'll let her think she has the upper hand...for now."
-    extend " Besides, compulsion magic has a fatal flaw: it cannot force it's victim to channel mana nor harm themself."
+    extend " Besides, compulsion magic has a fatal flaw: it cannot force its victim to channel mana nor harm themself."
     "My stance relaxes. As long as her spell persists, I'll have to act like her most devoted companion."
     extend " I'm not too experienced with acting, but I can at least give Griswyr a show."
 
@@ -614,7 +614,7 @@ label scene_05:
     extend " She recoils heavily from that blow, even more than when she got stabbed!"
     "The mana flows in me alongside my fury."
     extend " I don't know what she wants with him, but I don't care."
-    "Jory has only wanted to help others. He doesn't deserved to be pestered by the likes of her!"
+    "Jory has only wanted to help others. He doesn't deserve to be pestered by the likes of her!"
 
     # nvl clear
 
@@ -711,7 +711,7 @@ label scene_05:
     extend " She lands hard again but recovers quickly and braces herself against the wall."
     "Again she lunges."
     #maybe her sprite would hop to simulate the pounce
-    extend " And feints, her flapping wings frightening me and nearly causing me to stumble. What is she going do now?! I don't have the time to-"
+    extend " And feints, her flapping wings frightening me and nearly causing me to stumble. What is she going to do now?! I don't have the time to-"
 
     # nvl clear
 
@@ -918,7 +918,7 @@ label scene_05:
 
     # nvl clear
 
-    g "...I thought I told you not to disaapoint me."
+    g "...I thought I told you not to disappoint me."
 
     p "Aww, did I break your friend-"
 

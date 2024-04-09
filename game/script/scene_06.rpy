@@ -52,7 +52,7 @@ label scene_06:
 
     g "As you wish."
     extend " I'll find Caius when my superior makes a decision. I won't blame him if he wants to reconsider joining after last night."
-    g " Until next time."
+    g "Until next time."
 
     window hide
 
@@ -64,7 +64,7 @@ label scene_06:
 
     window show
 
-    j "Grr... Damn it! Why does this keep happening my friends?!"
+    j "Grr... Damn it! Why does this keep happening to my friends?!"
 
     c "Hey...it's not your fault, sir."
     extend " I couldn't stop thinking about you... I kept pushing myself for your sake..."

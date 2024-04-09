@@ -71,7 +71,7 @@ label scene_01:
     # TODO:
     # show Jory happy with dissolve
 
-    extend " I mean, look at me! I never joined the Emmisaries, and I'm the Reverend's right hand man!"
+    extend " I mean, look at me! I never joined the Emissaries, and I'm the Reverend's right hand man!"
     j "It's not just about what you accomplish Caius. It's about who you know and the impressions you make."
     extend " I mean, that's why we met. The Reverend plopped you at my doorstep, remember?"
 
@@ -90,7 +90,9 @@ label scene_01:
     extend " As your reverend, I command you to rise. Your friend will not face retribution."
 
     "...I haven't seen him since. I've been too ashamed, too afraid to face him."
-    #$ unlockCompendionEntry("DretchlingLore")
+
+    $ unlockCompendionEntry("DretchlingLore")
+
     "The Dretchlings are a race feared, hated, and even attacked because of their fiendish blood."
     "Once I rise up through the ranks, putting in laws to protect them will be the first change I implement."
     extend " After all, devils don't need our help harvesting souls. And I hear they flock to Dretchlings like moths to a flame..."
@@ -109,7 +111,9 @@ label scene_01:
     $ unlockCompendionEntry("HaleLore")
 
     "The now deceased Reverend Hale III, or The Third as we call him, held more executions than any other reverend."
-    #$ unlockCompendionEntry("ReckoningLore")
+
+    $ unlockCompendionEntry("ReckoningLore")
+
     extend " They say his cruelty was so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
 
     # nvl clear
@@ -145,7 +149,7 @@ label scene_01:
 
     "The sight of his fists clenching makes me shudder."
     extend "I still can't believe The Third had the courage to bully Jory or his friends."
-    
+
 
     # nvl clear
 

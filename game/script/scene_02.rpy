@@ -21,7 +21,7 @@ label scene_02:
     extend " Meanwhile, Griswyr moves like he's in his element, under the cover of night..."
     "Now that I think about it, something is...different about him."
     extend " He can't be a Dretchling. They're pale, but not to his degree. And his eyes don’t share their crimson pupils."
-    "Yet the way he carries himself, feels unnatural somehow."
+    "Yet, the way he carries himself, feels unnatural somehow."
     extend " He looks human, but..."
 
     # nvl clear
@@ -93,7 +93,7 @@ label scene_02:
     "I took a vow of poverty to atone for what I said to my friend."
     extend " I chose to live in poverty, much like he and I were living in before the incident."
     #$ unlockCompendionEntry("CircleLore")
-    "It would've been very easy for me to establish a comfortable life. Had I joined the Celestials, I've could've bought a house in the Enlighted Circle."
+    "It would've been very easy for me to establish a comfortable life. Had I joined the Celestials, I could've bought a house in the Enlighted Circle."
     "But I wouldn't be able to forgive myself. My friend shouldn't continue to starve while I enjoy myself. Especially when my mistake got me where I am."
     extend " I'm no snake. I'm grateful for where I am, but I will indulge myself once I've changed how Dretchlings are treated."
     "This vow limits my nutrition and spending activities. I only eat enough to sustain myself, and purchase items that are absolutely necessary."
