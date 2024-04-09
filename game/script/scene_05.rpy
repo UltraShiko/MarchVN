@@ -289,6 +289,17 @@ label scene_05:
     # Raagyuo: If possible, I would like to make this scene work without any narration.
     # So I'm thinking, maybe the screen zooms in to emulate Caius attacking, and then darts back as he's shunted backwards
     # In summary, the screen will demonstrate Caius attacking, than being slammed backwards
+    
+    window hide
+    camera:
+        subpixel True xzoom 1.0 
+        pos (0, 0) zoom 1.0 
+        ease 0.20 pos (-531, -180) zoom 1.52 
+        ease 0.33 pos (0, 0) zoom 1.0 
+    with Pause(0.63)
+    camera:
+        pos (0, 0) zoom 1.0 
+    window show
     play sound sfx.lunge
     "I lunge!"
 
