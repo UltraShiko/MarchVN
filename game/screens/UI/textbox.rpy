@@ -31,6 +31,7 @@ screen say(who, what):
                 text who id "who":
 
                     color "#172768"
+                    
 
         text what id "what"
 
