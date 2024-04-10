@@ -289,16 +289,16 @@ label scene_05:
     # Raagyuo: If possible, I would like to make this scene work without any narration.
     # So I'm thinking, maybe the screen zooms in to emulate Caius attacking, and then darts back as he's shunted backwards
     # In summary, the screen will demonstrate Caius attacking, than being slammed backwards
-    
+
     window hide
     camera:
-        subpixel True xzoom 1.0 
-        pos (0, 0) zoom 1.0 
-        ease 0.20 pos (-531, -180) zoom 1.52 
-        ease 0.33 pos (0, 0) zoom 1.0 
+        subpixel True xzoom 1.0
+        pos (0, 0) zoom 1.0
+        ease 0.20 pos (-531, -180) zoom 1.52
+        ease 0.33 pos (0, 0) zoom 1.0
     with Pause(0.63)
     camera:
-        pos (0, 0) zoom 1.0 
+        pos (0, 0) zoom 1.0
     window show
     play sound sfx.lunge
     "I lunge!"
@@ -1798,7 +1798,7 @@ label scene_05:
 
     c "..."
 
-    p "Ngh...struggle all you want! In the end...you'll stll-"
+    p "Ngh...struggle all you want! In the end...you'll still-"
 
     hide persephone with moveoutright
     play sound sfx.hurl
@@ -1939,7 +1939,7 @@ label scene_05:
     hide persephone
     scene image "#faf7f7"
 
-    " Before exploding just like before."
+    "Before exploding just like before."
 
     pause 3.0
 
@@ -1955,7 +1955,7 @@ label scene_05:
     g "I didn't."
     extend " It was a theory at best. Either way, her blood gave me the second wind I needed."
 
-    g " Even if that didn't kill her, she was more than injured enough to..."
+    g "Even if that didn't kill her, she was more than injured enough to..."
     extend " WHAT THE FUCK?!" with vpunch
 
     scene background cult altar with dissolve
@@ -1980,7 +1980,7 @@ label scene_05:
 
     g "DON'T YOU THINK I'D TELL YOU IF I KNEW?!" with vpunch
     extend " Damn it to hell! That Banshee will cause a panic if people learn she's back in our plane..."
-    g " Yeshua knows what she's plotting! A second reckoning?! Summoning that Archfiend..."
+    g "Yeshua knows what she's plotting! A second reckoning?! Summoning that Archfiend..."
     extend " GRAAAAH!!! THIS IS HORRIBLE!!!" with vpunch
 
     "A voice booms into my ear."
@@ -1988,7 +1988,7 @@ label scene_05:
     # nvl clear
 
     p "...Looks like you win this time."
-    extend " Don't worry, I'll leave Jory be just as you wished. Anything to get away from you..."
+    extend " Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you..."
     p "If you see me again, do a girl a favor, and just keep walking!"
 
     c "...Griswyr."
