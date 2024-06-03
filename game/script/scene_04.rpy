@@ -233,7 +233,7 @@ label scene_04:
     g "Tch..."
     extend " Quit cowering, Caius. Get over here."
 
-    c "...Right"
+    c "...Right."
 
     play sound bloodfootsteps
     "Each of my steps squelches as I walk..."

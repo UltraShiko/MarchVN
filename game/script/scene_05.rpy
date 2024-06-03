@@ -343,12 +343,12 @@ label scene_05:
     hide persephone
     window hide
     show Griswyr neutral:
-        subpixel True 
-        ypos -0.18 
-        easein_bounce 0.27 ypos 1.0 
+        subpixel True
+        ypos -0.18
+        easein_bounce 0.27 ypos 1.0
     with Pause(0.37)
     show Griswyr neutral:
-        ypos 1.0 
+        ypos 1.0
     window show
 
 
@@ -357,15 +357,15 @@ label scene_05:
     play sound sfx.thud
     "He lands then swings at her neck..."
     #Maybe zoom Persephone back? Or to the opposite direction?
-    
+
     window hide
     camera:
-        subpixel True xzoom 1.0 
-        xpos 0 zoom 1.0 
-        ease_expo 0.33 xpos -366 zoom 1.21 
+        subpixel True xzoom 1.0
+        xpos 0 zoom 1.0
+        ease_expo 0.33 xpos -366 zoom 1.21
     with Pause(0.43)
     camera:
-        xpos -366 zoom 1.21 
+        xpos -366 zoom 1.21
     window show
     extend " only for her to float out of the way."
 
@@ -436,24 +436,24 @@ label scene_05:
     play music bgm.reckoning_I
     play sound sfx.lunge
     #Ragyuo: If an animation is needed, maybe Griswyr would zoom in towards her?
-    
+
     window hide
     show Griswyr neutral:
-        subpixel True xpos 0.0 
+        subpixel True xpos 0.0
         parallel:
-            zoom 1.0 
-            linear 0.21 zoom 1.0 
-            linear 0.19 zoom 0.74 
+            zoom 1.0
+            linear 0.21 zoom 1.0
+            linear 0.19 zoom 0.74
         parallel:
-            alpha 1.0 
-            linear 0.17 alpha 1.0 
-            linear 0.21 alpha 0.0 
+            alpha 1.0
+            linear 0.17 alpha 1.0
+            linear 0.21 alpha 0.0
         parallel:
-            blur 0.0 
-            linear 0.17 blur 8.35 
+            blur 0.0
+            linear 0.17 blur 8.35
     with Pause(0.50)
     show Griswyr neutral:
-        zoom 0.74 alpha 0.0 blur 8.35 
+        zoom 0.74 alpha 0.0 blur 8.35
     window show
 
 
@@ -468,15 +468,15 @@ label scene_05:
     "She waves her hand, and a gust of wind shields her."
     #show Griswyr behind Persephone
     extend " Griswyr lands and skirts behind her."
-    
+
     window hide
     show persephone smirk:
-        subpixel True 
-        xpos 0.5 
-        linear 0.23 xpos -0.5 
+        subpixel True
+        xpos 0.5
+        linear 0.23 xpos -0.5
     with Pause(0.33)
     show persephone smirk:
-        xpos -0.5 
+        xpos -0.5
     window show
 
     play sound sfx.weapon_draw
@@ -519,7 +519,7 @@ label scene_05:
     g "You copied my stance!"
 
     p "..."
-    extend " Snowflake, I just met you. Never heard of you  either."
+    extend " Snowflake, I just met you. Never heard of you either."
     extend " Guess you're not that important~."
 
     g "Hmph!"
@@ -527,116 +527,116 @@ label scene_05:
     play sound sfx.parry
     #Ragyuo: Not sure how to animate this. Maybe using hpunch alongside the sfx will be enough?
     #The upcoming scene is basically Griswyr trying and failing to cut Persephone. What are your thoughts?
-    
+
     window hide
     camera:
-        subpixel True 
-        xpos 0 
-        linear 0.04 xpos 18 
-        linear 0.07 xpos -20 
-        linear 0.11 xpos 39 
-        linear 0.02 xpos 0 
+        subpixel True
+        xpos 0
+        linear 0.04 xpos 18
+        linear 0.07 xpos -20
+        linear 0.11 xpos 39
+        linear 0.02 xpos 0
     with Pause(0.34)
     camera:
-        xpos 0 
+        xpos 0
     window show
 
 
     "They both spring forward, claws dragging across steel when they clash."
     "While their stances are similar, their techniques aren't."
-    
+
     window hide
     camera:
-        subpixel True 
+        subpixel True
         parallel:
-            xpos 0 
-            linear 0.07 xpos -18 
-            linear 0.08 xpos -18 
-            linear 0.08 xpos -324 
-            linear 0.10 xpos -60 
-            linear 0.10 xpos 0 
+            xpos 0
+            linear 0.07 xpos -18
+            linear 0.08 xpos -18
+            linear 0.08 xpos -324
+            linear 0.10 xpos -60
+            linear 0.10 xpos 0
         parallel:
-            zoom 1.0 
-            linear 0.07 zoom 1.23 
-            linear 0.05 zoom 1.23 
-            linear 0.31 zoom 1.0 
+            zoom 1.0
+            linear 0.07 zoom 1.23
+            linear 0.05 zoom 1.23
+            linear 0.31 zoom 1.0
     show persephone smirk:
-        subpixel True 
-        xpos 0.5 
-        linear 0.07 xpos 0.41 
-        linear 0.13 xpos 0.51 
-        linear 0.03 xpos 0.39 
-        linear 0.10 xpos 0.5 
-        linear 0.10 xpos 0.5 
+        subpixel True
+        xpos 0.5
+        linear 0.07 xpos 0.41
+        linear 0.13 xpos 0.51
+        linear 0.03 xpos 0.39
+        linear 0.10 xpos 0.5
+        linear 0.10 xpos 0.5
     with Pause(0.53)
     camera:
-        xpos 0 zoom 1.0 
+        xpos 0 zoom 1.0
     show persephone smirk:
-        xpos 0.5 
+        xpos 0.5
     window show
     extend " As Griswyr spins in a flurry of swings, Persephone keeps evading his efforts before retaliating."
     "Griswyr attacks viciously, but Persephone appears more relaxed."
     extend " She might just be trying to lure him into lowering his guard, or trying to antagonize him..."
-    
+
     window hide
     camera:
-        subpixel True 
+        subpixel True
         parallel:
-            xpos 0 
-            linear 0.07 xpos -18 
-            linear 0.08 xpos -18 
-            linear 0.08 xpos -324 
-            linear 0.10 xpos -60 
-            linear 0.10 xpos 0 
+            xpos 0
+            linear 0.07 xpos -18
+            linear 0.08 xpos -18
+            linear 0.08 xpos -324
+            linear 0.10 xpos -60
+            linear 0.10 xpos 0
         parallel:
-            zoom 1.0 
-            linear 0.07 zoom 1.23 
-            linear 0.05 zoom 1.23 
-            linear 0.31 zoom 1.0 
+            zoom 1.0
+            linear 0.07 zoom 1.23
+            linear 0.05 zoom 1.23
+            linear 0.31 zoom 1.0
     show persephone smirk:
-        subpixel True 
-        xpos 0.5 
-        linear 0.07 xpos 0.41 
-        linear 0.13 xpos 0.51 
-        linear 0.03 xpos 0.39 
-        linear 0.10 xpos 0.5 
-        linear 0.10 xpos 0.5 
+        subpixel True
+        xpos 0.5
+        linear 0.07 xpos 0.41
+        linear 0.13 xpos 0.51
+        linear 0.03 xpos 0.39
+        linear 0.10 xpos 0.5
+        linear 0.10 xpos 0.5
     with Pause(0.53)
     camera:
-        xpos 0 zoom 1.0 
+        xpos 0 zoom 1.0
     show persephone smirk:
-        xpos 0.5 
+        xpos 0.5
     window show
     "Strike after strike comes from Griswyr, but not one lands on Persephone.."
-    
+
     window hide
     camera:
-        subpixel True 
+        subpixel True
         parallel:
-            xpos 0 
-            linear 0.07 xpos -18 
-            linear 0.08 xpos -18 
-            linear 0.08 xpos -324 
-            linear 0.10 xpos -60 
-            linear 0.10 xpos 0 
+            xpos 0
+            linear 0.07 xpos -18
+            linear 0.08 xpos -18
+            linear 0.08 xpos -324
+            linear 0.10 xpos -60
+            linear 0.10 xpos 0
         parallel:
-            zoom 1.0 
-            linear 0.07 zoom 1.23 
-            linear 0.05 zoom 1.23 
-            linear 0.31 zoom 1.0 
+            zoom 1.0
+            linear 0.07 zoom 1.23
+            linear 0.05 zoom 1.23
+            linear 0.31 zoom 1.0
     show persephone smirk:
-        subpixel True 
-        xpos 0.5 
-        linear 0.07 xpos 0.41 
-        linear 0.13 xpos 0.51 
-        linear 0.03 xpos 0.39 
-        linear 0.10 xpos 0.5 
-        linear 0.10 xpos 0.5 
+        subpixel True
+        xpos 0.5
+        linear 0.07 xpos 0.41
+        linear 0.13 xpos 0.51
+        linear 0.03 xpos 0.39
+        linear 0.10 xpos 0.5
+        linear 0.10 xpos 0.5
     with Pause(0.53)
     camera:
-        xpos 0 zoom 1.0 
+        xpos 0 zoom 1.0
     show persephone smirk:
-        xpos 0.5 
+        xpos 0.5
     window show
     extend " Griswyr snarls and repeats the same maneuvers.... He is the same whirling cyclone of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions. They dance around the room as I do my best to follow their movements and not get swept up in the battle."
     "My heart pounds as she begins evading with growing ease."
@@ -663,38 +663,38 @@ label scene_05:
 
     play sound sfx.blood_splatter
     with bloodflash
-    
+
     window hide
     show persephone smirk:
-        subpixel True additive 0.0 
-        matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
-        linear 0.10 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
-        linear 0.09 matrixcolor InvertMatrix(4.25)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
-        linear 0.07 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
-        linear 0.01 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
-        linear 0.10 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+        subpixel True additive 0.0
+        matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0)
+        linear 0.10 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0)
+        linear 0.09 matrixcolor InvertMatrix(4.25)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0)
+        linear 0.07 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0)
+        linear 0.01 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0)
+        linear 0.10 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0)
     with Pause(0.47)
     show persephone smirk:
-        matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+        matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0)
     window show
 
 
     extend " Gnnnnggggghhh!!!!" with vpunch
 
     #Ragyuo: If you think some movement is pertinent here, maybe have her zoom out?
-    
+
     window hide
     show persephone smirk:
-        subpixel True 
+        subpixel True
         parallel:
-            ypos 1.0 
-            ease_bounce 0.27 ypos 0.89 
+            ypos 1.0
+            ease_bounce 0.27 ypos 0.89
         parallel:
-            zoom 1.0 
-            ease_bounce 0.30 zoom 0.86 
+            zoom 1.0
+            ease_bounce 0.30 zoom 0.86
     with Pause(0.40)
     show persephone smirk:
-        ypos 0.89 zoom 0.86 
+        ypos 0.89 zoom 0.86
     window show
     "It pierces her chest like a dagger."
     extend " Had she not backpedaled at the last moment, it would've impaled her."
@@ -710,35 +710,35 @@ label scene_05:
     "He reappears behind her, alarming Persephone as he takes his hatchet in hand once again."
     #might want to find a sfx for his flurry...
     #Ragyuo: This is a similar situation as before where he's swinging madly and she's dodging
-     
+
     window hide
     camera:
-        subpixel True 
+        subpixel True
         parallel:
-            xpos 0 
-            linear 0.07 xpos -18 
-            linear 0.08 xpos -18 
-            linear 0.08 xpos -324 
-            linear 0.10 xpos -60 
-            linear 0.10 xpos 0 
+            xpos 0
+            linear 0.07 xpos -18
+            linear 0.08 xpos -18
+            linear 0.08 xpos -324
+            linear 0.10 xpos -60
+            linear 0.10 xpos 0
         parallel:
-            zoom 1.0 
-            linear 0.07 zoom 1.23 
-            linear 0.05 zoom 1.23 
-            linear 0.31 zoom 1.0 
+            zoom 1.0
+            linear 0.07 zoom 1.23
+            linear 0.05 zoom 1.23
+            linear 0.31 zoom 1.0
     show persephone smirk:
-        subpixel True 
-        xpos 0.5 
-        linear 0.07 xpos 0.41 
-        linear 0.13 xpos 0.51 
-        linear 0.03 xpos 0.39 
-        linear 0.10 xpos 0.5 
-        linear 0.10 xpos 0.5 
+        subpixel True
+        xpos 0.5
+        linear 0.07 xpos 0.41
+        linear 0.13 xpos 0.51
+        linear 0.03 xpos 0.39
+        linear 0.10 xpos 0.5
+        linear 0.10 xpos 0.5
     with Pause(0.53)
     camera:
-        xpos 0 zoom 1.0 
+        xpos 0 zoom 1.0
     show persephone smirk:
-        xpos 0.5 
+        xpos 0.5
     window show
     extend " Again comes his flurry of deadly strikes, but Persephone isn't amused."
     "Her wound isn't deep, but Griswyr has her on the run."
@@ -1031,7 +1031,7 @@ label scene_05:
     # nvl clear
 
     p "Ah yes, you let someone down."
-    extend " How else would've you have made it this far? You were a nobody until you threw him to the wolves!"
+    extend " How else would you have made it this far? You were a nobody until you threw him to the wolves!"
     p "That's pretty wicked! And now you starve yourself to get pity from everyone."
     extend " Hahaha, you holier-than-thou types always have the darkest secrets! Watching your souls fall is soooo delicious~!"
 
@@ -1109,7 +1109,7 @@ label scene_05:
     # nvl clear
 
     p "Though while we're talking about fibbing, I wasn't entirely honest with you."
-    extend " You see, we devils can't read people;s pasts. So I appreciate the information~."
+    extend " You see, we devils can't read people's pasts. So I appreciate the information~."
 
     c snide "Gngh!!!" with vpunch
 

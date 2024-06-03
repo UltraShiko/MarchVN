@@ -62,7 +62,7 @@ label scene_02:
 
     g "How do you intend to stop it?"
 
-    c neutral "Well, if we move together, we can dispatch them  one-by-one."
+    c neutral "Well, if we move together, we can dispatch them one-by-one."
     extend " I assume this ritual requires a lot of mana. The fewer men they have, the more mana will be needed from each of them."
 
     g "And you don't think their leader has mana in spades? He's devout, after all. His fervor alone is likely all that's needed."
