@@ -48,10 +48,10 @@ label scene_05:
     scene background cult altar with dissolve
     show Griswyr neutral at center with dissolve
     "When I open my eyes, Griswyr cuts down the final Thorn."
-    extend " Yet the man doesn't whimper. He grins menacingly as Griswyr towers over him."
+    extend " Yet the woman doesn't whimper. She grins menacingly as Griswyr towers over her."
 
     # nvl clear
-
+    voice "audio/voice/cultist_mage/scene_05_01_take_1.ogg"
     cu "Ngh...hehehe! You have my thanks! Blood was the last thing we needed, and you spilled more than enough!"
 
     "Griswyr twitches."
@@ -61,7 +61,12 @@ label scene_05:
 
     g "Grrr...!"
 
+    voice "<to 2.870>audio/voice/cultist_mage/scene_05_02_take_1.ogg"
+    #voice "<to 3.6>audio/voice/cultist_mage/scene_05_02_take_2.ogg"
     cu "Go on, cut me down!"
+
+    voice "<from 2.870>audio/voice/cultist_mage/scene_05_02_take_1.ogg"
+    #voice "<from 3.6>audio/voice/cultist_mage/scene_05_02_take_2.ogg"
     extend " Mother will avenge us! You're as good as dead!"
 
     g "Graaaahhhh!!!" with vpunch

@@ -39,6 +39,13 @@ YoruUta ({a=https://yoruuta.itch.io}Itch.io{/a})
 
 Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
+
+{b}Voice Acting:{/b}
+
+{b}Cultist Mage{/b} - Rachel Adkins ({a=https://x.com/reabear_}Twitter{/a})
+
+
+
 {b}Other assets:{/b}
 
 
