@@ -84,9 +84,13 @@ label scene_01:
 
     # nvl clear
 
-    v "Blessed are the peacekeepers. Blessed are those who relinquish themselves for the sake of others."
+    voice "audio/voice/hale/scene_01_01_take1.ogg"
+    hale "Blessed are the peacekeepers. Blessed are those who relinquish themselves for the sake of others."
+    voice "audio/voice/hale/scene_01_02_take1.ogg"
     extend " I do not know what really transpired, but I'm thankful I met someone as noble as you. You remind me of why I took up the mantle."
-    v "Although the crime committed is great, his end was his own doing."
+    voice "audio/voice/hale/scene_01_03_take3.ogg"
+    hale "Although the crime committed is great, his end was his own doing."
+    voice "audio/voice/hale/scene_01_04_take1.ogg"
     extend " As your reverend, I command you to rise. Your friend will not face retribution."
 
     "...I haven't seen him since. I've been too ashamed, too afraid to face him."

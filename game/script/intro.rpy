@@ -12,11 +12,17 @@ label intro:
     #text at center #Is there a way to make this appear at the center?
     "..."
     "...I can't believe you did that! You really are a monster!"
-    "Caius, I...I had too! He was going to-"
+
+    voice "audio/voice/priam/intro_01_take3_reverb.ogg"
+    priam "Caius, I...I had too! He was going to-"
+
     "None of this had to happen!"
     extend " Your sticky fingers couldn't help themselves! And now a man is dead, and it's all our fault!"
     "No...it's your fault! You godforsaken Dretchling! They were right about you! You ARE a devil!"
-    "Caius...I..."
+
+    voice "<to 2.0>audio/voice/priam/intro_01_take3_reverb.ogg"
+    priam "Caius... I..."
+
     "Get the hell away from me! I'll tell the Reverend, so help me! I'll see you hanged if you don't get away from me!"
     "I should've never helped you! I should've left you to starve like the rat you are!"
     extend " And now, Yeshua will smite us both..."

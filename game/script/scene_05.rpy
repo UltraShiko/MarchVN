@@ -1822,7 +1822,13 @@ label scene_05:
 
     #hide persephone
     #show Priam sprite at center with dissolve
-    vi "...You hate me, huh?"
+
+    # TODO: Change music or decrease volume,
+
+    voice "audio/voice/priam/scene_05_01_take1.ogg"
+    priam "...You hate me, huh?"
+
+    voice "audio/voice/priam/scene_05_02_take3.ogg"
     extend " Man...I knew I messed up, but did you have to tell her about me...?"
 
     "...You're right."
@@ -1833,7 +1839,8 @@ label scene_05:
 
     p "AHHHH!!!!!" with vpunch
 
-    vi "I was just trying to protect us..."
+    voice "audio/voice/priam/scene_05_03_take4.ogg"
+    priam "I was just trying to protect us..."
 
     "I know..."
 
@@ -1843,7 +1850,8 @@ label scene_05:
     with hpunch
     p "Gah...damn you! Ngh...!"
 
-    vi "Why did you abandon me, Caius?! I thought we were friends..."
+    voice "audio/voice/priam/scene_05_04_take2.ogg"
+    priam "Why did you abandon me, Caius?! I thought we were friends..."
 
     "...We are."
     # nvl clear
@@ -1869,7 +1877,8 @@ label scene_05:
 
     # nvl clear
 
-    vi "You're coming back, right?"
+    voice "audio/voice/priam/scene_05_05_take6.ogg"
+    priam "You're coming back, right?"
 
     "...I am."
     # nvl clear
@@ -1895,7 +1904,8 @@ label scene_05:
 
     c snide "No...not now!"
 
-    vi "I knew I couldn't trust you..."
+    voice "audio/voice/priam/scene_05_06_take8.ogg"
+    priam "I knew I couldn't trust you..."
 
     "Tears well in my eyes. There isn't anything I can do anymore..."
     "It looks like I've reached my limit first..."
