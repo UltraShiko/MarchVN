@@ -40,7 +40,25 @@ YoruUta ({a=https://yoruuta.itch.io}Itch.io{/a})
 Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
 
-{b}Voice Acting:{/b}
+{b}Voice Acting (by order of appearance):{/b}
+
+{b}Young Caius{/b} -
+
+{b}Priam{/b} - Shykodah-Khi McGrath ({a=https://www.shykodah-khi.com/voice-over}Website{/a})
+
+{b}Caius{/b} -
+
+{b}Jory{/b} -
+
+{b}Reverend Hale IV{/b} - Matthew S. Scott ({a=https://twitter.com/matthewsscottvo}Twitter{/a})
+
+{b}Griswyr{/b} -
+
+{b}Cultist A{/b} -
+
+{b}Cultist B{/b} -
+
+{b}Cultist C{/b} -
 
 {b}Cultist Mage{/b} - Rachel Adkins ({a=https://x.com/reabear_}Twitter{/a})
 
