@@ -42,7 +42,7 @@ Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
 {b}Voice Acting (by order of appearance):{/b}
 
-{b}Young Caius{/b} -
+{b}Young Caius{/b} - Roxcoord ({a=https://roxcoord.carrd.co/}Website{/a})
 
 {b}Priam{/b} - Shykodah-Khi McGrath ({a=https://www.shykodah-khi.com/voice-over}Website{/a})
 
@@ -54,15 +54,17 @@ Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
 {b}Griswyr{/b} -
 
-{b}Cultist A{/b} -
+{b}Cultist A{/b} - Claudio F ({a=https://www.castingcall.club/claudiofilho}Casting Call Club{/a})
 
 {b}Cultist B{/b} -
 
-{b}Cultist C{/b} -
+{b}Cultist C{/b} - Lazzi Faire ({a=https://x.com/Lazzifaire}Twitter{/a})
+
+{b}Cultist D{/b} -
 
 {b}Cultist Mage{/b} - Rachel Adkins ({a=https://x.com/reabear_}Twitter{/a})
 
-
+{b}Persephone{/b} -
 
 {b}Other assets:{/b}
 

@@ -21,10 +21,17 @@ label scene_03:
 
     # nvl clear
 
-    cu "Oh man, tonight's the night! We can finally take back what's ours!"
+    voice "audio/voice/cultist_a/scene_03_01_take2.ogg"
+    cu_a "Oh man, tonight's the night! We can finally take back what's ours!"
+
+    voice "audio/voice/cultist_a/scene_03_02_take6.ogg"
     extend " Those damned Celestials chased us out of the city, and for what?! I baked bread! Worshiping mother wasn't hurtin' nobody!"
-    cu "But damn, why did I get stuck outside? I wanna see her emerge on that altar. Gotta make sure she's given a warm welcome!"
-    cu "Well, she'll be out soon enough. There's no sign of any Celestials, guess I can take it easy until then. After all, chanting is hard work..."
+
+    voice "audio/voice/cultist_a/scene_03_03_take2.ogg"
+    cu_a "But damn, why did I get stuck outside? I wanna see her emerge on that altar. Gotta make sure she's given a warm welcome!"
+
+    voice "audio/voice/cultist_a/scene_03_04_take2.ogg"
+    cu_a "Well, she'll be out soon enough. There's no sign of any Celestials, guess I can take it easy until then. After all, chanting is hard work..."
 
     "He really enjoys talking to himself..."
     extend " Was he trying to summon the Archfiend herself? It can't be that simple..."
@@ -76,7 +83,8 @@ label scene_03:
 
     show Cultist at center
 
-    cu "Who the hell are you?!" with vpunch
+    voice "audio/voice/cultist_a/scene_03_05_take1.ogg"
+    cu_a "Who the hell are you?!" with vpunch
 
     "Ah no..."
 
@@ -89,12 +97,14 @@ label scene_03:
 
     c snide "Ah! I-I mean no harm! I-I'm just a m-monk, and I was-was just going for a walk!"
 
-    cu "Out here, in the depths of the forest, near midnight?"
+    voice "audio/voice/cultist_a/scene_03_06_take9.ogg"
+    cu_a "Out here, in the depths of the forest, near midnight?"
 
     c "Yes...I was enjoying myself a bit too much and got a little lost."
     extend " Um, would you happen to know the way back to Jubilee?"
 
-    cu "...Hmm."
+    voice "audio/voice/cultist_a/scene_03_07_take6.ogg"
+    cu_a "...Hmm."
 
     "It takes all my self control not to attack as he draws closer."
     "My heart races! Is he going to cut me?"
@@ -103,41 +113,53 @@ label scene_03:
 
     # nvl clear
 
-    cu "Just keep heading straight, and you'll find the road."
+    voice "audio/voice/cultist_a/scene_03_08_take6.ogg"
+    cu_a "Just keep heading straight, and you'll find the road."
+
+    voice "audio/voice/cultist_a/scene_03_09_take6.ogg"
     extend " If you got this far, you should be okay on your own."
 
     c smile "Ahh! Is it that simple?! I made so many twists and turns..."
 
-    cu "It is a nice night. That full moon is splendid!"
+    voice "audio/voice/cultist_a/scene_03_10_take1.ogg"
+    cu_a "It is a nice night. That full moon is splendid!"
 
     c "Yes, sir...!"
 
-    cu "Wait, you said you were a monk?"
+    voice "audio/voice/cultist_a/scene_03_11_take3.ogg"
+    cu_a "Wait, you said you were a monk?"
 
     c snide "Uh huh..."
 
-    cu "Who do you worship?"
+    voice "audio/voice/cultist_a/scene_03_12_take2.ogg"
+    cu_a "Who do you worship?"
 
     c snide "Ummm, Yeshua!"
 
-    cu "Ha, I never would've guessed."
+    voice "audio/voice/cultist_a/scene_03_13_take3.ogg"
+    cu_a "Ha, I never would've guessed."
 
     "Why is he being so nice to me...? Especially after I said Yeshua?"
     extend " If memory serves, Hecate detests Yeshua specifically. I believe she's still vengeful about her banishment."
 
     # nvl clear
 
-    cu "You monks are a dime a dozen! Can't believe you'd come this far without an escort."
+    voice "audio/voice/cultist_a/scene_03_14_take4.ogg"
+    cu_a "You monks are a dime a dozen! Can't believe you'd come this far without an escort."
 
     c smile "Well haha, I have faith in my lord..."
 
-    cu "Ahh, I can relate. So do I!"
+
+    voice "audio/voice/cultist_a/scene_03_15_take2.ogg"
+    cu_a "Ahh, I can relate. So do I!"
 
     window hide
 
     play sound sfx.weapon_swing
 
     pause 0.6
+
+    voice "audio/voice/cultist_a/scene_03_16_take9.ogg"
 
     play sound sfx.jab
 

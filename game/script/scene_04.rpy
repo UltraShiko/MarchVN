@@ -78,13 +78,18 @@ label scene_04:
     with dissolve
 
     cu "The hell? Did Oakley set off the tripwire again?! How many times do we have to spell it out for him?!"
-    cu "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
-    cu "Wait, Oakley is as stubborn as a mule! He wouldn't cower like that, so that means-"
+
+    voice "audio/voice/cultist_c/scene_04_01.ogg"
+    cu_c "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
+
+    voice "audio/voice/cultist_c/scene_04_02.ogg"
+    cu_c "Wait, Oakley is as stubborn as a mule! He wouldn't cower like that, so that means-"
 
     play sound sfx.heavyslash
     with bloodflash
 
-    cu "GAAAAAAAAHHHHHH!!!!" with vpunch
+    voice "audio/voice/cultist_c/scene_04_03.ogg"
+    cu_c "GAAAAAAAAHHHHHH!!!!" with vpunch
 
     show cultist at center_left as cultist1:
 

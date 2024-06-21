@@ -17,3 +17,6 @@ define vi  = Character("Voice", what_italic=True)
 ### Side characters
 
 define cu   = Character("Cultist")
+
+define cu_a   = Character("Cultist A")
+define cu_c   = Character("Cultist C")
