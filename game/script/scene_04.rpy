@@ -77,7 +77,8 @@ label scene_04:
 
     with dissolve
 
-    cu "The hell? Did Oakley set off the tripwire again?! How many times do we have to spell it out for him?!"
+    voice "audio/voice/cultist_b/scene_04_01.ogg"
+    cu_b "The hell? Did Oakley set off the tripwire again?! How many times do we have to spell it out for him?!"
 
     voice "audio/voice/cultist_c/scene_04_01.ogg"
     cu_c "Where is Oakley anyways? I get being embarrassed, but he'll have to face us eventually."
@@ -110,7 +111,10 @@ label scene_04:
 
     # nvl clear
 
-    cu "Agh...!"
+    voice "audio/voice/cultist_b/scene_04_02.ogg"
+    cu_b "Agh...!"
+
+    voice "audio/voice/cultist_b/scene_04_03.ogg"
     extend " Intruder-"
 
     g "Too slow."
@@ -180,7 +184,8 @@ label scene_04:
     play sound sfx.heavyslash
     with bloodflash
 
-    cu "AAAAAHHHH!!!!" with vpunch
+    voice "audio/voice/cultist_d/scene_04_01_take1.ogg"
+    cu_d "AAAAAHHHH!!!!" with vpunch
 
     "The apostate bellows, the hatchet lodged within his skull!"
     play sound sfx.blood_splatter
@@ -215,7 +220,8 @@ label scene_04:
 
     # nvl clear
 
-    cu "Please! I surrender! Just get this thing out of my head!" with vpunch
+    voice "audio/voice/cultist_d/scene_04_02_take4.ogg"
+    cu_d "Please! I surrender! Just get this thing out of my head!" with vpunch
 
     c snide "By Yeshua, I'm going to be ill..."
 
@@ -225,15 +231,17 @@ label scene_04:
     extend " The poor Thorn scurries away, until he has nowhere left to go."
     "Griswyr shakes his head. He appears bored, of all things..."
 
-    # nvl clear
+    # nvl clears
 
     g "Surrender is cheap, I want information."
 
-    cu "Right, right! Just get this thing out of my head!"
+    voice "audio/voice/cultist_d/scene_04_03_take3.ogg"
+    cu_d "Right, right! Just get this thing out of my head!"
 
     g "I'll remove it AND your head if you don't start talking!"
 
-    cu "Alright! Please, just don't kill me..."
+    voice "audio/voice/cultist_d/scene_04_04_take3.ogg"
+    cu_d "Alright! Please, just don't kill me..."
 
     g "Tch..."
     extend " Quit cowering, Caius. Get over here."
@@ -247,21 +255,28 @@ label scene_04:
 
     # nvl clear
 
-    cu "So there's...five men leading the ritual. They've already begun chanting..."
-    extend " I doubt you have much longer. If you're here to stop us, then you best hurry..."
+    voice "audio/voice/cultist_d/scene_04_05_take3.ogg"
+    cu_d "So there's...five people leading the ritual. They've already begun chanting..."
+
+    voice "audio/voice/cultist_d/scene_04_06_take3.ogg"
+    extend "\nI doubt you have much longer. If you're here to stop us, then you best\nhurry..."
 
     g "What kind of devil are you summoning?"
 
-    cu "Wh-what...?"
+    voice "audio/voice/cultist_d/scene_04_07_take3.ogg"
+    cu_d "Wh-what...?"
 
     g "Don't be coy. You worship an Archfiend. There's no way you're unfamiliar with her kin."
 
-    cu "I...I don't know! Our leader kept it under-"
+    voice "audio/voice/cultist_d/scene_04_08_take5.ogg"
+    cu_d "I...I don't know! Our leader kept it under-"
 
     g "I hope for your sake you aren't lying!"
 
     play sound sfx.heavyslash
     with hpunch
+
+    voice "audio/voice/cultist_d/scene_04_09_take5.ogg" 
     "As Griswyr presses his boot into the hatchet, I spring forward."
     extend " I run on air, or at least that's what it feels like."
 
@@ -308,6 +323,7 @@ label scene_04:
     play sound sfx.heavyslash
     with bloodflash
 
+    voice "audio/voice/cultist_d/scene_04_09_take1.ogg"
     extend " The cultist wheezes as the ax is yanked out of his head."
 
     g "Get out of my sight. Consider it an act of your false goddess that I don't flay you like a fish!"

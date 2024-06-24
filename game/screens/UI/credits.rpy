@@ -56,11 +56,9 @@ Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
 {b}Cultist A{/b} - Claudio F ({a=https://www.castingcall.club/claudiofilho}Casting Call Club{/a})
 
-{b}Cultist B{/b} -
+{b}Cultist B & D{/b} - Jeff Rosenau ({a=https://twitter.com/JeffRosenauVA}Twitter{/a})
 
 {b}Cultist C{/b} - Lazzi Faire ({a=https://x.com/Lazzifaire}Twitter{/a})
-
-{b}Cultist D{/b} -
 
 {b}Cultist Mage{/b} - Rachel Adkins ({a=https://x.com/reabear_}Twitter{/a})
 

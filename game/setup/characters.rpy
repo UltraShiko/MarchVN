@@ -19,4 +19,6 @@ define vi  = Character("Voice", what_italic=True)
 define cu   = Character("Cultist")
 
 define cu_a   = Character("Cultist A")
+define cu_b   = Character("Cultist B")
 define cu_c   = Character("Cultist C")
+define cu_d   = Character("Cultist D")
