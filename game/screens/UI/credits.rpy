@@ -48,7 +48,7 @@ Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
 {b}Caius{/b} -
 
-{b}Jory{/b} -
+{b}Jory{/b} - Dylan Duck ({a=https://www.dylanduck.com/}Website{/a})
 
 {b}Reverend Hale IV{/b} - Matthew S. Scott ({a=https://twitter.com/matthewsscottvo}Twitter{/a})
 
