@@ -1731,8 +1731,11 @@ label scene_05:
 
     # nvl clear
 
+    voice "audio/voice/jory/scene_05_01_take3.ogg"
     j "{i}Relax, Caius, you're always so uptight.{/i}"
+    voice "audio/voice/jory/scene_05_02_take1.ogg"
     extend " {i}Take a load off and breathe once in a while, yeah?{/i}"
+
     hide jory with dissolve
     play sound sfx.heavy_bam
     with vpunch

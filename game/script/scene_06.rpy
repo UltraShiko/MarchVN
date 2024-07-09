@@ -1,12 +1,19 @@
 
 label scene_06:
 
-    v "By Yeshua, I knew I shouldn't have let him leave!"
-    v "Enough. He needs rest. You can't treat all injuries with mana."
-    v "Damn you, Emissary!"
+    voice "audio/voice/jory/scene_06_01_take2.ogg"
+    j "By Yeshua, I knew I shouldn't have let him leave!"
+
+    g "Enough. He needs rest. You can't treat all injuries with mana."
+
+    voice "audio/voice/jory/scene_06_02_take1.ogg"
+    j "Damn you, Emissary!"
+
     v "I'll accept your insults. I should be dead myself."
     extend " In fact, I'd prefer death over the position we're in now..."
-    v "Oh! He's waking up! Thank goodness!"
+
+    voice "audio/voice/jory/scene_06_03_take3.ogg"
+    j "Oh! He's waking up! Thank goodness!"
 
     scene background slums
 
@@ -21,6 +28,7 @@ label scene_06:
 
     # nvl clear
 
+    voice "audio/voice/jory/scene_06_04_take1.ogg"
     j "By Yeshua, are you alright?!"
 
     play music bgm.epilogue fadein 1.5
@@ -29,11 +37,12 @@ label scene_06:
     g "Luckily most of his injuries weren't deep. Those broken ribs are going to need some time, not like you can move anyways."
     g "You nearly burnt all of your mana, Caius. A drop more, and you would be a corpse."
 
-    # TODO:
-    # show Jory angry with dissolve
+    show Jory angry with dissolve
 
+    voice "audio/voice/jory/scene_06_05_take3.ogg"
     j "It shouldn't have ended this way!"
-    j "What came of this?! All you did was put my friend in bandages! You didn't even kill the devil!"
+    voice "audio/voice/jory/scene_06_06_take2.ogg"
+    j "What came of this?! All you did was put him in bandages! You didn't even kill the devil!"
 
     g "I know, and I'm very upset... She's going to be a problem."
     extend " Caius was the only reason we lived. This won't make you feel better, but I believe he'll make a fine Emissary."
@@ -41,13 +50,16 @@ label scene_06:
 
     play sound sfx.heavy_bam
     with vpunch
+
     "The ground quakes from Jory's stomp!"
     "I know he didn't mean to, but damn that hurts my ribs..."
     extend " Of course Griswyr hardly cares..."
 
     # nvl clear
 
+    voice "audio/voice/jory/scene_06_07_take1.ogg"
     j "Get out! We're done here!"
+    voice "audio/voice/jory/scene_06_08_take1.ogg"
     extend " It may be his choice, but I don't want to see you or your kind ever again!"
 
     g "As you wish."
@@ -64,41 +76,47 @@ label scene_06:
 
     window show
 
-    j "Grr... Damn it! Why does this keep happening to my friends?!"
+    voice "audio/voice/jory/scene_06_09_take3.ogg"
+    j "Grr... Damn it! Why does this keep happening to those I care for?!"
 
     c "Hey...it's not your fault, sir."
     extend " I couldn't stop thinking about you... I kept pushing myself for your sake..."
 
+    voice "audio/voice/jory/scene_06_10_take2.ogg"
     j "Oh right, you made that promise..."
 
-    # TODO:
-    # show Jory angry with dissolve
+    show Jory angry with dissolve
 
+    voice "audio/voice/jory/scene_06_11_take1.ogg"
     extend " But I'm not the one who needs to be protected!"
 
     c neutral  "On that, we'll have to agree to disagree..."
 
-    # TODO:
-    # show Jory neutral with dissolve
+    show Jory neutral with dissolve
 
+    voice "audio/voice/jory/scene_06_12_take3.ogg"
     j "By Yeshua, you're as stubborn as always..."
 
     c smile "Hey Jory, when I'm better..."
     extend " Can we visit Thrycia?"
 
+    voice "audio/voice/jory/scene_06_13_take3.ogg"
     j "I...thought you wanted to become an Emissary first."
 
     c neutral "I did, but after last night, I'm ready to go back now."
     extend " I may not be able to change anything yet, but I can still see him..."
 
-    # TODO:
-    # show Jory sad with dissolve
+    show Jory sad with dissolve
 
+    voice "audio/voice/jory/scene_06_14_take1.ogg"
     "Jory sighs deeply and closes his eyes."
 
     # nvl clear
 
+    voice "audio/voice/jory/scene_06_15_take3.ogg"
     j "Caius...there's something you need to know."
+
+    voice "audio/voice/jory/scene_06_16_take2.ogg"
     extend " While you were gone, word hit Jubilee, and..."
 
     c neutral "And...?"
@@ -107,18 +125,22 @@ label scene_06:
 
     # nvl clear
 
+    voice "<to 1.5>audio/voice/jory/scene_06_17_take1.ogg"
     j "Thrycia..."
 
     stop music
 
+    voice "<from 2.5>audio/voice/jory/scene_06_17_take1.ogg"
     extend "is no more."
 
     c snide "Huh...?"
 
+    voice "audio/voice/jory/scene_06_18_take3.ogg"
     j "No one is sure of what happened, but the rumors say a devil was involved..."
 
     c snide "A devil...?!"
 
+    voice "audio/voice/jory/scene_06_19_take2.ogg"
     j "Two... Apparently, a dretchling summoned it. I'm sorry..."
 
     c angry "Gngh!" with vpunch
@@ -141,9 +163,9 @@ label scene_06:
     play sound magic_charge
     with graceflash
 
-    # TODO:
-    # show Jory neutral with dissolve
+    show Jory neutral with dissolve
 
+    voice "audio/voice/jory/scene_06_20_take2.ogg"
     j "Woah!"
 
     c snide "PRRRRRRRIIIIIIIIIAAAAAAAAMMMMMM!!!" with vpunch
@@ -152,7 +174,7 @@ label scene_06:
 
     window hide
 
-    scene image "#fff" with iris_in_out_slow
+    scene image "#92a9f5" with iris_in_out_slow
 
     pause 2.0
 
