@@ -111,7 +111,7 @@ label scene_05:
 
     "My heart pounds. I swear I can {i}feel{/i} her presence..."
     extend " It's soothing, alluring, and at same time, suffocating..."
-    "I sense both an welcoming and a frightening presence from her..."
+    "I sense both a welcoming and a frightening presence from her..."
     extend " I've never been so relaxed, yet afraid for my life at the same before."
 
     # nvl clear
@@ -152,7 +152,7 @@ label scene_05:
     extend " I sense no threat from her. Her eyes aren't cross, and there isn't disgust or bloodlust in them."
     "Careful, Caius, eyes above the chest. Stare too long, and you'll become enthralled..."
     "My mouth opens, but no words leave. I feel breathless."
-    extend " If I enter any stance, my guise will be blown. If she lunges first though, I'll be defenceless..."
+    extend " If I enter any stance, my guise will be blown. If she lunges first though, I'll be defenseless..."
     "Ugh, to hell with duplicity! I'll engage her before she can-"
 
     # nvl clear
@@ -660,7 +660,7 @@ label scene_05:
     g "{i}Blood Lance{/i}."
 
     play sound sfx.bloodlance
-    "A spear of blood eupts from his blade."
+    "A spear of blood erupts from his blade."
 
     # nvl clear
 
@@ -1245,7 +1245,7 @@ label scene_05:
     "Persephone darts backwards, and he fires another Blood Lance."
     extend " She swats it away with her wings."
     "Griswyr's body hunches over, his breaths weighty."
-    extend " Every time he uses one of those attacks, he injurs himself..."
+    extend " Every time he uses one of those attacks, he injures himself..."
 
     # nvl clear
 
@@ -1485,6 +1485,7 @@ label scene_05:
 
     scene background cult altar with dissolve
     stop music fadeout 1.5
+
     p "Huh...?"
 
     play sound sfx.manaexplosion
@@ -1688,7 +1689,7 @@ label scene_05:
     play sound sfx.magic_charge
     with graceflash
     "Grace surges from my body."
-    extend " With this much pouring out, I'll run out of mana in no time. hHowever I need Grace just so I can move..."
+    extend " With this much pouring out, I'll run out of mana in no time. However I need Grace just so I can move..."
     "On the flip side, expending this much mana will inject more into her body. I need to blow her up again..."
     "Who will burn out first? Will I be able to hold up long enough to defeat her? Only one way to find out."
 
@@ -1944,7 +1945,7 @@ label scene_05:
     # nvl clear
 
     g "Even if he couldn't finish the job, there's still a lot of Grace inside you."
-    extend " Seeing as how both manas repel each other, I wonder what will happen when my Malice is added."
+    extend " Seeing as how both manas repel each other, I wonder what will happen when my Malice is added?"
 
     hide Griswyr
     show persephone angry at center with dissolve
