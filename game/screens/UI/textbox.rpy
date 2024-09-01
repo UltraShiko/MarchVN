@@ -31,7 +31,7 @@ screen say(who, what):
                 text who id "who":
 
                     color "#172768"
-                    
+
 
         text what id "what"
 
@@ -80,7 +80,8 @@ style say_dialogue:
     properties gui.text_properties("dialogue")
 
     xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
+    #xsize gui.dialogue_width
+    xsize 1150
     ypos gui.dialogue_ypos
 
     adjust_spacing False

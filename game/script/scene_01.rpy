@@ -3,7 +3,7 @@ label scene_01:
 
     pause 0.5
 
-    play music bgm.VillageAmbienceLoop fadein 1.5
+    play music bgm.VillageAmbienceLoop fadein 1.5 volume 0.25
 
     scene background slums with Dissolve(1.0)
 
@@ -44,6 +44,9 @@ label scene_01:
 
     voice "audio/voice/jory/scene_01_04_take2.ogg"
     j "Respect? I don't care about that. I'm proud of you, Caius! You've grown into a fine man!"
+
+    show Jory neutral with dissolve
+
     voice "audio/voice/jory/scene_01_05_take3.ogg"
     extend " And now, you're going away..."
 
@@ -55,7 +58,7 @@ label scene_01:
     extend " That and the mortality rate for Emissaries is high."
     "They say death is a daily occurrence in their ranks. I've heard tales that some of the recruits are criminals forced to join them or face execution."
     extend " Apparently, many prefer the noose..."
-    "The Emissaries aren't like normal Celestials. They aren't guards. Instead, they go out and confront problems directly."
+    "The Emissaries aren't like Celestials. They aren't guards. Instead, they go out and confront problems directly."
     extend " Whether it be outlaws, spies from Jorunderfell, witches, or devils, they hunt down every last one of them."
     "I don't blame Jory for worrying. I might not be the same person when - if - I return..."
     extend " Still, I had to go. I only met Jory because the Reverend took pity on me. I had to make things right."
@@ -65,10 +68,13 @@ label scene_01:
     voice "audio/voice/caius/scene_01_05_take1.ogg"
     extend " From combat, to controlling mana, to keeping my mind pure. I'm ready!"
 
-    show Jory neutral with dissolve
+    show Jory happy with dissolve
 
     voice "audio/voice/jory/scene_01_06_take3.ogg"
     j "Oh of course you are, it's just..."
+
+    show Jory neutral with dissolve
+
     voice "audio/voice/jory/scene_01_07_take2.ogg"
     extend " A lot of people join the Emissaries, and it breaks them."
     voice "audio/voice/jory/scene_01_08_take1.ogg"
@@ -83,17 +89,25 @@ label scene_01:
     voice "audio/voice/jory/scene_01_11_take3.ogg"
     extend " I mean, that's why we met. The Reverend plopped you at my doorstep, remember?"
 
+    window hide
+
+    stop music fadeout 0.8
+
+    scene image "#000" with iris_in_out_reverse_slow_8
+
+    window show
+
     "How could I not?"
     extend " When he found me, crying over that Celestial's corpse so many years ago, I thought my fate was sealed...."
     "From what I hear, the Reverend is a tyrant. But that's what I saw..."
-    extend " I mean, I took the blame. I told them that the bloody dagger was mine and I was the murderer."
+    extend "\nI mean, I took the blame. I told them that the bloody dagger was mine and I was the murderer."
     "He didn't believe me. I could tell..."
     extend " Rather than executing me though, he said something that I'll never forget..."
 
     voice "audio/voice/hale/scene_01_01_take1.ogg"
     hale "Blessed are the peacekeepers. Blessed are those who relinquish themselves for the sake of others."
     voice "audio/voice/hale/scene_01_02_take1.ogg"
-    extend " I do not know what really transpired, but I'm thankful I met someone as noble as you. You remind me of why I took up the mantle."
+    hale "I do not know what really transpired, but I'm thankful I met someone as noble as you. You remind me of why I took up the mantle."
     voice "audio/voice/hale/scene_01_03_take3.ogg"
     hale "Although the crime committed is great, his end was his own doing."
     voice "audio/voice/hale/scene_01_04_take1.ogg"
@@ -104,8 +118,20 @@ label scene_01:
     $ unlockCompendionEntry("DretchlingLore")
 
     "The Dretchlings are a race feared, hated, and even attacked because of their fiendish blood."
-    "Once I rise up through the ranks, putting in laws to protect them will be the first change I implement."
-    extend " After all, devils don't need our help harvesting souls. And I hear they flock to Dretchlings like moths to a flame..."
+    extend " Once I rise up through the ranks, putting in laws to protect them will be the first change I implement."
+    "After all, devils don't need our help harvesting souls. And I hear they flock to Dretchlings like moths to a flame..."
+
+    window hide
+
+    play music bgm.VillageAmbienceLoop fadein 1.5 volume 0.25
+
+    scene background slums
+
+    show Jory happy at center
+
+    with iris_in_out_8
+
+    window show
 
     voice "audio/voice/caius/scene_01_06_take3.ogg"
     c neutral "Sir, I'm aware of the danger. I've been preparing myself all week."
@@ -125,7 +151,7 @@ label scene_01:
 
     $ unlockCompendionEntry("ReckoningLore")
 
-    extend " They say his cruelty was so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
+    "They say his cruelty was so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell..."
 
     voice "audio/voice/caius/scene_01_09_take3.ogg"
     c angry "He abused you. He abused everyone! His pride and arrogance caused the Reckoning, and now our country is divided!"
@@ -137,7 +163,7 @@ label scene_01:
     voice "audio/voice/jory/scene_01_14_take2.ogg"
     extend " That man's vices weren't because of a fiend. He walked into that fire himself."
     voice "audio/voice/jory/scene_01_15_take3.ogg"
-    j "Not every act of malice has a devil behind it. We're capable of making decisions, both good and bad..."
+    extend " Not every act of malice has a devil behind it. We're capable of making decisions, both good and bad..."
 
     show Jory sad with dissolve
 
@@ -152,30 +178,33 @@ label scene_01:
     extend " It takes a lot to get under Jory's skin, and when something does, it’s always about a woman he once cared for..."
 
     voice "audio/voice/caius/scene_01_10_take2.ogg"
-    c snide "...But you've made amends. I mean, you took me in despite the fact I...you know."
+    c neutral "...But you've made amends. I mean, you took me in despite the fact I...you know."
 
-    show Jory neutral with dissolve
+    show Jory happy with dissolve
 
     voice "audio/voice/jory/scene_01_19_take1.ogg"
     j "I sure did, and I have no regrets!"
+
+    show Jory angry with dissolve
+
     voice "audio/voice/jory/scene_01_20_take3.ogg"
     extend " Still, a day doesn't go by when I don't think about her or how I wanted to avenge her...!"
 
     "The sight of his fists clenching makes me shudder."
-    extend "I still can't believe The Third had the courage to bully Jory or his friends."
+    extend " I still can't believe The Third had the courage to bully Jory or his friends."
 
     show Jory happy with dissolve
 
     voice "audio/voice/jory/scene_01_21_take2.ogg"
     j "Uh whoops! Lost myself there!"
 
-    show Jory neutral with dissolve
-
     voice "audio/voice/jory/scene_01_22_take1.ogg"
     extend " You get what I mean though, right?"
 
     voice "audio/voice/caius/scene_01_11_take1.ogg"
     c smile "I do, sir. And I appreciate your concern, but my mind is made up."
+
+    show Jory neutral with dissolve
 
     voice "audio/voice/jory/scene_01_23_take1.ogg"
     j "Oh, I see..."
@@ -191,13 +220,16 @@ label scene_01:
     j " But...you know what you're getting yourself into, right?"
     voice "audio/voice/jory/scene_01_25_take1.ogg"
     extend " These rogues are very strict. I bet your recruiter has some sort of test cooked up for you."
+
+    show Jory neutral with dissolve
+
     voice "audio/voice/jory/scene_01_26_take1.ogg"
     j "And even if - no when, you complete it - there's not guarantee they'll let you join."
     voice "audio/voice/jory/scene_01_27_take3.ogg"
-    extend " It's one thing when a condemned criminal is admitted, but another when someone wants to impress them. Their work isn't for everyone..."
+    j "It's one thing when a condemned criminal is admitted, but another when someone wants to impress them. Their work isn't for everyone..."
 
     voice "audio/voice/caius/scene_01_13_take2.ogg"
-    c "I'll manage. I'm not sure how, but I'll figure it out!"
+    c neutral "I'll manage. I'm not sure how, but I'll figure it out!"
 
     show Jory happy with dissolve
 
@@ -229,11 +261,11 @@ label scene_01:
     window show
 
     "We turn, and there stands a gaunt man."
-    "His pale complexion rivals that of snow, and his hair is just as white."
-    "He is almost as skinny as mye, but his arms and legs are chiseled with muscle."
-    extend " Despite him being an elite, he wears only a leather vest and breeches."
-    "On one hip rests a shortsword, on the other...a grisly-edged hatchet."
-    extend " Then there are his eyes. I feel like I'm peering into an abyss when our gazes meet."
+    extend " His pale complexion rivals that of snow, and his hair is just as white."
+    extend " He is almost as skinny as mye, but his arms and legs are chiseled with muscle."
+    "Despite him being an elite, he wears only a leather vest and breeches."
+    extend " On one hip rests a shortsword, on the other...a grisly-edged hatchet."
+    "Then there are his eyes. I feel like I'm peering into an abyss when our gazes meet."
     "This man has to be my recruiter."
     extend " The stories depict Emissaries as dark, brooding individuals. He fits that description perfectly."
     "He puts away his notebook and looks towards us, disinterested..."
@@ -268,7 +300,7 @@ label scene_01:
     c angry "No sir..."
 
     "Oh, but it is a BIG problem! I'm not prepared for a nocturnal expedition..."
-    extend " I thought the trial would test my skills in combat, not my endurance...."
+    extend "\nI thought the trial would test my skills in combat, not my endurance...."
 
     voice "audio/voice/griswyr/scene_01_06.ogg"
     g "If you are ready, then let's go. Our enemy has already begun their machinations."
@@ -324,17 +356,22 @@ label scene_01:
 
     window hide
 
+    stop music fadeout 1.2
+
     scene image "#000" with dissolve
 
     window show
 
-    extend " Jory just might be onto something, but it's too late for me to back out now..."
+    "Jory just might be onto something, but it's too late for me to back out now..."
     "I suppose it's only natural that the trials of the Emissaries are just as dangerous as the work they do, and Griswyr has a point."
     extend " I wonder why he chose me for this particular task... I'm as green as they come."
 
     window hide
 
     stop music
+
+    pause 0.5
+
     jump scene_02
 
     return

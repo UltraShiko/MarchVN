@@ -29,7 +29,7 @@ label intro:
     voice "audio/voice/caius/intro_04_take1.ogg"
     centered "No...it's your fault! You godforsaken Dretchling! They were right about you! You ARE a devil!"
 
-    voice "<to 2.0>audio/voice/priam/intro_01_take3_reverb.ogg"
+    voice "<to 2.0>audio/voice/priam/intro_01_take3.ogg"
     centered "Caius... I..."
 
     voice "audio/voice/caius/intro_05_take3.ogg"

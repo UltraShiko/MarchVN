@@ -1506,7 +1506,7 @@ label scene_05:
 
     c "Agh...well each of my blows injects my mana into my opponent, disrupting their own..."
     extend " And once it consumes most of their body, I can cause it to tear itself out..."
-    extend " Agh...it hurts to talk..."
+    extend " Agh... ..."
 
     g "That's...violent. Color me impressed."
 

@@ -3,7 +3,7 @@ label scene_02:
 
     scene background forest with dissolve
 
-    play music bgm.night_ambience
+    play music bgm.night_ambience volume 0.25
 
     play sound sfx.forestfootsteps loop # TODO: Using placeholder track. Replace with correct one.
 
@@ -18,7 +18,7 @@ label scene_02:
 
     window show
 
-    extend " Meanwhile, Griswyr moves like he's in his element, under the cover of night..."
+    "Meanwhile, Griswyr moves like he's in his element, under the cover of night..."
     "Now that I think about it, something is...different about him."
     extend " He can't be a Dretchling. They're pale, but not to his degree. And his eyes don’t share their crimson pupils."
     "Yet, the way he carries himself, feels unnatural somehow."
