@@ -183,6 +183,17 @@ init python:
     build.classify("**.rpy", None)
     build.classify("**.psd", None)
 
+    build.classify("game/audio/voice/caius/_unused/**.**", None)
+    build.classify("game/audio/voice/cultist_a/_unused/**.**", None)
+    build.classify("game/audio/voice/cultist_c/_unused/**.**", None)
+    build.classify("game/audio/voice/cultist_d/_unused/**.**", None)
+    build.classify("game/audio/voice/cultist_mage/_unused/**.**", None)
+    build.classify("game/audio/voice/griswyr/_unused/**.**", None)
+    build.classify("game/audio/voice/hale/_unused/**.**", None)
+    build.classify("game/audio/voice/jory/_unused/**.**", None)
+    build.classify("game/audio/voice/priam/_unused/**.**", None)
+
+
     # Audio files
     build.classify('game/**.mp3', 'archive')
     build.classify('game/**.wav', 'archive')
