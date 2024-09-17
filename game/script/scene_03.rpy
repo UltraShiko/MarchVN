@@ -2,7 +2,8 @@
 label scene_03:
 
     scene background cave entrance with fade
-    play music bgm.night_ambience
+
+    play music bgm.night_ambience volume 0.25
 
     window show
 

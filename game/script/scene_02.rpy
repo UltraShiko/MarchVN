@@ -138,7 +138,7 @@ label scene_02:
 
     voice "audio/voice/griswyr/scene_02_22_take3.ogg"
     g "How pious..."
-    voice "audio/voice/griswyr/scene_02_23_take2.ogg"
+    voice "audio/voice/griswyr/scene_02_23_take5.ogg"
     extend " Too pious! You expect such flimsy arms to have an impact?"
 
     voice "audio/voice/caius/scene_2_17_take3.ogg"
