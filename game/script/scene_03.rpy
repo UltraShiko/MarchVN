@@ -155,7 +155,7 @@ label scene_03:
     voice "audio/voice/cultist_a/scene_03_14_take4.ogg"
     cu_a "You monks are a dime a dozen! Can't believe you'd come this far without an escort."
 
-    voice "audio/voice/cultist_a/scene_03_11_take1.ogg"
+    voice "audio/voice/caius/scene_03_11_take1.ogg"
     c smile "Well haha, I have faith in my lord..."
 
     voice "audio/voice/cultist_a/scene_03_15_take2.ogg"
@@ -222,7 +222,7 @@ label scene_03:
     extend "You think he's going to wake up?"
 
     voice "audio/voice/caius/scene_03_14_take9.ogg"
-    c "Huh?"
+    c neutral "Huh?"
 
     play sound sfx.heavyslash
     with bloodflash
@@ -290,7 +290,7 @@ label scene_03:
     extend " People aren't blameless. That man knew what he was signing up for. And now he is with his wretched goddess."
 
     voice "audio/voice/caius/scene_03_22_take3.ogg"
-    c snide "And has become another asset for her ranks..."
+    c angry "And has become another asset for her ranks..."
 
     voice "audio/voice/griswyr/scene_03_20_take1.ogg"
     g "So be it. He's locked in Hell and no longer our concern."
@@ -315,11 +315,11 @@ label scene_03:
 
         zoom 1.0
 
-        easeout 2.0 zoom 1.5
+        easeout 2.6 zoom 1.5
 
     stop music fadeout 1.5
 
-    pause 1.4
+    pause 1.8
 
     scene image "#000" with dissolve
 
