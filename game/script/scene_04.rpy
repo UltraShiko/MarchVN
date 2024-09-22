@@ -19,7 +19,9 @@ label scene_04:
 
     "Griswyr moves so lightly. There are times when I have to double check if he's still beside me."
 
-    play sound sfx.light_grapple
+    play sound sfx.light_grapple volume 0.75
+
+    pause 0.4
 
     voice "audio/voice/caius/scene_04_01.ogg"
     c snide "Ngh..."
@@ -236,7 +238,7 @@ label scene_04:
     voice "audio/voice/caius/scene_04_05_take2.ogg"
     c snide "By Yeshua, I'm going to be ill..."
 
-    voice "audio/voice/griswyr/scene_04_05_take2.ogg"
+    voice "audio/voice/griswyr/scene_04_10_take3.ogg"
     g "Swallow it! This is nothing compared to the horrors we face!"
 
     "Griswyr strolls up to the man, not granting him any mercy."
@@ -260,7 +262,7 @@ label scene_04:
     voice "audio/voice/griswyr/scene_04_14_take3.ogg"
     extend " Quit cowering, Caius. Get over here."
 
-    voice "audio/voice/griswyr/scene_04_06.ogg"
+    voice "audio/voice/caius/scene_04_06.ogg"
     c "...Right."
 
     play sound sfx.bloodfootsteps
@@ -320,7 +322,7 @@ label scene_04:
     voice "audio/voice/caius/scene_04_11.ogg"
     c angry "That might be true, but it doesn't mean we have to behave like brutes!"
     voice "audio/voice/caius/scene_04_12.ogg"
-    extend " How can we stop the devils when we behave no differently? We'll just become the same monsters we vowed to destroy!"
+    extend " How can we stop the devils when we behave no differently? We'll become the same monsters we vowed to destroy!"
 
     voice "audio/voice/griswyr/scene_04_20_take2.ogg"
     g "...You choose now to make a stand?"
@@ -348,7 +350,7 @@ label scene_04:
     play sound sfx.heavyslash
     with bloodflash
 
-    voice "audio/voice/cultist_d/scene_04_09_take1.ogg"
+    voice "audio/voice/cultist_d/scene_04_09_take5.ogg"
     extend " The cultist wheezes as the ax is yanked out of his head."
 
     voice "audio/voice/griswyr/scene_04_24_take1.ogg"
@@ -392,9 +394,26 @@ label scene_04:
 
     pause 0.3
 
-    scene image "#000" with dissolve
+    scene background cave at truecenter:
+
+        zoom 1.0
+        align (0.5, 0.5)
+
+        parallel:
+
+            easeout 2.6 zoom 1.5
+
+        parallel:
+
+            easeout 2.6 align( 0.75, 0.75 )
 
     stop music fadeout 1.5
+
+    pause 1.8
+
+    scene image "#000" with dissolve
+
+    stop music
 
     jump scene_05
 
