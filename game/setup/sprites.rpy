@@ -85,6 +85,8 @@ layeredimage Griswyr:
 
 ### Persephone
 
+image persephone sillhouette = "images/sprites/persephone/silhouette.png"
+
 layeredimage persephone:
 
     yoffset 175
@@ -148,7 +150,7 @@ image Jory sad:
     yoffset 251
 
     "images/sprites/jory/sad.png"
-    
+
 ### Other
 
 image Cultist:

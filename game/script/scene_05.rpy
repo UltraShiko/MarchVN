@@ -1,6 +1,8 @@
 
 label scene_05:
 
+    pause 0.4
+
     scene background cult altar with dissolve
 
     play music bgm.altar_ambience
@@ -14,61 +16,97 @@ label scene_05:
     "An altar takes up the back portion of the room."
     extend " Three bronze statuettes rest atop the podium. Each is of a woman, aging from one statuette to the next."
     "The sickly-sweet smell of roses overtakes the room, and the crimson aura of Malice was thicker than the swamps in Jorunderfell."
+
+    window hide
+
+    show cultist at left as cultist4 with dissolve
+    show cultist at center_left as cultist2 with dissolve:
+        xoffset 100
     show cultist at center as cultist1 with dissolve
-    show cultist at center_left as cultist2 with dissolve
-    show cultist at center_right as cultist3 with dissolve
+    show cultist at center_right as cultist3 with dissolve:
+        xoffset -100
+    show cultist at right as cultist5 with dissolve
+
+    window show
+
     "Five acolytes stand at each position of the pentagram, too engrossed in their trance to notice us."
-    extend " There's no way they didn't hear the racket of our fight. They must have decided to continue the ritual and are now close to finishing."
+    "There's no way they didn't hear the racket of our fight. They must have decided to continue the ritual and are now close to finishing."
 
-    # nvl clear
+    window hide
 
+    show Griswyr blood_on at center with dissolve
+
+    window show
+
+    voice "audio/voice/griswyr/scene_05_01_take1.ogg"
     g "Looks like we made it in time."
 
+    voice "audio/voice/caius/scene_05_01_take1.ogg"
     c "I suppose we...just attack?"
 
+    voice "audio/voice/griswyr/scene_05_02_take1.ogg"
     g "If they're going to make it that easy."
+    voice "audio/voice/griswyr/scene_05_03_take1.ogg"
     extend " Stay back, wouldn't want you to stain your conscience."
 
-    c smide "No please, after you."
+    voice "audio/voice/caius/scene_05_02_take3.ogg"
+    c snide "No no, please, after you."
 
-    scene image "#000" with dissolve
+    window hide
+
+    scene image "#000" with iris_in_out_reverse
+
+    window show
+
     "I cover my eyes, and he goes to work."
+
     play sound heavyslash
     pause 0.6
     queue sound sfx.thud
+
     extend " Much like with the group of Thorns we just faced, the bodies here also fall like rain..."
+
     play sound heavyslash
     pause 0.6
     queue sound sfx.thud
+
     "I can feel the aura beginning to wane. I've had enough bloodshed for one night, maybe for a lifetime..."
+
     play sound heavyslash
     pause 0.6
     queue sound sfx.thud
+
     extend " Jory wasn't wrong about the brutality of the Emissaries. I doubt that gentle giant would stand any of this..."
-    scene background cult altar with dissolve
-    show Griswyr neutral at center with dissolve
+
+    window hide
+
+    scene background cult altar
+
+    show Griswyr blood_on at center
+
+    with iris_in_out_8
+
+    window show
+
     "When I open my eyes, Griswyr cuts down the final Thorn."
     extend " Yet the woman doesn't whimper. She grins menacingly as Griswyr towers over her."
 
-    # nvl clear
     voice "audio/voice/cultist_mage/scene_05_01_take_1.ogg"
     cu "Ngh...hehehe! You have my thanks! Blood was the last thing we needed, and you spilled more than enough!"
 
     "Griswyr twitches."
     extend " Is it my imagination, or do I spot veins bulging from his head."
 
-    # nvl clear
-
+    voice "audio/voice/griswyr/scene_05_04_take1.ogg"
     g "Grrr...!"
 
     voice "<to 2.870>audio/voice/cultist_mage/scene_05_02_take_1.ogg"
-    #voice "<to 3.6>audio/voice/cultist_mage/scene_05_02_take_2.ogg"
     cu "Go on, cut me down!"
 
     voice "<from 2.870>audio/voice/cultist_mage/scene_05_02_take_1.ogg"
-    #voice "<from 3.6>audio/voice/cultist_mage/scene_05_02_take_2.ogg"
     extend " Mother will avenge us! You're as good as dead!"
 
+    voice "audio/voice/griswyr/scene_05_04_take3.ogg"
     g "Graaaahhhh!!!" with vpunch
 
     play sound sfx.heavyslash
@@ -78,35 +116,54 @@ label scene_05:
     extend " That swing wasn't nearly as graceful as usual. It was crude, brutish, and wild."
     "When he turns, his face is twisted into a scowl."
 
-    # nvl clear
-
+    voice "audio/voice/griswyr/scene_05_06_take1.ogg"
     g "Goddamn it! We played right into their hands!"
 
+    voice "audio/voice/caius/scene_05_03_take2.ogg"
     c "They needed blood? Was this a suicide pact?"
+    voice "audio/voice/caius/scene_05_04_take3.ogg"
     extend " That hag has been dead for awhile, and I see no one tied to the altar."
 
+    voice "audio/voice/griswyr/scene_05_07_take1.ogg"
     g "It doesn't matter! Our objective has changed!"
 
     stop music fadeout 1.5
+
     #play music bgm.lethal_suspense #TODO: Add this after jam release
+
     play sound sfx.bubble1
     queue sound sfx.bubble2 loop
+
     "The blood begins bubbling, and we retreat behind a pillar."
     extend " A caustic scene fills the air, burning my nose."
+
     stop sound
+
     play sound sfx.magic_charge
     with maliceflash
+
     "The circle glows purple, and a red mist rises from the blood."
-    hide Griswyr
+
     scene image "#cb4a4a" with dissolve
+
     extend " It shrouds us, obscuring our vision and surrounding us in a crimson fog."
-    play sound sfx.weapon_draw
-    #show Persephone silhouette at center with dissolve #might want to zoom her out a bit
+
+    # play sound sfx.weapon_draw
+
+    window hide
+
+    scene background cult altar
+
+    show persephone sillhouette at center
+
+    with Dissolve(1.2)
+
+    window show
+
     "Griswyr and I ready ourselves as a curvaceous silhouette comes into view."
     extend " My mind races. Will she attack? Will she try to bewitch us? The suspense is unnerving..."
 
-    # nvl clear
-
+    voice "audio/voice/caius/scene_05_05_take4.ogg"
     c snide "Ngh..."
 
     "My heart pounds. I swear I can {i}feel{/i} her presence..."
@@ -114,24 +171,44 @@ label scene_05:
     "I sense both a welcoming and a frightening presence from her..."
     extend " I've never been so relaxed, yet afraid for my life at the same before."
 
-    # nvl clear
-
+    voice "audio/voice/griswyr/scene_05_08_take2.ogg"
     g "That devil.... Why do I recognize her?"
 
+    voice "audio/voice/caius/scene_05_06_take1.ogg"
     c "You can see through the mist?"
 
+    voice "audio/voice/griswyr/scene_05_09_take1.ogg"
     g "My eyes are more precise than most. This is a succubus."
+    voice "audio/voice/griswyr/scene_05_10_take2.ogg"
     extend " Pfft, these people gave their lives to summon that? What a waste."
 
+    voice "audio/voice/caius/scene_05_07_take3.ogg"
     c "But why?"
 
+    voice "audio/voice/griswyr/scene_05_11_take2.ogg"
     g "I have no clue."
+    voice "audio/voice/griswyr/scene_05_12_take3.ogg"
     extend " Time to adapt."
 
     play sound sfx.melee_swing
+
+    window hide
+
+    hide persephone with dissolve
+
+    window show
+
     #we'd zoom in on the silhouette here
+
     "I yelp as he shoves me forward."
     extend " I turn in protest, only to see no one."
+
+    window hide
+
+    scene background cult altar with dissolve
+
+    window show
+
     "I fidget as the veil starts to disperse. What does he want me to do?!"
     extend " Wait, succubi aren't very strong. They're spies more than anything else, so he must be testing me."
     "Ok, Caius..."
@@ -140,13 +217,18 @@ label scene_05:
     "I tremble with each step I take."
     extend " I must resemble a scared child who is in over his head. She won't expect much, and it will be her demise."
 
-    # nvl clear
+    window hide
 
     scene background cult altar with dissolve
+
     play music bgm.altar_ambience fadein 1.5
-    #will be lethal_suspense after jam
+
+    # TODO: will be lethal_suspense after jam
     #hide persephone silhouette
+
     show persephone smirk at center with dissolve
+
+    window show
 
     "I gulp when her true form appears."
     extend " I sense no threat from her. Her eyes aren't cross, and there isn't disgust or bloodlust in them."
@@ -155,10 +237,9 @@ label scene_05:
     extend " If I enter any stance, my guise will be blown. If she lunges first though, I'll be defenseless..."
     "Ugh, to hell with duplicity! I'll engage her before she can-"
 
-    # nvl clear
-
     v "...Did you kill her children?"
 
+    voice "audio/voice/caius/scene_05_08_take2.ogg"
     c snide "Uhh..!"
 
     "Oh no! We're surrounded by corpses! There's no way she won't suspect anything now..."
@@ -166,13 +247,10 @@ label scene_05:
     extend " Wait...no reaction. She isn't drawing a weapon or anything..."
     "Hell, she's smiling! It's one of amusement, not malevolence."
 
-    # nvl clear
-
     v "Hehehe! Relax! They're in a better place now."
     extend " Besides, there's no blood on {i}your{/i} hands. Looks like I'm outnumbered."
 
-    # nvl clear
-
+    voice "audio/voice/caius/scene_05_09_take6.ogg"
     c "Ugh, right..."
 
     v "So, what am I dealing with here?"
@@ -180,6 +258,7 @@ label scene_05:
     extend " Exorcist?"
     extend " Adventurer who's in over his head?"
 
+    voice "audio/voice/caius/scene_05_10_take3.ogg"
     c "Emissary."
 
     v "Really? You, one of those cutthroats?"
@@ -188,13 +267,13 @@ label scene_05:
     "She carries on like a waitress in a tavern."
     extend " Had she hidden her horns and wings, I might've forgotten she was a fiend..."
 
-    # nvl clear
-
+    voice "audio/voice/caius/scene_05_11_take2.ogg"
     c "It's been quite an experience...one I would like to put to bed."
 
     v "So, are you going to kill me?"
 
-    c "Or send you back to Hell. I prefer the latter to be honest."
+    voice "audio/voice/caius/scene_05_12_take3.ogg"
+    c "Or send you back to Hell. I prefer the latter, to be honest."
 
     v "Aww, how thoughtful!"
     extend " Buuut...."
@@ -202,6 +281,7 @@ label scene_05:
     play sound sfx.charm
     with charmflash
 
+    voice "audio/voice/caius/scene_05_13_take1.ogg"
     c snide "Gnnnghhh...!" with vpunch
 
     "Her eyes flash pink, and my head throbs."
@@ -214,13 +294,14 @@ label scene_05:
     "My stance relaxes. As long as her spell persists, I'll have to act like her most devoted companion."
     extend " I'm not too experienced with acting, but I can at least give Griswyr a show."
 
-    # nvl clear
-
     v "See? Isn't that better? You can call me Persephone, what's your name?"
 
+    voice "audio/voice/caius/scene_05_14_take1.ogg"
     c "...Caius."
 
     p "Hmmm, that doesn't sound familiar... Where are you from?"
+
+#######################################
 
     c "...Thrycia?"
 
@@ -420,6 +501,8 @@ label scene_05:
 
     g "I've pushed you into danger twice tonight, but only because I knew you could overcome it."
     extend " This fiend is much stronger than a succubus. You'll only get in the way."
+
+#######################################
 
     c "Griswyr, she'll just revive in Hell if I don't-"
 
@@ -643,6 +726,9 @@ label scene_05:
     show persephone smirk:
         xpos 0.5
     window show
+
+#######################################
+
     extend " Griswyr snarls and repeats the same maneuvers.... He is the same whirling cyclone of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions. They dance around the room as I do my best to follow their movements and not get swept up in the battle."
     "My heart pounds as she begins evading with growing ease."
     #we'd probably show Persephone behind him here?
@@ -864,6 +950,9 @@ label scene_05:
     #Animation wise, I leave it up to you if you want to add anything
     play sound sfx.rapidfirepunch
     #shake Persephone if anything
+
+    #######################################
+
     "She twitches and staggers with each consecutive blow to her chest."
     extend " My strikes fly as quickly as Griswyr's swipes, maybe even faster!"
     play sound sfx.rapidfirepunch
@@ -1064,6 +1153,8 @@ label scene_05:
 
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
+
+    #######################################
 
     c angry "Hecate calls herself the mother of outcasts, a protector of the damned!"
     #have Persephone zoom out and back in
@@ -1267,6 +1358,8 @@ label scene_05:
     play sound sfx.lunge
     "She launches herself again!"
 
+    #######################################
+
     # nvl clear
 
     c angry "Don't dodge, Griswyr, or you'll be cut by her wind!"
@@ -1468,6 +1561,8 @@ label scene_05:
     p "...Was that your last stand?"
     extend " WEAK!!!" with vpunch
 
+    #######################################
+
     #zoom out Persephone
     play sound sfx.heavy_bam
     "Her Roundhouse kick sends me flying. Time stands still as I float away..."
@@ -1666,6 +1761,8 @@ label scene_05:
     play sound sfx.heavy_bam
     with vpunch
     extend " So go to sleep!"
+
+    #######################################
 
     "She slams her knee into his chest, knocking the wind and consciousness out of him."
     #move Persephone to the left/right
@@ -1866,6 +1963,9 @@ label scene_05:
     "She catches my last strike, deflecting it."
     play sound sfx.magic_charge
     with whiteflash
+
+    #######################################
+
     "A hand presses against my chest, with Malice hissing against my Grace..."
     play sound sfx.jab
     #shake Persephone sprite
