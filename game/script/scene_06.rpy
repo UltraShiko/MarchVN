@@ -30,13 +30,13 @@ label scene_06:
     window show
 
     "I stir wearily, wrapped in bandages in more places than I can fathom..."
-    "I find myself in Jory's arms... It still hurts to move, but it looks like I've pulled through."
+    extend " I find myself in Jory's arms... It still hurts to move, but it looks like I've pulled through."
     "Griswyr stands in the corner, at a distant as always."
 
     voice "audio/voice/jory/scene_06_04_take1.ogg"
     j "By Yeshua, are you alright?!"
 
-    play music bgm.epilogue fadein 1.5
+    play music bgm.epilogue fadein 1.5 volume 0.35
 
     voice "audio/voice/caius/scene_06_01_take3.ogg"
     c snide "Ngh....well, I'm still breathing so..."
@@ -46,7 +46,7 @@ label scene_06:
     voice "audio/voice/griswyr/scene_06_05_take2.ogg"
     g "You nearly burnt all of your mana, Caius. A drop more, and you would be a corpse."
 
-    show Jory angry with dissolve
+    show Jory angry with Dissolve(0.25)
 
     voice "audio/voice/jory/scene_06_05_take3.ogg"
     j "It shouldn't have ended this way!"
@@ -60,7 +60,7 @@ label scene_06:
     voice "audio/voice/griswyr/scene_06_08_take2.ogg"
     g "If he wants to, that is."
 
-    play sound sfx.heavy_bam
+    play sound sfx.heavy_bam volume 0.5
     with vpunch
 
     "The ground quakes from Jory's stomp!"
@@ -93,7 +93,7 @@ label scene_06:
     j "Grr... Damn it! Why does this keep happening to those I care for?!"
 
     voice "audio/voice/caius/scene_06_02_take2.ogg"
-    c "Hey...it's not your fault, sir."
+    c neutral "Hey...it's not your fault, sir."
     voice "audio/voice/caius/scene_06_03_take2.ogg"
     extend " I couldn't stop thinking about you... I kept pushing myself for your sake..."
 
@@ -113,8 +113,10 @@ label scene_06:
     voice "audio/voice/jory/scene_06_12_take3.ogg"
     j "By Yeshua, you're as stubborn as always..."
 
+    # TODO: Replace with REDO.
     voice "audio/voice/caius/scene_06_05_take1.ogg"
-    c smile "Hey Jory, when I'm better..."
+    c neutral "Hey Jory, when I'm better..."
+    # TODO: Replace with REDO.
     voice "audio/voice/caius/scene_06_06_take2.ogg"
     extend " Can we visit Thrycia?"
 
@@ -129,7 +131,9 @@ label scene_06:
     show Jory sad with dissolve
 
     voice "audio/voice/jory/scene_06_14_take1.ogg"
-    "Jory sighs deeply and closes his eyes."
+    "Jory sighs deeply." # and closes his eyes." # Removed this part to match the sprite.
+
+    stop music fadeout 5.0
 
     voice "audio/voice/jory/scene_06_15_take3.ogg"
     j "Caius...there's something you need to know."
