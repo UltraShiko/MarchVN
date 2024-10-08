@@ -5,7 +5,7 @@ label scene_05:
 
     scene background cult altar with dissolve
 
-    play music bgm.altar_ambience
+    play music bgm.altar_ambience volume 0.35
 
     window show
 
@@ -127,12 +127,20 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_07_take1.ogg"
     g "It doesn't matter! Our objective has changed!"
 
+    window hide
+
+    play sound sfx.bubble1 volume 0.5
+    queue sound sfx.bubble2 loop volume 0.5
+
+    hide Griswyr with dissolve
+
     stop music fadeout 1.5
 
     #play music bgm.lethal_suspense #TODO: Add this after jam release
 
-    play sound sfx.bubble1
-    queue sound sfx.bubble2 loop
+    pause 3.5
+
+    window show
 
     "The blood begins bubbling, and we retreat behind a pillar."
     extend " A caustic scene fills the air, burning my nose."
@@ -219,14 +227,16 @@ label scene_05:
 
     window hide
 
-    scene background cult altar with dissolve
-
-    play music bgm.altar_ambience fadein 1.5
+    play music bgm.altar_ambience volume 0.35
 
     # TODO: will be lethal_suspense after jam
     #hide persephone silhouette
 
-    show persephone smirk at center with dissolve
+    pause 0.8
+
+    show persephone smirk at center with Dissolve(1.0)
+
+    pause 1.8
 
     window show
 
@@ -238,6 +248,8 @@ label scene_05:
     "Ugh, to hell with duplicity! I'll engage her before she can-"
 
     v "...Did you kill her children?"
+
+#########################
 
     voice "audio/voice/caius/scene_05_08_take2.ogg"
     c snide "Uhh..!"
@@ -259,7 +271,7 @@ label scene_05:
     extend " Adventurer who's in over his head?"
 
     voice "audio/voice/caius/scene_05_10_take3.ogg"
-    c "Emissary."
+    c neutral "Emissary."
 
     v "Really? You, one of those cutthroats?"
     extend " Ohhh, it's your first day isn't it?"
@@ -297,10 +309,11 @@ label scene_05:
     v "See? Isn't that better? You can call me Persephone, what's your name?"
 
     voice "audio/voice/caius/scene_05_14_take1.ogg"
-    c "...Caius."
+    c neutral "...Caius."
 
     p "Hmmm, that doesn't sound familiar... Where are you from?"
 
+    # TODO: Replace with correct pronunciation.
     voice "audio/voice/caius/scene_05_15_take3.ogg"
     c "...Thrycia?"
 
@@ -339,7 +352,7 @@ label scene_05:
     "Calm down, Caius...you're supposed to be pulling her leg."
 
     voice "<from 0.86>audio/voice/caius/scene_05_20_take3.ogg"
-    c "I-uh, I mean...I think he left several years ago."
+    c neutral "I-uh, I mean...I think he left several years ago."
 
     $ unlockCompendionEntry("MeropianLore")
 
@@ -514,14 +527,14 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_21_take3.ogg"
     g "It was hardly a secret. Even the boy would've figured it out eventually."
 
-    play sound sfx.weapon_draw
+    play sound sfx.weapon_draw volume 0.5
 
     "He draws his hatchet and throws an arm in front of me."
 
     voice "audio/voice/griswyr/scene_05_22_take2.ogg"
     g "Stay back. You are no match for her."
 
-    voice "audio/voice/griswyr/scene_05_28_take2.ogg"
+    voice "audio/voice/caius/scene_05_28_take2.ogg"
     c "But-"
 
     voice "audio/voice/griswyr/scene_05_23_take2.ogg"
@@ -539,7 +552,7 @@ label scene_05:
     extend " Oh wait, she might not know I can wield Grace. By Yeshua, this is not my night..."
 
     voice "audio/voice/caius/scene_05_30_take1.ogg"
-    c "Alright then, I'll watch for any more Thorns."
+    c neutral "Alright then, I'll watch for any more Thorns."
 
     voice "audio/voice/griswyr/scene_05_26_take3.ogg"
     g "That's the smartest thing you've done all night."

@@ -85,7 +85,12 @@ layeredimage Griswyr:
 
 ### Persephone
 
-image persephone sillhouette = "images/sprites/persephone/silhouette.png"
+image persephone sillhouette:
+
+    yoffset 175
+    zoom 0.90
+
+    "images/sprites/persephone/silhouette.png"
 
 layeredimage persephone:
 
