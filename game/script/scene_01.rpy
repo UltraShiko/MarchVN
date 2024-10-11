@@ -3,9 +3,11 @@ label scene_01:
 
     pause 0.5
 
-    play music bgm.VillageAmbienceLoop fadein 1.5 volume 0.25
+    play music bgm.VillageAmbienceLoop fadein 1.5
 
     scene background slums with Dissolve(1.0)
+
+    pause 2.0
 
     window show
 
@@ -123,13 +125,15 @@ label scene_01:
 
     window hide
 
-    play music bgm.VillageAmbienceLoop fadein 1.5 volume 0.25
+    play music bgm.VillageAmbienceLoop fadein 1.5
 
     scene background slums
 
     show Jory happy at center
 
     with iris_in_out_8
+
+    pause 1.2
 
     window show
 

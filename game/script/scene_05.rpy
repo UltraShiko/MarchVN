@@ -557,13 +557,13 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_26_take3.ogg"
     g "That's the smartest thing you've done all night."
     voice "audio/voice/griswyr/scene_05_27_take2.ogg"
-    extend "As for you..."
+    extend " As for you..."
     voice "audio/voice/griswyr/scene_05_28_take3.ogg"
     g "I will have those wings, banshee! Scream if you must!"
 
     stop music
-    play music bgm.reckoning_I
-    play sound sfx.lunge
+    play music bgm.reckoning_I volume 0.5
+    play sound sfx.lunge volume 0.5
 
     #Ragyuo: If an animation is needed, maybe Griswyr would zoom in towards her?
 
@@ -609,7 +609,7 @@ label scene_05:
     show persephone smirk:
         xpos -0.5
 
-    play sound sfx.weapon_draw
+    play sound sfx.weapon_draw volume 0.5
 
     hide persephone
     show Griswyr neutral at center
@@ -651,7 +651,7 @@ label scene_05:
     g "You copied my stance!"
 
     p "..."
-    extend " Snowflake, I just met you. Never heard of you either."
+    extend "Snowflake, I just met you. Never heard of you either."
     extend " Guess you're not that important~."
 
     voice "audio/voice/griswyr/scene_05_32_take3.ogg"
@@ -752,7 +752,7 @@ label scene_05:
 
     window show
 
-    "Strike after strike comes from Griswyr, but not one lands on Persephone.."
+    "Strike after strike comes from Griswyr, but not one lands on Persephone."
 
     window hide
 
@@ -788,15 +788,20 @@ label scene_05:
 
     window show
 
-    extend " Griswyr snarls and repeats the same maneuvers.... He is the same whirling cyclone of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions. They dance around the room as I do my best to follow their movements and not get swept up in the battle."
+    "Griswyr snarls and repeats the same maneuvers.... He is the same whirling cyclone of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions."
+    "They dance around the room as I do my best to follow their movements and not get swept up in the battle."
     "My heart pounds as she begins evading with growing ease."
+
     #we'd probably show Persephone behind him here?
-    hide Griswyr with moveoutright
-    show persephone smirk at center
+
+    # NOTE: Commented the following two lines as they did nothing.
+    # hide Griswyr with moveoutright
+    # show persephone smirk at center
+
     extend " After a wide swing, Griswyr stumbles forward. He's wide open!"
 
     voice "audio/voice/caius/scene_05_31_take2.ogg"
-    c "Griswyr, look out!"
+    c angry "Griswyr, look out!"
 
     p "Good night~!"
 
@@ -811,10 +816,10 @@ label scene_05:
 
     p "W-wait..."
 
+    window hide
+
     play sound sfx.blood_splatter
     with bloodflash
-
-    window hide
 
     show persephone smirk:
         subpixel True additive 0.0
@@ -828,14 +833,6 @@ label scene_05:
 
     show persephone smirk:
         matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0)
-
-    window show
-
-    extend " Gnnnnggggghhh!!!!" with vpunch
-
-    #Ragyuo: If you think some movement is pertinent here, maybe have her zoom out?
-
-    window hide
 
     show persephone smirk:
         subpixel True
@@ -852,11 +849,17 @@ label scene_05:
 
     window show
 
+    extend " Gnnnnggggghhh!!!!" with vpunch
+
     "It pierces her chest like a dagger."
     extend " Had she not backpedaled at the last moment, it would've impaled her."
 
-    hide persephone
+    window hide
+
+    hide persephone with dissolve
     show Griswyr neutral with dissolve
+
+    window show
 
     "Meanwhile, Griswyr's arm reddens violently."
     extend " I cringe. He is showing no reaction to it, but it looks painful..."
@@ -922,12 +925,14 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_34_take2.ogg"
     g "You should've stayed in Hell, banshee!"
 
-    play sound sfx.heavyslash
+    play sound sfx.heavyslash volume 0.5
 
     "With his sword, Griswyr gouges her waist!"
     extend " Yet Persephone smiles."
 
     p "And you should've brought silver!"
+
+    window hide
 
     play sound sfx.galeblast
 
@@ -938,17 +943,23 @@ label scene_05:
 
     #Ragyuo: Griswyr would be send off screen and the screen shakes. He got punted just like Caius did
 
-    hide Griswyr with moveoutright
+    hide Griswyr with moveoutleft
+
+    window show
 
     "A gale blast sends Griswyr crashing into the wall."
     "I watch in horror! She hit him point blank!"
     extend " She wanted him to get close... Why else would she have relied so heavily on evasion?"
 
+    window hide
+
     #Ragyuo: Griswyr would ease back in here
 
-    hide persephone
+    hide persephone with dissolve
     show Griswyr neutral at center with easeinbottom
     #combat
+
+    window show
 
     "Griswyr snarls and recovers."
     extend " He may seem unharmed, but his breaths are heavy as he clutches his chest."
@@ -981,12 +992,16 @@ label scene_05:
     voice "audio/voice/caius/scene_05_34_take2.ogg"
     c smile "Thank you, Griswyr. I won't let you down!"
 
+    window hide
+
+    hide Griswyr with dissolve
+    show persephone smirk with dissolve
+
+    window show
+
     #Ragyuo Maybe she would zoom in a little? Or have the screen shake slightly to simulate him approaching her?
     "I ready my stance then slowly walk towards her."
     #Idk how we'd simulate them circling each other, though if you got any ideas let me know
-
-    hide Griswyr
-    show persephone smirk with dissolve
 
     "We circle each other, our eyes not breaking contact."
     extend " She could pounce at any moment, yet all I continue to get from her is that scheming grin."
@@ -996,13 +1011,14 @@ label scene_05:
     extend "what did they tell you about me?"
 
     voice "audio/voice/caius/scene_05_35_take2.ogg"
-    c "Nothing much. Just that you dragged The Third into Hell..."
+    c angry "Nothing much. Just that you dragged The Third into Hell..."
 
     p "Are you sure that was me? It could've been one of my sisters. We all look alike, after all~."
     p "Come on... This is all a misunderstanding! I didn't do anything...I just want to check up on an old friend..."
 
     "My blood freezes with anger."
 
+    # No voice.
     c angry "..."
     voice "audio/voice/caius/scene_05_36_take5.ogg"
     extend " You mean my friend?!"
@@ -1013,7 +1029,6 @@ label scene_05:
     play sound sfx.jab
     with graceflash
 
-    hide persephone
     show persephone angry at center
 
     extend "Grrrr!!!" with vpunch
@@ -1041,8 +1056,6 @@ label scene_05:
     play sound sfx.rapidfirepunch
 
     #shake Persephone if anything
-
-    #######################################
 
     "She twitches and staggers with each consecutive blow to her chest."
     extend " My strikes fly as quickly as Griswyr's swipes, maybe even faster!"
@@ -1090,7 +1103,7 @@ label scene_05:
 
     hide persephone with moveoutright
 
-    play sound sfx.potterycrash
+    play sound sfx.potterycrash volume 0.15
     with vpunch
 
     "She gasps as I spin and hurl her onto the altar."
@@ -1107,9 +1120,10 @@ label scene_05:
 
     p "Wise ass, huh...?!"
 
-    play sound sfx.galeblast
-    pause 0.6
-    queue sound sfx.potterycrash
+    play sound sfx.galeblast volume 0.5
+    pause 0.5
+    play sound sfx.potterycrash volume 0.15
+    pause 0.5
 
     "She summons the wind and blasted the table, sending debris my way."
 
@@ -1138,8 +1152,7 @@ label scene_05:
 
     #have her zoom in
 
-    hide persephone
-    show persephone smirk at center
+    # show persephone smirk at center
 
     play sound sfx.lunge
 
@@ -1149,9 +1162,9 @@ label scene_05:
     #maybe her sprite would hop to simulate the pounce
     extend " And feints, her flapping wings frightening me and nearly causing me to stumble. What is she going to do now?! I don't have the time to-"
 
-    voice "<to 1.0>audio/voice/griswyr/scene_05_39_take2.ogg"
+    voice "<to 0.8>audio/voice/griswyr/scene_05_39_take2.ogg"
     g "What are you doing?!" with vpunch
-    voice "<from 1.1>audio/voice/griswyr/scene_05_39_take2.ogg"
+    voice "<from 1.0>audio/voice/griswyr/scene_05_39_take2.ogg"
     extend " Attack!!!" with vpunch
 
     "I obey."
@@ -1173,14 +1186,17 @@ label scene_05:
 
     p "Nnnnnnggghhhh....!"
 
-    extend " I'm using a lot of mana and energy, but I can't let up!"
-    "I can't risk giving her another opening! Our lives are on the line, and the lives of others as well."
+    "I'm using a lot of mana and energy, but I can't let up!"
+    extend " I can't risk giving her another opening! Our lives are on the line, and the lives of others as well."
 
     play sound sfx.galeblast
 
     #Have her zoom out, than back in to simulate Caius chasing her
     "She tries to retreat by blasting the ground, but I continue to pursue her."
+
+    play sound sfx.magic_charge
     with graceflash
+
     extend " As strong as she might be, my Grace tore through her like a venom."
     "I keep going."
     extend " I've trained my arms and legs to ceaselessly land consecutive blows. Stamina isn't an issue!"
@@ -1206,10 +1222,13 @@ label scene_05:
     c "...Farewell."
 
     p "...Is that pity in your eyes?"
+
+    show persephone smirk
+
     extend " Aww, how noble! Though not showing kindness to your friend? That's pretty cold..."
 
     voice "audio/voice/caius/scene_05_43_take4.ogg"
-    c "...?"
+    c neutral "...?"
 
     p "Oh no, I'm not talking about Snowflake. Though you're probably the only friend he has ehehehehe!"
 
@@ -1219,7 +1238,7 @@ label scene_05:
     extend " I can read it in your eyes. You're not motivated by zeal; you're motivated by regret."
 
     voice "audio/voice/caius/scene_05_44_take3.ogg"
-    c "So what?"
+    c angry "So what?"
 
     p "So what? You know that we fiends can peer into your past, right?"
 
@@ -1229,7 +1248,7 @@ label scene_05:
     p "Uh oh, guess not~."
     extend " Well I can understand Jory not knowing, but Snowflake? Tsk tsk, how irresponsible~!"
 
-    voice "audio/voice/griswyr/scene_05_41_take3.ogg"
+    voice "audio/voice/griswyr/scene_05_41_take2.ogg"
     g "Do not humor her, Caius!"
 
     voice "audio/voice/caius/scene_05_46_take5.ogg"
@@ -1241,7 +1260,7 @@ label scene_05:
     extend " I'm guessing I lost your sympathy?"
 
     "If Griswyr knowing about my past unnerved me, Persephone knowing about it took the cake!"
-    extend " How could I not realize?! I'm no scholar, but I've looked far and wide for knowledge about devils, and yet I’ve never heard of this power!"
+    "How could I not realize?! I'm no scholar, but I've looked far and wide for knowledge about devils, and yet I’ve never heard of this power!"
     extend " More importantly, she knows about HIM!!!!"
 
     p "Ah yes, you let someone down."
@@ -1253,7 +1272,7 @@ label scene_05:
     g "Strike her down, goddamn it!"
 
     voice "audio/voice/caius/scene_05_47_take7.ogg"
-    c angry "Grrr! Be quiet, devil!" with vpunch
+    c angry "Be quiet, devil!" with vpunch
 
     #have Persephone zoom out and back in
 
@@ -1263,7 +1282,7 @@ label scene_05:
 
     voice "<to 0.6>audio/voice/caius/scene_05_48_take3.ogg"
     c angry "You... "
-    voice "<from 0.8>audio/voice/caius/scene_05_48_take3.ogg"
+    voice "<from 1.3>audio/voice/caius/scene_05_48_take3.ogg"
     extend " You leave him alone, monster!" with vpunch
 
     #have Persephone zoom out and back in
@@ -1274,22 +1293,22 @@ label scene_05:
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
 
-    voice "<to 1.5>audio/voice/caius/scene_05_49_take1.ogg"
+    voice "audio/voice/caius/scene_05_49_take1.ogg"
     c angry "Tell me, Persephone!"
 
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
 
-    voice "<from 1.85 to 5.85>audio/voice/caius/scene_05_49_take3.ogg"
+    voice "audio/voice/caius/scene_05_49_take2.ogg"
     c angry "Hecate calls herself the mother of outcasts, a protector of the damned!"
 
     #have Persephone zoom out and back in
 
     play sound sfx.melee_swing
 
-    voice "<from 5.85 to 11.95>audio/voice/caius/scene_05_49_take3.ogg"
+    voice "<to 6.2>audio/voice/caius/scene_05_49_take3.ogg"
     extend " But you're just like any other devil! You'd corner and bewitch the same people you claim to care about!"
-    voice "<from 12.7>audio/voice/caius/scene_05_49_take3.ogg"
+    voice "<from 6.7>audio/voice/caius/scene_05_49_take3.ogg"
     c angry "The Dretchlings suffer enough without your poison!"
 
     voice "audio/voice/griswyr/scene_05_43_take1.ogg"
@@ -1323,6 +1342,8 @@ label scene_05:
     voice "<from 3.1>audio/voice/caius/scene_05_51_take1.ogg"
     extend " Why else would she reside in Hell?!"
 
+    show persephone angry
+
     p "Right, because your god's any better?"
     extend " Who were the Celestials founded under? Oh, he must've been cruel to allow his followers to imprison Dretchlings like cattle."
     p "Yet we're the bad guys for coming to their rescue? How is that fair?"
@@ -1334,13 +1355,15 @@ label scene_05:
 
     play sound sfx.grapple
 
-    voice "<from 0.86>audio/voice/caius/scene_05_52_take1.ogg"
+    voice "audio/voice/caius/scene_05_52_2_take2.ogg"
     extend " Agh!" with vpunch
 
     #have her increase in y-axis?
 
     "A hand grabs my throat, and she hoists me above her."
     "My mana vanishes alongside my breathing! I can't channel it if I can't breathe...!"
+
+    show persephone smirk
 
     p "Though while we're talking about fibbing, I wasn't entirely honest with you."
     extend " You see, we devils can't read people's pasts. So I appreciate the information~."
@@ -1365,8 +1388,10 @@ label scene_05:
     #Ragyuo: Not sure how to animate her here. She basically dropped Caius and leapt backwards
 
     play sound sfx.weapon_swing
-    pause 0.6
     queue sound sfx.thud
+    pause 0.6
+
+    show persephone angry
 
     p "Shit!" with hpunch
 
@@ -1452,7 +1477,7 @@ label scene_05:
     extend " Griswyr winces."
 
     hide Griswyr
-    show persephone smirk at center with dissolve
+    show persephone smirk at center
 
     p "Ooh, looks like you grazed me..."
     extend " Go on, have a taste."
@@ -1519,10 +1544,14 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_50_take1.ogg"
     g "Grr! No shit!!!" with vpunch
 
+    window hide
+
     #move his sprite to the left and right
 
     hide Persephone
     show Griswyr neutral at left with moveinright
+
+    window show
 
     "He spins."
 
@@ -1604,7 +1633,7 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_58_take3.ogg"
     extend " I am not enslaved by my hunger!"
     voice "audio/voice/griswyr/scene_05_59_take3.ogg"
-    extend " It is enslaved by me!!!" with vpunch
+    extend " It is enslaved by me!!!" # with vpunch
 
     "His jaw expands as he dives!"
 
@@ -1639,7 +1668,7 @@ label scene_05:
 
     #zoom in
 
-    extend "She pulls away as I charge."
+    extend " She pulls away as I charge."
 
     p "...Oh, you're still with us?"
 
@@ -1647,6 +1676,16 @@ label scene_05:
 
     "Griswyr collapses to the floor as we engage."
 
+    window hide
+
+    play sound sfx.bam
+    pause 0.6
+    play sound sfx.magic_charge
+    with whiteflash
+    with hpunch
+
+    show persephone angry at center
+
     play sound sfx.bam
     pause 0.6
     play sound sfx.magic_charge
@@ -1657,11 +1696,8 @@ label scene_05:
     play sound sfx.magic_charge
     with whiteflash
     with hpunch
-    play sound sfx.bam
-    pause 0.6
-    play sound sfx.magic_charge
-    with whiteflash
-    with hpunch
+
+    window show
 
     "Sounds of hissing rattle the room. The mana screams just as violently as our blows."
     extend " Yet, she suffers more than I do. Looking more closely, I see her body tremble."
@@ -1674,7 +1710,6 @@ label scene_05:
     "My blows from earlier weren't in vain after all, but I need to keep injecting more mana into her."
     extend " If this explosion doesn't kill her, I don't know if I'll get another chance!"
 
-    hide persephone
     show persephone angry at center
 
     p "Ugh, you're so annoying! Go away!"
@@ -1732,8 +1767,9 @@ label scene_05:
     #zoom in Persephone
 
     play sound sfx.lunge
-    pause 0.6
-    queue sound heavy_bam
+    pause 0.5
+    play sound heavy_bam
+    pause 0.3
 
     voice "audio/voice/caius/scene_05_57_take6.ogg"
     c "Gnnnnngggggghhhh!!!" with vpunch
@@ -1763,22 +1799,27 @@ label scene_05:
     extend " I turn to her, that insipid grin peering into my soul."
     "I breathe heavily, coughing up blood as I clasp my hands."
 
-    hide persephone
-    scene image "#000" with dissolve
+    # hide persephone
+    # scene image "#000" with dissolve
 
     # No voice.
     c angry "..."
     voice "audio/voice/caius/scene_05_59_take5.ogg"
     extend "Shine!" with vpunch
 
-    scene background cult altar with dissolve
+    # scene background cult altar with dissolve
     stop music fadeout 1.5
 
     p "Huh...?"
 
+    window hide
+
     play sound sfx.manaexplosion
+    stop music
 
     scene image "#fff" with iris_in_out
+
+    window show
 
     "My Grace pours from her body and explodes."
     extend " I can't see a thing, but this battle has ended."
@@ -1821,10 +1862,14 @@ label scene_05:
     "As the radiance dies down, the first thing I spot are two, red eyes glaring at me..."
     extend " My teeth chatter. My body feels cold, exhausted, and afraid. That was my strongest technique, how did she survive it?!"
 
-    show persephone smirk at center with dissolve
+    window hide
+
+    show persephone angry at center with dissolve
 
     play sound sfx.magic_charge
     with maliceflash
+
+    window show
 
     "Malice's crimson hue shrouds her. Her stance is unsteady, however she appears more than capable to continue..."
     extend "I try to stand only to stumble. A stabbing pain pierces my waist..."
@@ -1832,9 +1877,6 @@ label scene_05:
 
     p "You know, I tried to be nice... I tried to make your death quick and painless BUT now I don't really care!"
     p "I'll give you credit, that might've killed me. Good thing Snowflake topped me off hehehe...!"
-
-    hide persephone
-    show persephone angry
 
     play sound sfx.dagger_draw
 
@@ -1845,8 +1887,12 @@ label scene_05:
 
     extend " Her Malice spikes. In hindsight, she didn't use up as much mana as I expected..."
 
-    hide persephone
+    window hide
+
+    hide persephone with dissolve
     show Griswyr neutral at center with dissolve
+
+    window show
 
     "Griswyr seems more upset than afraid as he looks to the ground."
 
@@ -1878,7 +1924,7 @@ label scene_05:
     extend " He startles Persephone, but she meets his advance."
     "He isn't dodging..."
 
-    voice "audio/voice/griswyr/scene_05_67_take2.ogg"
+    voice "audio/voice/caius/scene_05_67_take2.ogg"
     c snide "Griswyr, don't..!"
 
     play sound sfx.heavyslash
@@ -1922,7 +1968,7 @@ label scene_05:
     p "...Hehehe, so that's what you're up to? How naughty~."
     extend " Isn't suicide frowned upon by the Celestials?"
 
-    voice "audio/voice/griswyr/scene_05_68_take2.ogg"
+    voice "audio/voice/caius/scene_05_68_take2.ogg"
     c "Suicide?!"
 
     voice "audio/voice/griswyr/scene_05_71_take1.ogg"
@@ -1943,12 +1989,16 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_72_take1.ogg"
     g "See you in Hell, banshee!" with hpunch
 
+    window hide
+
     hide Griswyr
     show persephone angry at center
+    with dissolve
+
+    window show
 
     p "Ngh..."
 
-    hide persephone
     show persephone smirk at center
 
     extend " Yep, but not in the way you're thinking!"
@@ -1989,7 +2039,6 @@ label scene_05:
     extend " She tears the grizened woman from the bushes and pins him there."
     "What does she have in store for-"
 
-    hide persephone
     show persephone angry at center
 
     p "Hey, shithead! We're not finished!"
@@ -2001,7 +2050,7 @@ label scene_05:
     "I breathe heavily, knowing that I only have one way out of this."
 
     stop music
-    play music bgm.reckoning_II
+    play music bgm.reckoning_II volume 0.3
     play sound sfx.magic_charge
     with graceflash
 
@@ -2011,12 +2060,13 @@ label scene_05:
     "Who will burn out first? Will I be able to hold up long enough to defeat her? Only one way to find out."
 
     p "Still have some fight left in you?"
+
+    show persephone smirk at center
+
     extend " Good! I wasn't satisfied!"
 
     play sound sfx.magic_charge
     with maliceflash
-    hide persephone
-    show persephone smirk at center
 
     p "Even if you don't feel it now, your body is in agony."
     extend " And that pales in comparison to what I have in store for you!"
@@ -2029,6 +2079,9 @@ label scene_05:
     extend " But I'd sooner believe in myself than an Archfiend...!"
 
     p "That's not the first time I've heard those words, and it won't be the last..."
+
+    show persephone angry
+
     extend " Doesn't mean this won't hurt like a bitch!!!" with vpunch
 
     play sound sfx.block
@@ -2051,8 +2104,13 @@ label scene_05:
     "We dance, blocking and countering each other's blows."
     extend " The manas screech. Our motives are personified and continue to clash!"
 
-    hide persephone
+    window hide
+
+    scene image "#000" with dissolve
+
     show Jory happy at center with dissolve
+
+    window show
 
     "With each punch, visions of Jory enter my mind..."
     extend " Is my life flashing before my eyes...?"
@@ -2062,12 +2120,17 @@ label scene_05:
     voice "audio/voice/jory/scene_05_02_take1.ogg"
     extend " {i}Take a load off and breathe once in a while, yeah?{/i}"
 
-    hide jory with dissolve
+    window hide
+
+    hide Jory with dissolve
+
+    scene background cult altar
+    show persephone angry at center
+    with dissolve
 
     play sound sfx.heavy_bam
     with vpunch
 
-    hide Jory
     show persephone angry at center
 
     p "Gaaaaahhhh!!!" with vpunch
@@ -2079,14 +2142,14 @@ label scene_05:
     #zoom her out and up y-axis
 
     play sound sfx.galeblast
-    pause 0.6
-    queue sound sfx.galeblast
-    pause 0.6
-    queue sound sfx.galeblast
-    pause 0.6
-    queue sound sfx.galeblast
-    pause 0.6
-    queue sound sfx.galeblast
+    pause 0.5
+    play sound sfx.galeblast
+    pause 0.5
+    play sound sfx.galeblast
+    pause 0.5
+    play sound sfx.galeblast
+    pause 0.5
+    play sound sfx.galeblast
 
     "She blasts herself airborne, screeching before launching a volley of gusts towards me."
     extend " I lack the agility to dodge... I walk forward, blocking, deflecting, and even enduring gust after gust..."
@@ -2101,17 +2164,23 @@ label scene_05:
     "I breathe deeply before jumping up to attack her"
 
     play sound sfx.grapple
+    pause 0.4
+    play sound sfx.crash
+    pause 0.2
+    with hpunch
 
     #move screen downwards
 
-    queue sound sfx.crash
-    with hpunch
-
     extend " She dodges and grabs me, and I drive my mana into her as we plummet to the floor."
 
-    hide Persephone
-    play sound sfx.heavy_bam
-    with vpunch
+    window hide
+
+    scene image "#000" with dissolve
+
+    show Griswyr at center with dissolve
+
+    # play sound sfx.heavy_bam
+    # with vpunch
 
     #show griswyr silhouette at center with dissolve
 
@@ -2122,11 +2191,18 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_75_take1.ogg"
     g "{i}Fight goddamn it, even if it kills you!{/i}"
 
+    window hide
+
     hide Griswyr with dissolve
+
+    scene background cult altar
     show persephone angry at center
+    with dissolve
 
     play sound sfx.grapple
     with bloodflash
+
+    window show
 
     "My fractured arm latches onto her face, my fingernails and Grace digging into her flesh!"
     extend " A shrill yelp meets my ears. More of her blood trickles down my hands as I hold on for dear life."
@@ -2143,8 +2219,9 @@ label scene_05:
     "Her gaze wavers when I sprint towards her."
 
     play sound sfx.grapple
-    pause 0.6
-    queue sound sfx.heavy_bam
+    pause 0.4
+    play sound sfx.heavy_bam
+    pause 0.2
     with hpunch
 
     extend " Her wings flap, and I grab her foot before clobbering her face."
@@ -2164,16 +2241,23 @@ label scene_05:
 
     p "Ngh...struggle all you want! In the end...you'll still-"
 
-    hide persephone with moveoutright
+    window hide
 
     play sound sfx.hurl
-    pause 0.6
-    queue sound sfx.potterycrash
+
+    hide persephone with moveoutright
+
+    queue sound sfx.potterycrash volume 0.5
+
+    window show
 
     "I shove her jaw shut and hurl her into the table."
 
-    show persephone at center with easeinbottom
+    window hide
 
+    show persephone angry at center with easeinbottom
+
+    window show
     #zoomed in slightly Ragyuou
 
     extend " She leaps to her feet and I approach, walking slowly."
@@ -2186,6 +2270,11 @@ label scene_05:
 
     extend " She staggers more and more with each step I take towards her."
 
+    window hide
+
+    show image "#00000088" as hider zorder 5 with dissolve
+
+    window show
     # TODO: Change music or decrease volume,
 
     voice "audio/voice/priam/scene_05_01_take1.ogg"
@@ -2196,24 +2285,54 @@ label scene_05:
 
     "...You're right."
 
+    window hide
+
+    hide hider with dissolve
+
+    window show
+
     play sound sfx.heavy_bam
 
     p "AHHHH!!!!!" with vpunch
+
+    window hide
+
+    show image "#00000088" as hider zorder 5 with dissolve
+
+    window show
 
     voice "audio/voice/priam/scene_05_03_take4.ogg"
     priam "I was just trying to protect us..."
 
     "I know..."
 
+    window hide
+
+    hide hider with dissolve
+
+    window show
+
     play sound sfx.heavy_bam
     with hpunch
 
     p "Gah...damn you! Ngh...!"
 
+    window hide
+
+    show image "#00000088" as hider zorder 5 with dissolve
+
+    window show
+
     voice "audio/voice/priam/scene_05_04_take2.ogg"
     priam "Why did you abandon me, Caius?! I thought we were friends..."
 
     "...We are."
+
+    window hide
+
+    hide hider with dissolve
+
+    window show
 
     #show persephone combat at center with dissolve
 
@@ -2223,8 +2342,6 @@ label scene_05:
 
     play sound sfx.magic_charge
     with whiteflash
-
-    #######################################
 
     "A hand presses against my chest, with Malice hissing against my Grace..."
 
@@ -2246,19 +2363,34 @@ label scene_05:
     "I fly backwards, doing my best to brace my fall as I land."
     extend " With an eldritch calm, I peer back at her."
 
+    window hide
+
+    show image "#00000088" as hider zorder 5 with dissolve
+
+    window show
+
     voice "audio/voice/priam/scene_05_05_take6.ogg"
     priam "You're coming back, right?"
 
     "...I am."
 
+    window hide
+
+    hide hider with dissolve
+
     play sound sfx.magic_charge
     with graceflash
+
+    window show
 
     "I lift my hands and clasp them together."
     "With an unsteady breath, I speak"
 
     voice "audio/voice/caius/scene_05_71_take2.ogg"
     c "Rest in peace..."
+
+    stop music
+
     voice "audio/voice/caius/scene_05_72_take3.ogg"
     extend " Ngh!!!" with vpunch
 
@@ -2274,11 +2406,26 @@ label scene_05:
     voice "audio/voice/caius/scene_05_73_take1.ogg"
     c snide "No...not now!"
 
+    window hide
+
+    show image "#00000088" as hider zorder 5 with dissolve
+
+    window show
+
     voice "audio/voice/priam/scene_05_06_take8.ogg"
     priam "I knew I couldn't trust you..."
 
+    window hide
+
+    hide hider with dissolve
+
+    window show
+
     "Tears well in my eyes. There isn't anything I can do anymore..."
     "It looks like I've reached my limit first..."
+
+    show persephone smirk
+
     extend " My adversary laughs triumphantly."
 
     voice "audio/voice/caius/scene_05_74_take3.ogg"
@@ -2286,61 +2433,87 @@ label scene_05:
 
     p "Your best FAILED you!" with hpunch
 
-    hide persephone
+    window hide
+
+    show persephone:
+
+        parallel:
+            ease 0.35 zoom 1.5
+        parallel:
+            ease 0.35 yoffset 450
 
     play sound sfx.lunge
 
-    scene image "#000" with dissolve
+    scene image "#000" with Dissolve(0.3)
+
+    window show
 
     "She pounces, and I close my eyes..."
     extend " So be it. Someone, anyone, help him..."
 
-    play sound sfx.heavyslash
+    play sound sfx.heavyslash volume 0.5
 
     "..."
 
-    voice "audio/voice/caius/scene_05_76_take2.ogg"
+    voice "audio/voice/griswyr/scene_05_76_take2.ogg"
     g "Caught you!"
+
+    play music bgm.reckoning_II volume 0.3
 
     scene background cult altar
     show Griswyr neutral at center
+    with vpunch
     #combat
 
     "Griswyr jumps down from the ceiling, his body engulfed by his Malice."
     "She clutches her slashed arm, and her body convulses."
 
-    voice "audio/voice/caius/scene_05_77_take6.ogg"
+    voice "audio/voice/griswyr/scene_05_77_take6.ogg"
     g "Even if he couldn't finish the job, there's still a lot of Grace inside you."
-    voice "audio/voice/caius/scene_05_78_take3.ogg"
+    voice "audio/voice/griswyr/scene_05_78_take3.ogg"
     extend " Seeing as how both manas repel each other, I wonder what will happen when my Malice is added?"
 
     hide Griswyr
-    show persephone angry at center with dissolve
+    show persephone angry at center
+    with dissolve
 
     p "...Oh shit!"
+
+    window hide
 
     stop music fadeout 1.5
     play sound sfx.magic_charge
     with graceflash
     play sound sfx.manaexplosion
-    hide persephone
 
-    scene image "#faf7f7"
+    scene image "#faf7f7" with iris_in_out
+
+    window show
 
     "Before exploding just like before."
 
-    pause 3.0
+    window hide
+
+    scene background cult altar with Dissolve(2.0)
+
+    pause 0.5
+
+    window show
 
     "I can't believe it...I survived! We won!"
     extend " I don't care about the buzzing pain coursing through me. Now everyone is safe from her..."
     "Better yet, I never realized before that Malice could also set off such an explosion..."
 
-    ############################
-
     voice "audio/voice/caius/scene_05_75_take3.ogg"
     c "Griswyr..."
     voice "audio/voice/caius/scene_05_76_take3.ogg"
     extend " How did you know that would happen...?"
+
+    window hide
+
+    show Griswyr at center with dissolve
+
+    window show
 
     voice "audio/voice/griswyr/scene_05_79_take4.ogg"
     g "I didn't."
@@ -2350,10 +2523,6 @@ label scene_05:
     g "Even if that didn't kill her, she was more than enough..."
     voice "audio/voice/griswyr/scene_05_82.ogg"
     extend " WHAT THE FUCK?!" with vpunch
-
-    scene background cult altar with dissolve
-    show Griswyr neutral at center with dissolve
-    #combat
 
     "The lingering effects of the explosion dissipate and Griswyr stomps furiously."
     extend " Persephone was defeated, so what is setting him off?"
@@ -2367,10 +2536,10 @@ label scene_05:
     "I look to the floor and gasp. There are no remains, no body, no sign of her. Persephone is gone!"
 
     voice "audio/voice/griswyr/scene_05_84_take4.ogg"
-    g "GODDAMN IT! SHE WAS A NUISANCE BEFORE, YESHUA FORBID HOW HARD SHE'S GOING TO BE TO TRACK NOW!!!" with vpunch
+    g "Goddamn it! She was a nuisance before, Yeshua forbid how hard she's going to be to track now!" with vpunch
 
     voice "audio/voice/caius/scene_05_78_take1.ogg"
-    c "How...how do you know she escaped..."
+    c "How...how do you know she escaped...?"
 
     voice "audio/voice/griswyr/scene_05_85_take2.ogg"
     g "DON'T YOU THINK I'D TELL YOU IF I KNEW?!" with vpunch
@@ -2394,13 +2563,15 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_88_take1.ogg"
     g "What is it?!"
 
-    voice "<to 1.75>audio/voice/caius/scene_05_80_take1.ogg"
+    voice "<to 0.6>audio/voice/caius/scene_05_80_take1.ogg"
     c "Don't..."
-    voice "<from 1.85 to 2.5>audio/voice/caius/scene_05_80_take1.ogg"
+    voice "<from 1.30 to 2.5>audio/voice/caius/scene_05_80_take1.ogg"
     extend "tell..."
-    voice "<from 3.2>audio/voice/caius/scene_05_80_take1.ogg"
+    voice "<from 3.1>audio/voice/caius/scene_05_80_take1.ogg"
     extend "Jo-"
 
+    window hide
+    
     play sound sfx.thud
 
     scene image "#000" with Dissolve(1.0)
