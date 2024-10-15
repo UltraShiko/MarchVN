@@ -3,9 +3,9 @@ label scene_02:
 
     scene background forest with dissolve
 
-    play music bgm.night_ambience volume 0.25
+    play music bgm.night_ambience volume 0.5
 
-    play sound sfx.forestfootsteps loop # TODO: Using placeholder track. Replace with correct one.
+    play sound sfx.forestfootsteps loop
 
     window show
 
@@ -23,8 +23,6 @@ label scene_02:
     extend " He can't be a Dretchling. They're pale, but not to his degree. And his eyes don’t share their crimson pupils."
     "Yet, the way he carries himself, feels unnatural somehow."
     extend " He looks human, but..."
-
-    # nvl clear
 
     voice "audio/voice/griswyr/scene_02_01_take2.ogg"
     g "You aren't getting tired already, are you?"
@@ -57,6 +55,7 @@ label scene_02:
     voice "audio/voice/griswyr/scene_02_06_take2.ogg"
     g "And they're on the cusp of summoning a devil."
 
+    # No voice.
     c neutral "..."
     voice "audio/voice/caius/scene_2_06_take3.ogg"
     extend "Tonight?"
@@ -246,7 +245,7 @@ label scene_02:
     voice "audio/voice/griswyr/scene_02_43_take2.ogg"
     g "That decision is not mine to make."
     voice "audio/voice/griswyr/scene_02_44_take2.ogg"
-    extend " I've partnered with murderers, arsonists, champions of Yeshua, fallen champions, it makes no difference to me."
+    extend " I've partnered with murderers, arsonists, champions of Yeshua, fallen champions. It makes no difference to me."
     voice "audio/voice/griswyr/scene_02_45_take2.ogg"
     g "I only care about results."
     voice "audio/voice/griswyr/scene_02_46_take1.ogg"
@@ -288,7 +287,6 @@ label scene_02:
     c angry "...With all due respect sir, you are very judgemental."
 
     voice "audio/voice/griswyr/scene_02_55_take2.ogg"
-
     g "And?"
 
     voice "audio/voice/caius/scene_2_34_take3.ogg"
@@ -323,10 +321,7 @@ label scene_02:
 
     "He blinks at me, as if I'm asking him if the sky was blue."
 
-    # nvl clear
-
     voice "audio/voice/griswyr/scene_02_59_take2.ogg"
-
     g "...What makes you think otherwise?"
 
     voice "audio/voice/caius/scene_2_41_take2.ogg"
@@ -349,16 +344,9 @@ label scene_02:
 
     hide Griswyr with dissolve
 
-    stop music
-    stop sound
-
     pause 0.5
 
     scene image "#000" with dissolve
-
-    #I think here would be a good place to ask the player if they want to save their game.
-    #We can place these "intermissions" to let the player know they can take a break.
-    #I'm thinking we could put a prompt here, one after scene_01, and one after scene_04
 
     jump scene_03
 
