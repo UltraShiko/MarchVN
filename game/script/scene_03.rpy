@@ -3,8 +3,6 @@ label scene_03:
 
     scene background cave entrance with fade
 
-    play music bgm.night_ambience volume 0.25
-
     window show
 
     "As we brush past the thickets, we come upon a cave."
@@ -123,8 +121,9 @@ label scene_03:
     voice "audio/voice/cultist_a/scene_03_09_take6.ogg"
     extend " If you got this far, you should be okay on your own."
 
-    # TODO: Missing audio file
-    # voice "None"
+##################
+
+    voice "audio/voice/caius/scene_03_07_take12.ogg"
     c smile "Ahh! Is it that simple?! I made so many twists and turns..."
 
     voice "audio/voice/cultist_a/scene_03_10_take1.ogg"
