@@ -121,8 +121,6 @@ label scene_03:
     voice "audio/voice/cultist_a/scene_03_09_take6.ogg"
     extend " If you got this far, you should be okay on your own."
 
-##################
-
     voice "audio/voice/caius/scene_03_07_take12.ogg"
     c smile "Ahh! Is it that simple?! I made so many twists and turns..."
 
@@ -135,8 +133,7 @@ label scene_03:
     voice "audio/voice/cultist_a/scene_03_11_take3.ogg"
     cu_a "Wait, you said you were a monk?"
 
-    # TODO: Missing audio file.
-    # voice "NONE"
+    voice "audio/voice/caius/scene_03_09_take10.ogg" # Alternative: scene_03_09_take8
     c snide "Uh huh..."
 
     voice "audio/voice/cultist_a/scene_03_12_take2.ogg"
@@ -213,7 +210,7 @@ label scene_03:
     g "Well, you got him away from the door... I suppose some praise is in order."
 
     voice "audio/voice/caius/scene_03_13_take2.ogg"
-    c "We can hide him in the rose bushes. When he wakes up, being tangled up in there will slow him down."
+    c neutral "We can hide him in the rose bushes. When he wakes up, being tangled up in there will slow him down."
 
     # No voice
     g "..."

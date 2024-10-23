@@ -51,7 +51,7 @@ label scene_06:
     voice "audio/voice/jory/scene_06_05_take3.ogg"
     j "It shouldn't have ended this way!"
     voice "audio/voice/jory/scene_06_06_take2.ogg"
-    j "What came of this?! All you did was put him in bandages! You didn't even kill the devil!"
+    extend " What came of this?! All you did was put him in bandages! You didn't even kill the devil!"
 
     voice "audio/voice/griswyr/scene_06_06_take3.ogg"
     g "I know, and I'm very upset... She's going to be a problem."
@@ -88,6 +88,8 @@ label scene_06:
     show Jory sad at center with dissolve
 
     window show
+
+#############
 
     voice "audio/voice/jory/scene_06_09_take3.ogg"
     j "Grr... Damn it! Why does this keep happening to those I care for?!"
@@ -173,6 +175,7 @@ label scene_06:
 
     # TODO: Do a flashback.
     # TODO: Missing line!!
+    voice "audio/voice/persephone/blank.ogg"
     p "Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you..."
 
     "My mouth falls agape. I stare at Jory in utter denial."

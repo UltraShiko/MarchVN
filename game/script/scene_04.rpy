@@ -19,7 +19,7 @@ label scene_04:
 
     "Griswyr moves so lightly. There are times when I have to double check if he's still beside me."
 
-    play sound sfx.light_grapple volume 0.75
+    play sound sfx.light_grapple
 
     pause 0.4
 
@@ -29,7 +29,7 @@ label scene_04:
     voice "audio/voice/griswyr/scene_04_01_take2.ogg"
     g "Watch your step. We are in enemy territory."
 
-    play sound weapon_draw volume 0.15
+    play sound sfx.weapon_draw volume 0.5
 
     "He draws his hatchet and kneels."
     extend " Ah, a tripwire! Of course, I should've expected that..."
@@ -236,7 +236,7 @@ label scene_04:
     cu_d "Please! I surrender! Just get this thing out of my head!" with vpunch
 
     voice "audio/voice/caius/scene_04_05_take2.ogg"
-    c snide "By Yeshua, I'm going to be ill..."
+    c snide "By Yeshua, I'm gonna be ill..."
 
     voice "audio/voice/griswyr/scene_04_10_take3.ogg"
     g "Swallow it! This is nothing compared to the horrors we face!"
@@ -291,7 +291,7 @@ label scene_04:
     voice "audio/voice/griswyr/scene_04_17_take3.ogg"
     g "I hope for your sake you are not lying!"
 
-    play sound sfx.heavyslash
+    play sound sfx.heavyslash volume 0.75
     with hpunch
 
     voice "audio/voice/cultist_d/scene_04_09_take5.ogg"
@@ -380,7 +380,7 @@ label scene_04:
     g "Let's move. I've had enough preaching for a lifetime."
 
     voice "audio/voice/caius/scene_04_17.ogg"
-    c smile "Fair enough."
+    c neutral "Fair enough."
 
     "Though Griswyr manifesting Malice concerns me. No wonder he’s so cold."
     extend " Malice doesn't morph people into monsters, it erodes their character. No one wakes up and decides to be a villain. It's a slope..."
