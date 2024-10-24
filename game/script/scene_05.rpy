@@ -502,14 +502,19 @@ label scene_05:
 
     window hide
 
-    camera:
-        subpixel True xzoom 1.0
-        xpos 0 zoom 1.0
-        ease_expo 0.33 xpos -366 zoom 1.21
-    with Pause(0.43)
+    show persephone smirk at right zorder 1 with dissolve:
 
-    camera:
-        xpos -366 zoom 1.21
+        xoffset 350
+
+    # YORU: Commented this out, as it was leaving the camera in awkward position.
+    # camera:
+    #     subpixel True xzoom 1.0
+    #     xpos 0 zoom 1.0
+    #     ease_expo 0.33 xpos -366 zoom 1.21
+    # with Pause(0.43)
+    #
+    # camera:
+    #     xpos -366 zoom 1.21
 
     window show
 
@@ -517,6 +522,12 @@ label scene_05:
 
     voice "audio/voice/persephone/blank.ogg"
     p "Hehehe, finally showed yourself, huh? I take it you're his boss?"
+
+    window hide
+
+    show Griswyr at left zorder 2 with dissolve
+
+    window show
 
     voice "audio/voice/griswyr/scene_05_13_take4.ogg"
     g "Now I've figured you out."
@@ -596,6 +607,8 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_28_take3.ogg"
     g "I will have those wings, banshee! Scream if you must!"
 
+    window hide
+
     stop music
     play music bgm.reckoning_I volume 0.5
     play sound sfx.lunge volume 0.5
@@ -604,22 +617,30 @@ label scene_05:
 
     window hide
 
-    show Griswyr neutral:
-        subpixel True xpos 0.0
-        parallel:
-            zoom 1.0
-            linear 0.21 zoom 1.0
-            linear 0.19 zoom 0.74
-        parallel:
-            alpha 1.0
-            linear 0.17 alpha 1.0
-            linear 0.21 alpha 0.0
-        parallel:
-            blur 0.0
-            linear 0.17 blur 8.35
-    with Pause(0.50)
-    show Griswyr neutral:
-        zoom 0.74 alpha 0.0 blur 8.35
+    show Griswyr:
+        ease 0.35 xoffset 525
+
+    show persephone:
+        ease 0.35 xoffset 425
+
+    scene background cult altar with Dissolve(0.30)
+
+    # show Griswyr neutral:
+    #     subpixel True xpos 0.0
+    #     parallel:
+    #         zoom 1.0
+    #         linear 0.21 zoom 1.0
+    #         linear 0.19 zoom 0.74
+    #     parallel:
+    #         alpha 1.0
+    #         linear 0.17 alpha 1.0
+    #         linear 0.21 alpha 0.0
+    #     parallel:
+    #         blur 0.0
+    #         linear 0.17 blur 8.35
+    # with Pause(0.50)
+    # show Griswyr neutral:
+    #     zoom 0.74 alpha 0.0 blur 8.35
 
     window show
 
@@ -792,8 +813,6 @@ label scene_05:
         xpos 0.5
 
     window show
-
-#############################
 
     "Strike after strike comes from Griswyr, but not one lands on Persephone."
 
@@ -1014,6 +1033,8 @@ label scene_05:
     g "Nnngh..."
     voice "audio/voice/griswyr/scene_05_36_take2.ogg"
     extend " Just who do you think you are?! I'm your superior!"
+
+##############
 
     voice "audio/voice/caius/scene_05_33_take3.ogg"
     c "And as my superior, you must test me. Consider this another trial."
