@@ -1034,8 +1034,6 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_36_take2.ogg"
     extend " Just who do you think you are?! I'm your superior!"
 
-##############
-
     voice "audio/voice/caius/scene_05_33_take3.ogg"
     c "And as my superior, you must test me. Consider this another trial."
 
@@ -1091,7 +1089,7 @@ label scene_05:
     # No voice.
     c angry "..."
     voice "audio/voice/caius/scene_05_36_take5.ogg"
-    extend " You mean my friend?!"
+    extend "You mean my friend?!"
 
     voice "audio/voice/persephone/blank.ogg"
     p "Well..."
@@ -1240,7 +1238,7 @@ label scene_05:
 
     voice "<to 0.8>audio/voice/griswyr/scene_05_39_take2.ogg"
     g "What are you doing?!" with vpunch
-    voice "<from 1.0>audio/voice/griswyr/scene_05_39_take2.ogg"
+    voice "<from 1.13>audio/voice/griswyr/scene_05_39_take2.ogg"
     extend " Attack!!!" with vpunch
 
     "I obey."
@@ -1532,7 +1530,7 @@ label scene_05:
     # No voice.
     g "..."
     voice "audio/voice/griswyr/scene_05_45_take2.ogg"
-    extend " It'll be worth it when I feast on your blood!"
+    extend "It'll be worth it when I feast on your blood!"
 
     "Wh-what?! What does he mean-"
     extend " Oh right, he licked his sword after it got coated in gore. He's not trying to scare her, he MEANS what he's saying..."
@@ -1718,6 +1716,9 @@ label scene_05:
 
     voice "audio/voice/griswyr/scene_05_54_take3.ogg"
     g "What will it take for you to stay down?!"
+
+###########
+
     voice "audio/voice/griswyr/scene_05_55_take1.ogg"
     extend " You're like a cockroach! You sever its head, yet it still crawls!"
 
