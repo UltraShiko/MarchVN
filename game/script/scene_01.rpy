@@ -175,6 +175,7 @@ label scene_01:
     j "I know your guilt is heavy, and I know that you want to make things right."
     voice "audio/voice/jory/scene_01_17_take1.ogg"
     extend " But you can't let your past blind you. You need to think about the here and now."
+
     voice "audio/voice/jory/scene_01_18_take2.ogg"
     j "If I hadn't done so, Caius, I would've been burnt alive just like her... And we wouldn't be having this conversation."
 
