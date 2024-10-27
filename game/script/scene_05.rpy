@@ -1717,8 +1717,6 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_54_take3.ogg"
     g "What will it take for you to stay down?!"
 
-###########
-
     voice "audio/voice/griswyr/scene_05_55_take1.ogg"
     extend " You're like a cockroach! You sever its head, yet it still crawls!"
 
@@ -1995,7 +1993,13 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_65_take2.ogg"
     g "I still smell her!"
 
-    scene background cult altar with dissolve
+    window hide
+
+    scene background cult altar with Dissolve(1.5)
+
+    pause 0.5
+
+    window show
 
     "As the radiance dies down, the first thing I spot are two, red eyes glaring at me..."
     extend " My teeth chatter. My body feels cold, exhausted, and afraid. That was my strongest technique, how did she survive it?!"
@@ -2202,7 +2206,7 @@ label scene_05:
     "I breathe heavily, knowing that I only have one way out of this."
 
     stop music
-    play music bgm.reckoning_II volume 0.3
+    play music bgm.reckoning_II volume 0.7
     play sound sfx.magic_charge
     with graceflash
 
@@ -2264,6 +2268,8 @@ label scene_05:
 
     window hide
 
+    $ renpy.music.set_volume(0.5, delay=0.5, channel='music')
+
     scene image "#000" with dissolve
 
     show Jory happy at center with dissolve
@@ -2281,6 +2287,8 @@ label scene_05:
     window hide
 
     hide Jory with dissolve
+
+    $ renpy.music.set_volume(1.0, delay=0.5, channel='music')
 
     scene background cult altar
     show persephone angry at center
@@ -2334,14 +2342,11 @@ label scene_05:
 
     window hide
 
+    $ renpy.music.set_volume(0.5, delay=0.5, channel='music')
+
     scene image "#000" with dissolve
 
     show Griswyr at center with dissolve
-
-    # play sound sfx.heavy_bam
-    # with vpunch
-
-    #show griswyr silhouette at center with dissolve
 
     voice "audio/voice/griswyr/scene_05_73_take2.ogg"
     g "{i}How do you expect to be an Emissary when you're so weak?!{/i}"
@@ -2353,6 +2358,8 @@ label scene_05:
     window hide
 
     hide Griswyr with dissolve
+
+    $ renpy.music.set_volume(1.0, delay=0.5, channel='music')
 
     scene background cult altar
     show persephone angry at center
@@ -2433,20 +2440,23 @@ label scene_05:
 
     window hide
 
+    $ renpy.music.set_volume(0.5, delay=0.5, channel='music')
+
     show image "#00000088" as hider zorder 5 with dissolve
 
-    window show
-    # TODO: Change music or decrease volume,
-
     voice "audio/voice/priam/scene_05_01_take1.ogg"
-    priam "...You hate me, huh?"
+    centered "...You hate me, huh?"
 
     voice "audio/voice/priam/scene_05_02_take3.ogg"
-    extend " Man...I knew I messed up, but did you have to tell her about me...?"
+    extend "\nMan...I knew I messed up, but did you have to tell her about me...?"
+
+    window show
 
     "...You're right."
 
     window hide
+
+    $ renpy.music.set_volume(1.0, delay=0.5, channel='music')
 
     hide hider with dissolve
 
@@ -2459,16 +2469,20 @@ label scene_05:
 
     window hide
 
+    $ renpy.music.set_volume(0.5, delay=0.5, channel='music')
+
     show image "#00000088" as hider zorder 5 with dissolve
 
-    window show
-
     voice "audio/voice/priam/scene_05_03_take4.ogg"
-    priam "I was just trying to protect us..."
+    centered "I was just trying to protect us..."
+
+    window show
 
     "I know..."
 
     window hide
+
+    $ renpy.music.set_volume(1.0, delay=0.5, channel='music')
 
     hide hider with dissolve
 
@@ -2482,16 +2496,20 @@ label scene_05:
 
     window hide
 
+    $ renpy.music.set_volume(0.5, delay=0.5, channel='music')
+
     show image "#00000088" as hider zorder 5 with dissolve
 
-    window show
-
     voice "audio/voice/priam/scene_05_04_take2.ogg"
-    priam "Why did you abandon me, Caius?! I thought we were friends..."
+    centered "Why did you abandon me, Caius?! I thought we were friends..."
+
+    window show
 
     "...We are."
 
     window hide
+
+    $ renpy.music.set_volume(1.0, delay=0.5, channel='music')
 
     hide hider with dissolve
 
@@ -2528,16 +2546,20 @@ label scene_05:
 
     window hide
 
+    $ renpy.music.set_volume(0.5, delay=0.5, channel='music')
+
     show image "#00000088" as hider zorder 5 with dissolve
 
-    window show
-
     voice "audio/voice/priam/scene_05_05_take6.ogg"
-    priam "You're coming back, right?"
+    centered "You're coming back, right?"
+
+    window show
 
     "...I am."
 
     window hide
+
+    $ renpy.music.set_volume(1.0, delay=0.5, channel='music')
 
     hide hider with dissolve
 
@@ -2571,14 +2593,16 @@ label scene_05:
 
     window hide
 
+    $ renpy.music.set_volume(0.5, delay=0.5, channel='music')
+
     show image "#00000088" as hider zorder 5 with dissolve
 
-    window show
-
     voice "audio/voice/priam/scene_05_06_take8.ogg"
-    priam "I knew I couldn't trust you..."
+    centered "I knew I couldn't trust you..."
 
     window hide
+
+    $ renpy.music.set_volume(1.0, delay=0.5, channel='music')
 
     hide hider with dissolve
 
@@ -2615,7 +2639,7 @@ label scene_05:
     "She pounces, and I close my eyes..."
     extend " So be it. Someone, anyone, help him..."
 
-    play sound sfx.heavyslash volume 0.5
+    play sound sfx.heavyslash volume 0.75
 
     "..."
 
