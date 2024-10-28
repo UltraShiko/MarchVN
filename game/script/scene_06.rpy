@@ -36,7 +36,7 @@ label scene_06:
     voice "audio/voice/jory/scene_06_04_take1.ogg"
     j "By Yeshua, are you alright?!"
 
-    play music bgm.epilogue fadein 1.5 volume 0.35
+    play music bgm.epilogue fadein 1.5 volume 0.75
 
     voice "audio/voice/caius/scene_06_01_take3.ogg"
     c snide "Ngh....well, I'm still breathing so..."
@@ -89,8 +89,6 @@ label scene_06:
 
     window show
 
-#############
-
     voice "audio/voice/jory/scene_06_09_take3.ogg"
     j "Grr... Damn it! Why does this keep happening to those I care for?!"
 
@@ -105,7 +103,7 @@ label scene_06:
     show Jory angry with dissolve
 
     voice "audio/voice/jory/scene_06_11_take1.ogg"
-    extend " But I'm not the one who needs to be protected!"
+    extend " I'm not the one who needs to be protected!"
 
     voice "audio/voice/caius/scene_06_04_take3.ogg"
     c neutral "On that, we'll have to agree to disagree..."
@@ -115,10 +113,8 @@ label scene_06:
     voice "audio/voice/jory/scene_06_12_take3.ogg"
     j "By Yeshua, you're as stubborn as always..."
 
-    # TODO: Replace with REDO.
     voice "audio/voice/caius/scene_06_05_take1.ogg"
     c neutral "Hey Jory, when I'm better..."
-    # TODO: Replace with REDO.
     voice "audio/voice/caius/scene_06_06_take2.ogg"
     extend " Can we visit Thrycia?"
 
@@ -173,10 +169,16 @@ label scene_06:
 
     "I swear I hear Persephone's words in my mind again."
 
-    # TODO: Do a flashback.
-    # TODO: Missing line!!
+    window hide
+
+    show image "#00000088" as hider zorder 5 with dissolve
+
     voice "audio/voice/persephone/blank.ogg"
-    p "Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you..."
+    centered "Don't worry, I'll leave Jory be, just as you wished.\nAnything to get away from you..."
+
+    hide hider with dissolve
+
+    window show
 
     "My mouth falls agape. I stare at Jory in utter denial."
     "My heart races, tears fall from my cheeks, but all I can do is remain paralyzed in shock..."
@@ -186,11 +188,15 @@ label scene_06:
     voice "audio/voice/caius/scene_06_13_take2.ogg"
     c snide "...Priam?!"
 
+    window hide
+
     play sound magic_charge
     with graceflash
 
     show Jory neutral with dissolve
 
+    window show
+    
     voice "audio/voice/jory/scene_06_20_take2.ogg"
     j "Woah!"
 
