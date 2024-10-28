@@ -27,7 +27,7 @@ Kate ({a=https://www.instagram.com/rkade801}Instagram{/a})
 
 ragyuo ({a=https://linktr.ee/ragyuo}Linktree{/a})
 
-{b}GUI & Logo Designer, UI coding, Marketing Assets, Jory's sprite{/b}
+{b}GUI & Logo Designer, UI coding, Marketing Assets & Jory's sprite artist{/b}
 
 senchousan ({a=https://twitter.com/s3nchousan}Twitter{/a})
 

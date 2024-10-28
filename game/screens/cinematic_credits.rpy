@@ -36,7 +36,7 @@ style credits_text_name_style is credits_text_role_style:
 
 screen cinematic_credits_screen():
 
-    timer 20.0 action Return()
+    timer 40.0 action Return()
 
     frame:
 
@@ -92,7 +92,7 @@ screen cinematic_credits_screen():
 
             null height 150 width 0
 
-            use credits_screen_role_and_name("GUI & Logo Designer, UI coding, Marketing Assets", "senchousan")
+            use credits_screen_role_and_name("GUI & Logo Designer, UI coding,\nMarketing Assets & Jory's sprite artist", "senchousan")
 
             at credits_text_fade(10.0, 1.0, 2.0, 1.0)
 
@@ -110,7 +110,87 @@ screen cinematic_credits_screen():
 
             use credits_screen_role_and_name("Sound Composer", "Monochrome")
 
+            null height 150 width 0
+
+            use credits_screen_role_and_name("Casting & Voice Direction", "ChickenUkelele")
+
             at credits_text_fade(15.0, 1.0, 2.0, 1.0)
+
+        ### Credit page 5
+        vbox:
+
+            align (0.5, 0.5)
+
+            xfill False
+            yfill False
+
+            use credits_screen_role_and_name("Young Caius's voice", "Roxcoord")
+
+            null height 150 width 0
+
+            use credits_screen_role_and_name("Priam's voice", "Shykodah-Khi McGrath")
+
+            null height 150 width 0
+
+            use credits_screen_role_and_name("Caius's voice", "Noah Blum")
+
+            at credits_text_fade(20.0, 1.0, 2.0, 1.0)
+
+        ### Credit page 6
+        vbox:
+
+            align (0.5, 0.5)
+
+            xfill False
+            yfill False
+
+            use credits_screen_role_and_name("Jory's voice", "Dylan Duck")
+
+            null height 150 width 0
+
+            use credits_screen_role_and_name("Reverend Hale IV's voice", "Matthew S. Scott")
+
+            null height 150 width 0
+
+            use credits_screen_role_and_name("Griswyr's voice", "Justice Margowski")
+
+            at credits_text_fade(25.0, 1.0, 2.0, 1.0)
+
+        ### Credit page 7
+        vbox:
+
+            align (0.5, 0.5)
+
+            xfill False
+            yfill False
+
+            use credits_screen_role_and_name("Cultist A's voice", "Claudio F")
+
+            null height 150 width 0
+
+            use credits_screen_role_and_name("Cultist B & D's voice", "Jeff Rosenau")
+
+            null height 150 width 0
+
+            use credits_screen_role_and_name("Cultist C's voice", "Lazzi Faire")
+
+            at credits_text_fade(30.0, 1.0, 2.0, 1.0)
+
+        ### Credit page 7
+        vbox:
+
+            align (0.5, 0.5)
+
+            xfill False
+            yfill False
+
+            use credits_screen_role_and_name("Cultist Mage's voice", "Rachel Adkins")
+
+            null height 150 width 0
+
+            use credits_screen_role_and_name("Persephone's voice", "Savy Des-Etages")
+
+            at credits_text_fade(35.0, 1.0, 2.0, 1.0)
 
     # If credits have been watched once, allow the credits to be skipped.
     if persistent.ending_watched is True:
