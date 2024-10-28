@@ -41,7 +41,7 @@ Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
 {b}Casting & Voice Direction{/b}
 
-Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
+ChickenUkelele
 
 
 {b}Voice Acting (by order of appearance):{/b}
