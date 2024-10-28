@@ -27,7 +27,7 @@ Kate ({a=https://www.instagram.com/rkade801}Instagram{/a})
 
 ragyuo ({a=https://linktr.ee/ragyuo}Linktree{/a})
 
-{b}GUI & Logo Designer, UI coding, Marketing Assets{/b}
+{b}GUI & Logo Designer, UI coding, Marketing Assets, Jory's sprite{/b}
 
 senchousan ({a=https://twitter.com/s3nchousan}Twitter{/a})
 
@@ -39,6 +39,10 @@ YoruUta ({a=https://yoruuta.itch.io}Itch.io{/a})
 
 Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
+{b}Casting & Voice Direction{/b}
+
+Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
+
 
 {b}Voice Acting (by order of appearance):{/b}
 
@@ -46,13 +50,13 @@ Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
 {b}Priam{/b} - Shykodah-Khi McGrath ({a=https://www.shykodah-khi.com/voice-over}Website{/a})
 
-{b}Caius{/b} -
+{b}Caius{/b} - Noah Blum ({a=https://x.com/wingsofthemoth}Twitter{/a})
 
 {b}Jory{/b} - Dylan Duck ({a=https://www.dylanduck.com/}Website{/a})
 
 {b}Reverend Hale IV{/b} - Matthew S. Scott ({a=https://twitter.com/matthewsscottvo}Twitter{/a})
 
-{b}Griswyr{/b} -
+{b}Griswyr{/b} - Justice Margowski ({a=https://linktr.ee/justicemargowski}Linktree{/a}))
 
 {b}Cultist A{/b} - Claudio F ({a=https://www.castingcall.club/claudiofilho}Casting Call Club{/a})
 
@@ -62,10 +66,7 @@ Monochrome ({a=https://twitter.com/mediamonochrome}Twitter{/a})
 
 {b}Cultist Mage{/b} - Rachel Adkins ({a=https://x.com/reabear_}Twitter{/a})
 
-{b}Persephone{/b} -
-
-{b}Other assets:{/b}
-
+{b}Persephone{/b} - Savy Des-Etages ({a=https://soundofsavy.com/}Website{/a})
 
 """)
 
