@@ -191,6 +191,7 @@ init python:
     build.classify("game/audio/voice/hale/_unused/**.**", None)
     build.classify("game/audio/voice/jory/_unused/**.**", None)
     build.classify("game/audio/voice/priam/_unused/**.**", None)
+    build.classify("game/audio/voice/persephone/_unused/**.**", None)
 
     # Audio files
     build.classify('game/**.mp3', 'archive')
