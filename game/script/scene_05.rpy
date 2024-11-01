@@ -136,7 +136,7 @@ label scene_05:
 
     hide Griswyr with dissolve
 
-    play music bgm.Lethal_Suspense fadeout 1.5 fadein 4.5 volume 0.75
+    play music bgm.Lethal_Suspense fadeout 1.5 fadein 4.5 volume 0.65
 
     pause 3.5
 
@@ -242,7 +242,7 @@ label scene_05:
     extend " If I enter any stance, my guise will be blown. If she lunges first though, I'll be defenseless..."
     "Ugh, to hell with duplicity! I'll engage her before she can-"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_01_take2.ogg"
     v "...Did you kill her children?"
 
     voice "audio/voice/caius/scene_05_08_take2.ogg"
@@ -253,29 +253,29 @@ label scene_05:
     extend " Wait...no reaction. She isn't drawing a weapon or anything..."
     "Hell, she's smiling! It's one of amusement, not malevolence."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_02_take2.ogg"
     v "Hehehe! Relax! They're in a better place now."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_03_take2.ogg"
     extend " Besides, there's no blood on {i}your{/i} hands. Looks like I'm outnumbered."
 
     voice "audio/voice/caius/scene_05_09_take6.ogg"
     c neutral "Ugh, right..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<to 2.65>audio/voice/persephone/scene_05_04_take2.ogg"
     v "So, what am I dealing with here?"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<from 2.73 to 3.36>audio/voice/persephone/scene_05_04_take2.ogg"
     extend " Celestial?"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<from 3.46 to 4.12>audio/voice/persephone/scene_05_04_take2.ogg"
     extend " Exorcist?"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<from 4.23>audio/voice/persephone/scene_05_04_take2.ogg"
     extend " Adventurer who's in over his head?"
 
     voice "audio/voice/caius/scene_05_10_take3.ogg"
     c neutral "Emissary."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_05_take1.ogg"
     v "Really? You, one of those cutthroats?"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_06_take3.ogg"
     extend " Ohhh, it's your first day isn't it?"
 
     "She carries on like a waitress in a tavern."
@@ -284,15 +284,15 @@ label scene_05:
     voice "audio/voice/caius/scene_05_11_take2.ogg"
     c "It's been quite an experience...one I would like to put to bed."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_07_take1.ogg"
     v "So, are you going to kill me?"
 
     voice "audio/voice/caius/scene_05_12_take3.ogg"
     c "Or send you back to Hell. I prefer the latter, to be honest."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_08_take3.ogg"
     v "Aww, how thoughtful!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_09_take2.ogg"
     extend " Buuut...."
 
     play sound sfx.charm
@@ -311,53 +311,53 @@ label scene_05:
     "My stance relaxes. As long as her spell persists, I'll have to act like her most devoted companion."
     extend " I'm not too experienced with acting, but I can at least give Griswyr a show."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_10_take2.ogg"
     v "See? Isn't that better? You can call me Persephone, what's your name?"
 
     voice "audio/voice/caius/scene_05_14_take1.ogg"
     c neutral "...Caius."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_11_take2.ogg"
     p "Hmmm, that doesn't sound familiar... Where are you from?"
 
     voice "audio/voice/caius/scene_05_15_take3.ogg"
     c "...Thrycia?"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_12_take3.ogg"
     p "That mound of dirt? Wow! That place is older than me!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_13_take2.ogg"
     extend " Though I haven't been around that long..."
 
     voice "audio/voice/caius/scene_05_16.ogg"
     c "...How old are you?"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_14_take2.ogg"
     p "Rude! We just met! Don't you know not to ask a lady her age?"
 
     voice "audio/voice/caius/scene_05_17_take2.ogg"
     c "...My apologies. ...It appears your magic is working too well."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_15_take1.ogg"
     p "Pfft! I softened you up, I didn't remove your manners..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_16_take3.ogg"
     p "I've been around for...twenty years? I'm unsure... Time flows differently in Hell."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_17_take2.ogg"
     extend " Don't worry, I'm very mature for my age, hehehehe!"
 
     "Devils are immortal, so twenty years was hardly a drop in the bucket for them."
     extend " Her soul must not have fallen too long ago. So in tandem with being alone, she's also not as experienced."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_18_take1.ogg"
     p "I don't have any intention of hurting you or whoever is lurking in the corner. I just have an \"errand\" to run."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_19_take3.ogg"
     extend " You won't even know I was here!"
 
     voice "audio/voice/caius/scene_05_18_take1.ogg"
     c "...What kind of errand?"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_20_take2.ogg"
     p "Nothing special, I just need to touch base with a certain someone."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_21_take2.ogg"
     p "Would you happen to know a man named Jory? He's a giant! You couldn't have missed him! I think he's still living in Jubilee..."
 
     "My heart accelerates!"
@@ -382,37 +382,38 @@ label scene_05:
     "Her smile curls into a frown, and her eyes widen."
     extend " Every mention of Jory pains her. But why? He never worshiped Hecate, did he?"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_22_take2.ogg"
     p "Oh, that's...too bad."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_23_take1.ogg"
     extend " And where did you say he was headed?"
 
     voice "audio/voice/caius/scene_05_24_take3.ogg"
     c "...A small village to the west of Jubilee. ...I guess he wanted to get away from everything."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_24_take1.ogg"
     p "Huh, I see."
 
     voice "audio/voice/caius/scene_05_25_take2.ogg"
     c "Right."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_25_take1.ogg"
     p "Right..."
 
     voice "audio/voice/caius/scene_05_26_take4.ogg"
     c neutral "Mhm..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_26_take2.ogg"
     p "Mm...hm."
 
     # No voice.
     c snide "..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    # No voice.
     p "..."
 
     show persephone angry at center
 
+    voice "audio/voice/persephone/scene_05_27_take3.ogg"
     extend "You lying piece of shit!"
 
     # Raagyuo: If possible, I would like to make this scene work without any narration.
@@ -451,11 +452,11 @@ label scene_05:
     "I didn't see her conjure any mana...though she hasn't wielded any while charming me either."
     extend " If no mana is used, it must be innate. But I don't recall succubi being able to manipulate the wind."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_28_take4.ogg"
     p "You thought you could pull a fast one on me?! I'm a devil, goddamn it!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_29_take1.ogg"
     p "All things considered, I thought your little act was adorable."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_30_take1.ogg"
     extend " Until you lied about HIM!"
 
     play sound sfx.magic_charge
@@ -467,9 +468,9 @@ label scene_05:
     hide persephone
     show persephone smirk at center
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_31_take2.ogg"
     p "So...let's try this again."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_32_take2.ogg"
     extend " Where's Jor-"
 
     play sound sfx.slash
@@ -520,7 +521,7 @@ label scene_05:
 
     extend " only for her to float out of the way."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_33_take4.ogg"
     p "Hehehe, finally showed yourself, huh? I take it you're his boss?"
 
     window hide
@@ -532,7 +533,9 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_13_take4.ogg"
     g "Now I've figured you out."
 
-    voice "audio/voice/persephone/blank.ogg"
+###########################
+
+    voice "audio/voice/persephone/scene_05_34_take1.ogg"
     p "Eh?"
 
     voice "audio/voice/griswyr/scene_05_14_take2.ogg"
@@ -540,11 +543,11 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_15_take1.ogg"
     extend " And for a lowly sex devil? That made no sense."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_35_take2.ogg"
     p "Oh, so we're going there..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_36_take3.ogg"
     extend " Sorry, Snowflake, but you aren't my type."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_37_take1.ogg"
     p "Here's some advice: you should reaaally learn what the sun is. You're looking a little pale~."
 
     voice "audio/voice/griswyr/scene_05_16_take1.ogg"
@@ -552,7 +555,7 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_17_take3.ogg"
     extend " They say many things about him. How he knew {i}The Reckoning{/i} would happen. How he fell in love with a gar who worshiped Hecate."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_38_take1.ogg"
     p "Gar...?"
 
     voice "audio/voice/griswyr/scene_05_18_take2.ogg"
@@ -565,9 +568,9 @@ label scene_05:
     "I shudder. Could she have been that SAME monster who caused so much chaos?!"
     "She sighs grumpily and claps her hands slowly."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_39_take1.ogg"
     p "Look at that... you blew my case wide open... So much for the surprise..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_40_take2.ogg"
     extend " You must be fun at parties, Snowflake. A reeeeal crowd pleaser..."
 
     voice "audio/voice/griswyr/scene_05_21_take3.ogg"
@@ -649,7 +652,7 @@ label scene_05:
     hide Griswyr
     show persephone smirk at center with dissolve
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_41_take2.ogg"
     p "Good grief, did you learn nothing from your friend?"
 
     "She waves her hand, and a gust of wind shields her."
@@ -691,7 +694,7 @@ label scene_05:
     hide Griswyr
     show persephone smirk at center
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_42_take2.ogg"
     p "Fine, fine... You wanna play rough?"
 
     play sound sfx.dagger_draw
@@ -703,17 +706,17 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_30_take1.ogg"
     g "...Are you mocking me?"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_43_take2.ogg"
     p "What?"
 
     voice "audio/voice/griswyr/scene_05_31_take2.ogg"
     g "You copied my stance!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    # No audio.
     p "..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_44_take2.ogg"
     extend "Snowflake, I just met you. Never heard of you either."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_45_take2.ogg"
     extend " Guess you're not that important~."
 
     voice "audio/voice/griswyr/scene_05_32_take3.ogg"
@@ -861,7 +864,7 @@ label scene_05:
     voice "audio/voice/caius/scene_05_31_take2.ogg"
     c angry "Griswyr, look out!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_46_take1.ogg"
     p "Good night~!"
 
     # No audio file here.
@@ -873,8 +876,10 @@ label scene_05:
 
     "A spear of blood erupts from his blade."
 
-    voice "audio/voice/persephone/blank.ogg"
-    p "W-wait..."
+    # Note: The delivery of this line was a bit of the mark and I feel, if surpressed, not much will be lost.
+    #       Feel free to add it back if you disagree, voice line has been edited to be audible.
+    # voice "audio/voice/persephone/scene_05_47_take3.ogg"
+    # p "W-wait..."
 
     window hide
 
@@ -909,7 +914,8 @@ label scene_05:
 
     window show
 
-    extend " Gnnnnggggghhh!!!!" with vpunch
+    voice "audio/voice/persephone/scene_05_48_take1.ogg"
+    p " Gnnnnggggghhh!!!!" with vpunch
 
     "It pierces her chest like a dagger."
     extend " Had she not backpedaled at the last moment, it would've impaled her."
@@ -980,7 +986,7 @@ label scene_05:
 
     # TODO: show Griswyr behind Persephone
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_49_take1.ogg"
     p "Ah shit...!" with vpunch
 
     voice "audio/voice/griswyr/scene_05_34_take2.ogg"
@@ -991,7 +997,7 @@ label scene_05:
     "With his sword, Griswyr gouges her waist!"
     extend " Yet Persephone smiles."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_50_take3.ogg"
     p "And you should've brought silver!"
 
     window hide
@@ -1040,7 +1046,7 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_37_take1.ogg"
     g "Grrr..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_51_take1.ogg"
     p "By Yeshua, you're pious, I'll give you that..."
 
     "Griswyr's temperament is much more aggressive than before."
@@ -1050,7 +1056,7 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_38_take3.ogg"
     g "...Very well. She is yours. Do not disappoint me."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_52_take1.ogg"
     p "Hehehe, you ought to watch your mouth, Snowflake. Someone might get the wrong idea~."
 
     voice "audio/voice/caius/scene_05_34_take2.ogg"
@@ -1071,17 +1077,17 @@ label scene_05:
     extend " She could pounce at any moment, yet all I continue to get from her is that scheming grin."
     "Even now, she's still choosing to toy with us. Something tells me she's a lot stronger than what she's letting on..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<to 1.20>audio/voice/persephone/scene_05_53_take2.ogg"
     p "So..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<from 1.2>audio/voice/persephone/scene_05_53_take2.ogg"
     extend "what did they tell you about me?"
 
     voice "audio/voice/caius/scene_05_35_take2.ogg"
     c angry "Nothing much. Just that you dragged The Third into Hell..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_54_take2.ogg"
     p "Are you sure that was me? It could've been one of my sisters. We all look alike, after all~."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_55_take3.ogg"
     p "Come on... This is all a misunderstanding! I didn't do anything...I just want to check up on an old friend..."
 
     "My blood freezes with anger."
@@ -1091,9 +1097,9 @@ label scene_05:
     voice "audio/voice/caius/scene_05_36_take5.ogg"
     extend "You mean my friend?!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<to 0.7>audio/voice/persephone/scene_05_56_take3.ogg"
     p "Well..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<from 0.9>audio/voice/persephone/scene_05_56_take3.ogg"
     extend " If his name's Jory, then-"
 
     play sound sfx.jab
@@ -1101,6 +1107,7 @@ label scene_05:
 
     show persephone angry at center
 
+    voice "audio/voice/persephone/scene_05_57_take2.ogg"
     extend "Grrrr!!!" with vpunch
 
     "Too slow!"
@@ -1149,10 +1156,10 @@ label scene_05:
     "Our brows furrow, eyes locked onto one another."
     extend " Her whimsical smile twists into a scowl. Looks like she's not having fun anymore."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_58_take2.ogg"
     p "Grrr...so that's why he picked you."
-    voice "audio/voice/persephone/blank.ogg"
-    extend " Snowflake's soul is too black to ever wield Grace. He needed a proxy, how clever..."
+    voice "audio/voice/persephone/scene_05_59_take2.ogg"
+    extend " Snowflake's soul is too black to ever wield Grace. He needed a proxy. How clever..."
 
     voice "audio/voice/caius/scene_05_38_take2.ogg"
     c "Why are you surprised?"
@@ -1162,7 +1169,7 @@ label scene_05:
     hide persephone
     show persephone smirk at center
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_60_take3.ogg"
     p "Hahaha! If you only knew!"
 
     play sound sfx.weapon_swing
@@ -1191,7 +1198,7 @@ label scene_05:
     voice "audio/voice/caius/scene_05_40_take1.ogg"
     c angry "Blasphemer! Mother will be displeased!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_61_take1.ogg"
     p "Wise ass, huh...?!"
 
     play sound sfx.galeblast volume 0.5
@@ -1249,7 +1256,7 @@ label scene_05:
     hide persephone
     show persephone angry at center
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_62_take3.ogg"
     p "Nuagh...!" with vpunch
 
     "I understand now. I can do more than harm her with my attacks - I can also block her attacks with my own!"
@@ -1259,7 +1266,7 @@ label scene_05:
 
     "I double down on my efforts, both striking blows and preventing her attacks as they come. A barrage of my strikes batters her chest."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_63_take2.ogg"
     p "Nnnnnnggghhhh....!"
 
     "I'm using a lot of mana and energy, but I can't let up!"
@@ -1297,36 +1304,38 @@ label scene_05:
     voice "audio/voice/caius/scene_05_42_take1.ogg"
     c "...Farewell."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_63.5_take2.ogg"
     p "...Is that pity in your eyes?"
 
     show persephone smirk
 
+    voice "audio/voice/persephone/scene_05_64_take2.ogg"
     extend " Aww, how noble! Though not showing kindness to your friend? That's pretty cold..."
 
     voice "audio/voice/caius/scene_05_43_take4.ogg"
     c neutral "...?"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_65_take1.ogg"
     p "Oh no, I'm not talking about Snowflake. Though you're probably the only friend he has ehehehehe!"
 
     hide persephone
     show persephone smirk at center
 
+    voice "audio/voice/persephone/scene_05_66_take1.ogg"
     extend " I can read it in your eyes. You're not motivated by zeal; you're motivated by regret."
 
     voice "audio/voice/caius/scene_05_44_take3.ogg"
     c angry "So what?"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_67_take3.ogg"
     p "So what? You know that we fiends can peer into your past, right?"
 
     voice "audio/voice/caius/scene_05_45_take1.ogg"
     c angry "Huh?!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_68_take3.ogg"
     p "Uh oh, guess not~."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_69_take2.ogg"
     extend " Well I can understand Jory not knowing, but Snowflake? Tsk tsk, how irresponsible~!"
 
     voice "audio/voice/griswyr/scene_05_41_take2.ogg"
@@ -1335,26 +1344,26 @@ label scene_05:
     voice "audio/voice/caius/scene_05_46_take5.ogg"
     c angry "You lie!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_70_take1.ogg"
     p "Ahahahaha! Why else would people sell their souls?"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_71_take2.ogg"
     extend " It's because we see everything! Your regrets, what you care about, and what haunts you. It's all an open book!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_72_take1.ogg"
     p "Aww, what's with the long face? You were looking so high-and-mighty just a moment ago..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_73_take3.ogg"
     extend " I'm guessing I lost your sympathy?"
 
     "If Griswyr knowing about my past unnerved me, Persephone knowing about it took the cake!"
     "How could I not realize?! I'm no scholar, but I've looked far and wide for knowledge about devils, and yet I’ve never heard of this power!"
     extend " More importantly, she knows about HIM!!!!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_74_take1.ogg"
     p "Ah yes, you let someone down."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_75_take2.ogg"
     extend " How else would you have made it this far? You were a nobody until you threw him to the wolves!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_76_take2.ogg"
     p "That's pretty wicked! And now you starve yourself to get pity from everyone."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_77_take2.ogg"
     extend " Hahaha, you holier-than-thou types always have the darkest secrets! Watching your souls fall is soooo delicious~!"
 
     voice "audio/voice/griswyr/scene_05_42_take2.ogg"
@@ -1367,8 +1376,8 @@ label scene_05:
 
     play sound sfx.melee_swing
 
-    voice "audio/voice/persephone/blank.ogg"
-    p "Whoa, whoa....what's swatting at me going to do? I'm not the one who abandoned him..."
+    voice "audio/voice/persephone/scene_05_78_take3.ogg"
+    p "Whoa, whoa... What's swatting at me going to do? I'm not the one who abandoned him..."
 
     voice "<to 0.6>audio/voice/caius/scene_05_48_take3.ogg"
     c angry "You... "
@@ -1378,7 +1387,7 @@ label scene_05:
     #have Persephone zoom out and back in
     play sound sfx.melee_swing
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_79_take3.ogg"
     p "Oh, your friend? Hmm, I'm sure he's much different now. People change when their hearts are ripped out."
 
     #have Persephone zoom out and back in
@@ -1405,9 +1414,9 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_43_take1.ogg"
     g "Stop talking, Caius-"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_80_take1.ogg"
     p "Ohohoho! You have it backwards!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_81_take2.ogg"
     extend " We don't corrupt people, we {i}save{/i} them from the lies of your absent Archlords."
 
     #have Persephone zoom out and back in
@@ -1437,15 +1446,15 @@ label scene_05:
 
     show persephone angry
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_82_take2.ogg"
     p "Right, because your god's any better?"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_83_take2.ogg"
     extend " Who were the Celestials founded under? Oh, he must've been cruel to allow his followers to imprison Dretchlings like cattle."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_84_take3.ogg"
     p "Yet we're the bad guys for coming to their rescue? How is that fair?"
-    voice "audio/voice/persephone/blank.ogg"
-    extend " Face it, your precious Archlords don't care about you!."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_85_take1.ogg"
+    extend " Face it, your precious Archlords don't care about you!"
+    voice "audio/voice/persephone/scene_05_86_take3.ogg"
     extend " Now that I think about it, looks I have TWO errands to run!"
 
     voice "<to 0.86>audio/voice/caius/scene_05_52_take1.ogg"
@@ -1463,9 +1472,9 @@ label scene_05:
 
     show persephone smirk
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_87_take2.ogg"
     p "Though while we're talking about fibbing, I wasn't entirely honest with you."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_88_take4.ogg"
     extend " You see, we devils can't read people's pasts. So I appreciate the information~."
 
     voice "audio/voice/caius/scene_05_53_take3.ogg"
@@ -1473,11 +1482,11 @@ label scene_05:
 
     "My heart skips, and she giggles darkly."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_89_take3.ogg"
     p "You mortals will believe anything. Just like false seers, we only need to paint a picture broad enough to apply to anyone, and suddenly you're spilling your guts for us."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_90_take2.ogg"
     p "And now you've failed him twice..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_91_take2.ogg"
     extend " Nah! You did him a favor!"
 
     play sound sfx.magic_charge
@@ -1485,25 +1494,31 @@ label scene_05:
 
     "Wind blasts me from her grip, and she channels Malice and winds in her other hand."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_92_take2.ogg"
     p "I'll take good care of him, you can die now."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_93_take3.ogg"
     extend " Buh-bye~!"
 
     #Ragyuo: Not sure how to animate her here. She basically dropped Caius and leapt backwards
 
     play sound sfx.weapon_swing
-    queue sound sfx.thud
+
     pause 0.6
 
     show persephone angry
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_94_take3.ogg"
     p "Shit!" with hpunch
+
+    window hide
+
+    play sound sfx.thud
 
     hide persephone with moveoutright
     show Griswyr neutral at left with moveinleft
     #combat
+
+    window show
 
     "She drops me, narrowly slipping past Griswyr's slash."
     "I don't have the strength nor the courage to stand..."
@@ -1513,18 +1528,20 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_44_take1.ogg"
     g "...I thought I told you not to disappoint me."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_95_take3.ogg"
     p "Aww, did I break your friend-"
 
     #have Persephone zoom out and back in
     play sound sfx.weapon_swing
 
-    voice "audio/voice/persephone/blank.ogg"
+    pause 0.5
+
+    voice "audio/voice/persephone/scene_05_96_take3.ogg"
     extend " Whoa Snowflake! Lighten up, will ya?!"
 
     $ unlockCompendionEntry("JinxLore")
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_97_take2.ogg"
     extend " I mean, isn't being jinxed bad enough?"
 
     # No voice.
@@ -1536,19 +1553,27 @@ label scene_05:
     extend " Oh right, he licked his sword after it got coated in gore. He's not trying to scare her, he MEANS what he's saying..."
     "Persephone looks as dumbfounded as I do."
 
-    hide Griswyr
-    show persephone smirk at center with dissolve
+    window hide
 
-    voice "audio/voice/persephone/blank.ogg"
+    hide Griswyr
+    show persephone smirk at center
+    with dissolve
+
+    window show
+
+    voice "audio/voice/persephone/scene_05_98_take2.ogg"
     p "Oh, oh wow..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_99_take2.ogg"
     extend " You've completely lost it... I knew you were into some weird stuff, but-"
 
     #have Persephone zoom out and back in
 
     play sound sfx.weapon_swing
 
-    extend " Whoops! You're going to have to do better if you want my neck, you leech~."
+    pause 0.35
+
+    voice "audio/voice/persephone/scene_05_100_take3.ogg"
+    p " Whoops! You're going to have to do better if you want my neck, you leech~."
 
     play sound sfx.parry
     with vpunch
@@ -1592,9 +1617,9 @@ label scene_05:
     hide Griswyr
     show persephone smirk at center
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_101_take3.ogg"
     p "Ooh, looks like you grazed me..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_102_take1.ogg"
     extend " Go on, have a taste."
 
     #Compared to last animation, Griswyr is slowing down.
@@ -1606,7 +1631,7 @@ label scene_05:
 
     play sound sfx.weapon_swing
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_103_take3.ogg"
     p "Hey now, don't be greedy..."
 
     voice "audio/voice/griswyr/scene_05_48_take2.ogg"
@@ -1616,7 +1641,7 @@ label scene_05:
 
     #show persephone combatS #smile expression
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_104_take3.ogg"
     p "Then why did you flinch? You might've had my head if you were faster~."
 
     #have Persephone zoom out to simulate evasion
@@ -1635,7 +1660,7 @@ label scene_05:
 
     play sound sfx.lunge
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_105_take2.ogg"
     p "Wake up, Snowflake!"
 
     hide persephone with moveoutright
@@ -1703,6 +1728,7 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_52_take3.ogg"
     extend " Even if you revive in Hell, you'll have to find your way back to our plane, and you'll become my prey again!"
 
+    voice "audio/voice/persephone/scene_05_106_take3.ogg"
     p "Ngh...not bad! You're {i}actually{/i} starting to scare me, Snowflake!"
 
     voice "audio/voice/griswyr/scene_05_53_take3.ogg"
@@ -1711,7 +1737,7 @@ label scene_05:
     play sound sfx.slash
     with bloodflash
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_107_take2.ogg"
     p "Gngh...!" with vpunch
 
     voice "audio/voice/griswyr/scene_05_54_take3.ogg"
@@ -1720,9 +1746,9 @@ label scene_05:
     voice "audio/voice/griswyr/scene_05_55_take1.ogg"
     extend " You're like a cockroach! You sever its head, yet it still crawls!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_108_take1.ogg"
     p "Ohh, don't let me stop you. If you want my neck, go for it."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_109_take3.ogg"
     extend " I am your snack after all. I'm powerless to stop you. What good would any resistance do?"
 
     play sound sfx.slash
@@ -1742,20 +1768,20 @@ label scene_05:
     "He drives the shortsword into her again...and he pauses a second time."
     extend " Try as he might, he can't seem to break her smile."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_110_take2.ogg"
     p "They say a predator takes the easiest approach to hunting. Even if a wolf could kill any human, it will only target the weakest link."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_111_take1.ogg"
     p "Matter of fact, wolves only hunt when they {i}know{/i} they can win. But I prefer cats."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_112_take1.ogg"
     extend " They are an exception. They hunt for sport as well as food. A cat will even choose to torment its prey before killing it."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_113_take1.ogg"
     p "They're very sadistic - at a glance."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_114_take1.ogg"
     extend " Truth is, that cat isn't torturing for fun. It's tiring the prey out to ensure that it can't retaliate."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_115_take2.ogg"
     p "Is that why you're frozen? Is it because I'm laughing off your little cuts?"
-    voice "audio/voice/persephone/blank.ogg"
-    extend " Or is it because your instincts won't allow you to move?" with vpunch
+    voice "audio/voice/persephone/scene_05_116_take2.ogg"
+    extend " Or is it because your instincts won't allow you to move?"
 
     voice "audio/voice/griswyr/scene_05_57_take3.ogg"
     g "...Enough of this!"
@@ -1766,9 +1792,11 @@ label scene_05:
 
     "His jaw expands as he dives!"
 
-    voice "audio/voice/persephone/blank.ogg"
+###############
+
+    voice "audio/voice/persephone/scene_05_117_take3.ogg"
     p "Oof..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_118_take1.ogg"
     extend " Should've listened to your gut."
 
     play sound grapple
@@ -1801,7 +1829,7 @@ label scene_05:
 
     extend " She pulls away as I charge."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_119_take1.ogg"
     p "...Oh, you're still with us?"
 
     play sound sfx.thud
@@ -1844,7 +1872,7 @@ label scene_05:
 
     show persephone angry at center
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_120_take1.ogg"
     p "Ugh, you're so annoying! Go away!"
 
     #zoom in Persephone
@@ -1895,7 +1923,7 @@ label scene_05:
     extend " This battle is yours! DO - NOT - FALTER!!!" with vpunch
 
     "..."
-    extend " I know, Griswyr."
+    extend "I know, Griswyr."
 
     #zoom in Persephone
 
@@ -1921,9 +1949,9 @@ label scene_05:
     "I deliver a mighty blow to her chest and..."
     extend "nothing."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<to 2.5>audio/voice/persephone/scene_05_121_take2.ogg"
     p "...Was that your last stand?"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "<from 3.05>audio/voice/persephone/scene_05_121_take2.ogg"
     extend " WEAK!!!" with vpunch
 
     #zoom out Persephone
@@ -1945,11 +1973,12 @@ label scene_05:
     # scene background cult altar with dissolve
     stop music fadeout 1.5
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_122_take3.ogg"
     p "Huh...?"
 
     window hide
 
+    voice "audio/voice/persephone/scene_05_123_take2.ogg"
     play sound sfx.manaexplosion
     stop music
 
@@ -2017,9 +2046,9 @@ label scene_05:
     extend "I try to stand only to stumble. A stabbing pain pierces my waist..."
     "I could conjure Grace to numb it, but I wanted to reserve what little I had left..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_124_take3.ogg"
     p "You know, I tried to be nice... I tried to make your death quick and painless BUT now I don't really care!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_125_take3.ogg"
     p "I'll give you credit, that might've killed me. Good thing Snowflake topped me off hehehe...!"
 
     play sound sfx.dagger_draw
@@ -2086,7 +2115,7 @@ label scene_05:
 
     #should we show Persephone's sprite?
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_126_take2.ogg"
     p "What the hell are you-?!"
 
     play sound sfx.grapple
@@ -2094,17 +2123,17 @@ label scene_05:
     "He drops his hatchet before getting behind her and hooking his arms around hers, pulling up and restraining her."
     extend " He clings to her like a monkey. Try as she might, Persephone can’t shake him."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_127_take4.ogg"
     p "Grr! Snowflake, I'm not in the mood!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_128_take1.ogg"
     extend " Let go!!!"
 
     voice "audio/voice/griswyr/scene_05_70_take4.ogg"
     g "Ngggh...what are you doing, idiot?! Run!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_129_take1.ogg"
     p "Who are you calling an idiot?! You're the one who-"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_130_take3.ogg"
     extend " Wait a minute..."
 
     "I wish I had the strength to flee..."
@@ -2114,9 +2143,9 @@ label scene_05:
     "Best I can do is stay here and see him off..."
     "Persephone turns to him. I can't see what happened, but I have a bad feeling in my stomach..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_131_take3.ogg"
     p "...Hehehe, so that's what you're up to? How naughty~."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_132_take2.ogg"
     extend " Isn't suicide frowned upon by the Celestials?"
 
     voice "audio/voice/caius/scene_05_68_take2.ogg"
@@ -2148,11 +2177,12 @@ label scene_05:
 
     window show
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_133_take2.ogg"
     p "Ngh..."
 
     show persephone smirk at center
 
+    voice "audio/voice/persephone/scene_05_134_take1.ogg"
     extend " Yep, but not in the way you're thinking!"
 
     play sound sfx.slash
@@ -2165,7 +2195,7 @@ label scene_05:
     extend " His grip loosens as his eyes shut. I hear faint sounds of suckling."
     "At first he clings to her. Then slowly his grip relaxes, and she begins to cradle him."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_135_take4.ogg"
     p "I can't have you exploding on me. I'll be taking this."
 
     play sound sfx.heavyslash
@@ -2177,13 +2207,15 @@ label scene_05:
 
     extend " But her palm around his maw clenches."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_136_take2.ogg"
     p "Now now, I'm still playing with you. Besides, you've had a long day~."
 
     play sound sfx.heavy_bam
+
+    show persephone angry at center
     with vpunch
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_137_take1.ogg"
     extend " So go to sleep!"
 
     "She slams her knee into his chest, knocking the wind and consciousness out of him."
@@ -2194,9 +2226,7 @@ label scene_05:
     extend " She tears the grizened woman from the bushes and pins him there."
     "What does she have in store for-"
 
-    show persephone angry at center
-
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_138_take1.ogg"
     p "Hey, shithead! We're not finished!"
 
     #should we have an animation for this? Maybe Caius's perspective shifts up by the y-axis?
@@ -2206,7 +2236,7 @@ label scene_05:
     "I breathe heavily, knowing that I only have one way out of this."
 
     stop music
-    play music bgm.reckoning_II volume 0.7
+    play music bgm.reckoning_II volume 0.65
     play sound sfx.magic_charge
     with graceflash
 
@@ -2215,35 +2245,40 @@ label scene_05:
     "On the flip side, expending this much mana will inject more into her body. I need to blow her up again..."
     "Who will burn out first? Will I be able to hold up long enough to defeat her? Only one way to find out."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_139_take2.ogg"
     p "Still have some fight left in you?"
 
     show persephone smirk at center
 
+    voice "audio/voice/persephone/scene_05_140_take2.ogg"
     extend " Good! I wasn't satisfied!"
 
     play sound sfx.magic_charge
+
+    show persephone angry
+
     with maliceflash
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_141_take1.ogg"
     p "Even if you don't feel it now, your body is in agony."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_142_take2.ogg"
     extend " And that pales in comparison to what I have in store for you!"
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_143_take1.ogg"
     p "There's no way Jory raised someone so blind! If the Third lived, you'd kiss his boots like every other slave!"
-    voice "audio/voice/persephone/blank.ogg"
-    extend " You self-righteous idiots are what's wrong with this world!!!" with vpunch
+    voice "audio/voice/persephone/scene_05_144_take2.ogg"
+    extend " You self-righteous idiots are what's wrong with this world!!!" # with vpunch
 
     voice "audio/voice/caius/scene_05_69_take2.ogg"
     c "Ngh...maybe. Maybe I am too pious... And I don't know what you went through..."
     voice "audio/voice/caius/scene_05_70_take3.ogg"
     extend " But I'd sooner believe in myself than an Archfiend...!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_145_take2.ogg"
     p "That's not the first time I've heard those words, and it won't be the last..."
 
     show persephone angry
 
+    voice "audio/voice/persephone/scene_05_146_take1.ogg"
     extend " Doesn't mean this won't hurt like a bitch!!!" with vpunch
 
     play sound sfx.block
@@ -2299,7 +2334,7 @@ label scene_05:
 
     show persephone angry at center
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_147_take2.ogg"
     p "Gaaaaahhhh!!!" with vpunch
 
     #zoom out Persephone
@@ -2400,13 +2435,13 @@ label scene_05:
     extend " Her nails graze me. I spit up blood and keep attacking."
     "She isn't nearly as dangerous when you have her pinned!"
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_148_take1.ogg"
     p "Grrrrr!!!" with vpunch
 
     # No voice
     c "..."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_149_take2.ogg"
     p "Ngh...struggle all you want! In the end...you'll still-"
 
     window hide
@@ -2464,7 +2499,7 @@ label scene_05:
 
     play sound sfx.heavy_bam
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_150_take1.ogg"
     p "AHHHH!!!!!" with vpunch
 
     window hide
@@ -2491,7 +2526,7 @@ label scene_05:
     play sound sfx.heavy_bam
     with hpunch
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_151_take1.ogg"
     p "Gah...damn you! Ngh...!"
 
     window hide
@@ -2618,8 +2653,8 @@ label scene_05:
     voice "audio/voice/caius/scene_05_74_take3.ogg"
     c "Priam...I'm sorry. I tried my best..."
 
-    voice "audio/voice/persephone/blank.ogg"
-    p "Your best FAILED you!" with hpunch
+    voice "audio/voice/persephone/scene_05_152_take1.ogg"
+    p "Your best FAILED you!" #with hpunch
 
     window hide
 
@@ -2665,7 +2700,7 @@ label scene_05:
     show persephone angry at center
     with dissolve
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_153_take3.ogg"
     p "...Oh shit!"
 
     window hide
@@ -2742,11 +2777,11 @@ label scene_05:
 
     "A voice booms into my ear."
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_154_take2.ogg"
     p "...Looks like you win this time."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_155_take2.ogg"
     extend " Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you..."
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_156_take3.ogg"
     p "If you see me again, do a girl a favor, and just keep walking!"
 
     voice "audio/voice/caius/scene_05_79_take1.ogg"

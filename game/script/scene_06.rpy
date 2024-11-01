@@ -173,7 +173,7 @@ label scene_06:
 
     show image "#00000088" as hider zorder 5 with dissolve
 
-    voice "audio/voice/persephone/blank.ogg"
+    voice "audio/voice/persephone/scene_05_155_take2.ogg"
     centered "Don't worry, I'll leave Jory be, just as you wished.\nAnything to get away from you..."
 
     hide hider with dissolve
@@ -196,7 +196,7 @@ label scene_06:
     show Jory neutral with dissolve
 
     window show
-    
+
     voice "audio/voice/jory/scene_06_20_take2.ogg"
     j "Woah!"
 
