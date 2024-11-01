@@ -58,7 +58,7 @@ ChickenUkelele
 
 {b}Griswyr{/b} - Justice Margowski ({a=https://linktr.ee/justicemargowski}Linktree{/a}))
 
-{b}Cultist A{/b} - Claudio F ({a=https://www.castingcall.club/claudiofilho}Casting Call Club{/a})
+{b}Cultist A{/b} - Claudio F ({a=https://claudiof.carrd.co/}Website{/a})
 
 {b}Cultist B & D{/b} - Jeff Rosenau ({a=https://twitter.com/JeffRosenauVA}Twitter{/a})
 
